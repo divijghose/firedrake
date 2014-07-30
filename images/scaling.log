@@ -1,0 +1,496 @@
+Number of MPI processes 1
+Process 0 nid02459
+Function      Rate (MB/s) 
+Copy:       14538.3154
+Scale:      11896.6254
+Add:        14349.7215
+Triad:      13785.7157
+Application 9504341 resources: utime ~1s, stime ~0s, Rss ~50480, inblocks ~100, outblocks ~33
+Number of MPI processes 2
+Process 0 nid02459
+Process 1 nid02459
+Function      Rate (MB/s) 
+Copy:       23140.9883
+Scale:      21306.0922
+Add:        25143.8232
+Triad:      25648.3333
+Application 9504343 resources: utime ~1s, stime ~0s, Rss ~50608, inblocks ~182, outblocks ~33
+Number of MPI processes 3
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Function      Rate (MB/s) 
+Copy:       27801.7803
+Scale:      26424.2804
+Add:        29994.5261
+Triad:      31136.1881
+Application 9504344 resources: utime ~3s, stime ~0s, Rss ~50612, inblocks ~264, outblocks ~33
+Number of MPI processes 4
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Function      Rate (MB/s) 
+Copy:       28577.4845
+Scale:      27702.3177
+Add:        31234.9265
+Triad:      32249.6645
+Application 9504346 resources: utime ~4s, stime ~1s, Rss ~50716, inblocks ~346, outblocks ~33
+Number of MPI processes 5
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Function      Rate (MB/s) 
+Copy:       28812.2276
+Scale:      28014.7880
+Add:        31675.0459
+Triad:      32538.1569
+Application 9504349 resources: utime ~7s, stime ~1s, Rss ~50628, inblocks ~428, outblocks ~33
+Number of MPI processes 6
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Function      Rate (MB/s) 
+Copy:       29016.0413
+Scale:      28176.6125
+Add:        32034.2865
+Triad:      32695.2730
+Application 9504352 resources: utime ~10s, stime ~1s, Rss ~50720, inblocks ~510, outblocks ~33
+Number of MPI processes 7
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Function      Rate (MB/s) 
+Copy:       28912.1193
+Scale:      28243.1372
+Add:        32114.7309
+Triad:      32671.5230
+Application 9504359 resources: utime ~13s, stime ~1s, Rss ~50720, inblocks ~592, outblocks ~33
+Number of MPI processes 8
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Function      Rate (MB/s) 
+Copy:       28987.8298
+Scale:      28403.2390
+Add:        32362.2538
+Triad:      32893.1429
+Application 9504361 resources: utime ~17s, stime ~1s, Rss ~50720, inblocks ~675, outblocks ~33
+Number of MPI processes 9
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Function      Rate (MB/s) 
+Copy:       28936.2433
+Scale:      28492.1507
+Add:        32463.4343
+Triad:      32909.8460
+Application 9504364 resources: utime ~21s, stime ~1s, Rss ~50720, inblocks ~757, outblocks ~34
+Number of MPI processes 10
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Function      Rate (MB/s) 
+Copy:       28863.4072
+Scale:      28580.3750
+Add:        32521.5477
+Triad:      32923.5079
+Application 9504367 resources: utime ~26s, stime ~1s, Rss ~50720, inblocks ~839, outblocks ~35
+Number of MPI processes 11
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Function      Rate (MB/s) 
+Copy:       28949.0766
+Scale:      28573.5438
+Add:        32671.8423
+Triad:      32955.8253
+Application 9504369 resources: utime ~31s, stime ~1s, Rss ~50720, inblocks ~921, outblocks ~35
+Number of MPI processes 12
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Function      Rate (MB/s) 
+Copy:       28916.9729
+Scale:      28536.1769
+Add:        32705.3054
+Triad:      33027.7841
+Application 9504370 resources: utime ~37s, stime ~1s, Rss ~50720, inblocks ~1003, outblocks ~35
+Number of MPI processes 13
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Function      Rate (MB/s) 
+Copy:       31315.0410
+Scale:      30896.2570
+Add:        35426.0747
+Triad:      35779.8769
+Application 9504374 resources: utime ~41s, stime ~2s, Rss ~50828, inblocks ~1085, outblocks ~35
+Number of MPI processes 14
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Function      Rate (MB/s) 
+Copy:       33792.3580
+Scale:      33347.3721
+Add:        38223.7786
+Triad:      38519.0307
+Application 9504377 resources: utime ~44s, stime ~2s, Rss ~50724, inblocks ~1167, outblocks ~35
+Number of MPI processes 15
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Function      Rate (MB/s) 
+Copy:       36220.3759
+Scale:      35717.6095
+Add:        40903.0792
+Triad:      41293.0567
+Application 9504379 resources: utime ~47s, stime ~3s, Rss ~50836, inblocks ~1249, outblocks ~35
+Number of MPI processes 16
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Function      Rate (MB/s) 
+Copy:       38595.6499
+Scale:      38103.0591
+Add:        43610.0749
+Triad:      43997.8484
+Application 9504382 resources: utime ~50s, stime ~3s, Rss ~50988, inblocks ~1331, outblocks ~35
+Number of MPI processes 17
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Function      Rate (MB/s) 
+Copy:       41004.1743
+Scale:      40417.6328
+Add:        46374.3440
+Triad:      46791.4837
+Application 9504386 resources: utime ~53s, stime ~3s, Rss ~50844, inblocks ~1413, outblocks ~35
+Number of MPI processes 18
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Function      Rate (MB/s) 
+Copy:       43413.4792
+Scale:      42838.6943
+Add:        49110.1838
+Triad:      49547.2268
+Application 9504388 resources: utime ~56s, stime ~3s, Rss ~50848, inblocks ~1495, outblocks ~35
+Number of MPI processes 19
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Process 18 nid02459
+Function      Rate (MB/s) 
+Copy:       45714.0973
+Scale:      45150.0119
+Add:        51742.1594
+Triad:      52258.5180
+Application 9504390 resources: utime ~59s, stime ~4s, Rss ~50992, inblocks ~1577, outblocks ~35
+Number of MPI processes 20
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Process 18 nid02459
+Process 19 nid02459
+Function      Rate (MB/s) 
+Copy:       48242.4488
+Scale:      47561.2499
+Add:        54512.4829
+Triad:      54995.3574
+Application 9504393 resources: utime ~62s, stime ~4s, Rss ~50992, inblocks ~1660, outblocks ~35
+Number of MPI processes 21
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Process 18 nid02459
+Process 19 nid02459
+Process 20 nid02459
+Function      Rate (MB/s) 
+Copy:       50838.4767
+Scale:      50197.4041
+Add:        57369.1222
+Triad:      57951.7060
+Application 9504395 resources: utime ~65s, stime ~5s, Rss ~50992, inblocks ~1742, outblocks ~35
+Number of MPI processes 22
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Process 18 nid02459
+Process 19 nid02459
+Process 20 nid02459
+Process 21 nid02459
+Function      Rate (MB/s) 
+Copy:       53284.2908
+Scale:      52604.6101
+Add:        60163.7616
+Triad:      60709.6414
+Application 9504398 resources: utime ~68s, stime ~5s, Rss ~50992, inblocks ~1824, outblocks ~36
+Number of MPI processes 23
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Process 18 nid02459
+Process 19 nid02459
+Process 20 nid02459
+Process 21 nid02459
+Process 22 nid02459
+Function      Rate (MB/s) 
+Copy:       55583.3996
+Scale:      54837.7934
+Add:        62838.4990
+Triad:      63387.8722
+Application 9504400 resources: utime ~72s, stime ~6s, Rss ~50872, inblocks ~1906, outblocks ~36
+Number of MPI processes 24
+Process 0 nid02459
+Process 1 nid02459
+Process 2 nid02459
+Process 3 nid02459
+Process 4 nid02459
+Process 5 nid02459
+Process 6 nid02459
+Process 7 nid02459
+Process 8 nid02459
+Process 9 nid02459
+Process 10 nid02459
+Process 11 nid02459
+Process 12 nid02459
+Process 13 nid02459
+Process 14 nid02459
+Process 15 nid02459
+Process 16 nid02459
+Process 17 nid02459
+Process 18 nid02459
+Process 19 nid02459
+Process 20 nid02459
+Process 21 nid02459
+Process 22 nid02459
+Process 23 nid02459
+Function      Rate (MB/s) 
+Copy:       58100.6425
+Scale:      57250.1158
+Add:        65519.4487
+Triad:      66169.1321
+Application 9504403 resources: utime ~75s, stime ~6s, Rss ~50992, inblocks ~1988, outblocks ~36
+np  speedup
+1 1.0
+2 1.86
+3 2.26
+4 2.34
+5 2.36
+6 2.37
+7 2.37
+8 2.39
+9 2.39
+10 2.39
+11 2.39
+12 2.4
+13 2.6
+14 2.79
+15 3.0
+16 3.19
+17 3.39
+18 3.59
+19 3.79
+20 3.99
+21 4.2
+22 4.4
+23 4.6
+24 4.8
+Estimation of possible speedup of MPI programs based on Streams benchmark.
+It appears you have 1 node(s)
+See graph in the file src/benchmarks/streams/scaling.png

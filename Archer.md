@@ -22,6 +22,12 @@ cd $PETSC_DIR
 make streams NPMAX=24 MPIEXEC=aprun
 ```
 
+### Results
+
+![PETSc stream scaling](images/scaling.png)
+
+[log](images/scaling.log)
+
 # Troubleshooting
 
 Problem:

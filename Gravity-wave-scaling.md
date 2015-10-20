@@ -1,1 +1,12 @@
-Strong scaling for a three-dimensional linearised gravity wave solver.  A mixed H(div)-L2 positive-definite Helmholtz problem is solved using a Schur complement preconditioner at each timestep.  This is the leading order cost of the full simulation.  Assembly of the right hand side at each timestep exhibits suboptimal scaling due to load imbalances: the mesh decomposition is only two-dimensional.
+# Firedrake strong scaling
+
+Strong scaling for a three-dimensional linearised gravity wave solver.
+A mixed H(div)-L2 positive-definite Helmholtz problem is solved using
+a Schur complement preconditioner at each timestep.  This is the
+leading order cost of the full simulation.  Assembly of the right hand
+side at each timestep exhibits suboptimal scaling due to load
+imbalances: the mesh decomposition is only two-dimensional.
+
+![Scaling plot](images/gravity-wave-scaling.png)
+
+[Raw data](images/gravity-wave-scaling-data.dat)

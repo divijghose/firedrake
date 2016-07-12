@@ -26,7 +26,7 @@ git pull
 make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure all
 make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure install
 source $WORK/firedrake.env
-firedrake-update
+firedrake-update --honour-petsc-dir
 ```
 
 

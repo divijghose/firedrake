@@ -3,24 +3,32 @@
 Add the following to your `.pbs` file to load the Firedrake environment:
 ```
 module swap PrgEnv-cray PrgEnv-gnu
-module swap python anaconda
-module add firedrake 
+source /work/y07/y07/fdrake/firedrake.env
+export MPICH_GNI_FORK_MODE=FULLCOPY
+
+export PYOP2_CACHE_DIR=/path/to/work/with/write/access/pyop2cache
+export FIREDRAKE_TSFC_KERNEL_CACHE_DIR=/path/to/work/with/write/access/firedrake-kernel-cache
 ```
 
-# PETSc
+The firedrake installation was last updated on 2016-07-12.
 
-## Running the stream benchmark
+## Updating installation
 
-As the `fdrake` user, start an interactive backend session:
+If you have access to the firedrake package account:
+
 ```
-qsub -IVl select=1,walltime=0:20:00 -A y07
+su -l fdrake
+module use $WORK
+module swap PrgEnv-cray PrgEnv-gnu
+module load pets-build-env
+cd $HOME/petsc
+git pull
+make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure all
+make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure install
+source $WORK/firedrake.env
+firedrake-update
 ```
-and execute the following:
-```
-module load fdrake-build-env
-cd $PETSC_DIR
-make streams NPMAX=24 MPIEXEC=aprun
-```
+
 
 ### Results
 
@@ -53,16 +61,4 @@ STREAM Triad numbers (compiled with gcc 4.9.1 cc -O2 -fPIC)
 22 68109.9680
 23 71058.1668
 24 74103.9701
-```
-
-# Troubleshooting
-
-Problem:
-```
-pkg-config error:
-Package sci_mpi_mp was not found in the pkg-config search path.
-```
-Solution:
-```
-export PKG_CONFIG_PATH=/opt/cray/libsci/12.2.0/GNU/48/sandybridge/lib/pkgconfig:$PKG_CONFIG_PATH
 ```

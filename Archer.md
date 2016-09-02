@@ -10,7 +10,7 @@ export PYOP2_CACHE_DIR=/path/to/work/with/write/access/pyop2cache
 export FIREDRAKE_TSFC_KERNEL_CACHE_DIR=/path/to/work/with/write/access/firedrake-kernel-cache
 ```
 
-The firedrake installation was last updated on 2016-07-12.
+The firedrake installation was last updated on 2016-08-26.
 
 ## Updating installation
 
@@ -20,7 +20,7 @@ If you have access to the firedrake package account:
 su -l fdrake
 module use $WORK
 module swap PrgEnv-cray PrgEnv-gnu
-module load pets-build-env
+module load petsc-build-env
 cd $HOME/petsc
 git pull
 make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure all

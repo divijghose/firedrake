@@ -17,7 +17,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py --user
 pip install virtualenv
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
-firedrake-install --no-package-manager
+python firedrake-install --no-package-manager
 ```
 
 ## Running

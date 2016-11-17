@@ -1,4 +1,4 @@
-# Firedrake on CX2.
+# Firedrake on CX1.
 
 CX1 is Imperial's entry-level HPC cluster. These are the instructions for building and running Firedrake on CX1.
 

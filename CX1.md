@@ -14,6 +14,7 @@ export I_MPI_F90=gfortran
 export I_MPI_FC=gfortran
 export PETSC_CONFIGURE_OPTIONS=--download-fblaslapack
 module load python/2.7.11
+curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
 python firedrake-install --no-package-manager --honour-pythonpath
 ```
 

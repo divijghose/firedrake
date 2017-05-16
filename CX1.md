@@ -8,10 +8,10 @@ CX1 is Imperial's entry-level HPC cluster. These are the instructions for buildi
 module load gcc
 module load mpi
 export I_MPI_CC=gcc
-export I_MPI_F77=gfortran
 export I_MPI_CXX=g++
-export I_MPI_F90=gfortran
-export I_MPI_FC=gfortran
+export I_MPI_F90='gfortran -I/apps/intel/2017/compilers_and_libraries_2017.0.098/linux/mpi/intel64/include/ilp64/gfortran/5.1.0'
+export I_MPI_FC="$I_MPI_F90"
+export I_MPI_F77="$I_MPI_F90"
 export PETSC_CONFIGURE_OPTIONS=--download-fblaslapack
 module load python/2.7.11
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
@@ -19,7 +19,7 @@ python firedrake-install --no-package-manager --honour-pythonpath
 ```
 
 ## Running
-The following is a sample pbs script running the Helmholtz demo:
+The following is a sample pbs script running the Helmholtz demo. (Don't forget to run make in the `firedrake/src/firedrake/demos` directory before submitting):
 ```
 #!/bin/bash
 # Job name
@@ -45,13 +45,13 @@ export I_MPI_CC=gcc
 export I_MPI_CXX=g++
 
 module load python/2.7.11
-# Change the next line to wherever you put your Firedrake/
-source $HOME/src/firedrake_cx1/bin/activate
+# Change the next line to wherever you put your firedrake/
+source $HOME/src/firedrake/bin/activate
 
 # Start time
 echo Start time is `date` > date
- 
-mpiexec python $VIRTUALENV/src/firedrake/demos/helmholtz/helmholtz.py
+
+mpiexec python $VIRTUAL_ENV/src/firedrake/demos/helmholtz/helmholtz.py
  
 # End time
 echo End time is `date` >> date

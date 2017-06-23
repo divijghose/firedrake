@@ -7,10 +7,11 @@ CX2 is Imperial's SGI cluster. These are the instructions for building and runni
 ```
 module load gcc
 module load mpi
+module load git
 export MPICC_CC=gcc
 export MPICXX_CXX=g++
-export MPIF08_F08=gfortran
-export MPIF90_F90=gfortran
+export MPIF08_F08='gfortran -I/apps/intel/2017/compilers_and_libraries_2017.0.098/linux/mpi/intel64/include/ilp64/gfortran/5.1.0'
+export MPIF90_F90="$MPIF08_F08"
 export PETSC_CONFIGURE_OPTIONS=--download-fblaslapack
 export PATH=$HOME/.local/bin:$PATH
 wget https://bootstrap.pypa.io/get-pip.py

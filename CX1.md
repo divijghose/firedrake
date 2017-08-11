@@ -5,6 +5,7 @@ CX1 is Imperial's entry-level HPC cluster. These are the instructions for buildi
 ## Building
 
 ```
+module load anaconda3
 module load gcc
 module load mpi
 export I_MPI_CC=gcc
@@ -13,13 +14,13 @@ export I_MPI_F90='gfortran -I/apps/intel/2017/compilers_and_libraries_2017.0.098
 export I_MPI_FC="$I_MPI_F90"
 export I_MPI_F77="$I_MPI_F90"
 export PETSC_CONFIGURE_OPTIONS=--download-fblaslapack
-module load python/2.7.11
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
-python firedrake-install --no-package-manager --honour-pythonpath
+python firedrake-install --no-package-manager
+ln -s /apps/anaconda3/4.1.1/lib/libpython3.5m.so.1.0 firedrake/lib/
 ```
 
 ## Running
-The following is a sample pbs script running the Helmholtz demo. (Don't forget to run make in the `firedrake/src/firedrake/demos` directory before submitting):
+The following is a sample pbs script running the Helmholtz demo. Don't forget to run make in the `firedrake/src/firedrake/demos` directory before submitting. Note, that we don't load the anaconda3 module as it puts libraries in our path that conflict with our firedrake build.
 ```
 #!/bin/bash
 # Job name
@@ -44,7 +45,6 @@ module load mpi
 export I_MPI_CC=gcc
 export I_MPI_CXX=g++
 
-module load python/2.7.11
 # Change the next line to wherever you put your firedrake/
 source $HOME/src/firedrake/bin/activate
 

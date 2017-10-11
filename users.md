@@ -40,6 +40,12 @@
 * Chris Budd (Andrew McRae)
   Optimal transport on the sphere
 
+### University of Exeter
+* Beth Wingate
+  Parallel in time
+* Tim Dodwell ?
+  Structural mechanics/preconditioning
+
 ### University of Waterloo
 * Francis Poulin
   QG turbulence

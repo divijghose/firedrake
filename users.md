@@ -28,11 +28,11 @@
 
 ### UIUC
 * Andreas Kloeckner
-  ???
+  Code generation for multicore architecture
 
 ### Baylor
 * Rob Kirby
-  ???
+  Code generation for multicore architecture, custom and block preconditioners, tide simulation
 
 ### University of Bath
 * Eike Mueller

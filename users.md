@@ -57,3 +57,6 @@
 ### Stellenbosch
 * Moritz Braun
   Density functional theory
+
+### University of Washington
+ * Dan Shapero

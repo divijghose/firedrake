@@ -103,3 +103,28 @@
 ### University of Edinburgh
 
  * James Maddison
+
+### Stockholm University
+
+ * Joy Monteiro
+
+### University of Potsdam
+
+ * David Angwenyi
+
+### IBM Research
+
+ * Robert Sawko
+
+### TU Delft
+
+ * Victor Koppejan
+
+### National Laboratory for Scientific Computing, Brazil
+
+ * Diego Volpatto
+
+### Univ. Grenoble Alpes, Inria, CNRS
+
+ * Chris Eldred
+

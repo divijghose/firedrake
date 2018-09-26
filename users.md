@@ -60,3 +60,46 @@
 
 ### University of Washington
  * Dan Shapero
+
+### University of Reading
+
+### Finnish Meteorological Institute
+ * Tuomas Karna
+
+### Skoltech
+
+### University of East Anglia
+
+ * Anna Kalogirou
+
+### Max Planck Institute for Astronomy
+
+ * Eduard Bopp
+
+### Iowa State
+
+ * Christian Helanow
+
+### University of Alaska Fairbanks
+
+ * Ed Bueler
+
+### Federal University of Juiz de Fora, Brazil
+
+ * Emmanuel Yarleque Medina
+
+### University of Illinois, Chicago
+
+ * Eric Malitz
+
+### National University of Colombia
+
+ * Francisco Ramirez
+
+### UMPC/CNRS
+
+ * Harold Moundoyi
+
+### University of Edinburgh
+
+ * James Maddison

@@ -1,13 +1,13 @@
 1. Follow the [instructions here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install Ubuntu Linux on your Windows 10 machine.
-1. Ensure your Ubuntu installation is up to date.
+2. Ensure your Ubuntu installation is up to date.
    
     Run the following commands at the bash prompt:
 ```
 sudo apt update
 sudo apt upgrade
 ```
-1. Install Firedrake using the [instructions here](https://firedrakeproject.org/download.html).
-1. Set up X forwarding.
+3. Install Firedrake using the [instructions here](https://firedrakeproject.org/download.html).
+4. Set up X forwarding.
     If you want to have any gui (e.g. plotting), you need to set up X forwarding. This is not supported by Windows yet, but can be set up following the [instructions here](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/).
     - Download Xming [from here](https://sourceforge.net/projects/xming/), default settings are fine.
     - run the following command before running graphical commands:
@@ -23,7 +23,7 @@ sudo apt upgrade
         ```
     - Without something like those lines, you have to run Xming
       from the Windows side each time you want to use it
-1. General Tips:
+5. General Tips:
     - If you need to edit Windows files from the Linux side, your C:
       drive is located at /mnt/c 
     - Editing Linux files from Windows is not recommended.

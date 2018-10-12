@@ -18,6 +18,10 @@
   Coastal ocean (http://thetisproject.org)
   Mesh adaptation
 
+### Durham University
+
+ * Lawrence Mitchell
+
 ### SUNY Buffalo
 * Matthew Knepley
   Preconditioning, magma dynamics
@@ -127,4 +131,8 @@
 ### Univ. Grenoble Alpes, Inria, CNRS
 
  * Chris Eldred
+
+### University of York
+
+ * Jon Hill
 

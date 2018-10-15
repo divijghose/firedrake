@@ -1,34 +1,6 @@
 # Firedrake on Archer
 
-Add the following to your `.pbs` file to load the Firedrake environment:
-```
-module swap PrgEnv-cray PrgEnv-gnu
-source /work/y07/y07/fdrake/firedrake.env
-export MPICH_GNI_FORK_MODE=FULLCOPY
-
-export PYOP2_CACHE_DIR=/path/to/work/with/write/access/pyop2cache
-export FIREDRAKE_TSFC_KERNEL_CACHE_DIR=/path/to/work/with/write/access/firedrake-kernel-cache
-```
-
-The firedrake installation was last updated on 2016-08-26.
-
-## Updating installation
-
-If you have access to the firedrake package account:
-
-```
-su -l fdrake
-module use $WORK
-module swap PrgEnv-cray PrgEnv-gnu
-module load petsc-build-env
-cd $HOME/petsc
-git pull
-make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure all
-make PETSC_DIR=`pwd` PETSC_ARCH=petsc-configure install
-source $WORK/firedrake.env
-firedrake-update --honour-petsc-dir
-```
-
+There are build scripts and a sample PBS script for Firedrake on ARCHER [here](https://github.com/firedrakeproject/firedrake-archer).
 
 ### Results
 

@@ -56,3 +56,10 @@ mpiexec python $VIRTUAL_ENV/src/firedrake/demos/helmholtz/helmholtz.py
 # End time
 echo End time is `date` >> date
 ```
+
+
+If an error of type
+
+```PETSC ERROR: Caught signal number 4 Illegal instruction: Likely due to memory corruption```
+
+occurs, this can be resolved by activating the virtual environment and running `firedrake-clean`.

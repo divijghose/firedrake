@@ -22,5 +22,6 @@ from firedrake import parameters
 parameters['pyop2_options']['simd_width'] = 4
 ```
 - OpenMP backend is removed, i.e. vectorization is only through vector extensions and no OpenMP pragmas.
-- Reminder loop generation needs more work with vector extensions, so that is removed for now. This means the demo will only work if number of elements are muliptle of batch size.
+- Reminder loop generation needs more work with vector extensions, so that is removed for now. This means the demo will only work if the number of elements is multiple of batch size.
+- Vectorization is switched off for matrix assembly.
 

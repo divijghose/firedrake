@@ -57,8 +57,18 @@ mpiexec python $VIRTUAL_ENV/src/firedrake/demos/helmholtz/helmholtz.py
 echo End time is `date` >> date
 ```
 
+## Troubleshooting
+* An unsuccessful installation may be due to the default modules on cx1. E.g. to resolve an error of form 
 
-If an error of type
+```
+-- Configuring incomplete, errors occurred!CMake Error at CMakeLists.txt:16                                                                                         (CMAKE_MINIMUM_REQUIRED):
+      CMake 3.1 or higher is required.  You are running version 2.8.12.2
+```
+
+add `module load cmake/3.1.3` to the modules to be loaded when building firedrake.
+
+
+* If an error of type
 
 ```PETSC ERROR: Caught signal number 4 Illegal instruction: Likely due to memory corruption```
 

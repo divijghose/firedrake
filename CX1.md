@@ -18,7 +18,7 @@ curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scri
 python firedrake-install --no-package-manager
 ln -s /apps/anaconda3/4.1.1/lib/libpython3.5m.so.1.0 firedrake/lib/
 ```
-
+Note that further modules may be required, see Troubleshooting below.
 ## Running
 The following is a sample pbs script running the Helmholtz demo. Don't forget to run make in the `firedrake/src/firedrake/demos` directory before submitting. Note, that we don't load the anaconda3 module as it puts libraries in our path that conflict with our firedrake build.
 ```

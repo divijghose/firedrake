@@ -107,6 +107,7 @@
 ### University of Edinburgh
 
  * James Maddison
+ * Athanasios Angeloudis
 
 ### Stockholm University
 

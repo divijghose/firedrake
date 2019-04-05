@@ -73,3 +73,5 @@ add `module load cmake/3.1.3` to the modules to be loaded when building firedrak
 ```PETSC ERROR: Caught signal number 4 Illegal instruction: Likely due to memory corruption```
 
 occurs, this can be resolved by activating the virtual environment and running `firedrake-clean`.
+
+* If you get an error `[Errno 13] Permission denied.` by `shutil.copytree` you can run `module load fix_setxattr` and run the installation again.

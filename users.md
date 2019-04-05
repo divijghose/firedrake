@@ -57,6 +57,9 @@
 ### University of Oxford
 * Patrick Farrell (Florian Wechsung/Alberto Paganini)
   PDE-constrained shape optimisation
+  Preconditioning and multigrid
+* Thomas Roy
+  Block preconditioning
 
 ### Stellenbosch
 * Moritz Braun

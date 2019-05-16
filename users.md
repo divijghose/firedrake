@@ -140,3 +140,15 @@
 
  * Jon Hill
 
+### Colorado State
+
+ * Simon Taverner
+
+### University of Arizona
+
+  * Andrew Gillette
+    Serendipity elements
+
+### Lawrence Livermore 
+
+  * Alexey Voronin

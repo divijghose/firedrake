@@ -155,5 +155,5 @@
 
 ### Carnegie Mellon University
 
-  * Neil Walkington
+  * Noel Walkington
     Space-time finite element.

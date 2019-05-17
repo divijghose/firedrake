@@ -1,4 +1,4 @@
-1. Follow the [instructions here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install Ubuntu Linux on your Windows 10 machine.
+1. Follow the [instructions here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install Ubuntu Linux on your Windows 10 machine using the Windows Subsystem for Linux (WSL).
 2. Ensure your Ubuntu installation is up to date.
    
     Run the following commands at the bash prompt:
@@ -26,6 +26,14 @@ sudo apt upgrade
 5. General Tips:
     - If you need to edit Windows files from the Linux side, your C:
       drive is located at /mnt/c 
+    - Because C: is mounted at /mnt/c, build systems can mistakenly pick up libraries which are installed on Windows. For example it has been observed both on Ubuntu 16.04 and 18.04 (using WSL) that having Anaconda for Python installed at C: can break firedrake-install, as documented in [this issue](https://github.com/firedrakeproject/firedrake/issues/1333). While a more elegant solution may exist, it works well to unmount /mnt/c/ before installing Firedrake, and mounting it again afterward:
+        ```
+        sudo umount /mnt/c
+        
+        python3 firedrake-install
+        
+        sudo mount -t drvfs 'C:\' /mnt/c -o metadata
+        ```
     - Editing Linux files from Windows is not recommended.
     - The default behavior for the terminal
       (which allows copy and pasting between Windows and Linux)

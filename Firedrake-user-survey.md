@@ -12,8 +12,7 @@ The reasons for undertaking the survey are:
 
 We will publish the results of the survey in a report posted to arXiv. This will contain the full quantitative results of the survey, and text results subject to respondent consent. This report will provide a citable source for the survey results for use in further publications and funding bids.
 
-About you
----------
+## About you
 
 Name
 Email
@@ -21,17 +20,17 @@ Position (multiple choice Undergrad/Masters/Phd student/(Research) faculty/Staff
 Institution 
 Sector (higher education/public sector research/industry/other (write in))
 
-How do you use Firedrake?
--------------------------
+## How do you use Firedrake?
 
 What application areas do you apply Firedrake in?
 
 Which PDEs do you solve?
 
 Do you consent to your responses in this survey being published:
-Associated with your name (Yes/No)
-Just associated with your affiliation (Yes/No)
-Anonymised (Yes/No)
+* Associated with your name (Yes/No)
+* Just associated with your affiliation (Yes/No)
+* Anonymised (Yes/No)
+
 In addition, we will publish statistics about the responses to quantitative survey questions from all respondents. These statistics will not identify responses with individual respondents.
 
 Considering the work that you do using Firedrake, are you aware of any impact that this has outside academia? Impacts can be very broad and might include influencing decisions or practices, direct use of results or code, indirect use of results among others.
@@ -43,44 +42,39 @@ Please briefly describe the impact, including who the non-academic beneficiaries
 Estimate how many people in your immediate research group use Firedrake. (Number)
 Estimate how many people in your institution but not in your immediate research group use Firedrake (Number)
 
-What Firedrake features do know that you use?
----------------------------------------------
+## What Firedrake features do know that you use?
 
 (All tick boxes)
 
-Domains
-.......
+### Domains
 
-2D Domains
-3D Domains
-Immersed manifolds
-Extruded domains
-Periodic domains
-Mesh Hierarchies
+* 2D Domains
+* 3D Domains
+* Immersed manifolds
+* Extruded domains
+* Periodic domains
+* Mesh Hierarchies
 
-Discretisation and assembly features
-....................................
+### Discretisation and assembly features
 
-HDiv/HCurl elements
-Higher continuity (C1 or more) elements
-The "R" space of spatially constant functions
-Setting the quadrature degree
-SLATE (element-local linear algebra)
-Complex (currently beta)
+* HDiv/HCurl elements
+* Higher continuity (C1 or more) elements
+* The "R" space of spatially constant functions
+* Setting the quadrature degree
+* SLATE (element-local linear algebra)
+* Complex (currently beta)
 
-Solver features
-...............
+### Solver features
 
-Setting PETSc options
-Algebraic multigrid
-Geometric multigrid
-Python preconditioners
-Hybridisation
-Patch preconditioners
+* Setting PETSc options
+* Algebraic multigrid
+* Geometric multigrid
+* Python preconditioners
+* Hybridisation
+* Patch preconditioners
 
-External package features
-.........................
+### External package features
 
-DefCon
-Dolfin-adjoint/pyadjoint
-SLEPc
+* DefCon
+* Dolfin-adjoint/pyadjoint
+* SLEPc

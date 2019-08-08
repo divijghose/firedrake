@@ -3,7 +3,7 @@ This is the draft set of questions for a Firedrake user survey.
 The objectives of the survey are as follows:
 * Identifying Firedrake users and what they use Firedrake for.
 * Identifying impacts of Firedrake beyond academia.
-* Identifying user priorities for future developments, and the science and impact the this would enable.
+* Identifying user priorities for future developments, and the science and impact that this would enable.
 
 The reasons for undertaking the survey are:
 * To inform future developments and prioritise those of the greatest benefit to direct and indirect users.
@@ -89,6 +89,7 @@ On which of the following sorts of computer do you run Firedrake:
 * DefCon
 * Dolfin-adjoint/pyadjoint
 * SLEPc
+* Fireshape
 
 ### Models built using Firedrake
 
@@ -119,6 +120,7 @@ Select and rank in order of importance to you any of the following features whic
 * Better I/O and checkpointing.
 * External pointwise operators such as implicit constitutive laws.
 * Neural net coupling.
+* Macroelements/splines
 
 What other future developments would be particularly valuable to your work?
 

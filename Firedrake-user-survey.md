@@ -116,7 +116,8 @@ Select and rank in order of importance to you any of the following features whic
 
 * GPU/other accelerator support.
 * Reduced latency/better strong scaled performance.
-* Better coupled simulation support.
+* Better multi-domain simulation support
+* Support for coupling external models
 * Better I/O and checkpointing.
 * External pointwise operators such as implicit constitutive laws.
 * Neural net coupling.

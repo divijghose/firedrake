@@ -64,6 +64,7 @@ On which of the following sorts of computer do you run Firedrake:
 * Periodic domains
 * Mesh Hierarchies
 * Higher order meshes
+* Communicators other than COMM_WORLD
 
 ### Discretisation and assembly features
 

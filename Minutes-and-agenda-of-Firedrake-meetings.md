@@ -2,8 +2,8 @@ This page collates agendas and minutes for Firedrake development meetings. Dates
 
 ## Upcoming meetings
 
-- [2020-03-24](../Firedrake-meeting-2020-03-24)
+- [2020-03-24](./Firedrake-meeting-2020-03-24)
 
 ## Past meetings
 
-- [2020-03-19](../Firedrake-meeting-2020-03-19)
+- [2020-03-19](./Firedrake-meeting-2020-03-19)

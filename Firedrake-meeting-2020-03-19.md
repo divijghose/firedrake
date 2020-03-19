@@ -1,3 +1,5 @@
+Date and time: 2020-03-19 15:00UTC
+
 # Minutes
 ## Present
 
@@ -53,4 +55,4 @@ DH has an applied masters student looking at putting dual evaluation in FInAT. P
 
 [Webex](https://webex.com) seemed to work quite well (hangouts free tier tops out at 10 people). Desktop client is more featureful than web browser.
 
-Next meeting [2020-03-24 16:00UTC]().
+Next meeting [2020-03-24 16:00UTC](./Firedrake-meeting-2020-03-24).

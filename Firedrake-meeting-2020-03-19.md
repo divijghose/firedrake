@@ -3,7 +3,7 @@ Date and time: 2020-03-19 15:00UTC
 # Minutes
 ## Present
 
-Paul Kelly, David Ham, Rob Kirby, Lawrence Mitchell, Joe Wallwork, Nacime Bouziani, Patrick Farrell, Reuben Hill, Sophia Vorderwuelbecke, Jack Betteridge, Koki Sagiyama, Dan Shapero, Julian Andrej, Tuomas Karna, Alberto Paganini, ...
+Paul Kelly, David Ham, Rob Kirby, Lawrence Mitchell, Joe Wallwork, Nacime Bouziani, Patrick Farrell, Reuben Hill, Sophia Vorderwuelbecke, Jack Betteridge, Koki Sagiyama, Dan Shapero, Julian Andrej, Tuomas Karna, Alberto Paganini, Florian Wechsung, ...
 
 ## Ongoing (remote) working practice
 

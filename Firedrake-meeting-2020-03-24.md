@@ -15,4 +15,7 @@ LM: A few people have asked me where a good place to start trying to fix things 
 
 Do we care?
 
+## Complex
+From what I understand the only reason why complex is not merged yet, is that it is an annoying (and slightly boring?) task. Since most people of our team are coding in different parts of firedrake anyways, maybe we could finally get complex on stage by a shorter and less annoying team effort? Would it possible to split this into parts such that everyone ensures type safety in "their" part of firedrake?
+
 ## Date of next meeting

@@ -2,8 +2,8 @@ Date and time: 2020-03-24 16:00UTC
 
 # Action items
 
-LM: Setup wiki based agenda templates/minutes
-DH: Resurrect mac/mpi4py fix
+1. LM: Setup wiki based agenda templates/minutes
+2. DH: Resurrect mac/mpi4py fix
 
 # Agenda
 

@@ -40,4 +40,8 @@ Some discussions/proposals are ongoing (driven by Francesco Ballerin) to decide 
 
 It seems that we should engage with this effort (at least at the frontend level).
 
+## Parallel GC
+
+DRS: What is involved in fixing this and can it be divied up easily?
+
 ## Date of next meeting

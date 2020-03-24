@@ -34,4 +34,10 @@ this can be viewed as a generalisation of indexing and lgmap thing for BC.
 `fs_filter` branches in firedrake, ufl, tsfc.
 `firedrake/tests/filter/test_filter.py`
 
+## Mixed-dimensional stuff in dolfin
+
+Some discussions/proposals are ongoing (driven by Francesco Ballerin) to decide how to do mixed-domain stuff in fenicsx. See proposal here: https://docs.google.com/document/d/1pMdMOs2RjTYherVeG9cfACQ4g67HOpYkxQTj4J5Ivjg/edit#heading=h.a9dv1a5yscnd
+
+It seems that we should engage with this effort (at least at the frontend level).
+
 ## Date of next meeting

@@ -3,7 +3,7 @@ Date and time: 2020-03-31 15:00UTC (16:00BST)
 # Action items
 
 1. ALL: triage the open issues and confirm if they are indeed still open (and perhaps provide labels).
-~2. LM: Should probably check that firedrake-contributors doesn't give push to master on any of the organisational repos.~
+2. ~LM: Should probably check that firedrake-contributors doesn't give push to master on any of the organisational repos.~
 3. DH: pull out list of people who have filled in survey. We can then decide if we want to chase some.
 4. SV: update known list of firedrake citing papers that actually use firedrake. Already known papers live here: https://github.com/firedrakeproject/firedrake/blob/master/docs/source/_static/firedrake-apps.bib
 5. KY: Write up maths of what `Filtered` is supposed to do, what it enables, and why it is needed.

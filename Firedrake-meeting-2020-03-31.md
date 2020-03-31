@@ -13,4 +13,6 @@ Date and time: 2020-03-31 15:00UTC (16:00BST)
 
 # Agenda
 
+## LM: dual evaluation/interpolation update
+
 ## Date of next meeting

@@ -26,3 +26,6 @@ Afternoons (UK time, GMT+1) of the week beginning 20th April 2020
 * Sophia Vorderwuelbecke
 * Reuben Hill
 * Koki Sagiyama
+
+# Webex links
+Will be created before the meetings.

@@ -5,10 +5,13 @@ We are close to merge the complex branch onto master, remaining tasks being:
 
 The purpose of this sprint is to make these happen, each working on their favorite parts of Firedrake.
 
-**This sprint (and the pre-sprint meeting) is going to happen on Webex.**
+We will also be hosting a pre-sprint meeting to discuss the workflow.
 
-# Pre-sprint meeting
-On Friday, 17th April 2020, we will be hosting a pre-sprint Webex meeting to discuss the workflow.
+# Where?
+This sprint and the pre-sprint meeting are going to happen on **Webex**, and we are going to provide the participants with the links to the Webex meetings on Slack general channel beforehand.
+
+# Pre-sprint meeting date
+**17th April 2020 (Friday) at 16:00 (UK time, GMT+1)**
 
 # Sprint Dates
 Afternoons (UK time, GMT+1) of the week beginning 20th April 2020

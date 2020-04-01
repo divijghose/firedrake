@@ -11,9 +11,9 @@ We will also be hosting a pre-sprint meeting to discuss the workflow.
 This sprint and the pre-sprint meeting are going to happen on **Webex**, and we are going to provide the participants with the links to the Webex meetings on Slack general channel beforehand.
 
 # Pre-sprint meeting date
-17th April 2020 (Friday) at 16:00 (UK time, GMT+1)
+Friday 17th April 2020 at 16:00 (UK time, GMT+1)
 
-# Sprint Dates
+# Sprint dates
 Afternoons (UK time, GMT+1) of the week beginning 20th April 2020
 
 # Participants

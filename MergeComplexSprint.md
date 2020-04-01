@@ -17,9 +17,9 @@ Afternoons (UK time, GMT+1) of the week beginning 20th April 2020
 
 **Please add your name if you would be able to attend**
 
-David Ham
-Lawrence Mitchell
-Nacime Bouziani
-Sophia Vorderwuelbecke
-Reuben Hill
-Koki Sagiyama
+* David Ham
+* Lawrence Mitchell
+* Nacime Bouziani
+* Sophia Vorderwuelbecke
+* Reuben Hill
+* Koki Sagiyama

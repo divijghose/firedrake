@@ -33,4 +33,4 @@ Only support DG0. Need to fix up in FIAT where tabulation on points results in e
 
 ## Date of next meeting
 
-2020-04-07 15:00UTC (16:00BST)
+[2020-04-07](./Firedrake-meeting-2020-04-07) 15:00UTC (16:00BST)

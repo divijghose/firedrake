@@ -7,7 +7,7 @@ Date and time: 2020-04-07 15:00UTC (16:00BST)
 1. ~SV: update known list of firedrake citing papers that actually use firedrake. Already known papers live here: https://github.com/firedrakeproject/firedrake/blob/master/docs/source/_static/firedrake-apps.bib~ [PR open here](https://github.com/firedrakeproject/firedrake/pull/1644)
 1. KY: Write up maths of what `Filtered` is supposed to do, what it enables, and why it is needed.
 1. KY, (DH, LM): Document describing what we think the mixed domain interface should look like (and hence what is needed in UFL, and whether it matches the existing fenics efforts).
-1. LM: write up some of the issues (parallel GC) and where to start looking.
+1. ~LM: write up some of the issues (parallel GC) and where to start looking.~ Some more details in [the related Firedrake issue](https://github.com/firedrakeproject/firedrake/issues/1617#issuecomment-610417523)
 1. JB: Add brief note to docs on disabling GC in parallel.
 
 # Agenda

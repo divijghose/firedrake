@@ -18,3 +18,5 @@ Present:
 ## 2. DRS: Would like to know what's involved in making DumbCheckpoint less dumb?
 
 ## 3. JB: Building documentation, style guides, contributing guides and other things of this nature
+
+## 4. RK: Update on Irksome (Implicit Runge-Kutta methods in Firedrake)

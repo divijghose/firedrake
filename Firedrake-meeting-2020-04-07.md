@@ -16,3 +16,5 @@ Present:
 ## NB: Update of the neural network weights for the PointnetOperator (a type of ExternalOperator)
 
 ## 2. DRS: Would like to know what's involved in making DumbCheckpoint less dumb?
+
+## 3. JB: Building documentation, style guides, contributing guides and other things of this nature

@@ -19,6 +19,8 @@ Apologies: Sophia Vorderwuelbecke
 
 Present:
 
+## RWH: Mesh Topology Fun (see [PR](https://github.com/firedrakeproject/firedrake/pull/1652))
+
 ## Date of next meeting
 
 2020-04-21 15:00UTC (16:00BST)

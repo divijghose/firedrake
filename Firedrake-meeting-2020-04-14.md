@@ -19,7 +19,11 @@ Apologies: Sophia Vorderwuelbecke
 
 Present:
 
-## RWH: Mesh Topology Fun (see [PR](https://github.com/firedrakeproject/firedrake/pull/1652))
+## RWH: Mesh Topology Fun 
+See [PR](https://github.com/firedrakeproject/firedrake/pull/1652).
+
+## RWH: Separate slack help/dev chat? 
+I.e. am I being annoying on Slack?
 
 ## Date of next meeting
 

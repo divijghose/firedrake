@@ -19,6 +19,10 @@ Apologies: Sophia Vorderwuelbecke
 
 Present:
 
+## DH: State of build testing.
+
+## DH: Complex sprint next week.
+
 ## RWH: Mesh Topology Fun 
 See [PR](https://github.com/firedrakeproject/firedrake/pull/1652).
 

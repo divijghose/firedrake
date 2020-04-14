@@ -23,12 +23,16 @@ Will discuss at next meeting when LM is present
 
 ## DH: Complex sprint next week.
 Meeting Friday 17th 1600 (BST) to plan
-Webpage: [https://github.com/firedrakeproject/firedrake/wiki/MergeComplexSprint]
+
+Webpage: [Complex Sprint](https://github.com/firedrakeproject/firedrake/wiki/MergeComplexSprint)
+
 Master needs to be merged into Complex before week beginning 20th, action point KS.
+
 Complex still contains hand coded C kernels.
 
 ## RWH: Mesh Topology Fun
 See [PR](https://github.com/firedrakeproject/firedrake/pull/1652).
+
 Geometric dimension not specified when creating a mesh topology (defaults to topological dimension for a UFL cell).
 No current way to tell UFL about the geometric dimension.
 
@@ -39,12 +43,13 @@ Firedrake mesh topology requires a UFL mesh, hence argument is that Firedrake me
 DH to comment further on issue also.
 
 ## RWH: Separate slack help/dev chat? 
-RH: am I being annoying on Slack?
-DH: Short answer, no, Slack is not currently "too busy", continue current posting
+> RH: am I being annoying on Slack?
+
+> DH: Short answer, no, Slack is not currently "too busy", continue current posting
 
 ## KS: Filtered Writeup (Update):
-Will discuss at next meeting when larger group (LM, SK, +others) are present
-Will be useful these.
+Will discuss at next meeting when larger group (LM, SK, +others) are present.
+
 KS to join Thetis meeting
 
 ## Date of next meeting

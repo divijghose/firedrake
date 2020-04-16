@@ -16,6 +16,13 @@ Friday 17th April 2020 at 16:00 (UK time, GMT+1)
 # Sprint dates
 Afternoons (UK time, GMT+1) of the week beginning 20th April 2020
 
+# Install
+curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/complex-sprint/scripts/firedrake-install
+
+python3 firedrake-install --complex --package-branch loopy complex --package-branch tsfc complex-sprint --package-branch PyOP2 complex-sprint --package-branch firedrake complex-sprint
+
+(TODO: Check loopy branch at the pre-sprint meeting)
+
 # Participants
 
 **Please add your name if you would be able to attend**

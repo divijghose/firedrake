@@ -17,6 +17,9 @@ Moved from previous meeting
 ## KS: Filtered Writeup (Update)
 Moved from previous meeting
 
+## RWH: More MeshTopology Geometric Dimension Discussion
+See https://github.com/firedrakeproject/firedrake/pull/1652
+
 ## State of complex sprint
 
 ## Date of next meeting

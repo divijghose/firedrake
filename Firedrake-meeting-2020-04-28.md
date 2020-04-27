@@ -10,6 +10,8 @@ Present:
 
 Apologies:
 
+## RWH: Correct way to modify PETSc in firedrake
+
 ## State of complex sprint
 
 ## Date of next meeting

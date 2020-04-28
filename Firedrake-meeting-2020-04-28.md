@@ -19,5 +19,7 @@ See https://github.com/firedrakeproject/firedrake/pull/1667
 
 ## DRS: streamplot
 
+## SV: Tsslac
+
 ## Date of next meeting
 2020-05-05 15:00UTC (16:00BST)

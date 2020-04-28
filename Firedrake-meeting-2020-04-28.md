@@ -32,7 +32,7 @@ Complex mode doubles the load of test, potential solutions addressed :
 
 Florian: Add the hack to have shape derivatives tests working in complex
 
-David: Tackle the remaining items
+David: Tackle the remaining complex sprint items
 
 ## DRS: streamplot
 

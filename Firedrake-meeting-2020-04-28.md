@@ -13,6 +13,7 @@ Apologies:
 ## RWH: Correct way to modify PETSc in firedrake
 
 ## RWH: CoordinatelessFunction's UFL mesh
+TBC: May not need discussing.
 See https://github.com/firedrakeproject/firedrake/pull/1667 
 
 ## State of complex sprint

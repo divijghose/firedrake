@@ -30,5 +30,7 @@ It is possible to land a fix using the Isambard branch
 
 ## JB: Test organisation - short_test for quick verification
 
+## CC: Linesmoother+GTMG, an update
+
 ## Date of next meeting
 2020-05-05 15:00UTC (16:00BST)

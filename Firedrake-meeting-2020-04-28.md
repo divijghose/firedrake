@@ -69,8 +69,8 @@ Jack: Add this mechanism
 
 ## JB: Test organisation - short_test for quick verification
 Use Isambard to run tests in parallel.
- -> Few problem noticed when parallelizing tests in Isambard, a workaround was found
- -> Fix pytests on supercomputer would require additional works
+ - Few problem noticed when parallelizing tests in Isambard, a workaround was found
+ - Fix pytests on supercomputer would require additional works
 
 Jack: Use the workaround
 
@@ -78,6 +78,7 @@ Jack: Use the workaround
 Adds a line smoother that couples vertically aligned degrees of freedom in extruded meshes.
 
 PR ready to be merged: https://github.com/firedrakeproject/firedrake/pull/1664)
+
 Example of applications: gravity waves test problem
 
 ## Firedrake installation problem

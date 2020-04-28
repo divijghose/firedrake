@@ -13,8 +13,8 @@ Most of the time though, you can speed things up a lot with the below procedure
  1. Make desired modifications
  2. Activate the firedrake venv
  3. Navigate to `[firedrake-install-dir]/src/petsc`
- 4. Run `make PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default all`. This should take less than 10 minutes.
- 5. Run the suggested `make PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default check` (or similar) check to make sure the libraries are working
+ 4. Run `make PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default all`. _This should take less than 10 minutes._
+ 5. Run the suggested `make PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default check` check (or similar - the log text from successfully performing step 4 should tell you the exact command) to make sure the libraries are working. _This should take less that 2 minutes._
 
 ## Troubleshooting Notes
 

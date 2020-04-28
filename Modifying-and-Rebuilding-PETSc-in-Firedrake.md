@@ -19,7 +19,7 @@ Most of the time though, you can speed things up a lot with the below procedure
 ## Troubleshooting Notes
 
 ### If the desired modifications (step 1) are on a separate branch
-The branch used must have a working remote (I think `origin` - though `upstream` might also work) or else `firedrake-update` will fail.
+The branch used must have a working remote (such that `git pull` will work) or else `firedrake-update` will fail.
 
 ### If `make` (step 4.) fails
 Try the following:

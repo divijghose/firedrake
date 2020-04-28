@@ -6,7 +6,7 @@ Date and time 2020-04-28 15:00UTC (16:00BST)
 1. DRS: See the [related Firedrake issue](https://github.com/firedrakeproject/firedrake/issues/1649), and start having a good at load/store plex objects. To make smart checkpoints
 
 # Minutes
-Present:David Ham, Lawrence Mitchell, Jack Betteridge, Koki Sagiyama, Nacime Bouziani, Sophia Vorderwuelbecke, Florian Wechsung, Reuben Hill, Thomas Gregory, Dan Shapero, Colin Cotter, Robert Kirby, Luke Olson
+Present: David Ham, Lawrence Mitchell, Jack Betteridge, Koki Sagiyama, Nacime Bouziani, Sophia Vorderwuelbecke, Florian Wechsung, Reuben Hill, Thomas Gregory, Dan Shapero, Colin Cotter, Robert Kirby, Luke Olson
 
 Apologies:
 

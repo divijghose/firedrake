@@ -22,5 +22,13 @@ See https://github.com/firedrakeproject/firedrake/pull/1667
 
 ## SV: Tsslac
 
+## JB: Building Firedrake on Isambard
+For anyone interested: https://github.com/firedrakeproject/isambard/tree/alternative_install
+
+## JB: Python 3.8
+It is possible to land a fix using the Isambard branch
+
+## JB: Test organisation - short_test for quick verification
+
 ## Date of next meeting
 2020-05-05 15:00UTC (16:00BST)

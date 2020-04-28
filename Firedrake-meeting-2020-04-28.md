@@ -11,6 +11,7 @@ Present:
 Apologies:
 
 ## RWH: Correct way to modify PETSc in firedrake
+I've made a [wiki page](./Modifying-and-Rebuilding-PETSc-in-Firedrake) - only need to discuss if there are obvious errors.
 
 ## RWH: CoordinatelessFunction's UFL mesh
 TBC: May not need discussing.

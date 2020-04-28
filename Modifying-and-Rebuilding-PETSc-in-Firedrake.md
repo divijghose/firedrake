@@ -28,4 +28,5 @@ Try the following:
  3. Run the `make ...` command recommended in the log text from `make reconfigure` (it will probably be `make PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default all`)
 
 ### If you have modified the API and therefore need to update `petsc4py`
-TBC - This only updates PETSc
+TBC - This only updates PETSc. Something along the lines of 
+> you just edit and `pip install -U -no-deps .` in the relevant directory

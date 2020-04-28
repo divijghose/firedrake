@@ -31,11 +31,13 @@ Complex mode doubles the load of test, potential solutions addressed :
    - Instead of testing the commit and the merge commit, just test the merge commits (should half the test load)
 
 Florian: Add the hack to have shape derivatives tests working in complex
+
 David: Tackle the remaining items
 
 ## DRS: streamplot
 
 Ready to be merged!
+
 Dan: Open the PR
 
 ## SV: Tsslac
@@ -51,6 +53,7 @@ There a 2 new shape operations:
 Question: how are these operations represented in GEM?
 
 Sophia: Expunge references to COFFEE
+
 Lawrence: Go through the PRs
 
 ## JB: Building Firedrake on Isambard

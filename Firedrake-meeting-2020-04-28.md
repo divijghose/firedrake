@@ -21,7 +21,7 @@ Briefing following the complex sprint that happened last week (cf. https://githu
 
 All the tests are now passing except two shape derivatives based tests in pyadjoint (`firedrake_adjoint/test_dynamic_meshes.py` and `firedrake_adjoint/test_shape_derivatives.py`).
 
-Here is a write-up explaining the core issue: https://github.com/FEniCS/ufl/issues/21, the solution proposed is to add a hack in UFL to apply `conj` at the end of the process where needed. Long-term solutions would require deeper and more invasive changes in UFL.
+Here is a write-up explaining the core issue: https://github.com/FEniCS/ufl/issues/21, the solution proposed is to add a hack in UFL so that `conj` is correctly applied at the end of the process where needed. Long-term solutions would require deeper and more invasive changes in UFL.
 
 There are still some deeper infrastructure questions that need to be addressed to land complex as soon as possible --> David's job
 

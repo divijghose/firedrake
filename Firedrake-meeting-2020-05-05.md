@@ -19,6 +19,7 @@ Apologies:
 In light of dropping COFFEE in the (near?) future, what is the current status of:
 https://github.com/firedrakeproject/firedrake/issues/1451
 
-
+## RWH: further discussion needed on #1667
+Proposed solution from last meeting introduces new problems. See https://github.com/firedrakeproject/firedrake/pull/1667
 
 ## Date of next meeting

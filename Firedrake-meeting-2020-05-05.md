@@ -57,5 +57,9 @@ Agenda: Proposed solution from last meeting introduces new problems without obvi
 
 Minutes: Will modify `make_scalar_element` to use mesh topology's `ufl_cell`. Will make sure that all `ufl_cell`s anywhere else which ultimately are created on a mesh topology will use the mesh topology's ufl cell.
 
+## Additional notes
+Luke Olson's multigrid lectures start on 2020-05-08 1500UFC (1700UTC):
+ - Github link: https://github.com/lukeolson/imperial-multigrid
+
 ## Date of next meeting
 2020-05-12 15:00UTC (16:00BST)

@@ -46,8 +46,8 @@ Needs someone from firedrake with time to fix things when bugs arrive.
 
 
 ## JB: Status of issue #1451
-~Agenda: In light of dropping COFFEE in the (near?) future, what is the current status of:
-https://github.com/firedrakeproject/firedrake/issues/1451~ 
+Agenda: In light of dropping COFFEE in the (near?) future, what is the current status of:
+https://github.com/firedrakeproject/firedrake/issues/1451
 
 Minutes: See *LM: COFFEE in codebase*
 

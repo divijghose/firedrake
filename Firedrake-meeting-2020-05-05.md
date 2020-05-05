@@ -7,7 +7,7 @@ Date and time 2020-05-05 15:00UTC (16:00BST)
 1. ~DH: Tackle the remaining complex sprint items~
 1. ~FW: Add the hack to have shape derivatives tests working in complex~
 1. ~SV: Expunge references to COFFEE before tsslac merge~
-1. LM: ~Go through the tsslac PRs~
+1. ~LM: Go through the tsslac PRs~
 1. JB: Add mechanism for python3.8 
 1. DH: Find time to fix to get final complex sprint test passing.
 1. ALL: Someone to look at TSFC merge needed as part of complex sprint. 
@@ -58,3 +58,4 @@ Agenda: Proposed solution from last meeting introduces new problems without obvi
 Minutes: Will modify `make_scalar_element` to use mesh topology's `ufl_cell`. Will make sure that all `ufl_cell`s anywhere else which ultimately are created on a mesh topology will use the mesh topology's ufl cell.
 
 ## Date of next meeting
+2020-05-12 15:00UTC (16:00BST)

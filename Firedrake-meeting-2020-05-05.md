@@ -43,5 +43,6 @@ https://github.com/firedrakeproject/firedrake/issues/1451
 ## RWH: further discussion needed on #1667
 Proposed solution from last meeting introduces new problems without obvious solutions. See https://github.com/firedrakeproject/firedrake/pull/1667
 
+Will modify `make_scalar_element` to use mesh topology's `ufl_cell`. Will make sure that all `ufl_cell`s anywhere else which ultimately are created on a mesh topology will use the mesh topology's ufl cell.
 
 ## Date of next meeting

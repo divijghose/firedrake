@@ -8,7 +8,7 @@ Date and time 2020-05-12 15:00UTC (16:00BST)
 1. DH: Find time to fix to get final complex sprint test passing.
 1. ALL: Someone to look at TSFC merge needed as part of complex sprint. 
 1. DH: Find time to sort out Jenkins to run in real and complex mode.
-1. LM: Add any action items that may have been accidentally removed. 
+1. ~LM: Add any action items that may have been accidentally removed.~
 
 # Minutes
 Present: 
@@ -18,6 +18,8 @@ Apologies:
 ## NB: Pointwise operators PRs
 
 ## DRS: Update on checkpointing
+
+## LM: Replacement for expressions compiler
 
 ## Date of next meeting
 2020-05-19 15:00UTC (16:00BST)

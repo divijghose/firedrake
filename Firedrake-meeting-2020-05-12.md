@@ -17,5 +17,7 @@ Apologies:
 
 ## NB: Pointwise operators PRs
 
+## DRS: Update on checkpointing
+
 ## Date of next meeting
 2020-05-19 15:00UTC (16:00BST)

@@ -21,5 +21,8 @@ Apologies:
 
 ## LM: Replacement for expressions compiler
 
+## KS: ufl.Filtered -> ufl.Transformed
+PR created: https://github.com/FEniCS/ufl/pull/22
+
 ## Date of next meeting
 2020-05-19 15:00UTC (16:00BST)

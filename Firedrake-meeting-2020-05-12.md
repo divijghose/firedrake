@@ -15,7 +15,7 @@ Present:
 
 Apologies:
 
-## Item1
+## NB: Pointwise operators PRs
 
 ## Date of next meeting
 2020-05-19 15:00UTC (16:00BST)

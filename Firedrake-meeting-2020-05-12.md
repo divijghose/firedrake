@@ -9,12 +9,16 @@ Date and time 2020-05-12 15:00UTC (16:00BST)
 1. ~ALL: Someone to look at TSFC merge needed as part of complex sprint.~ Miklos approved. 
 1. ~DH: Find time to sort out Jenkins to run in real and complex mode.~
 1. ~LM: Add any action items that may have been accidentally removed.~
-1. DRS: Put animation in notebook (Burger's equation)
 
 # Minutes
 Present: David Ham, Lawrence Mitchell, Colin Cotter, Daniel R. Shapero, Jack Betteridge, Koki Sagiyama, Nacime Bouziani, Paul Kelly, Reuben Hill, Robert Kirby, Sophia Vorderwuelbecke, Tom Gregory
 
 Apologies:
+
+## Animation in Notebook
+
+DRS:
+Put animation in notebook (Burger's equation)
 
 ## Complex
 Jenkins:

@@ -2,18 +2,21 @@
 
 <details>
 <summary>Building locally</summary>
+
 - [Fixing venv on macOS](./Fixing-venv-on-macOS-after-homebrew-updates-Python)
 - [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
 </details>
 
 <details>
 <summary>Tips</summary>
+
 - [Modifying and Rebuilding PETSc](./Modifying-and-Rebuilding-PETSc-in-Firedrake)
 - [Vectorisation](./vectorization-in-firedrake)
 </details>
 
 <details>
 <summary>Building on HPC</summary>
+
 - [Archer](./Archer)
 - [Isambard](https://github.com/firedrakeproject/isambard/tree/alternative_install/README.md)
 - [CX1](./CX1)
@@ -21,12 +24,20 @@
 </details>
 
 <details>
-<summary>[Users](./users)</summary>
+<summary>
+
+[Users](./users)
+</summary>
+
 - [Firedrake user survey](./Firedrake-user-survey)
 </details>
 
 <details>
-<summary>[Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)</summary>
+<summary>
+
+[Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
+</summary>
+
   - [2020-05-26](./Firedrake-meeting-2020-05-26)
   - [2020-05-19](./Firedrake-meeting-2020-05-19)
 ---

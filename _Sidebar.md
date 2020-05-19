@@ -9,6 +9,7 @@
 
 <details>
 <summary>Tips</summary>
+
 - [Modifying and Rebuilding PETSc](./Modifying-and-Rebuilding-PETSc-in-Firedrake)
 - [Vectorisation](./vectorization-in-firedrake)
 </details>

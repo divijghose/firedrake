@@ -15,5 +15,12 @@ Apologies:
 ## JB: I changed the sidebar on the Wiki
 Feel free to query these changes, I can put it back the way it was
 
+## IY: Update on firedrake-ts
+Code here: https://github.com/IvanYashchuk/firedrake-ts
+
+Solves the problem formulated as F(t, u, u_t) = 0 using PETSc TS library.
+
+Should we merge it into firedrake or move the repository to firedrakeproject organisation?
+
 ## Date of next meeting
 2020-05-26 15:00UTC (16:00BST)

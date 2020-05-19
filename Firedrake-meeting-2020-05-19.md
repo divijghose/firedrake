@@ -22,7 +22,7 @@ Solves the problem formulated as F(t, u, u_t) = 0 using PETSc TS library.
 
 Should we merge it into firedrake or move the repository to firedrakeproject organisation?
 
-## KS: ufl.Transformed
+## KS: ufl PR for ufl.Transformed
 Added doc. Still waiting for reviews.
 
 ## Date of next meeting

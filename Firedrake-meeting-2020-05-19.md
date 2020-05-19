@@ -12,7 +12,8 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: I changed the sidebar on the Wiki
+Feel free to query these changes, I can put it back the way it was
 
 ## Date of next meeting
 2020-05-26 15:00UTC (16:00BST)

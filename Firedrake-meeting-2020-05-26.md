@@ -7,7 +7,7 @@ Date and time 2020-05-26 15:00UTC (16:00BST)
 1. ~JB: Add mechanism for python3.8~ Someone: test this.
 1. DH: Find time to fix to get final complex sprint test passing.
 
-# Minutes
+# Agenda
 Present:
 
 Apologies:

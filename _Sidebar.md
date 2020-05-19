@@ -1,3 +1,36 @@
+[Home](./)
+
+<details>
+<summary>Building locally</summary>
+
+- [Fixing venv on macOS](./Fixing-venv-on-macOS-after-homebrew-updates-Python)
+- [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
+</details>
+
+<details>
+<summary>Tips</summary>
+- [Modifying and Rebuilding PETSc](./Modifying-and-Rebuilding-PETSc-in-Firedrake)
+- [Vectorisation](./vectorization-in-firedrake)
+</details>
+
+<details>
+<summary>Building on HPC</summary>
+
+- [Archer](./Archer)
+- [Isambard](https://github.com/firedrakeproject/isambard/tree/alternative_install)
+- [CX1](./CX1)
+- [CX2](./CX2)
+</details>
+
+<details>
+<summary>
+
+[Users](./users)
+</summary>
+
+- [Firedrake user survey](./Firedrake-user-survey)
+</details>
+
 <details>
 <summary>
 
@@ -16,3 +49,6 @@
   - [2020-03-24](./Firedrake-meeting-2020-03-24)
   - [2020-03-19](./Firedrake-meeting-2020-03-19)
 </details>
+
+[Gravity wave scaling](./Gravity-wave-scaling)
+[Merge Complex Sprint](./MergeComplexSprint)

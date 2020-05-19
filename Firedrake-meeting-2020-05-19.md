@@ -25,5 +25,7 @@ Should we merge it into firedrake or move the repository to firedrakeproject org
 ## KS: ufl PR for ufl.Transformed
 Added doc. Still waiting for reviews.
 
+## DRS: animating plots
+
 ## Date of next meeting
 2020-05-26 15:00UTC (16:00BST)

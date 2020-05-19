@@ -18,7 +18,7 @@
 <summary>Building on HPC</summary>
 
 - [Archer](./Archer)
-- [Isambard](https://github.com/firedrakeproject/isambard/tree/alternative_install)
+- [Isambard](https://github.com/firedrakeproject/isambard/tree/alternative_install/README.md)
 - [CX1](./CX1)
 - [CX2](./CX2)
 </details>

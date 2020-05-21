@@ -39,8 +39,8 @@
 </summary>
 
   - [2020-05-26](./Firedrake-meeting-2020-05-26)
-  - [2020-05-19](./Firedrake-meeting-2020-05-19)
 ---
+  - [2020-05-19](./Firedrake-meeting-2020-05-19)
   - [2020-05-12](./Firedrake-meeting-2020-05-12)
   - [2020-05-05](./Firedrake-meeting-2020-05-05)
   - [2020-04-28](./Firedrake-meeting-2020-04-28)

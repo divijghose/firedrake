@@ -12,7 +12,9 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: Move to VTK 9.0?
+VTK have now released wheels for all platforms and Python versions we are targeting.
+Is anything preventing us moving to VTK 9.0?
 
 ## Date of next meeting
 2020-06-02 15:00UTC (16:00BST)

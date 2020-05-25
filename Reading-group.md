@@ -15,3 +15,4 @@ In the analysis of the multigrid methods, the theory is that of Hackbusch (appro
 
 Schöberl considers the parameter-dependent problem requiring that A<sup>ε</sup> is coercive. Patrick wonders if we can consider how the theory maps on to the case where we only have that the eigenvalues of A<sup>ε</sup> are bounded away from zero.
 
+A request that we carefully unpick, when going through proofs, all of the constants in the inequalities of the form a ≼ b (so that we see where all the bits came from).

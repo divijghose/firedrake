@@ -22,5 +22,10 @@ Possibly could punt for a combination of IO/checkpointing and communicator coars
 Forward mode tests now pass in both real and complex mode, adjoint passes in real mode. For adjoint in complex mode we need to tape assembly of zero forms (complex numbers) and then explicitly do lots of stuff to ensure functionals that should be real are real.
 Proposal: skip pyadjoint tests in complex testing for now (raise NotImplementedError somewhere?)
 
+## LM: github actions
+Devito have migrated everything to github actions, they are delighted with the setup. Gerard has oodles of cloud units to burn (and is happy to donate some to us). Rhodri Nelson has done most of the setup and offered help migrating.
+
+Proposal: migrate bits of the test suite (for example zenodo canary, linting, etc...) away from Jenkins slowly. We can then figure out how to run dependent jobs and so forth.
+
 ## Date of next meeting
 2020-06-02 15:00UTC (16:00BST)

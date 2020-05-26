@@ -13,7 +13,14 @@ Apologies:
 
 ## JB: Move to VTK 9.0?
 VTK have now released wheels for all platforms and Python versions we are targeting.
-Is anything preventing us moving to VTK 9.0?
+Is anything preventing us moving to VTK 9.0?]]
+
+## LM: First Archer2 eCSE call
+Possibly could punt for a combination of IO/checkpointing and communicator coarsening for multigrid (these sound different, but are related technologies I think).
+
+## LM: State of complex
+Forward mode tests now pass in both real and complex mode, adjoint passes in real mode. For adjoint in complex mode we need to tape assembly of zero forms (complex numbers) and then explicitly do lots of stuff to ensure functionals that should be real are real.
+Proposal: skip pyadjoint tests in complex testing for now (raise NotImplementedError somewhere?)
 
 ## Date of next meeting
 2020-06-02 15:00UTC (16:00BST)

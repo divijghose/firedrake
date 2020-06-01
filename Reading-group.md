@@ -16,3 +16,9 @@ In the analysis of the multigrid methods, the theory is that of Hackbusch (appro
 Schöberl considers the parameter-dependent problem requiring that A<sup>ε</sup> is coercive. Patrick wonders if we can consider how the theory maps on to the case where we only have that the eigenvalues of A<sup>ε</sup> are bounded away from zero.
 
 A request that we carefully unpick, when going through proofs, all of the constants in the inequalities of the form a ≼ b (so that we see where all the bits came from).
+
+### Chapter 2
+
+We covered the basics of finite element approximation and showed how conforming discretisations can fail for parameter dependent problems. Ivan notes that his [masters thesis](https://aaltodoc.aalto.fi/bitstream/handle/123456789/31490/master_Yashchuk_Ivan_2018.pdf?sequence=1&isAllowed=y) contains an example of this for the case of the Poisson equation with varying coefficients (in section 3.3).
+
+We got a little hung up on Hilbert space interpolation. Gonzalo suggests that this is going to be used in the multigrid convergence proof later (this theory is in [Bramble](https://doi.org/10.2307/2153359)). [Brenner & Scott](https://doi.org/10.1007/978-0-387-75934-0) have a reasonably self-contained overview of Hilbert space interpolation and its relation to finite elements in Chapter 14 of their book.

@@ -11,7 +11,14 @@ Present:
 
 Apologies: Sophia (ultra flaky internet, will try to join if possible)
 
-## Item 1
+## KS: Github action
+First push:
+https://github.com/firedrakeproject/firedrake/runs/727319093?check_suite_focus=true
+
+Failed with:
+Unable to obtain Zenodo record for doi 10.5281/zenodo.1322546
+
+and I can't figure out why it fails here.
 
 ## Date of next meeting
 2020-06-09 15:00UTC (16:00BST)

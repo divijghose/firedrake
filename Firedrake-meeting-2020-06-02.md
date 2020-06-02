@@ -9,7 +9,7 @@ Date and time 2020-06-02 15:00UTC (16:00BST)
 # Agenda
 Present:
 
-Apologies:
+Apologies: Sophia (ultra flaky internet, will try to join if possible)
 
 ## Item 1
 

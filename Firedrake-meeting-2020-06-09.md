@@ -15,7 +15,7 @@ Present:
 
 Apologies:
 
-## Item 1
+## SIAM CSE
 
 ## Date of next meeting
 2020-06-16 15:00UTC (16:00BST)

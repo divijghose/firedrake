@@ -17,5 +17,7 @@ Apologies:
 
 ## SIAM CSE
 
+## DRS: installation debugging flowchart
+
 ## Date of next meeting
 2020-06-16 15:00UTC (16:00BST)

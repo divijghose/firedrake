@@ -19,5 +19,9 @@ Apologies:
 
 ## DRS: installation debugging flowchart
 
+## KS: ufl.Transformed
+One page write-up on a new interpretation of `ufl.Transformed`.  Please find `transformed.pdf` at : 
+https://github.com/firedrakeproject/firedrake/issues/1648
+
 ## Date of next meeting
 2020-06-16 15:00UTC (16:00BST)

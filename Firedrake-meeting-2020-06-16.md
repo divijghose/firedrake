@@ -16,7 +16,9 @@ Apologies:
 
 ## KS: ufl.Transformed
 User interface for Mapping -> mimic DirichletBC?
+
 DirichletBC(V, g, subdomain)
+
 Mapping(V, V, g, subdomain)
 
 ## Date of next meeting

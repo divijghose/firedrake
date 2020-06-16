@@ -14,7 +14,10 @@ Present:
 
 Apologies:
 
-## Item 1
+## KS: ufl.Transformed
+User interface for Mapping -> mimic DirichletBC?
+DirichletBC(V, g, subdomain)
+Mapping(V, V, g, subdomain)
 
 ## Date of next meeting
 2020-06-23 15:00UTC (16:00BST)

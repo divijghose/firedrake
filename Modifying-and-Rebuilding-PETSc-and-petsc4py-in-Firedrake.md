@@ -28,6 +28,11 @@ Try the following:
  3. Run the `make ...` command recommended in the log text from `make reconfigure` (it will probably be `make PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default all`)
 
 ### If you have modified the API and therefore need to update `petsc4py`
- 1. Navigate to `[firedrake-install-dir]/src/petsc4py`. 
- 2. Set the PETSC_DIR and PETSC_ARCH environment variables with the `export PETSC_DIR = PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default` and `export PETSC_ARCH=default` commands
- 3. Run `pip install -U --no-deps .`
+See below
+
+# Updating `petsc4py`
+If local changes are made to `petsc4py` the following will update firedrake to reflect those changes:
+ 1. Activate the firedrake venv
+ 2. Navigate to `[firedrake-install-dir]/src/petsc4py`. 
+ 3. Set the PETSC_DIR and PETSC_ARCH environment variables with the `export PETSC_DIR = PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default` and `export PETSC_ARCH=default` commands
+ 4. Run `pip install -U --no-deps .` petsc4py should now be updated.

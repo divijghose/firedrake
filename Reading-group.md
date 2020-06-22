@@ -29,3 +29,52 @@ We got a little hung up on Hilbert space interpolation. Gonzalo suggests that th
 #### 2020-06-08
 
 We introduced more finite element theory. In particular Scott-Zhang interpolation, inverse inequalities, and partition of unity methods. We then started on theory for parameter-dependent problems and the migration to a mixed formulation. We showed that the mixed problem B<sup>ε</sup> has parameter-dependent continuity constant in the parameter-dependent V×εQ-norm. We finished with discussion of the remark before Theorem 2.8 and the introduction of the dual ||·||<sub>Q,0</sub> norm, which is introduced such that ΛV has closed range with respect to this new norm. Gonzalo wrote up some more detailed notes [explaining this point](docs/operators-dense-range-inf-sup.pdf).
+
+#### 2020-06-15
+
+We covered the parameter-dependent case of the mixed problem and introduced some new norms, along with Fortin operators as a useful tool for moving from continuous to discrete inf-sup conditions.
+
+#### 2020-06-22
+
+We gathered our thoughts before embarking on examples, particularly, we reminded ourselves of the various different norms in play.
+
+- ||u||<sub>V</sub> = (u, u)<sub>V</sub><sup>½</sup>
+- ||u||<sub>A<sup>ε</sup></sub> = A<sup>ε</sup>(u, u)<sup>½</sup>
+    - A<sup>1</sup> is V-elliptic, so norm-equivalence ||u||<sub>V</sub> ≃ ||u||<sub>A<sup>1</sup></sub>
+- ||p||<sub>c</sub> = c(p, p)<sup>½</sup>
+- ||u, p||<sub>V×εc</sub> = (||u||<sup>2</sup><sub>V</sub> + ε||p||<sub>c</sub><sup>2</sup>)<sup>½</sup>
+- ||p||<sub>Q,0</sub> ≃ sup<sub>v ∈ V</sub> c(Λ v, p)/||v||<sub>V</sub>
+- ||p||<sub>Q</sub> = (||p||<sub>Q,0</sub><sup>2</sup> + ε||p||<sub>c</sub><sup>2</sup>)<sup>½</sup>
+- ||u, p||<sub>X</sub> = ||u||<sub>V</sub> + ||p||<sub>Q</sub>
+
+Also have some norms on the discrete spaces.
+
+- ||u<sub>h</sub>||<sub>A<sub>h</sub><sup>ε</sup></sub> = A<sub>h</sub><sup>ε</sup>(u, u)<sup>½</sup>
+    - In general must check V<sub>h</sub> ellipticity of  A<sub>h</sub><sup>1</sup>, if we have it, then ||u||<sub>V</sub> ≃ ||u||<sub>A<sub>h</sub><sup>1</sup></sub>
+- ||p<sub>h</sub>||<sub>Q<sub>h</sub>,0</sub> ≃ sup<sub>v<sub>h</sub> ∈ V<sub>h</sub></sub> c(Λ<sub>h</sub> v<sub>h</sub>, p)/||v<sub>h</sub>||<sub>V</sub>
+- ||p<sub>h</sub>||<sub>Q<sub>h</sub></sub> = (||p<sub>h</sub>||<sub>Q<sub>h</sub>,0</sub><sup>2</sup> + ε||p<sub>h</sub>||<sub>c</sub><sup>2</sup>)<sup>½</sup>
+- ||u<sub>h</sub>, p<sub>h</sub>||<sub>X<sub>h</sub></sub> = ||u<sub>h</sub>||<sub>V</sub> + ||p<sub>h</sub>||<sub>Q<sub>h</sub></sub>
+
+Existence of a Fortin operator is required to that we have equivalence of ||·||<sub>Q</sub> and ||·||<sub>Q<sub>h</sub></sub> (and then ||·||<sub>X</sub> and ||·||<sub>X<sub>h</sub></sub>).
+
+We then briefly summarised the abstract framework for showing that the discretisation will be parameter robust. Given a bilinear form in primal variables we must:
+
+- Identify a, c, Λ, and ε
+- Check A<sup>1</sup> for V-ellipticity
+- Introduce dual variable p = ε<sup>-1</sup>Λu
+- Define ||·||<sub>Q</sub>
+- Show ||·||<sub>Q</sub> ≃ ||·||<sub>c</sub>
+
+We must then show stability of the continuous mixed formulation. We then discretise and:
+
+- Pick V<sub>h</sub> ⊂ V and Q<sub>h</sub> ⊂ Q
+- Define Λ<sub>h</sub>
+- (Maybe) separately check V<sub>h</sub>-ellipticity of A<sup>1</sup><sub>h</sub>
+- Pick c-stable space splitting Q<sub>h</sub> = Q<sub>0,h</sub> + Q<sub>1,h</sub>
+    - show ||p<sub>0</sub>||<sub>Q</sub> ≼ ε<sup>½</sup>||p<sub>0</sub>||<sub>c</sub> for all p<sub>0</sub> ∈ Q<sub>h,0</sub>
+    - Construct a Fortin operator I<sup>F</sup><sub>h</sub>with
+        1. c(ΛI<sup>F</sup><sub>h</sub> u, q<sub>1</sub>) = c(Λ u, q<sub>1</sub>) for all q<sub>1</sub> ∈ Q<sub>h,1</sub>, u ∈ V.
+        2. ||I<sup>F</sup><sub>h</sub>||<sub>V</sub> ≼ 1
+        
+Some bibliographic comments. In the general case the continuity of the Fortin operator depends on both the polynomial degree of V<sub>h</sub> and the shape regularity constants in the mesh. Many discretisations have continuity constants that degree with (at least) the square root of the aspect ratio. There is a brief summary of results where this is not the case in [Apel, Kempf, Linke, and Merdon (2020)](https://arxiv.org/pdf/2002.12127.pdf). Note particularly that the Crouzeix–Raviart H<sup>1</sup>-nonconforming element has a continuity constant of 1 on all simplex meshes (see [Apel, Nicaise, and Schöberl (2001)](https://doi.org/10.1007/PL00005466).
+

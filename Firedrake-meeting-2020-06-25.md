@@ -22,7 +22,7 @@ Apologies:
  - Deadline for submission of minisymposterium proposals: August 31, 2020 (11:59 p.m. Eastern Time)
 Minisymposterium has to list all poster titles when it is proposed, so poster submissions need to be in already.
 
-### Solution:
+### Proposed Solution:
 RWH will put together Qualtrics survey to be circulated amongst relevant circles ASAP containing minisymposterium title and abstract which will collect poster abstracts which can then be submitted with the final minisymposterium. RWH just needs minisymposterium title, abstract and submission deadline (e.g. August 25th 2020).
 
 ## Tuomas Karna - equispaced coordinate fields

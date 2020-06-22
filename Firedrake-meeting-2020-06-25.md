@@ -10,10 +10,13 @@ Date and time 2020-06-25 15:00UTC (16:00BST)
 1. \*\*: Add `--remove-build-files` to make install smaller; convert this to an issue
 
 # Minutes
-Present: David Ham, Lawrence Mitchell, Dan Shapero, Jack Betteridge, Koki Sagiyama, Rob Kirby, Reuben Hill, Paul Kelly, Nacime Bouziani, Tom Gregory, Sophia Vorderwuelbecke
+
+Present:
 
 Apologies:
 
+## Status of Complex Sprint Merge (added by RWH)
+What still needs to be done?
 
 ## RWH - CSE minisymposterium
 
@@ -25,7 +28,7 @@ Minisymposterium has to list all poster titles when it is proposed, so poster su
 ### Proposed Solution:
 RWH will put together Qualtrics survey to be circulated amongst relevant circles ASAP containing minisymposterium title and abstract which will collect poster abstracts which can then be submitted with the final minisymposterium. RWH just needs minisymposterium title, abstract and submission deadline (e.g. August 25th 2020).
 
-## Tuomas Karna - equispaced coordinate fields
+## Tuomas Karna - Equispaced Coordinate Fields (added by RWH)
 See https://github.com/firedrakeproject/firedrake/pull/1732 
 
 ## Date of next meeting

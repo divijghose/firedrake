@@ -29,6 +29,9 @@ Minisymposterium has to list all poster titles when it is proposed, so poster su
 RWH will put together Qualtrics survey to be circulated amongst relevant circles ASAP containing minisymposterium title and abstract which will collect poster abstracts which can then be submitted with the final minisymposterium. RWH just needs minisymposterium title, abstract and submission deadline (e.g. August 25th 2020).
 
 ## Tuomas Karna - Equispaced Coordinate Fields (added by RWH)
+- Should coordinates be in equispaced function space by default?
+- Should `FunctionSpace` constructor have the variant as an argument?
+
 See https://github.com/firedrakeproject/firedrake/pull/1732 
 
 ## Date of next meeting

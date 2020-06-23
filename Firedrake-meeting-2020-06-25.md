@@ -34,5 +34,18 @@ RWH will put together Qualtrics survey to be circulated amongst relevant circles
 
 See https://github.com/firedrakeproject/firedrake/pull/1732 
 
+## RWH - Should `cell_node_map` be `None` for a VertexOnlyMesh?
+PyOP2 has an apparently implicit Identity map which would ideally be implemented for a VertexOnlyMesh.
+To use this you have to set the `map` argument to `None` when creating a PyOP2 `Arg`:
+```
+class Arg(object):
+    ...
+    def __init__(self, data=None, map=None, access=None, lgmaps=None, unroll_map=False):
+        ...
+        :param map:  A :class:`Map` to access this :class:`Arg` or the default
+                     if the identity map is to be used.
+```
+How should this be best utilised (if at all)?
+
 ## Date of next meeting
 2020-06-30 15:00UTC (16:00BST)

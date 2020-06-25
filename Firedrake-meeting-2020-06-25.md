@@ -50,5 +50,8 @@ How should this be best utilised (if at all)?
 ## RWH - Getting FIAT and UFL vertex cell PRs merged
 See https://github.com/FEniCS/fiat/pull/41 and https://github.com/FEniCS/fiat/pull/41
 
+## DHam/MKan 
+Design of FInAT dual evaluation interface.
+
 ## Date of next meeting
 2020-06-30 15:00UTC (16:00BST)

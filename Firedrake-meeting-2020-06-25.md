@@ -11,12 +11,18 @@ Date and time 2020-06-25 15:00UTC (16:00BST)
 
 # Minutes
 
-Present:
+Present: Lawrence Mitchell, David Ham, Jack Betteridge, Koki Sagiyama,
+Reuben Hill, Matthew Kan, Nacime Bouziani, Stephan Kramer, Sophia
+Vorderwuelbecke, Tom Gregory, Rob Kirby
 
 Apologies:
 
 ## Status of Complex Sprint Merge (added by RWH)
 What still needs to be done?
+
+DH: Not much still needs to be done. 
+
+Action: DH to run through once term is over.
 
 ## RWH - CSE minisymposterium
 
@@ -27,6 +33,11 @@ Minisymposterium has to list all poster titles when it is proposed, so poster su
 
 ### Proposed Solution:
 RWH will put together Qualtrics survey to be circulated amongst relevant circles ASAP containing minisymposterium title and abstract which will collect poster abstracts which can then be submitted with the final minisymposterium. RWH just needs minisymposterium title, abstract and submission deadline (e.g. August 25th 2020).
+
+Probably need to set deadline for close of play August 30th (since
+everyone always submits as late as possible).
+
+Action: RWH harass DH about abstract/title.
 
 ## Tuomas Karna - Equispaced Coordinate Fields (added by RWH)
 - Should coordinates be in equispaced function space by default?
@@ -47,11 +58,42 @@ class Arg(object):
 ```
 How should this be best utilised (if at all)?
 
+Something like an IdentityMap object that takes an iterset and a
+toset, but has no values.
+
 ## RWH - Getting FIAT and UFL vertex cell PRs merged
-See https://github.com/FEniCS/fiat/pull/41 and https://github.com/FEniCS/fiat/pull/41
+See https://github.com/FEniCS/fiat/pull/41 and https://github.com/FEniCS/ufl/pull/30
+
+FIAT thing looks good: squash+rebase and then prod for approval/merge.
+
+UFL: check change of finiteelementbase.__init__ call.
 
 ## DHam/MKan 
 Design of FInAT dual evaluation interface.
+
+What should the right interface look like?
+
+DH:
+
+```
+function : gem.PointSet -> gem # evaluation of expression at points
+dual_evaluation : function -> gem
+```
+
+Questions: 
+
+1. nodes with derivatives?
+2. tensor product elements?/zany elements?
+3. should there be a dual basis for finat elements?
+
+Probably want finat-level Functionals so that composition of
+functionals works properly.
+
+Pull back expressions, or push forward duals?
+
+## LM: PETSc is scoping PETSc 4.0
+
+See https://gitlab.com/petsc/petsc/-/issues?label_name%5B%5D=petsc-future
 
 ## Date of next meeting
 2020-06-30 15:00UTC (16:00BST)

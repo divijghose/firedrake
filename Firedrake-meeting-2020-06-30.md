@@ -27,5 +27,10 @@ PETSc are [scoping ideas for 4.0](https://gitlab.com/petsc/petsc/-/issues/643), 
 
 See https://gitlab.com/petsc/petsc/-/issues?label_name%5B%5D=petsc-future for discussion so far.
 
+## SVDW : Vectorisation
+Loopy branch here https://github.com/firedrakeproject/loopy/pull/6/files
+PyOP2 branch here https://github.com/OP2/PyOP2/pull/581
+Firedrake test run here https://github.com/firedrakeproject/firedrake/tree/trigger-tests-for-vec, 2 tests are still failing
+
 ## Date of next meeting
 2020-07-07 15:00UTC (16:00BST)

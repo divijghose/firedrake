@@ -21,5 +21,11 @@ Apologies:
 
 See https://github.com/firedrakeproject/firedrake/pull/1732 
 
+## LM : PETSc 4.0
+
+PETSc are [scoping ideas for 4.0](https://gitlab.com/petsc/petsc/-/issues/643), no idea is a priori off the table, are there things we wish they had?
+
+See https://gitlab.com/petsc/petsc/-/issues?label_name%5B%5D=petsc-future for discussion so far.
+
 ## Date of next meeting
 2020-07-07 15:00UTC (16:00BST)

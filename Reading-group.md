@@ -55,7 +55,7 @@ Also have some norms on the discrete spaces.
 - ||p<sub>h</sub>||<sub>Q<sub>h</sub></sub> = (||p<sub>h</sub>||<sub>Q<sub>h</sub>,0</sub><sup>2</sup> + ε||p<sub>h</sub>||<sub>c</sub><sup>2</sup>)<sup>½</sup>
 - ||u<sub>h</sub>, p<sub>h</sub>||<sub>X<sub>h</sub></sub> = ||u<sub>h</sub>||<sub>V</sub> + ||p<sub>h</sub>||<sub>Q<sub>h</sub></sub>
 
-Existence of a Fortin operator is required to that we have equivalence of ||·||<sub>Q</sub> and ||·||<sub>Q<sub>h</sub></sub> (and then ||·||<sub>X</sub> and ||·||<sub>X<sub>h</sub></sub>).
+Existence of a Fortin operator is required so that we have equivalence of ||·||<sub>Q</sub> and ||·||<sub>Q<sub>h</sub></sub> (and then ||·||<sub>X</sub> and ||·||<sub>X<sub>h</sub></sub>).
 
 We then briefly summarised the abstract framework for showing that the discretisation will be parameter robust. Given a bilinear form in primal variables we must:
 
@@ -78,3 +78,15 @@ We must then show stability of the continuous mixed formulation. We then discret
         
 Some bibliographic comments. In the general case the continuity of the Fortin operator depends on both the polynomial degree of V<sub>h</sub> and the shape regularity constants in the mesh. Many discretisations have continuity constants that degrade with (at least) the square root of the aspect ratio and/or discretisation degree. There is a brief summary of results where this is not the case in [Apel, Kempf, Linke, and Merdon (2020)](https://arxiv.org/pdf/2002.12127.pdf). Note particularly that the Crouzeix–Raviart H<sup>1</sup>-nonconforming element has a continuity constant of 1 on all simplex meshes ([Apel, Nicaise, and Schöberl, 2001](https://doi.org/10.1007/PL00005466)).
 
+#### 2020-06-29
+
+We went briefly recapped some of the abstract framework again and then
+applied it to the section on nearly incompressible materials, before
+starting on the more complicated results needed for the
+Reissner&endash;Mindlin plate. The construction and demonstration of
+the regularity result in (2.87) was somewhat confusing, but it's
+actually just done by applying the Riesz representation theorem to
+find the Riesz representer of each linear functional.
+
+Some more detailed [notes are
+available](docs/schoeberl-notes-section-2.4-part1.pdf).

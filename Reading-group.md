@@ -83,7 +83,7 @@ Some bibliographic comments. In the general case the continuity of the Fortin op
 We went briefly recapped some of the abstract framework again and then
 applied it to the section on nearly incompressible materials, before
 starting on the more complicated results needed for the
-Reissner--Mindlin plate. The construction and demonstration of
+Reissner–Mindlin plate. The construction and demonstration of
 the regularity result in (2.87) was somewhat confusing, but it's
 actually just done by applying the Riesz representation theorem to
 find the Riesz representer of each linear functional.

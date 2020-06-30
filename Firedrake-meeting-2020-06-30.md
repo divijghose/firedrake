@@ -19,7 +19,7 @@ Apologies:
 - Should coordinates be in equispaced function space by default?
 - Should `FunctionSpace` constructor have the variant as an argument?
 
-See https://github.com/firedrakeproject/firedrake/pull/1732 
+See issue [1763](https://github.com/firedrakeproject/firedrake/issues/1763), PR [1732](https://github.com/firedrakeproject/firedrake/pull/1732)
 
 ## LM : PETSc 4.0
 

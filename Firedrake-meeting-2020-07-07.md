@@ -8,6 +8,7 @@ Date and time 2020-07-07 15:00UTC (16:00BST)
 1. \*\*: Think about the correct mathematical formulation for Filtered
 1. DH: ~Find time to fix to get final complex sprint test passing.~ ~Now passing~ \*\*: Review this.
 1. \*\*: Add `--remove-build-files` to make install smaller; convert this to an issue
+1. RCK: discuss FIAT progress for dual spaces, what to do in FInAT dual evaluation?
 
 # Minutes
 

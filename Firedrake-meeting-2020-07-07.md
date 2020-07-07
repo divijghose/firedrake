@@ -7,8 +7,8 @@ Date and time 2020-07-07 15:00UTC (16:00BST)
 (and hence what is needed in UFL, and whether it matches the existing Fenics efforts). Try an alternative description and make previously agreed changes.
 1. \*\*: Think about the correct mathematical formulation for Filtered
 1. DH: ~Find time to fix to get final complex sprint test passing.~ ~Now passing~ \*\*: Review this.
-1. \*\*: Add `--remove-build-files` to make install smaller; convert this to an issue
-1. RCK: discuss FIAT progress for dual spaces, what to do in FInAT dual evaluation?
+1. ~\*\*: Add `--remove-build-files` to make install smaller; convert this to an issue~ [#1771](https://github.com/firedrakeproject/firedrake/issues/1771)
+
 
 # Minutes
 
@@ -16,5 +16,10 @@ Present:
 
 Apologies:
 
+## RCK: discuss FIAT progress for dual spaces, what to do in FInAT dual evaluation?
+
+## LM: reworking MG interpolation
+
+## LM: Vectorisation status
 ## Date of next meeting
 2020-07-07 15:00UTC (16:00BST)

@@ -21,5 +21,12 @@ Apologies:
 ## LM: reworking MG interpolation
 
 ## LM: Vectorisation status
+
+## JB: SIAM-CSE
+Thoughts on running minisyposia as well as minisymposterium? Chased up Chris Richardson and he's very keen to contribute for possible Exascale simulation themed mini. (Also happy to contribute a poster).
+
+## JB: Randomgen
+Is Firedrake currently using any features of randomgen that aren't now in numpy?
+
 ## Date of next meeting
 2020-07-07 15:00UTC (16:00BST)

@@ -34,5 +34,5 @@ See below
 If local changes are made to `petsc4py` the following will update firedrake to reflect those changes:
  1. Activate the firedrake venv
  2. Navigate to `[firedrake-install-dir]/src/petsc4py`. 
- 3. Set the PETSC_DIR and PETSC_ARCH environment variables with the `export PETSC_DIR=[firedrake-install-dir]/src/petsc PETSC_ARCH=default` and `export PETSC_ARCH=default` commands
+ 3. Set the PETSC_DIR and PETSC_ARCH environment variables with the `export PETSC_DIR=[firedrake-install-dir]/src/petsc` and `export PETSC_ARCH=default` commands
  4. Run `pip install -U --no-deps .` petsc4py should now be updated.

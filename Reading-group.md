@@ -96,3 +96,14 @@ available](docs/schoeberl-notes-section-2.4.pdf).
 We applied the abstract framework to the Reissner-Mindlin plate taking
 us to the end of chapter 2. Once again, Gonzalo provided some more
 [detailed notes](docs/schoeberl-notes-section-2.4.pdf).
+
+#### 2020-07-13
+
+We went through the introduction of the abstract additive Schwarz
+framework. In particular the proof that the splitting norm is
+equal to the norm defined by the additive Schwarz preconditioner. This
+tool is used to determine spectral bounds for the operator. We looked
+at the upper bound and saw how to estimate it in terms of the number
+of overlapping subspaces. For a more detailed overview of these
+methods, Michael Holst has some [nice
+notes](https://ccom.ucsd.edu/~mholst/pubs/dist/Hols94c.pdf).

@@ -89,4 +89,10 @@ actually just done by applying the Riesz representation theorem to
 find the Riesz representer of each linear functional.
 
 Some more detailed [notes are
-available](docs/schoeberl-notes-section-2.4-part1.pdf).
+available](docs/schoeberl-notes-section-2.4.pdf).
+
+#### 2020-07-06
+
+We applied the abstract framework to the Reissner-Mindlin plate taking
+us to the end of chapter 2. Once again, Gonzalo provided some more
+[detailed notes](docs/schoeberl-notes-section-2.4.pdf).

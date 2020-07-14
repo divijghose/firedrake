@@ -27,5 +27,13 @@ There is a factorisation node in Slate, which takes the type of factorisation as
 # DRS: American Geophysical Union Fall Meeting
 Anyone interested in teaming up for this?
 
+# KS: Correct UFL interface?
+V = ufl.FunctionSpace(...)
+v = ufl.TestFunction(V)
+V0 = ufl.Subspace(V)  # terminal
+v0 = ufl.Maked(v, V0)  # terminal_modifier: v0 = v if v in V0 else 0
+v1 = v - v0
+a = inner(u, v0) * ds + inner(u, v1) * ds
+
 ## Date of next meeting
 2020-07-21 15:00UTC (16:00BST)

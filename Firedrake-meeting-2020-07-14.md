@@ -15,14 +15,14 @@ Date and time 2020-07-14 15:00UTC (16:00BST)
 
 Present: 
 
-Apologies: Reuben Hill
-
-# JB: Cholesky factor
-Can we assemble F*x, where F contains a local Cholesky factorisation?
-There is a factorisation node in Slate, which takes the type of factorisation as argument, can we use that?
+Apologies: Reuben Hill, Jack Betteridge
 
 # SV: Tsslac
 Can we merge?
+
+# Move to next week: (JB: Cholesky factor)
+Can we assemble F*x, where F contains a local Cholesky factorisation?
+There is a factorisation node in Slate, which takes the type of factorisation as argument, can we use that?
 
 ## Date of next meeting
 2020-07-21 15:00UTC (16:00BST)

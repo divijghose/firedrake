@@ -15,7 +15,7 @@ Date and time 2020-07-14 15:00UTC (16:00BST)
 
 Present: 
 
-Apologies: Reuben Hill, Jack Betteridge
+Apologies: Reuben Hill, Jack Betteridge, Nacime Bouziani
 
 # SV: Tsslac
 Can we merge?

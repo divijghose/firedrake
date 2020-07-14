@@ -8,3 +8,5 @@ If you're interested in working on a presentation please put your name down unde
 Firedrake implements a fortuitous combination of extruded meshes, language extensions to UFL for manipulating forms defined on these meshes, tensor product finite elements, and specialized codegen optimizations like sum factorization.
 We'll describe how these features are invaluable for implementing models across the geophysical sciences, many of which exhibit a layered structure in the vertical dimension.
 In particular, they are used in the atmospheric model Gusto, the ocean model Thetis, and the ice sheet model Icepack.
+
+People: Daniel Shapero

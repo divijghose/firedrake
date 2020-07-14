@@ -29,7 +29,7 @@ There is a factorisation node in Slate, which takes the type of factorisation as
 
 # DRS: American Geophysical Union Fall Meeting
 
-Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241
+[Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241)
 DRS: Anyone interested in teaming up for this? Many people asked me about firedrake and its advantages for geoscientific models (layers, tensors meshes, etc.). Meeting is virtual. Submission deadline 29 July 2020 (2 weeks!).
 
 DRS to set up a wiki page as a focal point for firedrake submissions. SK to advertise in AMCG/Earth Science dept.

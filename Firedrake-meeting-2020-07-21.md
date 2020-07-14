@@ -9,7 +9,7 @@ Date and time 2020-07-21 15:00UTC (16:00BST)
 1. ALL: Please review complex.
 1. DH: Provide RWH with abstract and title for SIAM-CSE minisymposterium to make into qualtrics survey
 1. DH: Provide JB with contacts for SIAM-CSE Exascale simulation themed minisymposium
-1. KS: set up wiki page for AGU submissions to [Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241)
+1. KS: set up wiki page for AGU submissions to [Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241) session.
 
 
 # Minutes

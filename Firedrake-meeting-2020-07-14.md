@@ -25,6 +25,9 @@ Can we assemble F*x, where F contains a local Cholesky factorisation?
 There is a factorisation node in Slate, which takes the type of factorisation as argument, can we use that?
 
 # DRS: American Geophysical Union Fall Meeting
+
+[Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241)
+
 Anyone interested in teaming up for this?
 
 # KS: Correct UFL interface?

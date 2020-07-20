@@ -9,7 +9,7 @@ Date and time 2020-07-21 15:00UTC (16:00BST)
 1. ALL: Please review complex.
 1. DH: Provide RWH with abstract and title for SIAM-CSE minisymposterium to make into qualtrics survey
 1. DH: Provide JB with contacts for SIAM-CSE Exascale simulation themed minisymposium
-1. KS: set up wiki page for AGU submissions to [Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241) session.
+1. DRS: ~set up wiki page for AGU submissions~ to [Addressing Challenges for the Next Generation of Earth System Models](https://agu.confex.com/agu/fm20/prelim.cgi/Session/103241) session, [wiki page for AGU 2020](https://github.com/firedrakeproject/firedrake/wiki/American-Geophysical-Union-Fall-Meeting-2020)
 
 
 # Minutes
@@ -22,6 +22,8 @@ Apologies:
 
 ## RWH - Add link to firedrake youtube channel in documentation
 See https://github.com/firedrakeproject/firedrake/pull/1785
+
+## DRS - installation debugging flowchart
 
 ## Date of next meeting
 2020-07-28 15:00UTC (16:00BST)

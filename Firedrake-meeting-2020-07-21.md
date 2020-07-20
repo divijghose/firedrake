@@ -17,8 +17,11 @@ Date and time 2020-07-21 15:00UTC (16:00BST)
 Present:  
 Apologies:
 
-## Rename `split()` to `ufl_split()` or similar?
-Apparently the difference between `split()` and `v.split()` catches lots of people out. Is there any reason to not rename one of the functions?
+## RWH - Rename `split()` to `ufl_split()` or similar?
+(Apologies if discussed before) Apparently the difference between `split()` and `v.split()` catches lots of people out. Is there any reason to not rename one of the functions?
+
+## RWH - Add link to firedrake youtube channel in documentation
+See https://github.com/firedrakeproject/firedrake/pull/1785
 
 ## Date of next meeting
 2020-07-28 15:00UTC (16:00BST)

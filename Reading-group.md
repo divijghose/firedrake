@@ -107,3 +107,27 @@ at the upper bound and saw how to estimate it in terms of the number
 of overlapping subspaces. For a more detailed overview of these
 methods, Michael Holst has some [nice
 notes](https://ccom.ucsd.edu/~mholst/pubs/dist/Hols94c.pdf).
+
+#### 2020-07-20
+
+We went through the spectral inequalities for the one-level domain
+decomposition method. We note a repeated technique in the proofs when
+using the splitting norm. We construct bounds on the energy norm by
+providing an explicit splitting that obeys one side of an inequality
+we want to show. To relate this to the preconditioner
+(Additive-Schwarz) norm, we go via the splitting norm and then apply
+the Additive-Schwarz Lemma (Theorem 3.1). Since this splitting norm is
+defined as inf-ing over all valid splittings, if we have a witness
+splitting then we obtain an inequality of the form |||u||| ≤ ∑
+||u<sub>i</sub>||<sub>A<sub>h</sub></sub>. This method is used, for example, 
+in proving Theorem 3.4.
+
+Noting that the one-level method does not provide optimal spectral
+constants, we then constructed a two-level system with a coarse grid.
+The crucial properties relating the coarse grid problem are collected
+in Lemma 3.5. While the two-level method provides optimal bounds, it
+is not scalable, since the coarse grid must grow with the overall
+problem size. We will therefore turn to multigrid methods to solve
+this.
+
+#### Summer break until 2020-08-10

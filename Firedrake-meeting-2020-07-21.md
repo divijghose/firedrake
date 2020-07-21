@@ -16,6 +16,7 @@ Date and time 2020-07-21 15:00UTC (16:00BST)
 # Minutes
 
 Present: David Ham, Reuben Hill, Jack Betteridge, Nacime Bouziani, Lawrence Mitchell, Patrick Farrell, Dan Shapero, Sophia Vdw, Koki Sagiyama, Tom Gregory, MKan, mohamadusman
+
 Apologies:
 
 ## RWH - Rename `split()` to `ufl_split()` or similar?

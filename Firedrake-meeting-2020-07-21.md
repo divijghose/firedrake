@@ -1,7 +1,7 @@
 Date and time 2020-07-21 15:00UTC (16:00BST)
 
 # Action Items
-1. **Choose someone to minute and chair**
+1. Chair - Lawrence Mitchell; Minutes - Thomas Gregory
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. KS, (DH, LM): Document describing what we think the mixed domain interface should look like
 (and hence what is needed in UFL, and whether it matches the existing Fenics efforts). Try an alternative description and make previously agreed changes.

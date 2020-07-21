@@ -1,5 +1,10 @@
 This page collates agendas and minutes for Firedrake development meetings. Dates and times are also available in [this google calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com).
 
+The meeting is held via Zoom:
+
+- Meeting ID: 935 6093 9004
+- Password: 022787
+
 ## Upcoming meetings
 
 Next meeting 2020-08-11.

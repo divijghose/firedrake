@@ -1,9 +1,11 @@
 This page collates agendas and minutes for Firedrake development meetings. Dates and times are also available in [this google calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com).
 
 ## Upcoming meetings
-- [2020-07-21](./Firedrake-meeting-2020-07-21)
+
+Next meeting 2020-08-11.
 
 ## Past meetings
+- [2020-07-21](./Firedrake-meeting-2020-07-21)
 - [2020-07-14](./Firedrake-meeting-2020-07-14)
 - [2020-07-07](./Firedrake-meeting-2020-07-07)
 - [2020-06-30](./Firedrake-meeting-2020-06-30)

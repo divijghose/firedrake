@@ -25,5 +25,8 @@ See https://github.com/firedrakeproject/firedrake/pull/1785
 
 ## DRS - installation debugging flowchart
 
+## JB: PR #1786
+Smaller Firedrake, newer VTK
+
 ## Date of next meeting
 2020-07-28 15:00UTC (16:00BST)

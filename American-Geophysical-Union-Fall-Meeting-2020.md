@@ -9,4 +9,4 @@ Firedrake implements a fortuitous combination of extruded meshes, language exten
 We'll describe how these features are invaluable for implementing models across the geophysical sciences, many of which exhibit a layered structure in the vertical dimension.
 In particular, they are used in the atmospheric model Gusto, the ocean model Thetis, and the ice sheet model Icepack.
 
-People: Daniel Shapero
+People: Daniel Shapero, Tuomas Kärnä

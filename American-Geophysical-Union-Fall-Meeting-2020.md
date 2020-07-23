@@ -10,3 +10,9 @@ We'll describe how these features are invaluable for implementing models across 
 In particular, they are used in the atmospheric model Gusto, the ocean model Thetis, and the ice sheet model Icepack.
 
 People: Daniel Shapero, Tuomas Kärnä
+
+### Automating Code Generation for Point Evaluation in Geoscience Models
+
+Firedrake is a code generation system which enables straightforward and scalable model development using finite element methods via high level abstractions of mathematical concepts. Examples include the ice sheet model Icepack, the atmospheric model Gusto, and the ocean model Thetis. In this poster we present progress towards evaluating, manipulating, assimilating and creating equation systems with large numbers of point measurements, such as satellite measurements of ice sheet elevation, into such models. The entire framework is compatible with the automated adjoint system pyadjoint, facilitating automated code generation for inverse problems with point data. This work is part of a broader project aiming to use Domain Specific Languages (DSLs) to automate diagnostics of geoscientific models with very large output data sets.
+
+People: Reuben Hill

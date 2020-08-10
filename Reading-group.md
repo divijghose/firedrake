@@ -133,3 +133,36 @@ problem size. We will therefore turn to multigrid methods to solve
 this.
 
 #### Summer break until 2020-08-10
+
+#### 2020-08-10
+
+We finished off chapter 3 by introducing the abstract framework for
+multigrid analysis. This uses the approach of [Hackbusch
+(1982)](https://link.springer.com/chapter/10.1007/BFb0069929). In
+particular we introduced the norms involved in the approximation and
+smoothing properties. The theory is covered in a very general way that
+does not require full elliptic regularity, and hence is littered with
+fractional Sobolev norms. For second-order problems with full
+regularity the relevant norms simplify to H<sup>1</sup> for the energy
+norm, and a scaled L<sup>2</sup>-like norm for the local norm
+\||·||<sub>l,0̅</sub>. The chapter finishes by collecting the
+convergence results of Hackbusch for abstract multigrid convergence.
+In particular that the contraction factor of a W-cycle with fixed
+numbers of smoothing iterations is bounded, and that the condition
+number of a variable V-cycle is also bounded (increasing numbers of
+iterations on coarse grids). For the former, one is referred to
+[Hackbusch (1985)](https://www.springer.com/gp/book/9783540127611),
+for the latter, [Bramble
+(1993)](https://doi.org/10.1201/9780203746332) and [Bramble, Pasciak,
+and Xu (1991)](https://doi.org/10.1090/S0025-5718-1991-1052086-4). The
+notation of Bramble (1993) is translated into that used here.
+
+For a little more detail on the multigrid analysis, in addition to the
+papers referenced above, see [these notes of
+Schöberl](https://www.asc.tuwien.ac.at/~schoeberl/wiki/lva/notes/multigrid.pdf).
+
+The next steps are to glue together the discretisation results of
+Chapter 2 and the multigrid theory of Chapter 3 to produce parameter
+robust preconditioners. This will entail producing space splittings
+and the subsequent approximation and smoothing properties such that
+the bounds have no dependence on the small parameter.

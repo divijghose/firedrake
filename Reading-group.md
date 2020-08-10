@@ -97,6 +97,8 @@ We applied the abstract framework to the Reissner-Mindlin plate taking
 us to the end of chapter 2. Once again, Gonzalo provided some more
 [detailed notes](docs/schoeberl-notes-section-2.4.pdf).
 
+### Chapter 3
+
 #### 2020-07-13
 
 We went through the introduction of the abstract additive Schwarz

@@ -18,3 +18,6 @@ Present:
 Apologies:
 
 # Agenda
+
+## JB: Update on numpy/BLAS/gfortran bug
+

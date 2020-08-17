@@ -206,3 +206,10 @@ A<sub>h</sub> to move from V<sub>h</sub> to A<sub>h</sub>-norms.
 Next up, we'll see how to add a coarse grid to the preconditioner,
 obtaining optimal spectral bounds. This will require constructing a
 robust prolongation operator to satisfy the requirements of Lemma 3.5.
+
+#### 2020-08-24
+
+
+#### 2020-08-31 No session, bank holiday
+
+#### 2020-09-07

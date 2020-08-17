@@ -166,3 +166,43 @@ Chapter 2 and the multigrid theory of Chapter 3 to produce parameter
 robust preconditioners. This will entail producing space splittings
 and the subsequent approximation and smoothing properties such that
 the bounds have no dependence on the small parameter.
+
+### Chapter 4
+
+#### 2020-08-17
+
+We kicked off with Chapter 4, which develops the theorems for
+parameter robust multigrid solvers. First we saw an example of how
+Jacobi preconditioning does not control the ε-dependence in the
+condition number of the Timoshenko beam. We then saw how an
+overlapping Schwarz smoother _does_ control the ε-dependence. There is
+one wrinkle which will complicate later analysis is that the
+h-dependence gets worse: from h<sup>2</sup> for the Jacobi
+preconditioner to h<sup>4</sup> for the block Jacobi version.
+
+We then introduced and went through the proof of Theorem 4.1 which
+provides the conditions for a parameter-robust Schwarz smoother based
+on some space composition.
+
+Essentially we need the three conditions (4.2–4.4) which describe
+stable splittings of functions in V<sub>h</sub>, stable splittings of
+kernel functions, and a requirement on the bound of the
+c<sub>h</sub>-norm in terms of the Q<sub>h,0</sub>-norm.
+
+There is an error in the statement of the first inequality in (4.5),
+it should read
+
+(c<sub>2</sub>(h) + c<sub>1</sub>(h)c<sub>3</sub>(h)<sup>2</sup>)<sup>-1</sup>.
+
+To prove the spectral inequalities we use the finite overlap lemma for
+the upper bound and the additive Schwarz lemma for the lower bound.
+This allows us to transition from the preconditioner norm to a sum
+over the space-decomposed pieces. Splitting the u<sub>i</sub> into
+pieces, we then use the stable splitting assumptions. To get back into
+the V<sub>h</sub> norm, we use the stability estimates coming from the
+Brezzi conditions (Theorem 2.8), along with the ellipticity of
+A<sub>h</sub> to move from V<sub>h</sub> to A<sub>h</sub>-norms.
+
+Next up, we'll see how to add a coarse grid to the preconditioner,
+obtaining optimal spectral bounds. This will require constructing a
+robust prolongation operator to satisfy the requirements of Lemma 3.5.

@@ -1,7 +1,7 @@
 Date and time 2020-08-11 15:00UTC (16:00BST)
 
 # Action Items
-1. Pick Chair and Minuter.
+1. ~Pick Chair and Minuter.~
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. KS, (DH, LM): Document describing what we think the mixed domain interface should look like
 (and hence what is needed in UFL, and whether it matches the existing Fenics efforts). Try an alternative description and make previously agreed changes.
@@ -14,9 +14,19 @@ Date and time 2020-08-11 15:00UTC (16:00BST)
 
 # Agenda
 
-Present: 
+Present: RK, LM, JB, KS, CJC, DRS, IY, MK, NB, PHJK, SK, SV, WS
 
 Apologies: 
+
+## Ongoing numpy/blas issues
+
+Batched blas stuff current candidate is MKL
+
+RK: are there any licensing issues here.
+
+JB: Would it work on ARM?
+
+Action: All with MacOS systems, see if you can reproduce problem.
 
 ## CC: Parallel multigrid for sphere meshes
 
@@ -34,12 +44,18 @@ if it is due to the editing of the coordinate mesh, or the fact that we used Ple
 Similar things arise with PeriodicMesh where Patrick has something on a branch. Patrick was wondering if there might be a general solution that solves both, but I need to understand the sphere case on its own first.
 
 
+LM: Workaround is to make a "flat" sphere mesh then the hierarchy, and then push out every level in the hierarchy to make the higher-order sphere meshes.
+
+A proper fix requires removing the "two-stage" mesh construction and just always growing halos straight away. The multigrid hierarchy creation should refine such a mesh and then remove the (now too big) halo and regrow it to the correct size. This requires some fiddling with dmplex submeshes and then keeping track of the relationship between coarse and fine cells.
+
 ## KS: ufl.Subspace
 UFL/Firedrake interfaces are converging (I think).
 
 UFL:
 - Vsub = ufl.Subspace(V)  -> represents (shape, ) x (shape, ) matrix multiplied to the basis vector in TSFC
 - vsub = ufl.Masked(v, Vsub)
+
+LM: I think the (shape, ) * (shape, ) part is somewhat misleading, since it presupposes a particular type of subspace extraction. I guess this is saying `Vsub` is obtained from `V` by some projection, and we also get `V \ Vsub` via `Vsub.complement` ?
 
 Firedrake:
 
@@ -53,3 +69,11 @@ High-level interface specifically for boundary subspaces:
 New example: Dirichlet BC for Hermite element:
 
 https://github.com/firedrakeproject/firedrake/blob/fs_filter/tests/filter/test_filter_rotated_subspace.py
+
+
+Some discussion of whether or not this solves the maths problem of strong bcs for Hermite elements. RCK to think about it.
+
+
+## DONM
+
+Proposal to move to Mondays at 4pm agreed for the foreseeable.

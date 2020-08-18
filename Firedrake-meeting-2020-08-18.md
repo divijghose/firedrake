@@ -20,5 +20,16 @@ Apologies:
 
 ## CC: Parallel multigrid for sphere meshes
 
+Creating a MeshHierarchy for IcosahedralMesh fails with
+  File "mg_test.py", line 9, in <module>
+    mh = fd.MeshHierarchy(basemesh, ref_level)
+  File "/Users/colincotter/firedrake/src/firedrake/firedrake/mg/mesh.py", line 99, in MeshHierarchy
+    raise RuntimeError("Cannot refine parallel overlapped meshes "
+RuntimeError: Cannot refine parallel overlapped meshes (make sure the MeshHierarchy is built immediately after the Mesh)
 
+See: https://gist.github.com/colinjcotter/2c3154c14c1532e3686eb2d32666a245
+This is because IcosahedralMesh works by recursively refining an icosahedron and pushing out to the sphere. I'm not completely sure 
+if it is due to the editing of the coordinate mesh, or the fact that we used Plex to refine the mesh twice when we create the Hierarchy 
+(once for the base, once for the Hierarchy).
+Similar things arise with PeriodicMesh where Patrick has something on a branch. Patrick was wondering if there might be a general solution that solves both, but I need to understand the sphere case on its own first.
 

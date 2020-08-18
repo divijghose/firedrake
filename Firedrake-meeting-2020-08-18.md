@@ -33,3 +33,23 @@ if it is due to the editing of the coordinate mesh, or the fact that we used Ple
 (once for the base, once for the Hierarchy).
 Similar things arise with PeriodicMesh where Patrick has something on a branch. Patrick was wondering if there might be a general solution that solves both, but I need to understand the sphere case on its own first.
 
+
+## KS: ufl.Subspace
+UFL/Firedrake interfaces are converging (I think).
+
+UFL:
+- Vsub = ufl.Subspace(V)  -> represents (shape, ) x (shape, ) matrix multiplied to the basis vector in TSFC
+- vsub = ufl.Masked(v, Vsub)
+
+Firedrake:
+
+Low-level interfaces for ufl.Subspace:
+- firedrake.ScalarSubspace  -> diagonal thing
+- firedrake.RotatedSubspace  -> rotation thing
+
+High-level interface specifically for boundary subspaces:
+- firedrake.BoundarySubspace  -> returns Subspaces used to apply u = g on boundary
+
+New example: Dirichlet BC for Hermite element:
+
+https://github.com/firedrakeproject/firedrake/blob/fs_filter/tests/filter/test_filter_rotated_subspace.py

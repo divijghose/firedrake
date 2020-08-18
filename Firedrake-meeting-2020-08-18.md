@@ -10,8 +10,6 @@ Date and time 2020-08-11 15:00UTC (16:00BST)
 1. DH: Only test PRs on master
 1. RH: On complex back merge master to fix conflicts
 1. ??: Build master on centos to catch errors
-1. ~DH: Provide RWH with abstract and title for SIAM-CSE minisymposterium to make into qualtrics survey~
-1. ~DH: Provide JB with contacts for SIAM-CSE Exascale simulation themed minisymposium - Jack is in discussion with Timo.~
 
 
 # Agenda

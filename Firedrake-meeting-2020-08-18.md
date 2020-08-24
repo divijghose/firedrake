@@ -1,4 +1,4 @@
-Date and time 2020-08-11 15:00UTC (16:00BST)
+Date and time 2020-08-18 15:00UTC (16:00BST)
 
 # Action Items
 1. ~Pick Chair and Minuter.~

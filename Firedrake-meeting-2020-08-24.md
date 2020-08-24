@@ -21,6 +21,8 @@ Apologies:
 
 ## LM: Loopy speed improvements
 
+## LM: Chaco build (https://github.com/firedrakeproject/firedrake/issues/1813)
+
 ## AOB
 
 Date of next meeting 2020-09-07.

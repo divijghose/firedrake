@@ -18,7 +18,9 @@ Present:
 
 Apologies: 
 
-## Item 1
+## External Operators:
+
+Need reviews for the PR: https://github.com/firedrakeproject/firedrake/pull/1674
 
 
 ## Date of next meeting

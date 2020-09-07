@@ -231,7 +231,7 @@ scaling).
 
 In constructing the space splittings, we need to ensure that the
 interpolation operator satisfies the conditions of Lemma 3.5, in
-particular that the splitting is stable for u<sub>f := u<sub>h</sub> -
+particular that the splitting is stable for u<sub>f</sub> := u<sub>h</sub> -
 R<sup>V</sup><sub>H</sub>I<sup>F</sup><sub>H</sub>u_h, constructed by
 round-tripping a fine grid function through the interpolation and
 prolongation.

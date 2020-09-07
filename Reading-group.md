@@ -212,3 +212,34 @@ robust prolongation operator to satisfy the requirements of Lemma 3.5.
 #### 2020-08-31 No session, bank holiday
 
 #### 2020-09-07
+
+We went through Theorem 4.2 which sets out the requirements for an
+optimal, parameter-robust, two-grid preconditioner. The idea is to
+find a splitting of the space Q<sub>h</sub> such that the prolongation
+of a coarse grid kernel function can be modified to live in the fine
+grid kernel by modifying only those dofs that live on "interior" fine
+grid entities. This way the problems decouple and can be solved
+efficiently. This is shown using an example of the Timoshenko beam in
+Figure 4.2. This figure is slightly misleading because it looks like
+both variables have the same scale. I wrote some
+[code](docs/timoshenko.py) to show what is going (with the right
+scaling).
+
+![](docs/timoshenko-coarse-grid.png)
+
+![](docs/timoshenko-fine-grid.png)
+
+In constructing the space splittings, we need to ensure that the
+interpolation operator satisfies the conditions of Lemma 3.5, in
+particular that the splitting is stable for u<sub>f := u<sub>h</sub> -
+R<sup>V</sup><sub>H</sub>I<sup>F</sup><sub>H</sub>u_h, constructed by
+round-tripping a fine grid function through the interpolation and
+prolongation.
+
+This has to be done for each problem and discretisation in turn. This
+is somewhat involved, which motivates why it is often preferable to
+use the abstract framework of Hilbert complexes and exact sequences
+to construct the space decompositions. In these cases, when working on
+nested meshes, the trivial prolongation is continuous in the energy
+norm and we don't have to do this dance to satisfy the conditions of
+Lemma 3.5.

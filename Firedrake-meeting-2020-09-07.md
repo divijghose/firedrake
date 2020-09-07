@@ -18,7 +18,58 @@ Present:
 
 Apologies: 
 
-## Item 1
+## KS: ufl.Subspace
+Summary
+
+View `ufl.Subspace` as a generalisation of `ufl.FunctionSpace`.
+
+UFL:
+
+- `ufl.AbstractSubspace` 
+- `ufl.Subspace` (subclass)
+
+TSFC:
+
+`fem.py`
+
+- `ufl.FunctionSpace` -> `\phi`
+- `ufl.Subspace` -> `L\phi` (`L.shape = (sh, sh)`)
+
+If `L==I`, we recover the standard `ufl.FunctionSpace`.
+
+`kernel_interface/firedrake_loopy.py`
+- `obj` : Firedrake subspace object
+- `obj -> gem_expr` `(sh, )`
+- `L = obj.transform_matrix(ufl_elem, gem_expr)` `(sh, sh)`
+
+
+
+Firedrake:
+```
+class Subspace(ufl.Subspace):
+    ...
+    @staticmethod
+    def transform_matrix(ufl_elem, gem_expr):
+        # Diagonal L
+        L = diagonalise(gem_expr)
+        return L
+```
+
+```
+class RotatedSubspace(ufl.Subspace):
+    ...
+    @staticmethod
+    def transform_matrix(ufl_elem, gem_expr):
+        # Rotation
+        # Roughly, ...
+        L = gem_expr^T gem_expr
+        return L
+```
+
+
+
+
+
 
 
 ## Date of next meeting

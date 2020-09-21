@@ -38,7 +38,7 @@ There are multiple issues with the quadrature estimator, these need to be fixed 
 Could take a look at what Fenics is doing here.
 Action item on RK to report back on quadrature estimation.
 
-# LM: *PyOP2
+## LM: *PyOP2
 LM: Should "PyOP3" actually be written in Python?
 DH: Will we have to re-engineer Firedrake?
 LM: I have done experiments to find which parts of PyOP2 are expensive (which parts are runtime Python)

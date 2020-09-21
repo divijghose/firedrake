@@ -243,3 +243,40 @@ to construct the space decompositions. In these cases, when working on
 nested meshes, the trivial prolongation is continuous in the energy
 norm and we don't have to do this dance to satisfy the conditions of
 Lemma 3.5.
+
+### 2020-09-21
+
+We finished up by going through, in somewhat less detail, 4.3--4.6
+looking at multigrid convergence. Many of the details build on the
+results proving optimality of the two-level method. We must work harder
+to prove the approximation and smoothing properties than in the
+two-level scheme because the coarse grid is weaker. The approach is to
+transition to the mixed problem and restrict the analysis to a
+subspace in which the constraints are always satisfied. We prove
+equivalence of the primal and mixed algorithms when operating on this
+space. In contrast to parameter-independent multigrid the local norm
+one uses in the approximation property has ε-dependent terms that are
+used to control the continuity and energy norm and the size of the
+correction to the dual variable.
+
+Two smoothers are analysed, one on the mixed form, which is shown to
+be equivalent to that of [Braess and Sarazin
+(1997)](https://link.springer.com/article/10.1007/s006070070027), the
+other in primal variables. For the mixed form one can show convergence
+of order O(m<sup>-1</sup>), whereas for the primal form one only gets
+O(m<sup>-1/2</sup>) as a function of the number of smoothing steps.
+
+We skipped over a lot of the details of the proofs, but they rely
+heavily on the constraint space. A critical requirement of the space
+decomposition that is pointed out, and not enjoyed by most
+incarnations of Vanka relaxation, is that having picked a space
+decomposition for V<sub>l</sub> and Q<sub>l</sub>, we require that
+Λ<sub>l</sub> V<sub>l,i</sub> ⊂ Q<sub>l,i</sub>. Just as Λ<sub>l
+V<sub>l</sub> ⊂ Q<sub>l</sub>.
+
+Finally we looked through the results which confirm that the scheme
+does indeed work numerically. Interestingly, despite the very weak
+theoretical convergence bounds, a W(2,2) cycle already produces mesh-
+and parameter-independent condition numbers, and a V(1,1) cycle is
+very close to mesh- and parameter-independent when used as
+preconditioner.

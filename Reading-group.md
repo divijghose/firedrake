@@ -10,7 +10,7 @@ participate.
 Summer 2020. We read through [Joachim
 Schöberl's](https://www.asc.tuwien.ac.at/~schoeberl/wiki/index.php/Joachim_Schöberl)
 thesis on parameter-robust multigrid methods. Some [notes are
-collected](reading-group/schoeberl-thesis.md).
+collected](reading-group/schoeberl-thesis).
 
 Autumn/Winter 2019. We read [Doug
 Arnold's](http://www-users.math.umn.edu/~arnold/) book on [Finite

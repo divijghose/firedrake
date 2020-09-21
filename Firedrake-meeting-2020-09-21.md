@@ -58,7 +58,7 @@ RK is close to writing code using external operators.
 When should we hold meeting from this week on?
 LM: Need to change from 9th Nov
 DH: Stick with Monday 1500 UTC until then
-DH: In 2 weeks (12th October) prepare 3mins on "what I do" for incoming meeting attendees
+DH: In 2 weeks (5th October) prepare 3mins on "what I do" for incoming meeting attendees
 
 ## Date of next meeting
 [2020-09-28](./Firedrake-meeting-2020-09-28) 15:00UTC (16:00BST)

@@ -24,6 +24,8 @@ Apologies:
 ## Clean up and assign action items on Agenda
 Many action items remain unassigned, some have been lost, some have not been reported back on in a while.
 
+## JB: Numpy bug update
+Aaargh!
 
 ## Date of next meeting
 [2020-10-05](./Firedrake-meeting-2020-10-05) 15:00UTC (16:00BST)

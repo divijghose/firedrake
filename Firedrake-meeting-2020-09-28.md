@@ -19,7 +19,7 @@ Date and time 2020-09-28 15:00UTC (16:00BST)
 
 Present:
 
-Apologies: 
+Apologies: Nacime (No WIFI)
 
 ## Clean up and assign action items on Agenda
 Many action items remain unassigned, some have been lost, some have not been reported back on in a while.

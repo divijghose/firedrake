@@ -21,7 +21,7 @@ Please add your own, or claim one to present.
 - Li, Zhang, and Zhang, [_A constrained transport divergence-free finite element method for Incompressible MHD equations_ (2020)](https://arxiv.org/abs/2008.09244).
 - Mardal and Winther, [_Preconditioning discretizations of systems of partial differential equations_ (2011)](https://doi.org/10.1002/nla.716).
 - Xu, [_The method of subspace corrections_ (2001)](https://doi.org/10.1016/S0377-0427(00)00518-5).
-- Demkowicz and Gopalakrishnan, [_An overview of the discontinuous Petrov Galerkin method_ (2014)] (https://doi.org/10.1007/978-3-319-01818-8_6).
+- Demkowicz and Gopalakrishnan, [_An overview of the discontinuous Petrov Galerkin method_ (2014)](https://doi.org/10.1007/978-3-319-01818-8_6).
 
 ## Past editions
 

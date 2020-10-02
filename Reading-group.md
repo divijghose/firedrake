@@ -12,6 +12,17 @@ Hosted via Zoom:
 - Meeting ID: 928 2384 2685
 - Passcode: 494089
 
+## Possible papers
+
+Please add your own, or claim one to present.
+
+- Mardal, Tai, and Winther, [_A robust finite element method for Darcy-Stokes flow_ (2002)](https://doi.org/10.1137/S0036142901383910).
+- Bonizzoni and Kanschat, [_H<sup>1</sup>-conforming finite element cochain complexes and commuting quasi-interpolation operators on cartesian meshes_ (2020)](https://arxiv.org/abs/2010.00524).
+- Li, Zhang, and Zhang, [_A constrained transport divergence-free finite element method for Incompressible MHD equations_ (2020)](https://arxiv.org/abs/2008.09244).
+- Mardal and Winther, [_Preconditioning discretizations of systems of partial differential equations_ (2011)](https://doi.org/10.1002/nla.716).
+- Xu, [_The method of subspace corrections_ (2001)](https://doi.org/10.1016/S0377-0427(00)00518-5).
+
+
 ## Past editions
 
 Summer 2020. We read through [Joachim

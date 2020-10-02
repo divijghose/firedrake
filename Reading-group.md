@@ -1,9 +1,11 @@
 # Firedrake reading group
 
 An informal reading group around many things finite element. Hosted
-online, as time permits. Email [Lawrence
+online. Email [Lawrence
 Mitchell](mailto:lawrence.mitchell@durham.ac.uk) if you'd like to
 participate.
+
+Scheduled time: Mondays 15:00 BST (starting 12th October 2020). [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
 
 ## Past editions
 

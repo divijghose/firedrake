@@ -7,6 +7,11 @@ participate.
 
 Scheduled time: Mondays 15:00 BST (starting 12th October 2020). [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
 
+Hosted via Zoom:
+
+- Meeting ID: 928 2384 2685
+- Passcode: 494089
+
 ## Past editions
 
 Summer 2020. We read through [Joachim

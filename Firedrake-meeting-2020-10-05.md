@@ -6,7 +6,7 @@ Date and time 2020-10-05 15:00UTC (16:00BST)
 1. ??: Build master on centos to catch errors
 1. RK: Report back on quadrature estimation
 1. KS: Complex merge
-1. All: In 1 week (5th October) prepare 3mins on "what I do" for incoming meeting attendees
+1. All: This week (5th October) prepare 3mins on "what I do" for incoming meeting attendees
 
 
 # Agenda

@@ -12,7 +12,7 @@ Date and time 2020-10-05 15:00UTC (16:00BST)
 
 Present:
 
-Apologies:
+Apologies: Reuben Nixon-Hill (note new surname!)
 
 ## Item 1
 

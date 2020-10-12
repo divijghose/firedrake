@@ -17,4 +17,6 @@ Apologies: Reuben Nixon-Hill (note new surname!)
 ## Item 1
 
 ## Date of next meeting
+
+Discuss changing meeting to Wednesday early at Gebina Ham's request.
 [2020-10-19](./Firedrake-meeting-2020-10-19) 15:00UTC (16:00BST)

@@ -23,6 +23,31 @@ export DYLD_INSERT_LIBRARIES=/usr/local/opt/openblas/lib/libblas.dylib:/usr/loca
 ```
 We should discuss whether we are happy with such a hack.
 
+## KS: Subspace
+Refactor tsfc/driver.py 
+- gem construction
+- impero_c construction
+- kernel construction
+
+etc.
+
+`firedrake/tsfc_interface.py`
+
+Ex: Jacobian assembly:
+```
+all_gem_expr = []
+split form according to indices (i, j) -> subform
+    split subform according to test/trial subspaces (test_sub, trial_sub) -> subsubform
+       gem_expr = compile_ufl(subsubform, ...)
+  ->   gem_expr = transform(gem_expr, test_sub, trial_sub) (test_sub and trial_sub know right transformation rule, such as rotation)
+       all_gem_expr.append(gem_expr)
+    kernel = construct_kernel(all_gem_expr)
+```
+Question:
+
+`Masked` is still a `ufl` class (now defined in Firedrake), but disappear before calling `compile_ufl`.
+This is convenient when we take `action` and `derivative`, but not sure if this is a good practice.
+
 
 ## Date of next meeting
 

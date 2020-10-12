@@ -14,7 +14,15 @@ Present:
 
 Apologies: Reuben Nixon-Hill (note new surname!)
 
-## Item 1
+## JB: Numpy bug
+Finally successfully installed on MacOS, we have working install script now.
+
+Can also import Firedrake, but we need a hack:
+```
+export DYLD_INSERT_LIBRARIES=/usr/local/opt/openblas/lib/libblas.dylib:/usr/local/opt/openblas/lib/liblapack.dylib
+```
+We should discuss whether we are happy with such a hack.
+
 
 ## Date of next meeting
 

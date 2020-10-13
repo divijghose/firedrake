@@ -3,7 +3,7 @@
 <details>
 <summary>Building locally</summary>
 
-- [Fixing venv on macOS](./Fixing-venv-on-macOS-after-homebrew-updates-Python)
+- [Fixing venv on macOS](./Fixing-venv-on-macOS-after-homebrew-patches-Python)
 - [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
 </details>
 

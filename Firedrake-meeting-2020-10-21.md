@@ -21,6 +21,10 @@ Apologies:
 ## RNH: Unlock slack history
 Has anyone got some spare money sloshing about that could be used to unlock the slack history? Might save a fair bit of time in certain occasions. (Fyi RNH == Reuben Nixon-Hill - formerly minuted as RWH)
 
+## DRS: Extruding functions
+
+Ed Bueler made the PR -- makes assumptions about node ordering that are worth talking about
+
 ## Merge PRs:
 
 ## AOB

@@ -13,9 +13,6 @@ Hosted via Zoom:
 - Passcode: 494089
 
 ## Upcoming sessions
-### 2020-10-12: CJC leading
-
-Demkowicz and Gopalakrishnan, [_An overview of the discontinuous Petrov Galerkin method_ (2014)](https://doi.org/10.1007/978-3-319-01818-8_6).
 
 ## Possible papers
 
@@ -29,6 +26,8 @@ Please add your own, or claim one to present.
 - Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
 
 ## Past editions
+
+2020-10-12 & 2020-10-19. CJC talked us through the main points of Demkowicz and Gopalakrishnan, [_An overview of the discontinuous Petrov Galerkin method_ (2014)](https://doi.org/10.1007/978-3-319-01818-8_6).
 
 Summer 2020. We read through [Joachim
 Schöberl's](https://www.asc.tuwien.ac.at/~schoeberl/wiki/index.php/Joachim_Schöberl)

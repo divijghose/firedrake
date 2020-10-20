@@ -25,6 +25,9 @@ Has anyone got some spare money sloshing about that could be used to unlock the 
 
 Ed Bueler made the PR -- makes assumptions about node ordering that are worth talking about
 
+## RNH: Strange test failures
+`tests/regression/test_aw.py::test_aw[conforming]` is failing on https://github.com/firedrakeproject/firedrake/pull/1867 and https://github.com/firedrakeproject/firedrake/pull/1884 which don't touch the relevant code
+
 ## Merge PRs:
 
 ## AOB

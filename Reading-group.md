@@ -14,7 +14,7 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-### 2020-10-26 (or 2020-11-02 depending on availability) IP leading.
+### 2020-10-26 IP leading.
 
 - Mardal, Tai, and Winther, [_A robust finite element method for Darcy-Stokes flow_ (2002)](https://doi.org/10.1137/S0036142901383910). 
 ## Possible papers

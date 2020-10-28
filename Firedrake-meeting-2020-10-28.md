@@ -18,7 +18,9 @@ Apologies:
 ## DS: Anaconda on Mac
 `pyenv`, tool for managing python versions and `venv`s, lets you run anaconda alongside firedrake.
 Pollution successfully avoided on first check.
+
 Unclear if `pyenv` is able to avoid pollution when anaconda installs packages with compiler toolchains (or e.g using anaconda to install openMPI) - DS will check.
+
 DS will also check `firedrake-update`.
 
 ## DH: MSc projects for this year (MSc applied maths, MSc computing, MISCADA?...)
@@ -54,9 +56,13 @@ Last week:
 
 This week:
 `tests/regression/test_aw.py::test_aw[conforming]` fails intermittently when testing in firedrake complex mode.
+
 DH wonders if problem is poorly conditioned.
+
 RK suggests changing solver options to get it working in complex mode.
+
 LM hypothesises that problem might be to do with tests running in nondeterministic order(issue to do with which builder the jenkins build ran on).
+
 Questions:
  - Does it always fail on the same build hardware but not other build hardware?
  - Is SNES deterministic?

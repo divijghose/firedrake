@@ -22,21 +22,25 @@ Unclear if `pyenv` is able to avoid pollution when anaconda installs packages wi
 DS will also check `firedrake-update`.
 
 ## DH: MSc projects for this year (MSc applied maths, MSc computing, MISCADA?...)
+
 RK suggestions: 
  - Optimal quadrature estimation (e.g. for tensor product elements)
  - Irksome: 
     - getting data layout and function spaces right for vectorisation
     - enabling IMEX methods
-LM:
+
+LM suggestions:
  - Second half of MKan's project (exploiting structure information in dual evaluation in FInAT/sum factorisation when doing interpolation). Needs symbolics to be in place before student starts? Lots of TSFC work.
  - Symmetry groups in FIAT for unstructured hex cells. LM has industrial application. PETSc has necessary information, we don't know how to use
  - Catamorphisms for finite elements - could be boring though
  - Automated performance models
  - FInAT Bernstein (triangular loop nests in TSFC)
  - Mixed data layout
-PK:
+
+PK suggestions:
  - Assembly with structured sparsity? (TSFC kernel giving you back block sparse matrix). Potential interesting language problem there to solve.
-RNH / RK:
+
+RNH / RK suggestions:
  - Element oracle? Hard to come up with research angle.
 
 CONCLUSION: Everyone please write up descriptions to gauge scope.

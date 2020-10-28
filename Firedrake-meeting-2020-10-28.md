@@ -16,6 +16,8 @@ Present:
 
 Apologies: 
 
+## DH: MSc projects for this year (MSc applied maths, MSc computing, MISCADA?...)
+
 ## RNH: Strange test failures (from last week)
 `tests/regression/test_aw.py::test_aw[conforming]` is failing on https://github.com/firedrakeproject/firedrake/pull/1867 and https://github.com/firedrakeproject/firedrake/pull/1884 which don't touch the relevant code
 

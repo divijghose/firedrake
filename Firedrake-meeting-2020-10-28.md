@@ -7,7 +7,7 @@ Date and time 2020-10-28 16:00UTC (16:00GMT)
 1. RK: Report back on quadrature estimation
 1. ~KS: Complex merge~
 1. DH: Online Firedrake 2021
-1. DS: Extrusion lift operator
+1. DS: Anaconda on Mac
 
 
 # Agenda

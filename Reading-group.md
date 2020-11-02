@@ -16,6 +16,8 @@ Hosted via Zoom:
 
 ### 2020-11-23 FW leading.
 
+Something about adjoint-based error estimators.
+
 ### 2020-11-09 EM leading. 
 
 - Mardal and Winther, [_Preconditioning discretizations of systems of partial differential equations_ (2011)](https://doi.org/10.1002/nla.716).

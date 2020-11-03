@@ -10,7 +10,7 @@ Date and time 2020-11-04 16:00UTC (16:00GMT)
 
 Present:
 
-Apologies: 
+Apologies: Reuben Nixon-Hill
 
 ## JB: Numpy Nightmare
 

@@ -23,6 +23,10 @@ Questions:
  - Is SNES deterministic?
  - Could the FPU on one of the builders be bad?
 
+## CW/LM: PyOP2 documentation
+
+It's very out of date. Should we remove it?
+
 ## Merge PRs:
 
 ## AOB

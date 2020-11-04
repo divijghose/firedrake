@@ -69,6 +69,7 @@ First observed around when:
 Action:
 
 LW: make superlu default and see if it magically fixes the issue.
+
 ??: set `omp_num_threads`
 
 ## Merge PRs:

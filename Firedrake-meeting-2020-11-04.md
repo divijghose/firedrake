@@ -30,7 +30,13 @@ Build conda package?
 Short term solution suggested by JB:
  - Worked for RK
  - JB: Have CJC check if this solution works.
- - JB: Put the recipe of this solution on this minute.
+ - JB: Put the recipe of this solution on this minute:
+
+Run
+```
+export DYLD_INSERT_LIBRARIES=/usr/local/opt/openblas/lib/libblas.dylib:/usr/local/opt/openblas/lib/liblapack.dylib
+```
+in a terminal before importing Firedrake, or add to Firedrake activate script.
 
 ## Strange test failures (from last week)
 Update

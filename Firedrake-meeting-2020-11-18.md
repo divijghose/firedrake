@@ -32,6 +32,8 @@ Python 3.9 not working needs to be added - PR incoming once firedrake is updated
 
 ## RNH - Jenkins down
 
+## RNH - EGU 2021 Abstract submissions open
+
 ## Merge PRs:
 
 ## AOB

@@ -33,6 +33,7 @@ Python 3.9 not working needs to be added - PR incoming once firedrake is updated
 ## RNH - Jenkins down
 
 ## RNH - EGU 2021 Abstract submissions open
+Will be fully online. Submission deadline 13th of January 2021
 
 ## Merge PRs:
 

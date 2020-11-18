@@ -37,6 +37,7 @@
 
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
+
   - [2020-11-18](./Firedrake-meeting-2020-11-18)
 
 ---

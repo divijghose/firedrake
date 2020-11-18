@@ -27,6 +27,9 @@ More info and register at:
 
 https://excalibur-genx.github.io/community-workshop
 
+## RNH - Update installation flow chart
+Python 3.9 issue needs to be added
+
 ## Merge PRs:
 
 ## AOB

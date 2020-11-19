@@ -14,6 +14,10 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
+### 2020-12-14 DH leading.
+
+Dual spaces and composable forms in UFL.
+
 ### 2020-11-23 FW leading.
 
 Something about adjoint-based error estimators.

@@ -20,7 +20,7 @@ Dual spaces and composable forms in UFL.
 
 ### 2020-11-23 FW leading.
 
-Something about adjoint-based error estimators.
+- Marie E. Rognes and Anders Logg, [_Automated Goal-Oriented Error Control I: Stationary Variational Problems_ (2013)](https://doi.org/10.1137/10081962X)
 
 ### 2020-11-09 EM leading. 
 

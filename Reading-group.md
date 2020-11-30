@@ -18,6 +18,10 @@ Hosted via Zoom:
 
 Dual spaces and composable forms in UFL.
 
+### 2020-11-30 FW leading
+
+- Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar, [_Fourier Neural Operator for Parametric Partial Differential Equations_ (2020)](https://arxiv.org/abs/2010.08895)
+
 ### 2020-11-23 FW leading.
 
 - Marie E. Rognes and Anders Logg, [_Automated Goal-Oriented Error Control I: Stationary Variational Problems_ (2013)](https://doi.org/10.1137/10081962X)
@@ -38,6 +42,7 @@ Please add your own, or claim one to present.
 - Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
 
 ## Past editions
+
 
 2020-10-26 & 2020-11-02 IP talked us through the construction and analysis of the Stokes-Darcy element introduced in Mardal, Tai, and Winther, [_A robust finite element method for Darcy-Stokes flow_ (2002)](https://doi.org/10.1137/S0036142901383910). (Available in Firedrake as `FunctionSpace(triangular_mesh, "MTW", 3)`).
 

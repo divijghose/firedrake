@@ -6,7 +6,7 @@ Date and time 2020-11-18 16:00UTC (16:00GMT)
 1. ??: Build master on centos to catch errors
 1. ~CW: PyOP2 sphinx documentation~
 
-# Agenda
+# Minutes
 
 Present: LM, DAH, DRS, RNH, KS, JDB, SV, SK, RCK, CW, TG
 

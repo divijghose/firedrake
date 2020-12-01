@@ -11,6 +11,10 @@ Present:
 
 Apologies:
 
+## LM: Excalibur [performance workshop](http://www.peano-framework.org/index.php/workshops/2021-performance-analysis-workshop-from-analysis-to-insight/)
+
+Might be of interest to some (organised at Durham). Daniel Ruprecht (now at Hamburg) got in touch because he has a PhD student who would be keen to join at Firedrake team.
+
 ## Item 1
 
 ## Merge PRs:

@@ -15,6 +15,13 @@ Apologies:
 
 Might be of interest to some (organised at Durham). Daniel Ruprecht (now at Hamburg) got in touch because he has a PhD student who would be keen to join at Firedrake team.
 
+## LM: Memory issues observed on various supercomputers
+
+It _might_ actually be a bug that has appeared in PETSc, but we don't yet have a concrete "always works" testcase.
+
+Florian Wechsung (NYU) and Angus Gibson (ANU) have both been reporting issues recently.
+
+
 ## Item 1
 
 ## Merge PRs:

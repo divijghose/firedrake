@@ -18,6 +18,9 @@ Hosted via Zoom:
 
 Dual spaces and composable forms in UFL.
 
+### 2020-12-7 CJC offered to lead unless someone else wants to.
+https://arxiv.org/abs/2005.09158
+
 ### 2020-11-30 FW leading
 
 - Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar, [_Fourier Neural Operator for Parametric Partial Differential Equations_ (2020)](https://arxiv.org/abs/2010.08895)

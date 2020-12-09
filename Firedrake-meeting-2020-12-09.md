@@ -15,9 +15,8 @@ Apologies:
 ## JB: CentOS Build
 Given that CentOS is [going away](https://blog.centos.org/2020/12/future-is-centos-stream/), do we want to keep the "Build master on centos" action item or abandon?
 
-
-## Item 1
-
+## RNH + DH: Non-Point Evaluation Dual Evals/Interpolations
+How do we deal with complicated cases, like different numbers of different "classes" of functionals per element?
 
 ## Merge PRs:
 

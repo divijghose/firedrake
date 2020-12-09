@@ -5,7 +5,7 @@ Date and time 2020-12-02 16:00UTC (16:00GMT)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. ??: Build master on centos to catch errors
 
-# Agenda
+# Minutes
 
 Present: CW, RK, KK, KS, DH, JB, RNH, DS, SV, PK, CC, LM
 

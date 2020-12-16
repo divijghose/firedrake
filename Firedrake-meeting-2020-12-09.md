@@ -6,7 +6,7 @@ Date and time 2020-12-09 16:00UTC (16:00GMT)
 1. ~??: Build master on centos to catch errors~
 1. CW: Report back on GCC JIT
 
-# Agenda
+# Minutes
 
 Present: SV, CW, DAH, LM, DRS, KS, JDB, SK, RNH, KK
 

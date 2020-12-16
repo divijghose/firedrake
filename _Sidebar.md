@@ -38,9 +38,10 @@
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
 
-  - [2020-12-09](./Firedrake-meeting-2020-12-09)
+  - [2020-12-16](./Firedrake-meeting-2020-12-16)
 
 ---
+  - [2020-12-09](./Firedrake-meeting-2020-12-09)
   - [2020-12-02](./Firedrake-meeting-2020-12-02)
   - [2020-11-18](./Firedrake-meeting-2020-11-18)
   - [2020-11-11](./Firedrake-meeting-2020-11-11)

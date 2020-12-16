@@ -21,4 +21,4 @@ Apologies:
 
 ## Date of next meeting
 
-[2020-01-??](./Firedrake-meeting-2020-01-00) 16:00UTC (16:00GMT)
+[2021-01-??](./Firedrake-meeting-2021-01-00) 16:00UTC (16:00GMT)

@@ -6,9 +6,9 @@ Date and time 2021-01-13 16:00UTC (16:00GMT)
 
 # Agenda
 
-Present: LM, JB, SV, SK, PHJK, KS, RNH, CW, TG, DAH
+Present: LM, JB, SV, SK, PHJK, KS, RNH, CW, TG, DAH, RCK
 
-Apologies: RCK, NB
+Apologies: NB
 
 ## JB
 

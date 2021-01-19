@@ -14,25 +14,6 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-### 2020-12-14 DH leading.
-
-Dual spaces and composable forms in UFL.
-
-### 2020-12-7 CJC offered to lead unless someone else wants to.
-https://arxiv.org/abs/2005.09158
-
-### 2020-11-30 FW leading
-
-- Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar, [_Fourier Neural Operator for Parametric Partial Differential Equations_ (2020)](https://arxiv.org/abs/2010.08895)
-
-### 2020-11-23 FW leading.
-
-- Marie E. Rognes and Anders Logg, [_Automated Goal-Oriented Error Control I: Stationary Variational Problems_ (2013)](https://doi.org/10.1137/10081962X)
-
-### 2020-11-09 EM leading. 
-
-- Mardal and Winther, [_Preconditioning discretizations of systems of partial differential equations_ (2011)](https://doi.org/10.1002/nla.716).
-
 ## Possible papers
 
 Please add your own, or claim one to present.
@@ -46,6 +27,28 @@ Please add your own, or claim one to present.
 
 ## Past editions
 
+2020-12-14 DAH went over a proposal to properly add dual spaces in
+UFL, and the consequences thereof. Now [available on the
+arxiv](https://arxiv.org/abs/2101.05158).
+
+2020-12-07 CJC covered some of the (relatively new) developments in
+parallel in time stuff, going over the [introduction to
+ParaDIAG](https://arxiv.org/abs/2005.09158) from Martin Gander and friends.
+
+2020-11-30 FW covered one paper on the new hotness of using neural
+nets for everything: Zongyi Li, Nikola Kovachki, Kamyar
+Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart,
+Anima Anandkumar, [_Fourier Neural Operator for Parametric Partial
+Differential Equations_ (2020)](https://arxiv.org/abs/2010.08895)
+
+2020-11-23 FW covered the (now sadly bitrotted) automated adaptivity
+that used to be implemented in Dolfin, described in Marie E. Rognes
+and Anders Logg, [_Automated Goal-Oriented Error Control I: Stationary
+Variational Problems_ (2013)](https://doi.org/10.1137/10081962X).
+
+2020-11-09 EM went through Mardal and Winther, [_Preconditioning
+discretizations of systems of partial differential equations_
+(2011)](https://doi.org/10.1002/nla.716).
 
 2020-10-26 & 2020-11-02 IP talked us through the construction and analysis of the Stokes-Darcy element introduced in Mardal, Tai, and Winther, [_A robust finite element method for Darcy-Stokes flow_ (2002)](https://doi.org/10.1137/S0036142901383910). (Available in Firedrake as `FunctionSpace(triangular_mesh, "MTW", 3)`).
 

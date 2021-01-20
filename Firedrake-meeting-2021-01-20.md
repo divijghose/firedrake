@@ -10,7 +10,7 @@ Present:
 
 Apologies: 
 
-## Loopy people are on board for the sprint
+## SV: Loopy people are on board for the sprint
 
 
 ## Merge PRs:

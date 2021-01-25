@@ -5,6 +5,8 @@
 
 - [Fixing venv on macOS](./Fixing-venv-on-macOS-after-homebrew-patches-Python)
 - [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
+- [Configuring Eclipse](./Configuring-Eclipse)
+
 </details>
 
 <details>

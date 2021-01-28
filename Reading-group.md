@@ -5,7 +5,7 @@ online. Email [Lawrence
 Mitchell](mailto:lawrence.mitchell@durham.ac.uk) if you'd like to
 participate.
 
-Scheduled time: Mondays 15:00 BST (starting 12th October 2020). [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
+Scheduled time: Mondays 17:00UTC. [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
 
 Hosted via Zoom:
 
@@ -13,6 +13,8 @@ Hosted via Zoom:
 - Passcode: 494089
 
 ## Upcoming sessions
+
+- 2021-02-01 LM leading _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
 
 ## Possible papers
 

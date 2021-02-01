@@ -14,7 +14,7 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-02-01 LM leading _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
+- 2021-02-15 MK leading _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf
 
 ## Possible papers
 
@@ -28,6 +28,8 @@ Please add your own, or claim one to present.
 - Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
 
 ## Past editions
+
+2021-02-01 LM leading _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
 
 2020-12-14 DAH went over a proposal to properly add dual spaces in
 UFL, and the consequences thereof. Now [available on the

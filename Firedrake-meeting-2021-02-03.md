@@ -10,7 +10,8 @@ Present:
 
 Apologies: 
 
-## Item 1
+## RNH: TSFC master is failing on python 3.8
+See [travis](https://travis-ci.org/github/firedrakeproject/tsfc/builds/755156591)
 
 ## Merge PRs:
 

@@ -34,7 +34,7 @@ Next step: the adjoint
 
 ## Merge PRs: 
 
-"Fix passing of nearnullspace in mixed problem to subproblem" #1952: [here](https://github.com/firedrakeproject/firedrake/pull/1952):  **Merged **
+"Fix passing of nearnullspace in mixed problem to subproblem" [#1952](https://github.com/firedrakeproject/firedrake/pull/1952):  **Merged **
 
 
 ## ALL: SIAM CSE:

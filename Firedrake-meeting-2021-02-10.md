@@ -14,6 +14,12 @@ Apologies:
 
 - This would eliminate a lot of the symbolic overhead occurring in `assemble()` but may annoy James.
 
+## FEnICS 2021
+What to present
+
+## RNH: TSFC "bug fixes"
+See https://github.com/firedrakeproject/tsfc/pull/237 - source of some discussion (Miklos doesn't think the PR is necessary) that seems to get at some core GEM design philosophy questions.
+
 ## Merge PRs: 
 
 ## AOB

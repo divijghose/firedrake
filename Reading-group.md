@@ -14,7 +14,7 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-02-15 MGK leading _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf
+
 - 2021-03-08 THG leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 
 ## Possible papers
@@ -29,6 +29,8 @@ Please add your own, or claim one to present.
 - Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
 
 ## Past editions
+
+2021-02-15 MGK leading _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf
 
 2021-02-01 LM leading _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
 

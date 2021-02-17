@@ -4,7 +4,7 @@ Date and time 2021-02-10 16:00UTC (16:00GMT)
 1. Pick Chair and Minuter.
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 
-# Agenda
+# Minutes
 
 Present:
 
@@ -16,7 +16,7 @@ Apologies:
 
 - This would eliminate a lot of the symbolic overhead occurring in `assemble()` but may annoy James.
 
-KR observed 45% assembly time saving by using `create_assembly_callable`.
+RK observed 45% assembly time saving by using `create_assembly_callable`.
 
 PyOP2 design question:
 

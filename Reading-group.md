@@ -14,7 +14,7 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-
+- 2021-03-01 FA leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
 - 2021-03-08 THG leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 
 ## Possible papers
@@ -30,9 +30,9 @@ Please add your own, or claim one to present.
 
 ## Past editions
 
-2021-02-15 MGK leading _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf
+2021-02-15 MGK went over _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf the headline message is that you can use more element pairs than you thought you could and still have a parameter-robust discretisation.
 
-2021-02-01 LM leading _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
+2021-02-01 LM went over _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
 
 2020-12-14 DAH went over a proposal to properly add dual spaces in
 UFL, and the consequences thereof. Now [available on the

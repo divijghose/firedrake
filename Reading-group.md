@@ -14,8 +14,9 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-03-01 FA leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
-- 2021-03-08 THG leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
+- 2021-02-22 Alexei Gazca leading _Multilevel methods for nonuniformly elliptic operators_, Long Chen, Ricardo H. Nochetto, Enrique Otarola, Abner J. Salgado https://arxiv.org/pdf/1403.4278
+- 2021-03-01 (might move due to CSE) Francis Aznaran leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
+- 2021-03-08 Thomas Gibson leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 
 ## Possible papers
 
@@ -30,36 +31,36 @@ Please add your own, or claim one to present.
 
 ## Past editions
 
-2021-02-15 MGK went over _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf the headline message is that you can use more element pairs than you thought you could and still have a parameter-robust discretisation.
+2021-02-15 Matt Knepley went over _Accurate Discretization Of Poroelasticity Without Darcy Stability -- Stokes-Biot Stability Revisited_, Kent-Andre Mardal, Marie E. Rognes, Travis B. Thompson https://arxiv.org/pdf/2007.10012.pdf the headline message is that you can use more element pairs than you thought you could and still have a parameter-robust discretisation.
 
-2021-02-01 LM went over _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
+2021-02-01 Lawrence Mitchell went over _Space-time block preconditioning for incompressible flow_, Danieli, Southworth, Wathen https://arxiv.org/abs/2101.07003
 
-2020-12-14 DAH went over a proposal to properly add dual spaces in
+2020-12-14 David Ham went over a proposal to properly add dual spaces in
 UFL, and the consequences thereof. Now [available on the
 arxiv](https://arxiv.org/abs/2101.05158).
 
-2020-12-07 CJC covered some of the (relatively new) developments in
+2020-12-07 Colin Cotter covered some of the (relatively new) developments in
 parallel in time stuff, going over the [introduction to
 ParaDIAG](https://arxiv.org/abs/2005.09158) from Martin Gander and friends.
 
-2020-11-30 FW covered one paper on the new hotness of using neural
+2020-11-30 Florian Wechsung covered one paper on the new hotness of using neural
 nets for everything: Zongyi Li, Nikola Kovachki, Kamyar
 Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart,
 Anima Anandkumar, [_Fourier Neural Operator for Parametric Partial
 Differential Equations_ (2020)](https://arxiv.org/abs/2010.08895)
 
-2020-11-23 FW covered the (now sadly bitrotted) automated adaptivity
+2020-11-23 Florian Wechsung covered the (now sadly bitrotted) automated adaptivity
 that used to be implemented in Dolfin, described in Marie E. Rognes
 and Anders Logg, [_Automated Goal-Oriented Error Control I: Stationary
 Variational Problems_ (2013)](https://doi.org/10.1137/10081962X).
 
-2020-11-09 EM went through Mardal and Winther, [_Preconditioning
+2020-11-09 Eder Medina went through Mardal and Winther, [_Preconditioning
 discretizations of systems of partial differential equations_
 (2011)](https://doi.org/10.1002/nla.716).
 
-2020-10-26 & 2020-11-02 IP talked us through the construction and analysis of the Stokes-Darcy element introduced in Mardal, Tai, and Winther, [_A robust finite element method for Darcy-Stokes flow_ (2002)](https://doi.org/10.1137/S0036142901383910). (Available in Firedrake as `FunctionSpace(triangular_mesh, "MTW", 3)`).
+2020-10-26 & 2020-11-02 Ioannis Papadopoulos talked us through the construction and analysis of the Stokes-Darcy element introduced in Mardal, Tai, and Winther, [_A robust finite element method for Darcy-Stokes flow_ (2002)](https://doi.org/10.1137/S0036142901383910). (Available in Firedrake as `FunctionSpace(triangular_mesh, "MTW", 3)`).
 
-2020-10-12 & 2020-10-19. CJC talked us through the main points of Demkowicz and Gopalakrishnan, [_An overview of the discontinuous Petrov Galerkin method_ (2014)](https://doi.org/10.1007/978-3-319-01818-8_6).
+2020-10-12 & 2020-10-19. Colin Cotter talked us through the main points of Demkowicz and Gopalakrishnan, [_An overview of the discontinuous Petrov Galerkin method_ (2014)](https://doi.org/10.1007/978-3-319-01818-8_6).
 
 Summer 2020. We read through [Joachim
 Schöberl's](https://www.asc.tuwien.ac.at/~schoeberl/wiki/index.php/Joachim_Schöberl)

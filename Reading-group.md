@@ -18,6 +18,7 @@ Hosted via Zoom:
 - 2021-03-08 Thomas Gibson leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 - 2021-03-15 Francis Aznaran leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
 ## Possible papers
+- 2021-03-22 Alberto Paganini leading _An overview on deep learning-based approximationmethods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf
 
 Please add your own, or claim one to present.
 

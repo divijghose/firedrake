@@ -17,8 +17,9 @@ Hosted via Zoom:
 - 2021-02-22 Alexei Gazca leading _Multilevel methods for nonuniformly elliptic operators_, Long Chen, Ricardo H. Nochetto, Enrique Otarola, Abner J. Salgado https://arxiv.org/pdf/1403.4278
 - 2021-03-08 Thomas Gibson leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 - 2021-03-15 Francis Aznaran leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
-## Possible papers
 - 2021-03-22 Alberto Paganini leading _An overview on deep learning-based approximationmethods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf
+
+## Possible papers
 
 Please add your own, or claim one to present.
 

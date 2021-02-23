@@ -11,7 +11,8 @@ Present:
 
 Apologies: 
 
-## Item 1
+## RNH: Why did master fail tests?
+[This commit](https://github.com/firedrakeproject/firedrake/commit/6ded2a3d89cb2bc274ebd1567585757395963139) mysteriously failed tests. Is this indicative of some underlying issue with Jenkins or our codebase?
 
 ## Merge PRs:
 

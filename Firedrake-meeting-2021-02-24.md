@@ -9,7 +9,9 @@ Date and time 2021-02-24 16:00UTC (16:00GMT)
 
 Present:
 
-Apologies: 
+Apologies:
+
+## PB: Numerically stable derivatives for very high order elements in FIAT.
 
 ## RNH: Why did master fail tests?
 [This commit](https://github.com/firedrakeproject/firedrake/commit/6ded2a3d89cb2bc274ebd1567585757395963139) mysteriously failed tests. Is this indicative of some underlying issue with Jenkins or our codebase?

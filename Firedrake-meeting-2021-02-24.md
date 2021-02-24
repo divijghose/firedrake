@@ -18,6 +18,8 @@ Apologies:
 
 ## Caching Interpolators for the adjoint.
 
+## DRS: OpenBLAS + OpenMP sad times
+
 ## Merge PRs:
 
 ## AOB

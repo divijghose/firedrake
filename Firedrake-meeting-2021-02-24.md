@@ -5,7 +5,7 @@ Date and time 2021-02-24 16:00UTC (16:00GMT)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. PB: add comments to own code in this PR
 
-# Agenda
+# Minutes
 
 Present: DRS, CW, DH, JB, PB, KS, NB, LM, RK, PK, RNH, SV
 

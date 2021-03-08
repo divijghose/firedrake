@@ -20,6 +20,8 @@ Hosted via Zoom:
 
 - Some time in late April, Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf
 
+- In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
+
 
 ## Possible papers
 

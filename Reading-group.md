@@ -14,7 +14,6 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-03-08 Thomas Gibson leading _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 - 2021-03-15 Francis Aznaran leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
 - 2021-03-22 Alberto Paganini leading _An overview on deep learning-based approximation methods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf
 
@@ -35,6 +34,8 @@ Please add your own, or claim one to present.
 - Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
 
 ## Past editions
+
+2021-03-08 Thomas Gibson and Jack Betteridge when through _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 
 2021-02-22 Alexei Gazca went over _Multilevel methods for nonuniformly elliptic operators_, Long Chen, Ricardo H. Nochetto, Enrique Otarola, Abner J. Salgado https://arxiv.org/pdf/1403.4278. You can do fractional laplacians with one extra space dimension (should be able to do 3D+1 in Firedrake with a few additions in UFL for geometry terms).
 

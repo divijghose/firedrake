@@ -19,6 +19,14 @@ Ivan Graham would like to promote the use of Firedrake through a training event,
 * and when is the best time to run this (maybe in the summer)? JB suggests either avoiding having it at the same time as Firedrake21 or coinciding
 * Does anyone have / want to develop some bad cop Helmholtz demo material for such an event?
 
+## LM: "geometric" BCs
+
+This issue (https://github.com/firedrakeproject/firedrake/issues/1661) arose again. This requests applying BCs to interior facets. The only thing that is fiddly is determining the dofs on those facets, and pushing through a few other minor bits and pieces.
+
+The wrinkle is that this is all much easier if one uses topological BCs: you can just pull everything out of the section straightforwardly. For geometric bcs we have to go via facet indirections and the code is uglier.
+
+Given that geometric bcs don't make any sense really, we could just remove that option.
+
 ## Merge PRs:
 
 ## AOB

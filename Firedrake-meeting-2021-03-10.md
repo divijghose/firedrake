@@ -29,7 +29,7 @@ Given that geometric bcs don't make any sense really, we could just remove that 
 
 ## CW, JB: redesign of `firedrake-install`
 
-Installing Firedrake on HPC is hard. Is there a more standard and robust way of installing Firedrake?
+Installing Firedrake on HPC is hard. Could we come up with a more standard and robust way of installing Firedrake?
 
 Spack looks promising but has some barriers to entry.
 

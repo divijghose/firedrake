@@ -54,13 +54,13 @@ Spack looks promising but has some barriers to entry.
 **_Minutes:_**
 
 **Critical perspective from LM** 
-*Gives you isolated environment that has python and so on. How can you install python packages into that? You can either use spack or the python inside the environment to do pip install. For the latter spack does not know what python packages are inside the isolated environment.
-*Developer perspective? Spack unload Pyop2, pip install -i and then work on that. Strongest point of current install is that users and developers have the same install script
-*On HPC? You can tarball the spack.
+* Gives you isolated environment that has python and so on. How can you install python packages into that? You can either use spack or the python inside the environment to do pip install. For the latter spack does not know what python packages are inside the isolated environment.
+* Developer perspective? Spack unload Pyop2, pip install -i and then work on that. Strongest point of current install is that users and developers have the same install script
+* On HPC? You can tarball the spack.
 
 **Critical perspective from DH**
-*What do we get out of it? How can we make it robust? Besides being easier to use for install firedrake on HPC? Current flakiness comes from special cases in user environments. Spack claims controls the complete environment, does not fall back to system BLAS. Installing vs using different versions of MPI would not be a problem. Spack gives proper dependency tracking, so more precise about the dependencies.
-*If spack installs gcc or whatever, install will take ages. Be careful with things that take long because users will think it's failing. 
+* What do we get out of it? How can we make it robust? Besides being easier to use for install firedrake on HPC? Current flakiness comes from special cases in user environments. Spack claims controls the complete environment, does not fall back to system BLAS. Installing vs using different versions of MPI would not be a problem. Spack gives proper dependency tracking, so more precise about the dependencies.
+* If spack installs gcc or whatever, install will take ages. Be careful with things that take long because users will think it's failing. 
 
 **Potential idea**
 Refactor firedrake-install so that petsc+ builds are more robust (those are actually killing us not the python packages), maybe spack can help us with that for HPC.

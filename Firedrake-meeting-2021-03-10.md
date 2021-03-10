@@ -67,6 +67,8 @@ Refactor firedrake-install so that petsc+ builds are more robust (those are actu
 
 ## DH/NB: Grad of external operators
 
+**_Minutes:_**
+
 Came out of thinking hard about the chain rule. What changes is when taking Gateaux derivative of external operator. That's got an argument in a slot, where you then have to be able to drop a modified terminal in (so in the argument slot). Problem: Grad of the external operator has different shape, you have to do appropriate broadcast on the argument, so that the return shape changes as well. Good thing we only need to implement one derivative for the external operators in that case. Easy to change in ufl but it might take longer to adapt to that in the later stages of the pipeline. RC will need to adapt his code in consequence.
 
 ## Merge PRs:

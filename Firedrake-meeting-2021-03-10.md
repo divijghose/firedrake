@@ -27,6 +27,12 @@ The wrinkle is that this is all much easier if one uses topological BCs: you can
 
 Given that geometric bcs don't make any sense really, we could just remove that option.
 
+## CW, JB: redesign of `firedrake-install`
+
+Installing Firedrake on HPC is hard. Is there a more standard and robust way of installing Firedrake?
+
+Spack looks promising but has some barriers to entry.
+
 ## Merge PRs:
 
 ## AOB

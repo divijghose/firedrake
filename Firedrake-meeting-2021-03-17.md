@@ -17,8 +17,6 @@ Apologies:
 
 ## Merge PRs:
 
-No time left.
-
 ## AOB
 
 ## Date of next meeting

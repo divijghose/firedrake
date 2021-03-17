@@ -25,7 +25,7 @@ Apologies:
 
 ## AOB
 
-- Next meeting delayed to 07/04/21 due to Fenics and Easter.
+- Next meeting delayed to 07/04/21 due to [Fenics 2021](https://fenics2021.com/) and Easter.
 
 ## Date of next meeting
 

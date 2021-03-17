@@ -9,16 +9,24 @@ Date and time 2021-03-17 16:00UTC (16:00GMT)
 
 # Agenda
 
-Present:
+Present: DRS, JB, CW, NB, KS, SV
 
 Apologies:
 
 ## DRS: coding style w/black
 
+- (DRS) This could be an issue with `git blame` as it will touch all of the source files.
+- (DRS) Also will cause a problem with existing PRs as they would have to rebase.
+- Decision is to delay this discussion for those not present to get involved with.
+
 ## Merge PRs:
+
+- Kicked several PRs to solve CI build issues.
 
 ## AOB
 
+- Next meeting delayed to 07/04/21 due to Fenics and Easter.
+
 ## Date of next meeting
 
-[2021-03-24](./Firedrake-meeting-2021-03-24) 16:00UTC (16:00GMT)
+[2021-04-07](./Firedrake-meeting-2021-04-07) 16:00UTC (16:00GMT)

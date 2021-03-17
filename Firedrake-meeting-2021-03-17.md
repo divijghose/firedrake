@@ -13,7 +13,7 @@ Present:
 
 Apologies:
 
-## Item 1:
+## DRS: coding style w/black
 
 ## Merge PRs:
 

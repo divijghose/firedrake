@@ -14,7 +14,6 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-03-15 Francis Aznaran leading _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf
 - 2021-04-12 Alberto Paganini leading _An overview on deep learning-based approximation methods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf
 
 - Some time in late April, Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf
@@ -35,7 +34,9 @@ Please add your own, or claim one to present.
 
 ## Past editions
 
-2021-03-08 Thomas Gibson and Jack Betteridge when through _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
+2021-03-15 Francis Aznaran went through _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf it turns out to be quite tricky, approximations of operator exponentials and Padé approximations were at the forefront.
+
+2021-03-08 Thomas Gibson and Jack Betteridge went through _Multigrid preconditioners for the hybridized Discontinuous Galerkin discretisation of the shallow water equations_, Jack D. Betteridge, Thomas H. Gibson, Ivan G. Graham, Eike H. Mueller https://arxiv.org/pdf/2004.09389.pdf
 
 2021-02-22 Alexei Gazca went over _Multilevel methods for nonuniformly elliptic operators_, Long Chen, Ricardo H. Nochetto, Enrique Otarola, Abner J. Salgado https://arxiv.org/pdf/1403.4278. You can do fractional laplacians with one extra space dimension (should be able to do 3D+1 in Firedrake with a few additions in UFL for geometry terms).
 

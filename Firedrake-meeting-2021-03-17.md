@@ -7,7 +7,7 @@ Date and time 2021-03-17 16:00UTC (16:00GMT)
 1. LM: Crap out the geometric boundary stuff
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 
-# Agenda
+# Minutes
 
 Present: DRS, JB, CW, NB, KS, SV
 

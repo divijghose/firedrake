@@ -36,8 +36,21 @@ Followup question: should we have a code of conduct?
 Cf https://numfocus.org/code-of-conduct
 Arguments were presented on both sides.  There is a confusion of objectives.  If we have one, it should be well-written.
 
-
 ## DH: Orientations
+
+At p3 or above, PetSC save-restore scrambles dofs due to an orientation problem.  Orientation is resolved by numbering - but (with a perhaps-different partitioning) reloaded data has a new numbering.
+
+PetSC has explicit orientations.  But to restore we'd have to renumber for consistency.
+
+One option would be to make orientation explicit in Firedrake.  We would need gather and scatters to know about this (a permutation in the PyOP2 wrapper generator).  And FIAT would need to know about it (to provide the required permutation).  Like Basix.
+
+The permutations would need to come from the cell-node map.  Then we'd have a big switch in the wrapper.
+
+We want outer-loop vectorisation to propagate through this.
+
+Q: how big is the switch? The size of the symmetry group - hundreds.
+Q: it's not just a permutation?  In general it's an orientation-specific linear operator.
+
 
 ## Merge PRs:
 

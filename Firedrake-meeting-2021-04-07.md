@@ -1,4 +1,4 @@
-Date and time 2021-04-07 16:00UTC (16:00GMT)
+Date and time 2021-04-07 15:00UTC (16:00BST)
 
 # Action Items
 1. Pick Chair and Minuter.

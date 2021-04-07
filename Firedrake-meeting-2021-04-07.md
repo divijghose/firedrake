@@ -49,8 +49,9 @@ The permutations would need to come from the cell-node map.  Then we'd have a bi
 We want outer-loop vectorisation to propagate through this.
 
 Q: how big is the switch? The size of the symmetry group - hundreds.
-Q: it's not just a permutation?  In general it's an orientation-specific linear operator.
+Q: it's not just a permutation?  In general we need an orientation-specific linear operator.
 
+No conclusion.
 
 ## Merge PRs:
 

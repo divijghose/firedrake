@@ -27,4 +27,4 @@ Apologies:
 
 ## Date of next meeting
 
-[2021-04-14](./Firedrake-meeting-2021-04-14) 16:00UTC (16:00BST)
+[2021-04-14](./Firedrake-meeting-2021-04-14) 15:00UTC (16:00BST)

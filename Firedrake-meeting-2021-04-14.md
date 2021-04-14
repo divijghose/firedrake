@@ -13,11 +13,9 @@ Present:
 
 Apologies:
 
-## CW: Refactoring assemble ([PR](https://github.com/firedrakeproject/firedrake/pull/1983))
-
-This PR is now done apart from some minor docstring improvements. Would be good to merge ASAP.
-
 ## Merge PRs:
+
+CW: [Refactoring assemble](https://github.com/firedrakeproject/firedrake/pull/1983)
 
 ## AOB
 

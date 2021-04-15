@@ -37,10 +37,10 @@ An alternative would be `Github Actions`, we would need to migrate little pieces
                 -> Consequence: Speed up significantly `assemble()` (x4-5) at the cost of a small overhead for the internal API `create_assembly_callable()` (x2).
 
 - [Annotate +=, *=, etc.](https://github.com/firedrakeproject/firedrake/pull/1995): **Merged**
-        -> Annotate augmented assignments. It basically puts an `AssignBlock` on the tape and encode the augmented assignment in the `assign` input. Adjoint does not do the right thing for `*=` and `/=` for nonlinear assignment.
+        -> Annotate augmented assignments. It basically puts an `AssignBlock` on the tape and encode the augmented assignment in the `assign` input. Adjoint does not do the right thing for `*=` and `/=` for nonlinear assignments.
 
 - [Interior bcs](https://github.com/firedrakeproject/firedrake/pull/2007): **Review needed**
-        -> Remove the non topological identification of boundaries that consists in identifying the boundary nodes as those where the basis functions cancel out (implying that the nodes are dependent from the basis). Instead we only keep the topological association.
+        -> Remove the non topological identification of boundaries that consists in identifying the boundary nodes as those where the basis functions cancel out (implying that the nodes are dependent from the basis functions). Instead we only keep the topological association.
 
 ## AOB
 

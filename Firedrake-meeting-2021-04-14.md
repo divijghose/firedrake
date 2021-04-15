@@ -9,9 +9,9 @@ Date and time 2021-04-14 15:00UTC (16:00BST)
 
 # Agenda
 
-Present:
+Present: Lawrence, David, Keith, Koki, Nacime, Sophia, Reuben, Jack, Pablo
 
-Apologies:
+Apologies: Rob
 
 ## Loopy sprint:
 

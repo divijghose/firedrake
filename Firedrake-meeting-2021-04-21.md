@@ -13,6 +13,7 @@ Present:
 
 Apologies:
 
+* Getting EquationBC to work with pyadjoint: Using the branch `equation_bc_tape_mc` (and some changes to pyadjoint) we are now able to correctly tape EquationBC. However, there are a few issues calculating the derivative mainly because EquationBC was not designed to be used with `_la_solve` which is what pyadjoint uses when calculating the derivative. [MC]
 
 ## Merge PRs:
 

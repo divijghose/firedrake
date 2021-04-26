@@ -14,9 +14,7 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-04-12 Alberto Paganini leading _An overview on deep learning-based approximation methods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf
-
-- Some time in late April, Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf
+- 2021-04-26 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf
 
 - In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
 
@@ -33,6 +31,8 @@ Please add your own, or claim one to present.
 - Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
 
 ## Past editions
+
+2021-04-12 & 2021-04-19 Alberto Paganini went through _An overview on deep learning-based approximation methods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf This mathematical paper summarises known theorems about approximation of PDEs using neural networks. It also has a substantial bibliography with pointers to applications in many areas.
 
 2021-03-15 Francis Aznaran went through _Positivity-preserving methods for population models_, Sergio Blanes, Arieh Iserles, Shev Macnamara https://arxiv.org/pdf/2102.08242.pdf it turns out to be quite tricky, approximations of operator exponentials and Padé approximations were at the forefront.
 

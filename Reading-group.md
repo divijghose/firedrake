@@ -14,9 +14,9 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-05-10 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part II: nonlinearities and DAEs_, Ben S. Southworth, Oliver Krzysik, Will Pazner https://arxiv.org/pdf/2101.01776.pdf
-
 - 2021-05-03 No session, UK bank holiday
+
+- 2021-05-10 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part II: nonlinearities and DAEs_, Ben S. Southworth, Oliver Krzysik, Will Pazner https://arxiv.org/pdf/2101.01776.pdf
 
 - In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
 

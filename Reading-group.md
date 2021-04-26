@@ -21,17 +21,6 @@ Hosted via Zoom:
 - In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
 
 
-## Possible papers
-
-Please add your own, or claim one to present.
-
-
-
-- Bonizzoni and Kanschat, [_H<sup>1</sup>-conforming finite element cochain complexes and commuting quasi-interpolation operators on cartesian meshes_ (2020)](https://arxiv.org/abs/2010.00524).
-- Li, Zhang, and Zhang, [_A constrained transport divergence-free finite element method for Incompressible MHD equations_ (2020)](https://arxiv.org/abs/2008.09244).
-- Xu, [_The method of subspace corrections_ (2001)](https://doi.org/10.1016/S0377-0427(00)00518-5).
-- Hiptmair and Pechstein, [_Discrete regular decompositions of tetrahedral discrete 1-forms_ (2017)](https://www.sam.math.ethz.ch/sam_reports/reports_final/reports2017/2017-47_fp.pdf). This paper introduces, in a rather didactic way, a lot of modern analysis tools for development and analysis of preconditioners for H(div) and H(curl) problems.
-
 ## Past editions
 
 2021-04-26 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf might be reasonably be implementable as a PC inside irksome.

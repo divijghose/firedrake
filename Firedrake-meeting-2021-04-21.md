@@ -7,7 +7,7 @@ Date and time 2021-04-21 15:00UTC (16:00BST)
 1. LM: ~Crap out the geometric boundary stuff~ done: please review https://github.com/firedrakeproject/firedrake/pull/2007
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 
-# Agenda
+# Minutes
 
 Present: Jack Betteridge, Reuben Nixon-Hill, David Ham, Mariana Clare, Koki Sagiyama, Daniel Shapera, Lawrence Mitchell, Sophia V, Rob Kirby, Connor Ward, Kaushik Kulkarni, Thomas Gibson, Nacime Bouziani
 

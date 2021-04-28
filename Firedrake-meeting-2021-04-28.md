@@ -11,7 +11,7 @@ Date and time 2021-04-28 15:00UTC (16:00BST)
 
 Present: 
 
-Apologies:
+Apologies: Reuben Nixon-Hill
 
 ## Report back on Loopy sprint
 

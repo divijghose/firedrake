@@ -100,7 +100,9 @@ The other ranks can be broken at any time with an interupt signal (`ctrl-C`) to 
 
 This is particularly useful when trying to debug hanging programs where no rank processes have actually errored.
 
-Note that I have yet to get PETSc's `-start-in-debugger` argument, which should cause the program on all ranks to start in the debugger, working
+## What Doesn't Work
+
+Note that I have yet to get PETSc's `-start-in-debugger` argument, which should cause the program on all ranks to start in the debugger, working with this example.
 
 `$ tmux-mpi 3 gdb --ex run --args $(which python) test.py -start-in-debugger`
 

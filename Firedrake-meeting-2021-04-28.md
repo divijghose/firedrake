@@ -23,4 +23,4 @@ Apologies: Reuben Nixon-Hill
 
 ## Date of next meeting
 
-[2021-05-05](./Firedrake-meeting-2021-05-05) 15:00UTC (16:00BST)
+[2021-05-04](./Firedrake-meeting-2021-05-04) 15:00UTC (16:00BST)

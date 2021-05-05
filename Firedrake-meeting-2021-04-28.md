@@ -9,17 +9,28 @@ Date and time 2021-04-28 15:00UTC (16:00BST)
 
 # Agenda
 
-Present: 
+Present: SV, RCK, KR, LM, KS, CW, JDB, DAH, DRS, NB
 
 Apologies: Reuben Nixon-Hill
 
 ## Report back on Loopy sprint
 
+SV: Almost there. 1 failing test in firedrake real mode. A few tests
+fails on the complex side.
+
 ## Failing tests on master
+
+Merge mumps workaround (change mixed star test to mass rather than
+stokes), keep track of PETSc issue 893.
 
 ## Merge PRs:
 
+Merged a few
+
 ## AOB
+
+DRS wanted slepc help, we suggested petsc-users@mcs.anl.gov
+
 
 ## Date of next meeting
 

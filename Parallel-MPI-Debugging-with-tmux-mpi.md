@@ -65,7 +65,7 @@ To debug, in a python debugger, the `mpiexec -n -3 python test.py` example:
 
   1. Install `pdb++` (see https://pypi.org/project/pdbpp/) which is much better than standard `pdb`
   2. Start a `tmux` session with a `tmux` "window" for each MPI rank, each of which opens in the debugger with `$ tmux-mpi 3 $(which python) -m pdb test.py`
-  3. Open a new terminal and attach to the `tmux` session with `tmux attach -t tmux-mpi`. You should see that `pdb++` has stopped at the initial import: 
+  3. Open a new terminal on the same computer and attach to the `tmux` session with `tmux attach -t tmux-mpi`. You should see that `pdb++` has stopped at the initial import: 
 ```
 [2] > /Users/rwh10/firedrake/src/firedrake/deleteme.py(1)<module>()
 -> import sys
@@ -84,7 +84,7 @@ In practice this means that *you cannot easily debug MPI C code on MacOS*.
 To debug, in a C debugger, the `mpiexec -n -3 python test.py` example:
 
   1. Run `$ tmux-mpi 3 gdb --ex run --args $(which python) test.py` - this will create a `tmux` session with 3 `tmux` "windows" each running `test.py` in `gdb`
-  2. The program will have breaked when the seg fault happened on rank 0 whilst the other ranks continue to run - you'll be able to see this by switching windows with `ctrl-b n` until you see
+  2. Open a new terminal on the same computer and attach to the `tmux` session with `tmux attach -t tmux-mpi`. The program will have breaked when the seg fault happened on rank 0 whilst the other ranks continue to run - you'll be able to see this by switching windows with `ctrl-b n` until you see
 ```
 ...
 [New Thread 0x7fffa4073700 (LWP 22242)]
@@ -96,5 +96,16 @@ Thread 1 "python" received signal SIGSEGV, Segmentation fault.
 0x0000000000000000 in ?? ()
 (gdb)
 ```
-The other ranks can be broken at any time with `ctrl-c` to see where you are. 
+The other ranks can be broken at any time with an interupt signal (`ctrl-C`) to see where you are.
+
 This is particularly useful when trying to debug hanging programs where no rank processes have actually errored.
+
+Note that I have yet to get PETSc's `-start-in-debugger` argument, which should cause the program on all ranks to start in the debugger, working
+
+`$ tmux-mpi 3 gdb --ex run --args $(which python) test.py -start-in-debugger`
+
+or indeed any arguments such as PETSc's `-on_error_attach_debugger`.
+
+Please update this and let me know if you manage to get it working!
+
+ - Reuben Nixon-Hill May 2021

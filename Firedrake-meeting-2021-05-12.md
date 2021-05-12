@@ -15,6 +15,11 @@ Apologies:
 
 ## Firedrake training
 
+## RNH - Vertex Only Mesh PRs
+Keen to get merged so would be good to flag any outstanding issues:
+ - https://github.com/firedrakeproject/firedrake/pull/2059
+ - https://github.com/firedrakeproject/tsfc/pull/247
+ - https://github.com/FInAT/FInAT/pull/81
 
 ## AOB
 

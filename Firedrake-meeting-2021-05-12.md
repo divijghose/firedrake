@@ -22,9 +22,9 @@ Keen to get merged so would be good to flag any outstanding issues:
  - https://github.com/FInAT/FInAT/pull/81
 
 ## SV - reminder to review to review loopy sprint branches
-https://github.com/firedrakeproject/firedrake/pull/2038
-https://github.com/firedrakeproject/tsfc/pull/244
-https://github.com/OP2/PyOP2/pull/612
+ - https://github.com/firedrakeproject/firedrake/pull/2038
+ - https://github.com/firedrakeproject/tsfc/pull/244
+ - https://github.com/OP2/PyOP2/pull/612
 
 ## AOB
 

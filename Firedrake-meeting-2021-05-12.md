@@ -9,11 +9,26 @@ Date and time 2021-05-05 15:00UTC (16:00BST)
 
 # Agenda
 
-Present: 
+Present: David, Lawrence, Reuben, Rob, Sophia, Connor, Dan, Jack, Nacime, Colin, Koki
 
 Apologies:
 
 ## Firedrake training
+
+Archer is having issues ... (might get back late June)
+
+Firedrake training in June?
+
+- end of June / beginning of July
+- afternoon for Americans
+- Microsoft Teams
+
+May or may not do bad cop Helmholtz:
+
+See : https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2021-03-10
+
+Action DH: Email Jemma, Ivan
+
 
 ## RNH - Vertex Only Mesh PRs
 Keen to get merged so would be good to flag any outstanding issues:

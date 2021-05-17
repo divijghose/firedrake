@@ -14,16 +14,16 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-05-03 No session, UK bank holiday
 
-- 2021-05-10 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part II: nonlinearities and DAEs_, Ben S. Southworth, Oliver Krzysik, Will Pazner https://arxiv.org/pdf/2101.01776.pdf
 
 - In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
 
 
 ## Past editions
 
-2021-04-26 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf might be reasonably be implementable as a PC inside irksome.
+2021-05-10 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part II: nonlinearities and DAEs_, Ben S. Southworth, Oliver Krzysik, Will Pazner https://arxiv.org/pdf/2101.01776.pdf the result is not quite as neat as the linear case (you do need all the stage vectors), but the results looked pretty good. Should again be implementable inside [irksome](https://github.com/firedrakeproject/irksome).
+
+2021-04-26 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part I: the linear setting_, Ben S. Southworth, Oliver Krzysik, Will Pazner, Hans De Sterck https://arxiv.org/pdf/2101.00512.pdf might be reasonably be implementable as a PC inside [irksome](https://github.com/firedrakeproject/irksome).
 
 2021-04-12 & 2021-04-19 Alberto Paganini went through _An overview on deep learning-based approximation methods for partial differential equations_, Christian Beck, Martin Hutzenthaler, Arnulf Jentzen, and Benno Kuckuck https://arxiv.org/pdf/2012.12348.pdf This mathematical paper summarises known theorems about approximation of PDEs using neural networks. It also has a substantial bibliography with pointers to applications in many areas.
 

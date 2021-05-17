@@ -14,7 +14,10 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-
+- 2021-05-24 ???
+- 2021-05-31 Bank Holiday
+- 2021-06-07 ???
+- 2021-06-14 Scott MacLachlan leading _Textbook efficiency: massively parallel matrix-free multigrid for the Stokes system_ https://arxiv.org/abs/2010.13513
 
 - In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
 

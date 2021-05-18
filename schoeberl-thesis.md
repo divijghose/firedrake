@@ -271,7 +271,7 @@ heavily on the constraint space. A critical requirement of the space
 decomposition that is pointed out, and not enjoyed by most
 incarnations of Vanka relaxation, is that having picked a space
 decomposition for V<sub>l</sub> and Q<sub>l</sub>, we require that
-Λ<sub>l</sub> V<sub>l,i</sub> ⊂ Q<sub>l,i</sub>. Just as Λ<sub>l
+Λ<sub>l</sub> V<sub>l,i</sub> ⊂ Q<sub>l,i</sub>. Just as Λ<sub>l</sub>
 V<sub>l</sub> ⊂ Q<sub>l</sub>.
 
 Finally we looked through the results which confirm that the scheme

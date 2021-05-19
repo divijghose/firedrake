@@ -1,4 +1,4 @@
-Date and time 2021-05-05 15:00UTC (16:00BST)
+Date and time 2021-05-12 15:00UTC (16:00BST)
 
 # Action Items
 1. **Pick Chair and Minuter**.
@@ -7,7 +7,7 @@ Date and time 2021-05-05 15:00UTC (16:00BST)
 1. LM: ~Crap out the geometric boundary stuff~ done: please review https://github.com/firedrakeproject/firedrake/pull/2007
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 
-# Agenda
+# Minutes
 
 Present: David, Lawrence, Reuben, Rob, Sophia, Connor, Dan, Jack, Nacime, Colin, Koki
 
@@ -44,3 +44,4 @@ Keen to get merged so would be good to flag any outstanding issues:
 ## AOB
 
 ## Date of next meeting
+[2021-05-19](./Firedrake-meeting-2021-05-19) 15:00UTC (16:00BST)

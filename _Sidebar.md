@@ -15,6 +15,7 @@
 - [Modifying and Rebuilding PETSc and petsc4py](./Modifying-and-Rebuilding-PETSc-and-petsc4py-in-Firedrake)
 - [Vectorisation](./vectorization-in-firedrake)
 - [Parallel MPI Debugging with `tmux-mpi`](./Parallel-MPI-Debugging-with-tmux-mpi)
+- Wiki for Developers
 </details>
 
 <details>

@@ -1,1 +1,0 @@
-**Some guidelines for Firedrake Developers**

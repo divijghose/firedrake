@@ -1,4 +1,4 @@
-**If I want to edit and execute some of the C kernels Firedrake has previously generated "by hand", how do I do that?**
+**FAQ 1 - If I want to edit and execute some of the C kernels Firedrake has previously generated "by hand", how do I do that?**
 
 1. look in .cache
 1. delete the .so

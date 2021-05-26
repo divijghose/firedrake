@@ -15,6 +15,8 @@ Apologies:
 
 ## LM: FIAT ownership
 
+## RNH: FInAT Dual Eval Design
+
 ## Merge PRs
 
 ## AOB

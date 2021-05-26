@@ -37,7 +37,7 @@ Fenics is offering us to take over FIAT. For that, few things need to be fixed i
 ## RNH: FInAT Dual Eval Design
 
 Point of having dual in FInAT is twofold:
- 1) Composed structured dual
+ 1) Compose structured dual
  2) Can design interface that remove necessity for having to look inside data structure when looking at dual
 
 Matthew Kan's work does not cover all the cases.
@@ -53,7 +53,7 @@ Plan for Reuben:
 
 Compiling a dual expression is different than compiling a form. What it does is compile `Interp`.
 
-When `Interp` has a cofunction in its second slot (i.e. actually evaluate the action) we has to pass to the kernel the `dat` associated to the cofunction as well.
+When `Interp` has a cofunction in its second slot (i.e. actually evaluate the action) we have to pass to the kernel the `dat` associated to the cofunction as well.
 
 So far, in the evaluation process we were passing via some nodes multiples times, the way to deal with that so far has been overwriting (i.e. overwrite the values computed at these nodes). In the case where we apply cofunction on the right, overwriting does not work.
 

@@ -42,9 +42,10 @@
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
 
-  - [2021-05-19](./Firedrake-meeting-2021-05-19)
+  - [2021-05-26](./Firedrake-meeting-2021-05-26)
 
 ---
+  - [2021-05-19](./Firedrake-meeting-2021-05-19)
   - [2021-05-12](./Firedrake-meeting-2021-05-12)
   - [2021-05-05](./Firedrake-meeting-2021-05-05)
   - [2021-04-28](./Firedrake-meeting-2021-04-28)

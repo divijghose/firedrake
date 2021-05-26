@@ -59,7 +59,7 @@ After build script finishes, activate the environment
 ```
 source firedrake/bin/activate
 ```
-try to import vtk using
+and try to import vtk using
 ```
 python -c "import vtk"
 ```
@@ -84,6 +84,8 @@ The last step should have created a .whl python binary package in dist/, which y
 ```
 pip install --upgrade dist/vtk-9.0.1-cp39-cp39-linux_x86_64.whl
 ```
+Now you should be able to import vtk. Note that importing firedrake may require running under `mpiexec` which is only allowed on the nodes, so you have to submit a job (see section "Running" above) to test this.
+
 
 ## Troubleshooting
 * An unsuccessful installation may be due to the default modules on cx1. E.g. to resolve an error of form 

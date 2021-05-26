@@ -5,20 +5,19 @@ CX1 is Imperial's entry-level HPC cluster. These are the instructions for buildi
 ## Building
 
 ```
-module load anaconda3
-module load gcc
+module load anaconda3/personal
+module load bison
+module load flex
+module load cmake/3.7.0
+module load gcc/9.3.0
 module load mpi
-export I_MPI_CC=gcc
-export I_MPI_CXX=g++
-export I_MPI_F90='gfortran -I/apps/intel/2017/compilers_and_libraries_2017.0.098/linux/mpi/intel64/include/ilp64/gfortran/5.1.0'
-export I_MPI_FC="$I_MPI_F90"
-export I_MPI_F77="$I_MPI_F90"
 export PETSC_CONFIGURE_OPTIONS=--download-fblaslapack
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
 python firedrake-install --no-package-manager
-ln -s /apps/anaconda3/4.1.1/lib/libpython3.5m.so.1.0 firedrake/lib/
 ```
-Note that further modules may be required, see Troubleshooting below.
+At the moment, although the build script finishes successfully, firedrake fails to import after activating the environment because it cannot import vtk. This is because the binary wheel for vtk installed by pip is linked against a much newer version of libc than what is available on cx1. You therefore have to rebuild this package locally (see section below).
+Note that further modules may also be required, see Troubleshooting below.
+
 ## Running
 The following is a sample pbs script running the Helmholtz demo. Don't forget to run make in the `firedrake/src/firedrake/demos` directory before submitting. Note, that we don't load the anaconda3 module as it puts libraries in our path that conflict with our firedrake build.
 ```
@@ -42,11 +41,9 @@ rm -f stdout* stderr*
 
 module load gcc
 module load mpi
-export I_MPI_CC=gcc
-export I_MPI_CXX=g++
 
-# Change the next line to wherever you put your firedrake/
-source $HOME/src/firedrake/bin/activate
+# Change the next line to wherever you put your firedrake/ installation
+source $HOME/firedrake/bin/activate
 
 # Start time
 echo Start time is `date` > date
@@ -55,6 +52,37 @@ mpiexec python $VIRTUAL_ENV/src/firedrake/demos/helmholtz/helmholtz.py
  
 # End time
 echo End time is `date` >> date
+```
+
+## Rebuilding VTK
+After build script finishes, activate the environment
+```
+source firedrake/bin/activate
+```
+try to import vtk using
+```
+python -c "import vtk"
+```
+At the moment this fails complaining about the GLIBC version. To fix this rebuild vtk using the following steps. Ensure that you still have the same modules loaded as recommended above for building firedrake
+```
+# checkout the vtk source and the right version tag
+git clone https://gitlab.kitware.com/vtk/vtk.git
+cd vtk
+git checkout tags/v9.0.1 -b v9.0.1
+# install some build dependencies (easiest to just install in the new firedrake environment)
+pip install scikit-build
+pip install ninja
+# make a directory to build in
+mkdir build
+cd build
+# and configure and build (this may take more than 5 hours!)
+cmake -GNinja -DVTK_WHEEL_BUILD=ON -DVTK_PYTHON_VERSION=3 -DVTK_WRAP_PYTHON=ON ../
+ninja
+python setup.py bdist_wheel
+```
+The last step should have created a .whl python binary package in dist/, which you can install with (make sure the firedrake environment is activated!):
+```
+pip install --upgrade dist/vtk-9.0.1-cp39-cp39-linux_x86_64.whl
 ```
 
 ## Troubleshooting

@@ -19,6 +19,8 @@ Apologies:
 
 ## RNH: `compile_expression_dual_evaluation` future design
 
+## LM: `with RooflineStatistics()` design
+
 ## Merge PRs
 
 ## AOB

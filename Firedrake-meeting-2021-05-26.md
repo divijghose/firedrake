@@ -17,6 +17,8 @@ Apologies:
 
 ## RNH: FInAT Dual Eval Design
 
+## RNH: `compile_expression_dual_evaluation` future design
+
 ## Merge PRs
 
 ## AOB

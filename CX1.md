@@ -39,7 +39,7 @@ echo Working Directory is $PBS_O_WORKDIR
 cd $PBS_O_WORKDIR
 rm -f stdout* stderr*
 
-module load gcc
+module load gcc/9.3.0
 module load mpi
 
 # Change the next line to wherever you put your firedrake/ installation

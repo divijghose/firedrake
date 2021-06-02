@@ -14,8 +14,6 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-05-24 ???
-- 2021-05-31 Bank Holiday
 - 2021-06-07 ???
 - 2021-06-14 Scott MacLachlan leading _Textbook efficiency: massively parallel matrix-free multigrid for the Stokes system_ https://arxiv.org/abs/2010.13513
 

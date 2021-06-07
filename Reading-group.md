@@ -14,10 +14,10 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-06-07 ???
 - 2021-06-14 Scott MacLachlan leading _Textbook efficiency: massively parallel matrix-free multigrid for the Stokes system_ https://arxiv.org/abs/2010.13513
+- 2021-06-21 Lawrence Mitchell leading _A GenEO Domain Decomposition method for Saddle Point problems_ https://arxiv.org/abs/1911.01858
+- 2021-06-28 Colin Cotter leading _Interpolating between Optimal Transport and MMD using Sinkhorn Divergences_ https://arxiv.org/abs/1810.08278
 
-- In April, if there's interest, Alberto Paganini leading _Finite Elements and Virtual Elements on Classical Meshes_, Franco Brezzi and Luisa Donatella Marini, https://link.springer.com/article/10.1007%2Fs10013-021-00474-y
 
 
 ## Past editions

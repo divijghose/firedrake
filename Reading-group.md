@@ -5,7 +5,7 @@ online. Email [Lawrence
 Mitchell](mailto:lawrence.mitchell@durham.ac.uk) if you'd like to
 participate. Suggestions of papers and scheduling discussions also take place in the `#readinggroup` channel on the [Firedrake slack](https://www.firedrakeproject.org/contact.html#slack-slack-badge).
 
-Scheduled time: Mondays 17:00UTC. [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
+Scheduled time: Mondays 15:00UTC (4pm UK time). [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
 
 Hosted via Zoom:
 

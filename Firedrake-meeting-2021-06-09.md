@@ -30,6 +30,12 @@ Maybe we should squash merge the changes from after May 4, 2021 in any case?
 
 ## Merge PRs
 
+### CW Annotate Firedrake functions with PETSc events
+
+Once this gets merged we should be able to generate flame graphs from Firedrake scripts.
+
+https://github.com/firedrakeproject/firedrake/pull/2051 and https://github.com/OP2/PyOP2/pull/623
+
 ## AOB
 
 ## Date of next meeting

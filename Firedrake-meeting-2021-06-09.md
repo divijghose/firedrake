@@ -30,6 +30,18 @@ I double checked the commits the last we have got from them is `b04cecf` from Ma
 I think we agreed to wait until the new test hardware up to change anything about this?
 Maybe we should squash merge the changes from after May 4, 2021 in any case?
 
+---
+
+DH: We don't actually want to run on their `master` branch. We want a nominal fork that automatically updates to `master` when we have confirmed that CI passes using it.
+SV: They are happy to take some of our tests to make sure that they don't break compatibility with Firedrake.
+DH: But they're not going to want to build PETSc in their CI. If they ran the tests on our Docker container they would have to switch out the Loopy which is slightly involved. Also there is still the risk of breaking Firedrake for our users.
+
+DH: We want to hard update our fork to `master` but this would break `firedrake-update`.
+
+Process decided upon: Check if current branch is `firedrake` and if so then switch to `main` and then pull. This won't affect other branches. Also put out PSA on Firedrake mailing list.
+
+DH: This can be done before waiting for build hardware due to delays in getting it set up.
+
 ## Merge PRs
 
 ### CW Annotate Firedrake functions with PETSc events
@@ -38,7 +50,11 @@ Once this gets merged we should be able to generate flame graphs from Firedrake 
 
 https://github.com/firedrakeproject/firedrake/pull/2051 and https://github.com/OP2/PyOP2/pull/623
 
+Merged.
+
 ## AOB
 
+DS: Has been working on validating PETSc options in petsc4py.
+
 ## Date of next meeting
- [2021-06-09](./Firedrake-meeting-2021-06-09) 15:00UTC (16:00BST)
+ [2021-06-16](./Firedrake-meeting-2021-06-16) 15:00UTC (16:00BST)

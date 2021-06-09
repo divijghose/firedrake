@@ -11,7 +11,7 @@ Date and time 2021-06-09 15:00UTC (16:00BST)
 
 Present:
 
-Apologies:
+Apologies: Nacime
 
 ## SV Loopy has merged their part of the loopy sprint
 

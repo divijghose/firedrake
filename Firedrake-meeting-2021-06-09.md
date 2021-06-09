@@ -17,7 +17,7 @@ Apologies:
 
 I moved their master branch to our fork here: https://github.com/firedrakeproject/loopy/tree/test-new-loopy-master
 
-The test run on it is here:
+The test run on it is here: https://jenkins.ese.ic.ac.uk/blue/organizations/jenkins/firedrake/detail/PR-2105/1/pipeline
 
 
 The diff says:

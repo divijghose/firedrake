@@ -18,6 +18,8 @@ Apologies: Nacime (travelling to France)
 I moved their master branch to our fork here: https://github.com/firedrakeproject/loopy/tree/test-new-loopy-master
 
 The test run on it is here: https://jenkins.ese.ic.ac.uk/blue/organizations/jenkins/firedrake/detail/PR-2105/1/pipeline
+First time round we got = 3260 failed, 650 passed, 1120 skipped, 270 xfailed, 893 warnings, 585 errors 
+Loopycompat needed to adapt to interface changes. New run is on now.
 
 
 The diff says:

@@ -7,7 +7,7 @@ Date and time 2021-06-09 15:00UTC (16:00BST)
 1. DH: Email Jemma, Ivan Re: Training
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 
-# Agenda
+# Minutes
 
 Present:
 

@@ -11,7 +11,7 @@ Date and time 2021-06-23 15:00UTC (16:00BST)
 
 Present:
 
-Apologies: 
+Apologies: Nacime
 
 ## Build Hardware Update
 

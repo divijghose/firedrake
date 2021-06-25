@@ -9,11 +9,27 @@ Date and time 2021-06-23 15:00UTC (16:00BST)
 
 # Agenda
 
-Present:
+Present: DAH, JDB, SV, PHJK, KS, MG, CW, RCK
 
 Apologies: Nacime
 
 ## Build Hardware Update
+
+DAH: build hardware has been hooked up and things are testing. We
+might be able to migrate soon.
+
+Test hardware is much faster.
+
+One needs to clean up the build directory before/after every run.
+
+## Date for firedrake-online 2021
+
+Proposed: Week of 13th September 2021.
+
+## Caching of things
+
+Long term: key -> parloop (without data) + extraction functions
+
 
 ## Merge PRs
 

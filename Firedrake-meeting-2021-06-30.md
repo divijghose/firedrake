@@ -22,6 +22,9 @@ anything important to mention ?
 I finally got around to modify firedrake-update to handle the switch to new loopy branch.
 We need to merge 1) https://github.com/OP2/PyOP2/pull/627 and then 2) https://github.com/firedrakeproject/firedrake/pull/2130
 
+
+## Merge petsc upstream? 
+
 ## Merge PRs
 
 ## AOB

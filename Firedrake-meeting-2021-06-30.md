@@ -12,11 +12,19 @@ Date and time 2021-06-23 15:00UTC (16:00BST)
 
 Present: MG, JW, KS, JB, DH, SV, RNH, PK, NB, CW
 
-Apologies: 
+Apologies:
 
 ## Build Hardware Update
 
 Most of Firedrake now over, plus Gusto. Not Docker, yet.
+
+## Firedrake training
+
+DH, JW (minutes), JB, KS will give a ARCHER2 Firedrake training. JW fixed bugs in notebooks.
+
+## Firedrake 2021
+
+Intention to hold online in week of 13th Sept. Could use a similar format to FEniCS: short zoom talks and social stuff in 'gather town'.
 
 ## SV: Update loopy fork
 

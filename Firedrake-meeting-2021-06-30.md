@@ -3,9 +3,6 @@ Date and time 2021-06-30 15:00UTC (16:00BST)
 # Action Items
 1. **Pick Chair and Minuter**.
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
-1. PB: add comments to own code in this PR
-1. DH: Email Jemma, Ivan Re: Training
-1. JW: notebook testing
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 
 # Agenda
@@ -22,7 +19,7 @@ Most of Firedrake now over, plus Gusto. Not Docker, yet.
 
 ## Firedrake training
 
-DH, JW, JB, KS have been planning an ARCHER2 Firedrake training in August. JW fixed bugs in notebooks.
+DH, JW, JB, KS have been planning an ARCHER2 Firedrake training in August.
 
 
 ## Firedrake 2021
@@ -49,14 +46,12 @@ Passing, seems fine.
 
 ## Update on cofunction
 
-CC asked for update. DH: We have a roll-your-own-DAG visitor in TSFC we could use.
+CC asked for update. DH: The two branches should be sufficient for now. We have a roll-your-own-DAG visitor in TSFC we could use.
 
 
-## Merge PRs
+## Notebooks
 
-
-## AOB
-
+JW fixed bugs in notebooks ahead of Firedrake training, but noticed that they aren't actually being tested. Will look into `pytest-notebook`.
 
 ## Date of next meeting
 [2021-07-07](./Firedrake-meeting-2021-07-07) 15:00UTC (16:00BST)

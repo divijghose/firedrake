@@ -14,13 +14,15 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-06-14 Scott MacLachlan leading _Textbook efficiency: massively parallel matrix-free multigrid for the Stokes system_ https://arxiv.org/abs/2010.13513
-- 2021-06-21 Lawrence Mitchell leading _A GenEO Domain Decomposition method for Saddle Point problems_ https://arxiv.org/abs/1911.01858
-- 2021-06-28 Colin Cotter leading _Interpolating between Optimal Transport and MMD using Sinkhorn Divergences_ https://arxiv.org/abs/1810.08278
+- 2021-07-05 Colin Cotter leading _Interpolating between Optimal Transport and MMD using Sinkhorn Divergences_ https://arxiv.org/abs/1810.08278
 
 
 
 ## Past editions
+
+2021-06-21 Lawrence Mitchell leading _A GenEO Domain Decomposition method for Saddle Point problems_ https://arxiv.org/abs/1911.01858
+
+2021-06-14 Scott MacLachlan leading _Textbook efficiency: massively parallel matrix-free multigrid for the Stokes system_ https://arxiv.org/abs/2010.13513
 
 2021-05-10 Lawrence Mitchell leading _Fast parallel solution of fully implicit Runge-Kutta and discontinuous Galerkin in time for numerical PDEs, Part II: nonlinearities and DAEs_, Ben S. Southworth, Oliver Krzysik, Will Pazner https://arxiv.org/pdf/2101.01776.pdf the result is not quite as neat as the linear case (you do need all the stage vectors), but the results looked pretty good. Should again be implementable inside [irksome](https://github.com/firedrakeproject/irksome).
 

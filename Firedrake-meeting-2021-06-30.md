@@ -5,7 +5,7 @@ Date and time 2021-06-30 15:00UTC (16:00BST)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 
-# Agenda
+# Minutes
 
 Present: MG, JW (minutes), KS, JB, DH, SV, RNH, PK, NB, CW, CC
 

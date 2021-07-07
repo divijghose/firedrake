@@ -4,6 +4,7 @@ Date and time 2021-07-07 15:00UTC (16:00BST)
 1. **Pick Chair and Minuter**.
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
+1. (JB, DH, KS, JW): Firedrake training happening 23rd August, update
 
 # Agenda
 

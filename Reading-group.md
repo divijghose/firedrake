@@ -14,11 +14,12 @@ Hosted via Zoom:
 
 ## Upcoming sessions
 
-- 2021-07-05 Colin Cotter leading _Interpolating between Optimal Transport and MMD using Sinkhorn Divergences_ https://arxiv.org/abs/1810.08278
-
+July/August: Summer break
 
 
 ## Past editions
+
+2021-07-12 Colin Cotter leading _Interpolating between Optimal Transport and MMD using Sinkhorn Divergences_ https://arxiv.org/abs/1810.08278
 
 2021-06-21 Lawrence Mitchell leading _A GenEO Domain Decomposition method for Saddle Point problems_ https://arxiv.org/abs/1911.01858
 

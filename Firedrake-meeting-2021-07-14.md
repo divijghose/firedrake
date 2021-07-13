@@ -9,13 +9,14 @@ Date and time 2021-07-14 15:00UTC (16:00BST)
 
 # Agenda
 
-DH: PETSc Option handling in the installer. 
-##
-
 Present: 
 
 Apologies:
 
+## DH: PETSc Option handling in the installer. 
+
+## RNH: AGU Fall Meeting Online + In Person (New Orleans)
+13-17th December. 4th August abstract submission deadline.
 
 ## Merge PRs:
 

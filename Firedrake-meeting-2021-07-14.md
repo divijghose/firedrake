@@ -18,6 +18,17 @@ Apologies:
 ## RNH: AGU Fall Meeting Online + In Person (New Orleans)
 13-17th December. 4th August abstract submission deadline.
 
+## JB: ARCHER2 Firedrake Training sign-up is live
+Circulate wide and far:
+
+https://www.archer2.ac.uk/training/#upcoming-training
+
+https://www.archer2.ac.uk/training/courses/210823-firedrake/
+
+A few bits of additional information I have found from signing up to an ARCHER2 course:
+- You have to give your nationality as part of the sign up
+- Whilst there is no registration fee, there is a "fine" for not showing up, unless you inform the helpdesk in advance
+
 ## Merge PRs:
 
 ## AOB

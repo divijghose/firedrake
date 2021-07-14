@@ -6,7 +6,7 @@ Present: DH RNH SV NB CW
 
 Apologies:
 
-## Notes from [Firedrake Meeting](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2021-07-07/)
+## Notes from [Firedrake Meeting 2021-07-07](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2021-07-07/)
 3 "afternoon + evening" sessions
 
 afternoon:
@@ -25,7 +25,7 @@ Dates: 15(Wed), 16(Th), 17(Fri)?
 
 Time: 1400 - 1830 (UK)
 
-## Additions
+## Additions from this Meeting
 
  - Will use [easychair](https://easychair.org/) - DH to get pro account <- **SV** to deal with
     - Options for abstracts are: 1. I want a poster, 2. I want a talk, 3. I want a talk and a poster

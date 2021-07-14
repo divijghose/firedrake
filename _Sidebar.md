@@ -114,3 +114,7 @@
 [AGU 2020](./American-Geophysical-Union-Fall-Meeting-2020)
 
 [Reading Group](./Reading-group)
+
+<summary>Firedrake 2021 Planning Meetings</summary>
+
+- [Firedrake 2021 Planning Meeting 2021 07 14](./Firedrake-2021-Planning-Meeting-2021-07-14)

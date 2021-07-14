@@ -27,13 +27,15 @@ Time: 1400 - 1830 (UK)
 
 ## Additions
 
- - Will use easychair - DH to get pro account
+ - Will use easychair - DH to get pro account <- **SV** to deal with
 
- - Need to make website similar to that for [Firedrake USA 2019](https://firedrakeproject.org/firedrake_19.html)
+ - Need to make website similar to that for [Firedrake USA 2019](https://firedrakeproject.org/firedrake_19.html) <- **CW** to deal with
 
- - Registration will be via EventBright
+ - Registration will be via [eventbrite](https://www.eventbrite.co.uk/) <- **DH** to deal with
 
- - Registration charge will be 10
+   - Registration charge will be £10
+
+ - Coffee breaks and drinks afterwards will be on [gather.town](https://www.gather.town/) <- **NB** to deal with
 
 ## AOB
 

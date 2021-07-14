@@ -6,7 +6,7 @@ Date and time 2021-07-07 15:00UTC (16:00BST)
 1. ALL: (ongoing) schedule Firedrake Meeting + tutorial session for ICG
 1. (JB, DH, KS, JW): Firedrake training happening 23rd August, update
 
-# Agenda
+# Minutes
 
 Present: LM, SV, JB, JW, MG, DH, RNH, NB, RK, PK, CJW, CC, KS
 

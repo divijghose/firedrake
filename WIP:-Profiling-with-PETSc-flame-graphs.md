@@ -2,7 +2,7 @@
 
 This guide will explain how to generate interactive flame graphs for your Firedrake scripts that will look something like this:
 
-*image*
+![Flame graph demo](images/flame-graph.svg)
 
 ## Generating the flame graph
 

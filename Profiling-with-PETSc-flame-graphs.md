@@ -57,7 +57,7 @@ The simplest methods are:
 - If you use PETSc stages in your code these will be ignored in the flame graph.
 
 - If you call `PETSc.Log.begin()` as part of your script/package then profiling will not work as expected. 
-  This is because that will start PETSc's default (flat) logging while we need to use nested logging instead.
+  This is because it will start PETSc's default (flat) logging while we need to use nested logging instead.
 
   This issue can be avoided with the simple guard:
   

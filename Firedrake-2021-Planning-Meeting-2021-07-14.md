@@ -28,7 +28,7 @@ Time: 1400 - 1830 (UK)
 ## Additions from this Meeting
 
  - Will use [easychair](https://easychair.org/) - DH to get pro account <- **SV** to deal with
-    - Options for abstracts are: 1. I want a poster, 2. I want a talk, 3. I want a talk and a poster
+    - Options for abstracts are: 1. I want a poster 2. I want a talk or poster
 
  - Need to make website similar to that for [Firedrake USA 2019](https://firedrakeproject.org/firedrake_19.html) <- **CW** to deal with
 

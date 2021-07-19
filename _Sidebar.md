@@ -16,6 +16,8 @@
 - [Vectorisation](./vectorization-in-firedrake)
 - [Parallel MPI Debugging with `tmux-mpi`](./Parallel-MPI-Debugging-with-tmux-mpi)
 - [Wiki for Developers](./A-FAQ-for-Firedrake-Developers)
+- [Profiling with PETSc flame graphs](./Profiling-with-PETSc-flame-graphs)
+
 </details>
 
 <details>

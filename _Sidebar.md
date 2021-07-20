@@ -17,6 +17,7 @@
 - [Parallel MPI Debugging with `tmux-mpi`](./Parallel-MPI-Debugging-with-tmux-mpi)
 - [Wiki for Developers](./A-FAQ-for-Firedrake-Developers)
 - [Profiling with PETSc flame graphs](./Profiling-with-PETSc-flame-graphs)
+- [Kernel profiling with LIKWID](./Kernel-profiling-with-LIKWID)
 
 </details>
 

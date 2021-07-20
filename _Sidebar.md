@@ -31,7 +31,6 @@
 
 <details>
 <summary>
-
 [Users](./users)
 </summary>
 

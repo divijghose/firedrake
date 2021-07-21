@@ -22,7 +22,7 @@ There are already quite a few people registered so attendance is likely to be hi
 - (KS) Has managed to get install to Archer working. Observed that Firedrake hangs for more complex problems.
 - (CW) Keith Roberts has been having hanging issues for a while. Might be related.
 - (DH) Poisson in a `for` loop keeps overwriting variables. This could trigger unsafe PETSc destructors. Could try disabling generational garbage collector to avoid this bug. Possible solutions to this include:
-  - Remove all cyclical references from Firedrake (esp. PyOP2) (see #1617)
+  - Remove all cyclical references from Firedrake (esp. PyOP2) (see [issue](https://github.com/firedrakeproject/firedrake/issues/1617))
   - Have petsc4py objects register to be destructed
   - Establish a global registry of Python objects so none of them ever die (massive memory leak)
 

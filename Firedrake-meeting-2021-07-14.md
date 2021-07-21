@@ -7,7 +7,7 @@ Date and time 2021-07-14 15:00UTC (16:00BST)
 1. (JB, DH, KS, JW): Firedrake training happening 23rd August, update
 1. DH: Firedrake 2021 update
 
-# Agenda
+# Minutes
 
 Present: 
 

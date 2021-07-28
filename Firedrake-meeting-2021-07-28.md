@@ -39,6 +39,9 @@ See
  - https://github.com/firedrakeproject/tsfc/pull/250
  - https://github.com/FInAT/FInAT/pull/89
 
+Possible regression due to multiplying by a bunch of zeros for stuff like high-order tets.
+Profiling suggestions welcome.
+
 ## Merge PRs:
 
 ## AOB

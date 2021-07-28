@@ -15,6 +15,21 @@ Apologies:
 ## RNH: Issue [#2095](https://github.com/firedrakeproject/firedrake/issues/2095) Loopy breaking Interpolation Kernels
 Complex data types are getting into real mode PyOP2 Kernels (can't create a "Real" interpolator for example).
 
+## CW: What is the data representation of a `MixedDat`?
+
+From [this issue](https://github.com/OP2/PyOP2/issues/626) it is suggested that the data part of a `MixedDat` is just the concatenation of several `Dats`. So a `MixedDat` containing 3 `Dats` of length `n` and `dim=3` would have shape `(3, n, 3)`. How does this work if the `Dats` have different `dims`?
+
+## CW: Proposal: A new type system for PyOP2
+
+I am currently trying to introduce a strict divide between the code generation and parloop execution stages in PyOP2. In order to do the code generation we need to know certain bits of information about the data we are operating on such as: `dtype`, `dim` (its local shape), map `arity`, and access descriptor; but we don't want to tie ourselves to the actual data structures.
+
+The suggestion is that these properties can be considered 'type' information for the `Dat`/`Map`/`Global` etc. We could canonicalise this by declaring these attributes as explicit types. E.g. `ScalarDatFloat64` or `Global3Int32` (names to be bike-shedded). Code generation could then happen by only passing in the relevant `type(dat)` instead of storing this information in some sort of namedtuple/dataclass.
+
+There are some outstanding questions about this:
+
+- What do we do about 'type' information that is more varied (e.g. map `offset`)?
+- What about mixed?
+
 ## Merge PRs:
 
 ## AOB

@@ -34,6 +34,10 @@ There are some outstanding questions about this:
 See for example https://github.com/firedrakeproject/firedrake/runs/3181344420. Can code mistakes cause this to happen or is it a hardware problem?
 
 ## RNH - FInAT dual evaluation feedback
+See 
+ - https://github.com/firedrakeproject/firedrake/pull/2115
+ - https://github.com/firedrakeproject/tsfc/pull/250
+ - https://github.com/FInAT/FInAT/pull/89
 
 ## Merge PRs:
 

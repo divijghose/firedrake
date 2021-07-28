@@ -30,6 +30,11 @@ There are some outstanding questions about this:
 - What do we do about 'type' information that is more varied (e.g. map `offset`)?
 - What about mixed?
 
+## RNH - Workers dying when running tests
+See for example https://github.com/firedrakeproject/firedrake/runs/3181344420. Can code mistakes cause this to happen or is it a hardware problem?
+
+## RNH - FInAT dual evaluation feedback
+
 ## Merge PRs:
 
 ## AOB

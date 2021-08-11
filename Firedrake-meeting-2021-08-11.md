@@ -26,6 +26,7 @@ This has now likely been superceded by https://github.com/OP2/PyOP2/pull/624#iss
 We have written a [guide](https://github.com/firedrakeproject/firedrake/wiki/Kernel-profiling-with-LIKWID) to profiling Firedrake with LIKWID and put it in the Firedrake wiki. Does it belong here or should it be put on the website?
 
 ## Merge PRs:
+SV: Can we merge #2111, please? :)
 
 ## AOB
 

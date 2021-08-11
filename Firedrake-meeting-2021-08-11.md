@@ -28,6 +28,8 @@ We have written a [guide](https://github.com/firedrakeproject/firedrake/wiki/Ker
 ## Merge PRs:
 SV: Can we merge #2111, please? :)
 
+CW: Also https://github.com/OP2/PyOP2/pull/630
+
 ## AOB
 
 ## Date of next meeting

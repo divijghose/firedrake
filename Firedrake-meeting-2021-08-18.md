@@ -21,6 +21,8 @@ Was I wrong to expunge `VertexOnlyMesh` points from parent mesh halos?
 ## Merge PRs:
 RNH: https://github.com/firedrakeproject/firedrake/pull/2115 et al please :)
 
+JW: https://github.com/firedrakeproject/firedrake/pull/2174 (Sebastian approved the pyadjoint PR)
+
 ## AOB
 
 ## Date of next meeting

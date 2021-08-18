@@ -12,7 +12,7 @@ Present:
 
 Apologies:
 
-## RNH: mesh DM/Coordinates field disconnect
+## RNH/JB: mesh DM/Coordinates field disconnect
 Discussed on slack. See https://github.com/firedrakeproject/firedrake/issues/2185
 
 ## RNH: `VertexOnlyMesh` issues

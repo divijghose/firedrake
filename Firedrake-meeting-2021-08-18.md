@@ -21,6 +21,8 @@ Am I correct to say that on-cell-edge points are just inherently hard to deal wi
 How about the parallel distribution question?
 Was I wrong to expunge `VertexOnlyMesh` points from parent mesh halos?
 
+Also up for discussion if we want https://github.com/firedrakeproject/firedrake/issues/2186
+
 ## Merge PRs:
 RNH: https://github.com/firedrakeproject/firedrake/pull/2115 et al please :)
 

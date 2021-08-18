@@ -25,6 +25,8 @@ Also up for discussion if we want https://github.com/firedrakeproject/firedrake/
 
 ## DRS: adjoint + quadrature issue
 
+See this issue: https://github.com/firedrakeproject/firedrake/issues/2179
+
 ## Merge PRs:
 JW: https://github.com/firedrakeproject/firedrake/pull/2174 (Sebastian approved the pyadjoint PR)
 

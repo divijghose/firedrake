@@ -23,6 +23,8 @@ Was I wrong to expunge `VertexOnlyMesh` points from parent mesh halos?
 
 Also up for discussion if we want https://github.com/firedrakeproject/firedrake/issues/2186
 
+## DRS: adjoint + quadrature issue
+
 ## Merge PRs:
 JW: https://github.com/firedrakeproject/firedrake/pull/2174 (Sebastian approved the pyadjoint PR)
 

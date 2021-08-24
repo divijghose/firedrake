@@ -55,4 +55,4 @@ RNH: FInAT dual evaluation [Firedrake](https://github.com/firedrakeproject/fired
 
 ## Date of next meeting
 
-TBC. Next Thursday?
+1500 UTC (1600 BST) [2021-08-26](./Firedrake-meeting-2021-08-26/)

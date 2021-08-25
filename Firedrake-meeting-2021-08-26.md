@@ -10,7 +10,7 @@ Date and time 2021-08-26 15:00UTC (16:00BST)
 
 Present: 
 
-Apologies:
+Apologies: Sophia
 
 ## RNH/LM: should we fully deprecate python Expression kernels?
 Suggested in PR review [here](https://github.com/firedrakeproject/firedrake/pull/2115#discussion_r691157510).

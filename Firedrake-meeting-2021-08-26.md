@@ -16,6 +16,9 @@ Apologies: Sophia
 Suggested in PR review [here](https://github.com/firedrakeproject/firedrake/pull/2115#discussion_r691157510).
 
 
+## DRS: OpenBLAS threads warning
+
+
 ## SV: SIAM PP
 I am not in the meeting because I'm in holidays, but @Rob Kirby and @Dan Shapero please answer my email :)
 

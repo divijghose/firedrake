@@ -1,4 +1,4 @@
-Date and time 2021-09-02 15:00UTC (16:00BST)
+Date and time 2021-09-09 15:00UTC (16:00BST)
 
 # Action Items
 1. **Pick Chair and Minuter**.
@@ -9,7 +9,7 @@ Date and time 2021-09-02 15:00UTC (16:00BST)
 
 Present:
 
-Apologies: 
+Apologies: LM
 
 ## 
 

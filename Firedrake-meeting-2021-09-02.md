@@ -10,7 +10,7 @@ Date and time 2021-09-02 15:00UTC (16:00BST)
 
 Present: DH, LM, NB, DRS, RK, SK, KS, CJC
 
-Apologies: 
+Apologies: RNH
 
 ## Firedrake 2021
 

@@ -13,7 +13,7 @@ Apologies: LM
 
 ## DRS: build + compile fail on M1
 
-#2196 shows the hacks needed to make Firedrake compile and run on an M1 mac. The change to the build script is fairly straightforward. What to do about `-march=native` failing on M1? Removing this flag, even for other macs?
+#2196 shows the hacks needed to make Firedrake compile and run on an M1 mac. The change to the build script is fairly straightforward. What to do about `-march=native` failing on M1? Remove this flag, even for other macs?
 
 I tried to debug this problem by running a simple test script with an unmodified PyOP2 and with `PYOP2_DEBUG=1`, but this makes the problem go away.
 

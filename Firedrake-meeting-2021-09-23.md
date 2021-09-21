@@ -10,7 +10,8 @@ Present:
 
 Apologies: 
 
-## Item 1
+## RNH - FInAT dual evaluation HDiv/HCurl PR
+https://github.com/FInAT/FInAT/pull/98
 
 ## Merge PRs:
 

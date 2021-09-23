@@ -13,12 +13,31 @@ Present:
 
 Apologies:
 
+## DH: Firedrake 2021
+
+Easychair set up.
+
+15th-17th September, online
+
 ## DH: PETSc Option handling in the installer. 
 
+DH to try separating with `--` and change the error messages
+appropriately.
+
+https://github.com/firedrakeproject/firedrake/pull/2116
+
 ## RNH: AGU Fall Meeting Online + In Person (New Orleans)
+
 13-17th December. 4th August abstract submission deadline.
 
+## LM: Also PP2022 (Seattle again!)
+
+Minisymposium submission deadline 24th August.
+
+https://www.siam.org/conferences/cm/conference/pp22
+
 ## JB: ARCHER2 Firedrake Training sign-up is live
+
 Circulate wide and far:
 
 https://www.archer2.ac.uk/training/#upcoming-training

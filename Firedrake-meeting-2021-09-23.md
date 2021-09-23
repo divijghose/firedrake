@@ -16,6 +16,9 @@ Ready for merging pending comments? https://github.com/FInAT/FInAT/pull/98
 ## RNH - Adding more FInAT duals
 See discussion in https://github.com/FInAT/FInAT/issues/95 
 
+## KS - https://github.com/firedrakeproject/firedrake/issues/2211
+When handling orientations for CG/DG (see PR https://github.com/firedrakeproject/firedrake/pull/2101), we need to get a DoF permutation for each dimension for each entity for each possible orientation, but this is slow.
+
 ## Merge PRs:
 
 ## AOB

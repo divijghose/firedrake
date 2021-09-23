@@ -10,6 +10,8 @@ Present:
 
 Apologies: 
 
+## DH - Office Tuesday
+
 ## RNH - FInAT dual evaluation HDiv/HCurl PR
 Ready for merging pending comments? https://github.com/FInAT/FInAT/pull/98
 

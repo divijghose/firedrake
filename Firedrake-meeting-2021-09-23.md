@@ -12,8 +12,12 @@ Apologies:
 
 ## DH - Office Tuesday
 
+Contact your officemates.
+
 ## RNH - FInAT dual evaluation HDiv/HCurl PR
 Ready for merging pending comments? https://github.com/FInAT/FInAT/pull/98
+
+LW will write documentation.
 
 ## RNH - Adding more FInAT duals
 See discussion in https://github.com/FInAT/FInAT/issues/95 

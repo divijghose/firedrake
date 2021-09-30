@@ -14,6 +14,19 @@ Apologies:
 
 Contact your officemates.
 
+## KS - Orientations (https://github.com/firedrakeproject/firedrake/pull/2101) update
+
+Performance improved by preprocessing the nested dictionary.
+
+50x50x50 P4 example:
+
+In `dmcommon.get_cell_nodes`:
+
+off + j : 0.143 min
+
+off + perm[j] (without preprocessing): 1.47 min
+
+off + perm[j] (with preprocessing) : 0.177 min
 
 ## Merge PRs:
 

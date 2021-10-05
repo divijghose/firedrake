@@ -45,7 +45,7 @@
 </summary>
 
   
-  - [2021-10-07](./Firedrake-meeting-2021-09-30)
+  - [2021-10-07](./Firedrake-meeting-2021-10-07)
 
 ---
   - [2021-09-30](./Firedrake-meeting-2021-09-30)

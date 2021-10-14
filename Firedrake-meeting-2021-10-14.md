@@ -6,7 +6,7 @@ Date and time 2021-10-14 15:00UTC (16:00BST)
 
 # Agenda
 
-Present:
+Present: Dan, David, Jack, Pablo, Rob, Lawrence, Patrick, Connor, Nacime, Sophia
 
 Apologies:
 

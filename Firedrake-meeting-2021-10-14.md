@@ -12,7 +12,7 @@ Apologies:
 
 ## Proposal: Determining whether `offset` is required from the measure - CW
 
-We are trying to generate PyOP2 packing code using just UFL. For the case of an extruded mesh it should be possible to determine what `offset` should be. However, UFL doesn't know that it is operating on an extruded mesh so we don't know *whether `offset` is needed or not*. Our proposal is to attach this information as metadata to the UFL measure. Is this the right thing to do?
+We are trying to generate PyOP2 packing code using just UFL. For the case of an extruded mesh it should be possible to determine what `offset` should be. However, UFL doesn't know that it is operating on an extruded mesh so we don't know whether `offset` is needed or not. Our proposal is to attach this information as metadata to the UFL measure. Is this the right thing to do?
 
 ## Merge PRs:
 

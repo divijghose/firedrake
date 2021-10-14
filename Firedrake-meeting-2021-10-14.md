@@ -28,7 +28,7 @@ DS: https://github.com/firedrakeproject/firedrake/pull/2244
 PB: https://github.com/firedrakeproject/firedrake/pull/2024
 
 - a notebook would be nice
-- generally more public preconditioner manuals would be nice
+- generally more public preconditioner manuals would be nice, just have a list and link to the modular docs
 
 LM: https://github.com/FEniCS/ufl/pull/69
 

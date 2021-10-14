@@ -20,7 +20,7 @@ CW: https://github.com/OP2/PyOP2/pull/642
 
 DS: https://github.com/firedrakeproject/firedrake/pull/2244
 
-PM: https://github.com/firedrakeproject/firedrake/pull/2024
+PB: https://github.com/firedrakeproject/firedrake/pull/2024
 
 ## AOB
 

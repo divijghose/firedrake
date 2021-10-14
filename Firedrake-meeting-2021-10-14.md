@@ -17,6 +17,7 @@ We are trying to generate PyOP2 packing code using just UFL. For the case of an 
 ## Merge PRs:
 
 CW: https://github.com/OP2/PyOP2/pull/642
+DS: https://github.com/firedrakeproject/firedrake/pull/2244
 
 ## AOB
 

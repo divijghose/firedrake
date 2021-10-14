@@ -14,6 +14,11 @@ Apologies:
 
 We are trying to generate PyOP2 packing code using just UFL. For the case of an extruded mesh it should be possible to determine what `offset` should be. However, UFL doesn't know that it is operating on an extruded mesh so we don't know whether `offset` is needed or not. Our proposal is to attach this information as metadata to the UFL measure. Is this the right thing to do?
 
+- offset is not only one number, it's an arity tuple
+- for time stepping e.g. we want to cache independent of data
+- extrusion is mesh property, maybe just add property to ufl.mesh
+- be careful that it is hashable
+
 ## Merge PRs:
 
 CW: https://github.com/OP2/PyOP2/pull/642

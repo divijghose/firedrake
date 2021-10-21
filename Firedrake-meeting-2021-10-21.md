@@ -15,6 +15,14 @@ Apologies:
 Noticed a few more issues with BLAS/Accelerate appearing on Slack, all MacOS. Has there been another significant update, or is there a Firedrake regression?
 
 
+## KS: Refactor TSFC (for Subspace support)
+
+Firedrake: https://github.com/firedrakeproject/firedrake/pull/2200
+
+tsfc: https://github.com/firedrakeproject/tsfc/pull/261
+
+No functionality changes. 
+
 ## Merge PRs:
 
 ## AOB

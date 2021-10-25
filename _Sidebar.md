@@ -127,8 +127,6 @@
 
 [Merge Complex Sprint](./MergeComplexSprint)
 
-[AGU 2020](./American-Geophysical-Union-Fall-Meeting-2020)
-
 [Reading Group](./Reading-group)
 
 <details>

@@ -16,6 +16,8 @@ Firedrake https://github.com/firedrakeproject/firedrake/pull/2200
 
 tsfc: https://github.com/firedrakeproject/tsfc/pull/261
 
+## CW: PCPATCH discussion
+
 ## Merge PRs:
 
 ## AOB

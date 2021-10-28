@@ -10,6 +10,11 @@ Present:
 
 Apologies:
 
+## CW: Some questions about PCPATCH
+
+- We generate some specialist code in [`patch.py`](https://github.com/firedrakeproject/firedrake/blob/master/firedrake/preconditioners/patch.py) - what does it do?
+- Could this special-case be covered by a more general design for a parloop?
+
 ## Merge PRs:
 
 ## AOB

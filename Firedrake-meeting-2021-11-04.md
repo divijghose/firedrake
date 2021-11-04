@@ -10,7 +10,7 @@ Present: CW, KS, LM, NB, SV, JDB, TG, DH
 
 Apologies:
 
-## DH: Mac build disaster
+##  DH: Mac build disaster
 
 DH: Wrong BLAS getting used in builds sometimes. This can be hard to reproduce.
 

@@ -10,6 +10,8 @@ Present:
 
 Apologies:
 
+## DH: Mac build disaster
+
 ## NB: Object versioning
 
 PR: https://github.com/OP2/PyOP2/pull/579

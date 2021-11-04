@@ -10,8 +10,7 @@ Present:
 
 Apologies:
 
-## DH: Mac build disaster
-
+## DH: Mac build disaster
 
 ## NB: Object versioning
 

@@ -15,6 +15,7 @@ Apologies:
 Update on homework:
 > Everyone with a Mac: Run firedrake-install (having run `brew uninstall openblas`) and see if it breaks.
 
+## CW: Add new 'Real' FInAT element?
 
 ## Merge PRs:
 

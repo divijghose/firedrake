@@ -6,7 +6,7 @@ Date and time 2021-11-11 16:00UTC (16:00GMT)
 
 # Agenda
 
-Present:
+Present: SV, NB, JB, DH, KS, LM, CW
 
 Apologies:
 
@@ -15,9 +15,17 @@ Apologies:
 Update on homework:
 > Everyone with a Mac: Run firedrake-install (having run `brew uninstall openblas`) and see if it breaks.
 
+Issue fixed! The incapacity to reproduce the error on certain Macs probably results from a different version of Xcode tools. 
+
 ## CW: Add new 'Real' FInAT element?
 
+Adding a new `Real` element to FInAT element which would look like DG0 locally while being different to any existing elements globally.
+
 ## Merge PRs:
+
+[#2275](https://github.com/firedrakeproject/firedrake/pull/2275): Minor cleanup requested
+
+[#2274](https://github.com/firedrakeproject/firedrake/pull/2274): Merged
 
 ## AOB
 

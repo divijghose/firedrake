@@ -10,10 +10,6 @@ Present:
 
 Apologies:
 
-## NB: PyOP2 Object versioning:
-
-PR: https://github.com/OP2/PyOP2/pull/579 + Lawrence's branch in PETSc
-
 ## NB: Refactor UFL type (Add UFLType):
 
 

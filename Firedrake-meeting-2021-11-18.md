@@ -10,6 +10,17 @@ Present:
 
 Apologies:
 
+## NB: PyOP2 Object versioning:
+
+PR: https://github.com/OP2/PyOP2/pull/579
+
++ Lawrence's branch in PETSc
+
+## NB: Refactor UFL type (Add UFLType):
+
+
+Draft: https://github.com/firedrakeproject/ufl/commit/9dac91e17e5ee5e618477c6d906cbd07ca317b56
+
 ## Merge PRs:
 
 ## AOB

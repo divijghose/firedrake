@@ -10,6 +10,8 @@ Present:
 
 Apologies:
 
+## ECCOMAS
+
 ## NB: Refactor UFL type (Add UFLType):
 
 Draft: https://github.com/firedrakeproject/ufl/commit/9dac91e17e5ee5e618477c6d906cbd07ca317b56

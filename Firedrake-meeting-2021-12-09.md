@@ -7,6 +7,7 @@ Date and time 2021-12-09 16:00UTC (16:00GMT)
 # Agenda
 
 Present:
+
 Apologies:
 
 ## Merge PRs:

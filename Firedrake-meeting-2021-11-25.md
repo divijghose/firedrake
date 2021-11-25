@@ -22,4 +22,4 @@ No meeting next week (I assume)
 
 ## Date of next meeting
 
-1600 UTC (1600 BST) [2021-12-08](./Firedrake-meeting-2021-12-08/)
+1600 UTC (1600 GMT) [2021-12-08](./Firedrake-meeting-2021-12-08/)

@@ -10,8 +10,14 @@ Present:
 
 Apologies:
 
-## Item 1
+## NB: Object versioning:
 
+PR: PyOP2: https://github.com/OP2/PyOP2/pull/579
+    petsc: https://github.com/firedrakeproject/petsc/pull/8
+
+## NB: Update dual
+
+PR: https://github.com/firedrakeproject/ufl/pull/25
 
 ## Merge PRs:
 

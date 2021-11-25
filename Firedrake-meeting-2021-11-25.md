@@ -10,7 +10,7 @@ Present:
 
 Apologies:
 
-## NB: Object versioning:
+## NB: Object versioning
 
 PyOP2: https://github.com/OP2/PyOP2/pull/579
 

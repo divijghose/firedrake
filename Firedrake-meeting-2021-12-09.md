@@ -10,6 +10,20 @@ Present:
 
 Apologies:
 
+## NB: Update dual
+
+UFL:
+
+
+Firedrake:
+
+## NB: Interp
+
+UFL: 
+
+
+Firedrake:
+
 ## Merge PRs:
 
 ## AOB

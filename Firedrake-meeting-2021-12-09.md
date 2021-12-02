@@ -12,12 +12,16 @@ Apologies:
 
 ## NB: Update dual
 
+Update India's branches
+
 UFL:
 
 
 Firedrake:
 
 ## NB: Interp
+
+Add symbolic interpolation in UFL (`ufl.Interp`): => Prepares the ground for ExternalOperator since Interp can be seen as a simple example of ExternalOperator.
 
 UFL: 
 

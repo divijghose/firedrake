@@ -19,6 +19,10 @@ UFL: https://github.com/firedrakeproject/ufl/pull/25
 
 Firedrake: https://github.com/firedrakeproject/firedrake/pull/2294
 
+
+Pyadjoint: https://github.com/dolfin-adjoint/pyadjoint/commit/21b124e1d055a5d062c63b7b06e80237c723f464
+
+
 ## NB: Interp
 
 Add symbolic interpolation in UFL (`ufl.Interp`): => Prepares the ground for ExternalOperator since Interp can be seen as a simple example of ExternalOperator.

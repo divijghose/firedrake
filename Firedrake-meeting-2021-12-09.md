@@ -14,16 +14,16 @@ Apologies:
 
 Update India's branches
 
-UFL:
+UFL: https://github.com/firedrakeproject/ufl/pull/25
 
 
-Firedrake:
+Firedrake: https://github.com/firedrakeproject/firedrake/pull/2294
 
 ## NB: Interp
 
 Add symbolic interpolation in UFL (`ufl.Interp`): => Prepares the ground for ExternalOperator since Interp can be seen as a simple example of ExternalOperator.
 
-UFL: 
+UFL: https://github.com/firedrakeproject/ufl/pull/26
 
 
 Firedrake:

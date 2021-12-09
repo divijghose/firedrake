@@ -30,7 +30,7 @@ Add symbolic interpolation in UFL (`ufl.Interp`): => Prepares the ground for Ext
 UFL: https://github.com/firedrakeproject/ufl/pull/26
 
 
-Firedrake:
+Firedrake: https://github.com/firedrakeproject/firedrake/pull/2297
 
 ## Merge PRs:
 

@@ -10,6 +10,16 @@ Present:
 
 Apologies:
 
+## JB: ECCOMAS
+I had completely forgotten about this, it might not be too late to submit an abstract:
+
+ECCOMAS conference in Oslo: http://www.eccomas2022.org/frontal/default.asp
+
+Deadline for abstracts is today, or yesterday, the wobsite is unclear.
+
+Make sure you have enough funds from whatever pot to go, student registration €520, not student registration €790 :grimacing: 
+(https://www.eccomas2022.org/frontal/Fees.asp)
+
 ## NB: Update dual
 
 Update India's branches

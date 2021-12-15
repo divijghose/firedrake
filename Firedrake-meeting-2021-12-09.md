@@ -46,4 +46,4 @@ Looked at this one (I think)
 
 WEDNESDAY at 3!
 
-1600 UTC (1600 GMT) [2021-12-16](./Firedrake-meeting-2021-12-16/)
+1500 UTC (1500 GMT) [2021-12-16](./Firedrake-meeting-2021-12-15/)

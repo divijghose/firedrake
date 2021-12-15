@@ -36,6 +36,6 @@ Firedrake: https://github.com/firedrakeproject/firedrake/pull/2297
 
 ## Date of next meeting
 
-Holidays
+Holidays!
 
 1600 UTC (1600 GMT) [2021-01-06](./Firedrake-meeting-2021-01-06/)

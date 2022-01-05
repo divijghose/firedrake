@@ -1,4 +1,4 @@
-Date and time 2022-01-06 16:00UTC (16:00GMT)
+Date and time 2022-01-13 16:00UTC (16:00GMT)
 
 # Action Items
 1. **Pick Chair and Minuter** (Nobody minuted last time, CW to pick).
@@ -19,4 +19,4 @@ Apologies:
 
 ## Date of next meeting
 
-1600 UTC (1600 GMT) [2022-01-13](./Firedrake-meeting-2022-01-13/)
+1600 UTC (1600 GMT) [2022-01-20](./Firedrake-meeting-2022-01-20/)

@@ -4,7 +4,7 @@ Date and time 2021-12-15 15:00UTC (15:00GMT)
 1. **Pick Chair and Minuter** (CW minuted last time).
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 
-# Agenda
+# Minutes
 
 Present:
 

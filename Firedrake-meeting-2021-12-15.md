@@ -48,4 +48,4 @@ Firedrake: https://github.com/firedrakeproject/firedrake/pull/2297
 
 Holidays!
 
-1600 UTC (1600 GMT) [2021-01-06](./Firedrake-meeting-2021-01-06/)
+1600 UTC (1600 GMT) [202**2**-01-06](./Firedrake-meeting-2022-01-06/)

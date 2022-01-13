@@ -10,7 +10,12 @@ Present:
 
 Apologies:
 
-## Item 1
+## CW: Review my stuff
+
+https://github.com/firedrakeproject/firedrake/tree/connorjward/new-pyop2-api_wip
+https://github.com/OP2/PyOP2/pull/624
+
+- Can `PyParloop` get deleted?
 
 
 ## Merge PRs:

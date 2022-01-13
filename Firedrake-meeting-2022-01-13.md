@@ -6,17 +6,28 @@ Date and time 2022-01-13 16:00UTC (16:00GMT)
 
 # Agenda
 
-Present:
+Present: DAH, JDB, SV, LM, CW, KS, RCK
 
-Apologies:
+Apologies: NB, RNH
+
+## Breakage on trunk: linking in `scipy`
+
+JDB: Fails linking against vectorised libm. Tracking issue
+https://github.com/firedrakeproject/firedrake/issues/2312
+
 
 ## CW: Review my stuff
 
 https://github.com/firedrakeproject/firedrake/tree/connorjward/new-pyop2-api_wip
 https://github.com/OP2/PyOP2/pull/624
 
+Caching wrapper in Firedrake needs to be MPI aware: one cache per
+communicator. It is pretty much safe to use the `id` of a
+`dup_comm(comm)` communicator because they persist.
+
 - Can `PyParloop` get deleted?
 
+LM: Yes, I believe.
 
 ## Merge PRs:
 

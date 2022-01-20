@@ -45,8 +45,9 @@
 </summary>
 
 
-  - [2022-01-13](./Firedrake-meeting-2022-01-13)
+  - [2022-01-20](./Firedrake-meeting-2022-01-20)
 ---
+  - [2022-01-13](./Firedrake-meeting-2022-01-13)
   - [2021-12-15](./Firedrake-meeting-2021-12-15)
   - [2021-12-09](./Firedrake-meeting-2021-12-09)
   - [2021-11-25](./Firedrake-meeting-2021-11-25)

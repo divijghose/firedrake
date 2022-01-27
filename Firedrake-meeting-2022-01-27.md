@@ -10,7 +10,6 @@ Present:
 
 Apologies:
 
-## From last time:
 ### SV: merge trace projection PR
 https://github.com/firedrakeproject/firedrake/pull/2317
 

@@ -10,14 +10,14 @@ Present:
 
 Apologies:
 
-### SV: merge trace projection PR
-https://github.com/firedrakeproject/firedrake/pull/2317
-
 
 
 
 
 ## Merge PRs:
+
+### SV: merge trace projection PR
+https://github.com/firedrakeproject/firedrake/pull/2317
 
 ## AOB
 

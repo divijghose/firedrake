@@ -24,6 +24,8 @@ https://github.com/firedrakeproject/firedrake/pull/2317
 
 https://github.com/OP2/PyOP2/pull/646
 
+JB: https://github.com/firedrakeproject/firedrake/pull/2311 (hopefully v. quick)
+
 ## AOB
 
 ## Date of next meeting

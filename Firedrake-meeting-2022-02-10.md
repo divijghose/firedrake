@@ -16,6 +16,9 @@ Apologies:
 
 Original discussion: https://github.com/firedrakeproject/firedrake/pull/2339
 
+## PB (via JB): Correct way to disable SLATE in complex
+See PR[#2344](https://github.com/firedrakeproject/firedrake/pull/2344)
+
 ## Merge PRs
 https://github.com/firedrakeproject/firedrake/pull/2317
 

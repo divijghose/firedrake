@@ -26,6 +26,14 @@ https://github.com/OP2/PyOP2/pull/646
 
 JB: https://github.com/firedrakeproject/firedrake/pull/2311 (hopefully v. quick)
 
+## KS: Update PETSc/Slepc
+https://github.com/firedrakeproject/firedrake/pull/2282
+
+## KS: TSFC refactor
+https://github.com/firedrakeproject/firedrake/pull/2200
+
+https://github.com/firedrakeproject/tsfc/pull/261
+
 ## AOB
 
 ## Date of next meeting

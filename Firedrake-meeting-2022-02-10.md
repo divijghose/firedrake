@@ -19,10 +19,12 @@ Original discussion: https://github.com/firedrakeproject/firedrake/pull/2339
 ## PB (via JB): Correct way to disable SLATE in complex
 See PR[#2344](https://github.com/firedrakeproject/firedrake/pull/2344)
 
-## Merge PRs
-https://github.com/firedrakeproject/firedrake/pull/2317
+## SV discussions in PyOP2?
 
-https://github.com/OP2/PyOP2/pull/646
+## Merge PRs
+SV: https://github.com/firedrakeproject/firedrake/pull/2317
+
+SV: https://github.com/OP2/PyOP2/pull/646
 
 JB: https://github.com/firedrakeproject/firedrake/pull/2311 (hopefully v. quick)
 

@@ -1,11 +1,4 @@
-We are reading through [Joachim Schöberl's thesis](https://www.asc.tuwien.ac.at/~schoeberl/wiki/publications/diss.pdf) on parameter robust multigrid methods.
-
-The scheduled time is Mondays at 14:00 BST. [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
-
-Discussion is via Zoom:
-
-- Meeting ID: 958 2789 9769
-- Password: 982161
+Over the summer of 20202 we read through [Joachim Schöberl's thesis](https://www.asc.tuwien.ac.at/~schoeberl/wiki/publications/diss.pdf) on parameter robust multigrid methods.
 
 ## Notes and queries as we go
 

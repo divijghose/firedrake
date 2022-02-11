@@ -1,4 +1,4 @@
-Over the summer of 20202 we read through [Joachim Schöberl's thesis](https://www.asc.tuwien.ac.at/~schoeberl/wiki/publications/diss.pdf) on parameter robust multigrid methods.
+Over the summer of 2020 we read through [Joachim Schöberl's thesis](https://www.asc.tuwien.ac.at/~schoeberl/wiki/publications/diss.pdf) on parameter robust multigrid methods.
 
 ## Notes and queries as we go
 

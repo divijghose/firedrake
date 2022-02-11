@@ -1,21 +1,6 @@
 # Firedrake reading group
 
-An informal reading group around many things finite element. Hosted
-online. Email [Lawrence
-Mitchell](mailto:lawrence.mitchell@durham.ac.uk) if you'd like to
-participate. Suggestions of papers and scheduling discussions also take place in the `#readinggroup` channel on the [Firedrake slack](https://www.firedrakeproject.org/contact.html#slack-slack-badge).
-
-Scheduled time: Mondays 15:00UTC (4pm UK time). [This calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com) contains details.
-
-Hosted via Zoom:
-
-- Meeting ID: 928 2384 2685
-- Passcode: 494089
-
-## Upcoming sessions
-
-July/August: Summer break
-
+This ran for a bit over a year, we'd happily pick it up again if there is enough interest.
 
 ## Past editions
 

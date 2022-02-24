@@ -15,6 +15,9 @@ Do we need to maintain a fork of libspatialindex, or can we fix the version and 
 
 Either way we need to update, we can't currently compile the fork (with the Intel compiler).
 
+## LM: test suite warnings
+
+These pollute stuff, someone needs to fix it.
 ## Merge PRs
 
 ## AOB

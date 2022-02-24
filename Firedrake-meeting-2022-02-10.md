@@ -4,7 +4,7 @@ Date and time 2022-02-10 16:00UTC (16:00GMT)
 1. **Pick Chair and Minuter** (CW to pick).
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 
-# Agenda
+# Minutes
 
 Present: DH, RK, SV, JB, LM, CW, PK, DRS, CJC, KS
 

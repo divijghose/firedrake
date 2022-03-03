@@ -6,15 +6,19 @@ Date and time 2022-02-24 16:00UTC (16:00GMT)
 
 # Agenda
 
-Present: 
+Present: LM, RK, KS, SV, JB, CW, DH, CC, PK, DS
 
-Apologies: 
+Minutes: 
 
 # SV: Bessel functions
 Scott MacLachlan wants Bessel functions
 1) Loopy provides a `CWithGNULibcTarget(CTarget)` now. We used `CTarget` for our loopy kernels so far. Do we want to make `CWithGNULibcTarget` the default or do we needs some dance to sniff the compiler version and choose target dependent on that?
 2) Target is specified in configuration (in PyOP2) and parameters(in TSFC and Firedrake) now. In Firedrake we choose same target as PyOP2, but in TSFC I didn't do that because I don't think we want to be dependent on PyOP2?
 3) In PyOP2 we pass the language standard c99. If we want Bessel functions we need gnu11 I believe. I brute force changed that here https://github.com/OP2/PyOP2/pull/656/commits/e5c5cea78bf5b7ba86d13989fabba782393e37e8, what's the way to do this correctly?
+
+LM: If we have Bessel functions of the first kind, someone will want second kind (RK and the third kind...). HCEPHES can be installed as part of PETSc now which includes Bessel and friends.
+
+DH: Are there compilers out there that won't support the above compilers flags? This approach works, let's try it for now!
 
 # SV: Logging of local kernels
 
@@ -30,12 +34,31 @@ For the inverse and solve callable I am now allocating the memory for the petsc 
 Kaushik has proposed a new implementation of vectorisation that is compliant with the already existing `vec` tagging for other targets here https://github.com/inducer/loopy/pull/557.
 We need to adapt to those changes in PyOP2.
 
+SV: This is mainly just an FYI. Need to be careful that this isn't a performance regression from TJ's branch.
+
+LM: In the paper there was a little bit of cheating (some assumptions that don't always hold)
+
 # DH: Library link issue on M1
+
+DH: I now have an M1 so am now the de facto go to person for all M1 issues. First issue is that `libgcc_s` is not found, see issue #2320. Additionally commandlinetools dance is not robust for M1, this needs a proper solution.
+
+LM: Maybe we only need to check the major version, unclear why the error is being spewed in the first place
 
 ## Merge PRs
 
+JB: [#2345](https://github.com/firedrakeproject/firedrake/pull/2345) Changes requested, hard exit if minimal PETSc not satisfied
+
+JB: [#2326](https://github.com/firedrakeproject/firedrake/pull/2326) Approved
+
+
 ## AOB
 
-## Date of next meeting  ??Dagstuhl??
+CC: Firedrake wobsite is down (fix later)
 
-1600 UTC (1600 GMT) [2022-03-03](./Firedrake-meeting-2022-03-10/)
+LM: Creating a Zenodo release is painful in terms of permissions, this should be made easier so more people can make releases and it's easier to add such people.
+
+## Date of next meeting  
+
+Dagstuhl next week, no meeting
+
+1600 UTC (1600 GMT) [2022-03-17](./Firedrake-meeting-2022-03-17/)

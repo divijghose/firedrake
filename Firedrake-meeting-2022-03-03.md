@@ -1,4 +1,4 @@
-Date and time 2022-02-24 16:00UTC (16:00GMT)
+Date and time 2022-03-03 16:00UTC (16:00GMT)
 
 # Action Items
 1. **Pick Chair and Minuter** (SV to pick).

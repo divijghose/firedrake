@@ -16,7 +16,13 @@ Scott MacLachlan wants Bessel functions
 2) Target is specified in configuration (in PyOP2) and parameters(in TSFC and Firedrake) now. In Firedrake we choose same target as PyOP2, but in TSFC I didn't do that because I don't think we want to be dependent on PyOP2?
 3) In PyOP2 we pass the language standard c99. If we want Bessel functions we need gnu11 I believe. I brute force changed that here https://github.com/OP2/PyOP2/pull/656/commits/e5c5cea78bf5b7ba86d13989fabba782393e37e8, what's the way to do this correctly?
 
+# SV: Logging of local kernels
 
+For the inverse and solve callable I am now allocating the memory for the petsc events in python and faff around with the DLL to set the attributes correctly in the callable. This works well because there are only two callable and the naming of the events is clear. Doing this is more difficult for slate and TSFC kernels. I think what we'd need to do in order to do this in a clean way is to save the event names and event id variable names on an attribute on the LocalKernels and then we could iterate over that to generate the events in compilation.py because the jitmodule is a GlobalKernel.
+
+1) For inverse and solve callable in PyOP2 https://github.com/OP2/PyOP2/pull/646
+2) For Slate kernels in Firedrake https://github.com/firedrakeproject/firedrake/pull/2347
+3) For TSFC kernels in https://github.com/firedrakeproject/tsfc/pull/267/files
 
 ## Merge PRs
 

@@ -30,6 +30,8 @@ For the inverse and solve callable I am now allocating the memory for the petsc 
 Kaushik has proposed a new implementation of vectorisation that is compliant with the already existing `vec` tagging for other targets here https://github.com/inducer/loopy/pull/557.
 We need to adapt to those changes in PyOP2.
 
+# DH: Library link issue on M1
+
 ## Merge PRs
 
 ## AOB

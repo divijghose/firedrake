@@ -18,7 +18,7 @@ Scott MacLachlan wants Bessel functions
 
 # SV: Logging of local kernels
 
-For the inverse and solve callable I am now allocating the memory for the petsc events in python and faff around with the DLL to set the attributes correctly in the callable. This works well because there are only two callable and the naming of the events is clear. Doing this is more difficult for slate and TSFC kernels. I think what we'd need to do in order to do this in a clean way is to save the event names and event id variable names on an attribute on the LocalKernels and then we could iterate over that to generate the events in compilation.py because the jitmodule is a GlobalKernel.
+For the inverse and solve callable I am now allocating the memory for the petsc events in python and faff around with the DLL to set the attributes correctly in the `Callables`. This works well because there are only two Callables and the naming of the events is clear. Doing this is more difficult for Slate and TSFC kernels. I think what we'd need to do in order to do this in a clean way is to save the event names and event id variable names on an attribute on the LocalKernels and then we could iterate over that to generate the events in compilation.py and set accordingly on the DLL.
 
 1) For inverse and solve callable in PyOP2 https://github.com/OP2/PyOP2/pull/646
 2) For Slate kernels in Firedrake https://github.com/firedrakeproject/firedrake/pull/2347

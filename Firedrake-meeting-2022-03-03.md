@@ -26,6 +26,10 @@ For the inverse and solve callable I am now allocating the memory for the petsc 
 2) For Slate kernels in Firedrake https://github.com/firedrakeproject/firedrake/pull/2347
 3) For TSFC kernels in https://github.com/firedrakeproject/tsfc/pull/267/files
 
+# SV: Vectorisation
+Kaushik has proposed a new implementation of vectorisation that is compliant with the already existing `vec` tagging for other targets here https://github.com/inducer/loopy/pull/557.
+We need to adapt to those changes in PyOP2.
+
 ## Merge PRs
 
 ## AOB

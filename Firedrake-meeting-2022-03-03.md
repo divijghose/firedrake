@@ -10,7 +10,7 @@ Present:
 
 Apologies: 
 
-# Bessel functions
+# SV: Bessel functions
 Scott MacLachlan wants Bessel functions
 1) Loopy provides a `CWithGNULibcTarget(CTarget)` now. We used `CTarget` for our loopy kernels so far. Do we want to make `CWithGNULibcTarget` the default or do we needs some dance to sniff the compiler version and choose target dependent on that?
 2) Target is specified in configuration (in PyOP2) and parameters(in TSFC and Firedrake) now. In Firedrake we choose same target as PyOP2, but in TSFC I didn't do that because I don't think we want to be dependent on PyOP2?

@@ -4,13 +4,13 @@ Date and time 2022-02-24 16:00UTC (16:00GMT)
 1. **Pick Chair and Minuter** (SV to pick).
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 
-# Agenda
+# Minutes:
 
 Present: LM, RK, KS, SV, JB, CW, DH, CC, PK, DS
 
-Minutes: 
+Apologies: 
 
-# SV: Bessel functions
+## SV: Bessel functions
 Scott MacLachlan wants Bessel functions
 1) Loopy provides a `CWithGNULibcTarget(CTarget)` now. We used `CTarget` for our loopy kernels so far. Do we want to make `CWithGNULibcTarget` the default or do we needs some dance to sniff the compiler version and choose target dependent on that?
 2) Target is specified in configuration (in PyOP2) and parameters(in TSFC and Firedrake) now. In Firedrake we choose same target as PyOP2, but in TSFC I didn't do that because I don't think we want to be dependent on PyOP2?
@@ -20,7 +20,7 @@ LM: If we have Bessel functions of the first kind, someone will want second kind
 
 DH: Are there compilers out there that won't support the above compilers flags? This approach works, let's try it for now!
 
-# SV: Logging of local kernels
+## SV: Logging of local kernels
 
 Disclaimer: I haven't had time to see how big the difference is between allocating the memory in python vs allocating the memory in the C kernels, maybe we need that first before we have a discussion about it.
 
@@ -30,7 +30,7 @@ For the inverse and solve callable I am now allocating the memory for the petsc 
 2) For Slate kernels in Firedrake https://github.com/firedrakeproject/firedrake/pull/2347
 3) For TSFC kernels in https://github.com/firedrakeproject/tsfc/pull/267/files
 
-# SV: Vectorisation
+## SV: Vectorisation
 Kaushik has proposed a new implementation of vectorisation that is compliant with the already existing `vec` tagging for other targets here https://github.com/inducer/loopy/pull/557.
 We need to adapt to those changes in PyOP2.
 
@@ -38,7 +38,7 @@ SV: This is mainly just an FYI. Need to be careful that this isn't a performance
 
 LM: In the paper there was a little bit of cheating (some assumptions that don't always hold)
 
-# DH: Library link issue on M1
+## DH: Library link issue on M1
 
 DH: I now have an M1 so am now the de facto go to person for all M1 issues. First issue is that `libgcc_s` is not found, see issue #2320. Additionally commandlinetools dance is not robust for M1, this needs a proper solution.
 

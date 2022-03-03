@@ -44,8 +44,9 @@
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
 
-  - [2022-02-24](./Firedrake-meeting-2022-02-24)
+  - [2022-03-03](./Firedrake-meeting-2022-03-03)
 ---
+  - [2022-02-24](./Firedrake-meeting-2022-02-24)
   - [2022-02-10](./Firedrake-meeting-2022-02-10)
   - [2022-02-03](./Firedrake-meeting-2022-02-03)
   - [2022-01-27](./Firedrake-meeting-2022-01-27)

@@ -10,7 +10,9 @@ Present:
 
 Apologies: 
 
-# Item 1
+# Mixed fn space derivative bug
+
+Can anyone confirm if the problem [here](https://github.com/firedrakeproject/firedrake/issues/2373) is user error or a genuine bug?
 
 ## Merge PRs
 

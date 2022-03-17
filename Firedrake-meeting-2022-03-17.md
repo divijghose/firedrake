@@ -14,8 +14,16 @@ Apologies:
 
 Can anyone confirm if the problem [here](https://github.com/firedrakeproject/firedrake/issues/2373) is user error or a genuine bug?
 
-## Merge PRs
+## JB: Spack install
+Seems to be working! Will be generally available using our own package repo here:
+https://github.com/firedrakeproject/firedrake-spack
 
+Which will work properly once https://github.com/spack/spack/pull/29126 and PYOP2 655 (see below) are merged.
+
+Still TODO, `firedrake-update` and `firedrake-zenodo`.
+
+## Merge PRs
+JB: [PYOP2 655](https://github.com/OP2/PyOP2/pull/655)
 
 ## AOB
 

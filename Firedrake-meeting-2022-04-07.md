@@ -6,6 +6,10 @@ Date and time 2022-04-07 12:00UTC (13:00BST 22:00AEST)
 
 # Agenda
 
+Present: 
+
+Apologies: JB :sneezing_face: 
+
 ## Error on DP on quads? (DH)
 
 We've been warning on DP on Quads for ever. Should we actually kill it? Now that we have DPC, DP is ambiguous.

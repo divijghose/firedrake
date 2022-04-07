@@ -1,7 +1,7 @@
 Date and time 2022-04-07 12:00UTC (13:00BST 22:00AEST)
 
 # Action Items
-1. **Pick Chair and Minuter** (JB to pick).
+1. **Pick Chair and Minuter** (KS to pick).
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 
 # Agenda
@@ -13,6 +13,12 @@ Apologies: JB :sneezing_face:
 ## Error on DP on quads? (DH)
 
 We've been warning on DP on Quads for ever. Should we actually kill it? Now that we have DPC, DP is ambiguous.
+
+## KS:
+
+PR: Only include components of mixed functions that are actually used
+
+https://github.com/firedrakeproject/firedrake/pull/2364
 
 ## Date of next meetings
 

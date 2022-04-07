@@ -20,6 +20,14 @@ PR: Only include components of mixed functions that are actually used
 
 https://github.com/firedrakeproject/firedrake/pull/2364
 
+## Merge PRs
+
+CW:
+
+- https://github.com/firedrakeproject/firedrake/pull/2348
+- https://github.com/firedrakeproject/tsfc/pull/268
+- https://github.com/firedrakeproject/firedrake/pull/2395
+
 ## Date of next meetings
 
 * 2022-04-14 is not a work day at Imperial

@@ -4,7 +4,7 @@ Date and time 2022-04-21 12:00UTC (13:00BST 22:00AEST)
 1. **Pick Chair and Minuter** .
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 
-# Agenda
+# Minutes
 
 Present: JB DH RK PK SM CW 
 

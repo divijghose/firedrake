@@ -13,3 +13,9 @@ Apologies: SV
 ## Firedrake on M1
 
 What is the safe way to get the required linker flag to the compiler called by PyOP2?
+
+## Date of next meetings
+
+* 2022-04-28 clashes with Firedrake Australia
+
+Next meeting: [2022-05-05](./Firedrake-meeting-2022-05-05)

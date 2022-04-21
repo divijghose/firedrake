@@ -7,9 +7,10 @@ The meeting is held via Zoom:
 
 ## Upcoming meetings
 
-Next meeting [2022-04-21](./Firedrake-meeting-2022-04-21)
+Next meeting [2022-05-05](./Firedrake-meeting-2022-05-05)
 
 ## Past meetings
+- [2022-04-21](./Firedrake-meeting-2022-04-21)
 - [2022-04-07](./Firedrake-meeting-2022-04-07)
 - [2022-03-17](./Firedrake-meeting-2022-03-17)
 - [2022-03-03](./Firedrake-meeting-2022-03-03)

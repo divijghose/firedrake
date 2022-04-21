@@ -48,4 +48,4 @@ Merged
 * 2022-04-14 is not a work day at Imperial
 * 2022-04-28 clashes with Firedrake Australia
 
-Next meeting: 2022-04-21
+Next meeting: [2022-04-21](./Firedrake-meeting-2022-04-21)

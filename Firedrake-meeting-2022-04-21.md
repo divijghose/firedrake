@@ -6,6 +6,10 @@ Date and time 2022-04-07 12:00UTC (13:00BST 22:00AEST)
 
 # Agenda
 
+Present: 
+
+Apologies: SV
+
 ## Firedrake on M1
 
 What is the safe way to get the required linker flag to the compiler called by PyOP2?

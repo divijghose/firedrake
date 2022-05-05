@@ -14,7 +14,8 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: Benchmarking and Performance regressions
+Connor has been testing out some cool benchmarking with pytest-benchmark which would be useful for performance regression testing. It would be useful to get some input on what sort of benchmarks we want to run regularly to stay on top of performance regressions. So far this functionality has been tested with a few basic tests as a PoC.
 
 
 ## Merge PRs

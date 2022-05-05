@@ -21,7 +21,9 @@ DH: We are planning on buying 4 Mac minis runners (one per build queue). JDB to 
 ## DH: 4th year projects
 
 DH: We need to start thinking of useful projects for MSc students to do.
+
 DH: Maybe there is a project for GPU PETSc offloading (+ performance analysis). They could run either on Isambard or Jack's new hardware(?).
+
 JB: There might be excalibur hardware that we could use too.
 
 ## JB: Benchmarking and Performance regressions

@@ -24,7 +24,7 @@ Connor: Check [this](https://connorjward.github.io/firedrake/dev/bench/) out.
 Neither I or Koki have the right permissions to merge things in TSFC and this was recently an issue. More generally, does everyone have all the right permissions for things?
 
 ## Merge PRs
-https://github.com/OP2/PyOP2/pull/663
+https://github.com/OP2/PyOP2/pull/663 (merged)
 
 ## Date of next meetings
 

@@ -7,7 +7,7 @@ Date and time 2022-05-12 12:00UTC (13:00BST 22:00AEST)
 1. JB: Look into updating the `@parallel` test marker (ongoing)
 
 
-# Agenda
+# Minutes
 
 Present: DH, JB, CC, RK, JHC, SV, CW, KS
 
@@ -20,6 +20,11 @@ CC: Has `ManifoldTransfer` class to move coordinates. Can we merge this into Fir
 DH: Rather than writing those details, instantiate `TransfreManager`(TM) and stash things; this way it is more self-contained in the TM at least.
 
 CC: Make a PR.
+
+JB: Relevant?
+https://github.com/firedrakeproject/firedrake/issues/2185
+
+https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2021-08-18#rnhjb-mesh-dmcoordinates-field-disconnect
 
 ## CC: Time parallel checkpoininting
 

@@ -9,11 +9,24 @@ Date and time 2022-05-12 12:00UTC (13:00BST 22:00AEST)
 
 # Agenda
 
-Present: 
+Present: DH, JB, CC, RK, JHC, SV, CW, KS
 
 Apologies:
 
-## Item 1
+## CC: Multigrid on Emmersed manifold
+
+CC: Has `ManifoldTransfer` class to move coordinates. Can we merge this into Firedrake?
+
+DH: Rather than writing those details, instantiate `TransfreManager`(TM) and stash things; this way it is more self-contained in the TM at least.
+
+CC: Make a PR.
+
+## CC: Time parallel checkpoininting
+
+DH:
+
+- 1st option. Just open HDF5 file with "COMM_WORLD" and write from subcommunicator.
+- 2nd option. Schedule who has got file open and one subcomm writes at a time using "-a".
 
 ## Merge PRs
 

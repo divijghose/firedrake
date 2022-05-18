@@ -9,6 +9,9 @@ Date and time 2022-05-19 12:00UTC (13:00BST 22:00AEST)
 
 # Agenda
 
+Vectorisation PR is ready
+https://github.com/OP2/PyOP2/pull/654/files
+
 Present:
 
 Apologies:

@@ -9,14 +9,16 @@ Date and time 2022-05-19 12:00UTC (13:00BST 22:00AEST)
 
 # Agenda
 
-Vectorisation PR is ready
-https://github.com/OP2/PyOP2/pull/654/files
-
-Present:
+Present: JB, KS, DH, RK, CW, SV
 
 Apologies:
 
-## Item 1
+* PETSc merge pending on others
+* `@parallel` test marker  still ongoing
+* 12th - 23rd September Firedrake meeting, we need to hunt for the location
+* Vectorisation PR is ready
+https://github.com/OP2/PyOP2/pull/654/files --> Good to go, vectorisation will be default.
+* Robust dropping of all zeros for DG matrices is difficult, maybe we could do it with a preconditioner
 
 ## Merge PRs
 

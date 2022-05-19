@@ -21,6 +21,8 @@ https://github.com/OP2/PyOP2/pull/654/files --> Good to go, vectorisation will b
 * Robust dropping of all zeros for DG matrices is difficult, maybe we could do it with a preconditioner
 
 ## Merge PRs
+* vertex only mesh for periodic mesh fix
+* strong BCs for SCPC
 
 ## Date of next meetings
 

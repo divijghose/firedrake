@@ -7,7 +7,7 @@ Date and time 2022-05-19 12:00UTC (13:00BST 22:00AEST)
 1. JB: Look into updating the `@parallel` test marker (ongoing)
 1. DH: talk to Jemma about Firedrake 2022
 
-# Agenda
+# Minutes
 
 Present: JB, KS, DH, RK, CW, PK, CJC, SV
 

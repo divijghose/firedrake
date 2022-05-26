@@ -16,7 +16,8 @@ Apologies:
 ## RNH: Updated VertexOnlyMesh API
 See discussion #2450 and specifically [this comment on API proposal](https://github.com/firedrakeproject/firedrake/discussions/2450#discussioncomment-2818569)
 
-## SV: merge fix BOP #2446
+## SV: block optimisation in Slate
+merge fix BOP #2446
 
 ## Merge PRs
 

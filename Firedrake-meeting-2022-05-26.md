@@ -46,6 +46,6 @@ merge fix BOP https://github.com/firedrakeproject/firedrake/pull/2446
 
 ## Date of next meetings
 No meeting next week due to bank holiday (UK)
-Next meeting: [2022-06-15](./Firedrake-meeting-2022-06-15) (JB, KS, SV at ECCOMAS the week before)
+Next meeting: [2022-06-16](./Firedrake-meeting-2022-06-16) (JB, KS, SV at ECCOMAS the week before)
 
 

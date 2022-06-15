@@ -20,6 +20,8 @@ merge fix BOP https://github.com/firedrakeproject/firedrake/pull/2446
 - SV: Needs to rerun performance measurements. (done)
 - SV: Code is a lot nicer now thanks to Koki
 
+## SV: refactoring of Schur complement builder for the Slate preconditioners
+https://github.com/firedrakeproject/firedrake/pull/2455
 
 ## Merge PRs
 

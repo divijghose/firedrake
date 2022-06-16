@@ -11,7 +11,7 @@ Date and time 2022-06-16 12:00UTC (13:00BST 22:00AEST)
 
 Present: 
 
-Apologies:
+Apologies: JB
 
 ## SV: block optimisation in Slate
 merge fix BOP https://github.com/firedrakeproject/firedrake/pull/2446

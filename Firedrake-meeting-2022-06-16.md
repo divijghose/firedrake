@@ -23,6 +23,10 @@ merge fix BOP https://github.com/firedrakeproject/firedrake/pull/2446
 ## SV: refactoring of Schur complement builder for the Slate preconditioners
 https://github.com/firedrakeproject/firedrake/pull/2455
 
+## RNH: CSE Minisymposium
+CSE23 has opened submissions for minisymposia - the deadline is the end of August. Perhaps we might want to do a code generation symposium again? https://www.siam.org/conferences/cm/conference/cse23
+
+
 ## Merge PRs
 
 

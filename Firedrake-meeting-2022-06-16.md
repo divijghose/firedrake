@@ -47,13 +47,13 @@ CSE23 has opened submissions for minisymposia - the deadline is the end of Augus
 ## DH: Disk checkpointing for Adjoint
 https://github.com/firedrakeproject/firedrake/pull/2458
 - Stops all calculations always being stored in memory, writes them to disc instead
- - Docs only not building because of usual cross project issues
+  - Docs only not building because of usual cross project issues
 - Adds a `_package_data` argument to the tape that allows extra information to be added to the tape (such as how to do disk checkpointing), ensures all usual tape arguments still work (clearing, copying etc)
 - Package data has an abstract base class to ensure compatibility with (for example) disk checkpointing if you want to use it
 - Tested in pyadjoint in serial
 - Tested in firedrake in parallel (needs fix to parallel disk checkpointing, see below)
 - In firedrake we update blocks:
- - use a `maybe_disk_checkpoint` call which takes information on disk (if necessary) and works out how to turn them back into firedrake `Function`s
+  - use a `maybe_disk_checkpoint` call which takes information on disk (if necessary) and works out how to turn them back into firedrake `Function`s
 - In firedrake checkpointing API updated with `enable_disk_checkpointing` and `checkpointable_mesh(mesh)`
 - We use python's garbage manager to clean up files that we don't need any more using a `DiskCheckpointFileRef` (check spelling)
 - Checkpoint copy not currently implemented but not likely used by anyone

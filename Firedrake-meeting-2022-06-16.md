@@ -63,4 +63,4 @@ https://github.com/firedrakeproject/firedrake/pull/2458
 
 
 ## Date of next meetings
-Next meeting: 
+Next meeting: 1200 UTC [2022-06-23](./Firedrake-meeting-2022-06-16)

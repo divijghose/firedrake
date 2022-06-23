@@ -8,7 +8,7 @@ Date and time 2022-06-23 12:00UTC (13:00BST 22:00AEST)
 1. DH: talk to Jemma about Firedrake 2022
 1. ?: Decide who will organise SIAM CSE23 Minisymposium/minisymposterium
 
-# Agenda
+# Minutes
 
 Present: JB, DH, AM, KS, JW, RNH, CW, SK, SV, RK
 

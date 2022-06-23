@@ -12,7 +12,7 @@ Date and time 2022-06-23 12:00UTC (13:00BST 22:00AEST)
 
 Present: 
 
-Apologies: JB
+Apologies:
 
 ## RNH and Joe Walwark: Plex to Plex interpolation
 Joe has 2 new parallel plex-to-plex interpolation MRs on PETSc: [#5345](https://gitlab.com/petsc/petsc/-/merge_requests/5345) and [#5354](https://gitlab.com/petsc/petsc/-/merge_requests/5354). How can we best get this working with Firedrake? My (RNH's) thoughts are:

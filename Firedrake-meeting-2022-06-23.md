@@ -19,6 +19,8 @@ Joe has 2 new parallel plex-to-plex interpolation MRs on PETSc: [#5345](https://
  - DMSwarmSetPointCoordinates (which we called prior to the merging of [#2437](https://github.com/firedrakeproject/firedrake/pull/2437)) calls DMLocatePoints which, were we to revert to using it, would solve the issue of out-of-rank points (see issue [#2178](https://github.com/firedrakeproject/firedrake/issues/2178) and discussion [#2450](https://github.com/firedrakeproject/firedrake/discussions/2450))
  - Because of the missing link between PETSc coordinate fields and Firedrake coordinate fields (issue [#2185](https://github.com/firedrakeproject/firedrake/issues/2185)) meshes created from coordinate fields, fixed in [#2437](https://github.com/firedrakeproject/firedrake/pull/2437), would not work by reverting to calling DMSwarmSetPointCoordinates.
 
+## DH and KS: Firedrake coordinates and plex coordinates
+
 ## Merge PRs
 
 

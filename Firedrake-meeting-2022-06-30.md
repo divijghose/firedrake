@@ -18,6 +18,7 @@ Apologies:
 
 ## Merge PRs
 
+https://github.com/firedrakeproject/firedrake/pull/2476
 
 ## Date of next meetings
 Next meeting: 1200 UTC [2022-07-07](./Firedrake-meeting-2022-07-07)

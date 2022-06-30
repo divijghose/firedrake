@@ -10,15 +10,34 @@ Date and time 2022-06-30 12:00UTC (13:00BST 22:00AEST)
 
 # Agenda
 
-Present:
+
+
+Present: DH, CW, JB, RNH, SV, KS, PK
 
 Apologies:
 
-## Item 1
+## SIAM CSE23
+
+Assigned to JB
+
+Diversity:
+- one from Jack Hale's group
+- Matthew Scroggs
+- Timan
+- one (or two) from Devito
+- Kaushik
+- Noemi Petra (inverse problem)
+- Melody
 
 ## Merge PRs
 
 https://github.com/firedrakeproject/firedrake/pull/2476
+
+Had been merged.
+
+##
+
+DH: Holidays in two weeks
 
 ## Date of next meetings
 Next meeting: 1200 UTC [2022-07-07](./Firedrake-meeting-2022-07-07)

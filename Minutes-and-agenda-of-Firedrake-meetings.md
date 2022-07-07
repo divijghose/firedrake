@@ -2,15 +2,16 @@ This page collates agendas and minutes for Firedrake development meetings. Dates
 
 The meeting is held via Zoom:
 
-- Meeting ID: ~935 6093 9004~ 998 1993 0455
+- Meeting ID: 998 1993 0455
 - Password: Sa7GN*
-- Passcode: ~022787~ 822921
+- Passcode: 822921
 
 ## Upcoming meetings
 
-Next meeting [2022-07-07](./Firedrake-meeting-2022-07-07)
+Next meeting [2022-07-21](./Firedrake-meeting-2022-07-21)
 
 ## Past meetings
+- [2022-07-07](./Firedrake-meeting-2022-07-07)
 - [2022-06-30](./Firedrake-meeting-2022-06-30)
 - [2022-06-23](./Firedrake-meeting-2022-06-23)
 - [2022-06-16](./Firedrake-meeting-2022-06-16)

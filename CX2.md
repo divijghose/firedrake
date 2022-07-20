@@ -1,3 +1,5 @@
+We recommend trying [installation using Spack](./Generic-Instructions-for-HPC). These notes are left as a reference.
+
 # Firedrake on CX2.
 
 CX2 is Imperial's SGI cluster. These are the instructions for building and running Firedrake on CX2.
@@ -37,7 +39,7 @@ The following is a sample pbs script running the Helmholtz demo:
 # Mail notification
 #PBS -m ae
 #PBS -M david.ham@imperial.ac.uk
-  
+
 echo Working Directory is $PBS_O_WORKDIR
 cd $PBS_O_WORKDIR
 rm -f stdout* stderr*
@@ -48,9 +50,9 @@ source $HOME/src/firedrake/bin/activate
 
 # Start time
 echo Start time is `date` > date
- 
+
 mpiexec python $VIRTUAL_ENV/src/firedrake/demos/helmholtz/helmholtz.py
- 
+
 # End time
 echo End time is `date` >> date
 ```

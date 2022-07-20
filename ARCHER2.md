@@ -1,4 +1,3 @@
-# ARCHER2
 Previously a script based installation has been used to install Firedrake on ARCHER2, this is no longer recommended and we now encourage you to use Spack. (The old repository is available [here](https://github.com/firedrakeproject/firedrake-archer2))
 
 # Spack install Firedrake on ARCHER2
@@ -11,6 +10,8 @@ Start in a directory on the WORK filesystem, not HOME as it is not accessible fr
 
 ### Environment
 We recommend using the GNU toolchain and GCC compilers at version 10.2.0, see [additional notes](#Additional-notes) for more info.
+
+The following clones the Spack repo, loads modules to setup the environment and activates Spack.
 
 ```bash
 git clone -c feature.manyFiles=true git@github.com:spack/spack.git
@@ -44,13 +45,13 @@ module swap cce cce/12.0.3
 ```
 for the AMD or Cray compilers respectively.
 
-### Configure spack
+### Configuration
 1. Populate `$SPACK_USER_CONFIG_PATH/cray/compilers.yaml` with the following YAML. Note that this contains most of the available compilers, you only need to configure for the compilers you will use.
 <details>
     <summary>
         <code>$SPACK_USER_CONFIG_PATH/cray/compilers.yaml</code>
     </summary>
-    
+
 ```yaml
 compilers:
 - compiler:
@@ -422,7 +423,7 @@ packages:
     git clone https://github.com/firedrakeproject/firedrake-spack.git
     # or
     git clone git@github.com:firedrakeproject/firedrake-spack.git
-    ```  
+    ```
 1. Add the repository to spack `spack repo add <repo directory> `
 1. Create an spack environment `spack env create -d ./firedrake`
 1. Activate that environment `spack env activate -p ./firedrake`
@@ -441,7 +442,7 @@ packages:
     spack develop py-coffee@develop
     spack develop py-loopy@develop
     spack develop py-cgen@develop
-    
+
     spack develop py-codepy@develop
     spack develop py-genpy@develop
     spack develop py-tsfc@develop
@@ -515,8 +516,12 @@ packages:
 1. Install (and log) `spack install --fail-fast 2>&1 | tee $SPACK_ENV/spack-firedrake-install.log`
 
 ### Testing
-Testing must be run on a compute node. An interactive session can be started using 
-
+Testing must be run on a compute node. An interactive session can be started using
+```bash
+srun --nodes=1 --exclusive --time=00:20:00 \
+               --partition=standard --qos=short --reservation=shortqos \
+               --account=[budget code] --pty /bin/bash
+```
 Alternatively submit a jobscript, see [additional notes](#Additional-notes).
 1. Test you can import Firedrake by running `python -c "from firedrake import *"`
     - If this fails, before trying anything else, deactivate the environment with `spack env deactivate` and reactivate with `spack env activate -p ./firedrake` (as above) and try running `python -c "from firedrake import *"` again. This appears to be a shortcoming of spack.
@@ -541,7 +546,7 @@ The obvious solution to this is not to use pip to install the package and instea
 If the package is not present the correct solution is to create one and upstream it into Spack's builtin package repository. There are instructions in Spack's documentation on how to do this.
 
 ## Additional notes:
-- This page is based off installation notes available [here](https://hackmd.io/Sg3fYXuCTl61d_LAg4QnMw?view). These notes contain more details of bugs you may encounter and how to build with other compilers.
+This page is based off installation notes available [here](https://hackmd.io/Sg3fYXuCTl61d_LAg4QnMw?view). These notes contain more details of bugs you may encounter and how to build with other compilers.
 
 Example jobscript:
 ```bash

@@ -1,3 +1,5 @@
+We recommend trying [installation using Spack](./Generic-Instructions-for-HPC). These notes are left as a reference.
+
 # Firedrake on CX1.
 
 CX1 is Imperial's entry-level HPC cluster. These are the instructions for building and running Firedrake on CX1.
@@ -34,7 +36,7 @@ The following is a sample pbs script running the Helmholtz demo. Don't forget to
 # Mail notification
 #PBS -m ae
 #PBS -M david.ham@imperial.ac.uk
-  
+
 echo Working Directory is $PBS_O_WORKDIR
 cd $PBS_O_WORKDIR
 rm -f stdout* stderr*
@@ -49,7 +51,7 @@ source $HOME/firedrake/bin/activate
 echo Start time is `date` > date
 
 mpiexec python $VIRTUAL_ENV/src/firedrake/demos/helmholtz/helmholtz.py
- 
+
 # End time
 echo End time is `date` >> date
 ```
@@ -88,7 +90,7 @@ Now you should be able to import vtk. Note that importing firedrake may require 
 
 
 ## Troubleshooting
-* An unsuccessful installation may be due to the default modules on cx1. E.g. to resolve an error of form 
+* An unsuccessful installation may be due to the default modules on cx1. E.g. to resolve an error of form
 
 ```
 -- Configuring incomplete, errors occurred!CMake Error at CMakeLists.txt:16                                                                                         (CMAKE_MINIMUM_REQUIRED):

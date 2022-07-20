@@ -27,6 +27,7 @@
 </summary>
 
 - [Apptainer/Singularity](./singularity)
+- [Generic](./Generic-Instructions-for-HPC)
 - [Archer](./Archer)
 - [Archer2](./archer2)
 - [Isambard](./isambard)

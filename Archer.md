@@ -1,3 +1,5 @@
+ARCHER was switched off 27-01-2021 and is no longer available.
+
 # Firedrake on Archer
 
 There are build scripts and a sample PBS script for Firedrake on ARCHER [here](https://github.com/firedrakeproject/firedrake-archer).

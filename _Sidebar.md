@@ -23,7 +23,7 @@
 <details>
 <summary>
 
-[Running on HPC](./hpc)
+[Running on HPC](./Running-on-HPC)
 </summary>
 
 - [Apptainer/Singularity](./singularity)

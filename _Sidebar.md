@@ -21,7 +21,10 @@
 </details>
 
 <details>
-<summary>[Running on HPC](./hpc)</summary>
+<summary>
+
+[Running on HPC](./hpc)
+</summary>
 
 - [Apptainer/Singularity](./singularity)
 - [Archer](./Archer)

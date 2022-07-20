@@ -21,11 +21,12 @@
 </details>
 
 <details>
-<summary>Building on HPC</summary>
+<summary>[Running on HPC](./hpc)</summary>
 
+- [Apptainer/Singularity](./singularity)
 - [Archer](./Archer)
-- [Archer2](https://github.com/firedrakeproject/firedrake-archer2)
-- [Isambard](https://github.com/firedrakeproject/isambard/tree/alternative_install/README.md)
+- [Archer2](./archer2)
+- [Isambard](./isambard)
 - [CX1](./CX1)
 - [CX2](./CX2)
 </details>

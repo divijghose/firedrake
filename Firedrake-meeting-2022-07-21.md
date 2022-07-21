@@ -13,7 +13,7 @@ Present:
 
 Apologies:
 
-## Object versioning
+## NB: Object versioning
 
 PyOP2 PR: https://github.com/OP2/PyOP2/pull/579
 

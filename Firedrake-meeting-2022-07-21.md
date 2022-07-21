@@ -13,7 +13,9 @@ Present:
 
 Apologies:
 
-## Item 1
+## Object versioning
+
+PyOP2 PR: https://github.com/OP2/PyOP2/pull/579
 
 ## Merge PRs
 

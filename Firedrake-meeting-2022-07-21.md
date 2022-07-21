@@ -31,7 +31,7 @@ DH: Does this work for mixed? Yes, it's fine.
 
 ## DH: PRISM has been extended to end of 2023
 
-## DH: Rob Kirkby Sabatical
+## DH: Rob Kirby Sabbatical
 
 ## DH: India will start a PhD with Patrick in October
 

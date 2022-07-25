@@ -13,7 +13,8 @@ Present:
 
 Apologies:
 
-## Item 1
+## RNH - Any relevancy to this new ECCOMAS conference?
+https://m2p2023.cimne.com/
 
 ## Merge PRs
 

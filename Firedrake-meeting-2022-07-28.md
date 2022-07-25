@@ -15,6 +15,8 @@ Apologies:
 
 ## RNH - Any relevancy to this new ECCOMAS conference?
 https://m2p2023.cimne.com/
+SV has also had a lot of emails about [cfc2023.iacm.info
+](https://cfc2023.iacm.info/about_cfc_2023)
 
 ## Merge PRs
 

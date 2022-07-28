@@ -21,12 +21,16 @@ JB organising minisymposium. NB to talk in Devito mini.
 
 ## DH: PETSc changes
 KS: Waiting on Matt
+
 JB: Rebased, trying to get through review process again
+
 KS: PETSc main no longer compatible with Firedrake, needs fix
 
 ## NB: Object versioning
 PyOP2 PR: https://github.com/OP2/PyOP2/pull/579
+
 NB: Outline changes (see PR)
+
 DH: Does this work for mixed? Yes, it's fine.
 
 ## DH: PRISM has been extended to end of 2023

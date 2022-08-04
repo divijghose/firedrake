@@ -7,7 +7,7 @@ Date and time 2022-08-04 12:00UTC (13:00BST 22:00AEST)
 1. DH: talk to Jemma about Firedrake 2022 (ongoing)
 1. JB: SIAM CSE23 Minisymposium/minisymposterium
 
-# Agenda
+# Minutes
 
 Present: DH, CW (minuter), JB, NB, RNH, KS
 

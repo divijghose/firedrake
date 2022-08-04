@@ -13,6 +13,12 @@ Present:
 
 Apologies:
 
+## JB: Beware, there might be install issues on the horizon:
+
+1. Pip is changing the way that packages are installed, this affects the libraries mpi4py/petsc4py link against
+
+2. VTK wheels: Urgh! (RH has started investigating)
+
 ## Merge PRs
 
 ## Date of next meetings

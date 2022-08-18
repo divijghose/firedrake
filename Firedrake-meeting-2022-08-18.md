@@ -10,7 +10,7 @@ Date and time 2022-08-18 12:00UTC (13:00BST 22:00AEST)
 
 # Minutes
 
-Present: CE SV JB DH KS RNH NB
+Present: CW SV JB DH KS RNH NB
 
 Apologies:
 

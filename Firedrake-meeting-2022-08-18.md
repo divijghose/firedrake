@@ -18,7 +18,7 @@ Apologies:
 
 There seems to be a problem noticed with the current theory for the adjoint of Interp.
 
-Context: Let $I(v_1, v_{0}^{*})$ be an `Interp` mapping from $V_0$ to $V_1$ with $v_{0}^{\*} \in V_{0}^{\*}$ and $v_{1} \in V_{1}$. Then the adjoint should map from $V_{1}^{\*}$ to $V_{0}^{\*}$.
+Context: Let $I(v_1, v_{0}^{*})$ be an `Interp` mapping from $V_1$ to $V_0$ with $v_{0}^{\*} \in V_{0}^{\*}$ (Coargument) and $v_{1} \in V_{1}$. Then the adjoint should map from $V_{0}^{\*}$ to $V_{1}^{\*}$.
 
 ## Merge PRs
 

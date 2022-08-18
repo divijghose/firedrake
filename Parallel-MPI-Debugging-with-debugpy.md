@@ -43,6 +43,6 @@ $ mpiexec -n 2 $VIRTUAL_ENV/bin/python myscript.py
 
 The processes should start and pause waiting for the debugger.
 
-In Visual Studio Code, set a breakpoint where you would like execution to pause. Next, launch the `Python Attach` debugger configurations. This will show you 2 (or the number of MPI ranks) call stacks. You can switch the debugger between them using the dropdown on the debugger control window. You're now ready to debug!
+In Visual Studio Code, set a breakpoint where you would like execution to pause. Next, launch both (or all of) the `Python Attach` debugger configurations. This will show you 2 (or the number of MPI ranks) call stacks. You can switch the debugger between them using the dropdown on the debugger control window. You're now ready to debug!
 
 

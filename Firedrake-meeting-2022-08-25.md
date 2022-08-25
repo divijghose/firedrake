@@ -16,6 +16,17 @@ Apologies:
 
 ## JB: Rescheduling of this meeting
 
+## KS: I/O
+
+- PETSc MR merged
+- Firedrake fork updated
+- https://github.com/firedrakeproject/firedrake/pull/2461 now ready
+
+## KS: Archer2
+
+- OFI network seems working (can achieve ~4.5 [GiB/s])
+- UCX is still not working
+
 ## Merge PRs
 
 ## Date of next meetings

@@ -1,4 +1,4 @@
-Date and time 2022-09-01 15:00UTC (16:00BST)
+Date and time 2022-09-07 15:00UTC (16:00BST)
 
 # Action Items
 1. **Pick Chair and Minuter** (JB to pick).

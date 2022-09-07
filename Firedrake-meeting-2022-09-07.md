@@ -10,17 +10,38 @@ Date and time 2022-09-07 15:00UTC (16:00BST)
 
 # Agenda
 
-Present:
+Present: DH, NB, RNH, KS, RK
 
 Apologies: 
+
+## DH: Firedrake 2022
+
+Devon Jan 4 (Wed) - Jan 6 (Fri)
+
+Invited speakers:
+
+- Jeff (spectral methods)
+
+- Another one not yet announced
+
+£150 for PhD
+
+£250 for everyone else
 
 ## NB: Cache tlm computation for NonlinearVariationalSolveBlock
 
 [#2250](https://github.com/firedrakeproject/firedrake/pull/2250): Extend [#2201](https://github.com/firedrakeproject/firedrake/pull/2201) to tangent linear model
 
+DH: Mostly looks fine. Add tests.
+
+## RK: FEniCSx?
+
+- API is still changing a lot
+
+- Customisable C++
 
 ## Merge PRs
 
 ## Date of next meeting
 
-Next meeting: ?
+Next meeting: Is everyone happy with Wed 1600?

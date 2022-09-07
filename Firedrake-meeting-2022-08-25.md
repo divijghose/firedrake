@@ -62,4 +62,4 @@ Apologies:
 
 Next meeting: Not next week
 
-1600 UTC [2022-09-08](./Firedrake-meeting-2022-09-08)?
+1600 UTC [2022-09-08](./Firedrake-meeting-2022-09-08)

@@ -44,4 +44,4 @@ DH: Mostly looks fine. Add tests.
 
 ## Date of next meeting
 
-Next meeting: ~~Is everyone happy with Wed 1600?~~ 1600 UTC [2022-09-14](./Firedrake-meeting-2022-09-14)
+Next meeting: ~~Is everyone happy with Wed 1600?~~ 1600 BST [2022-09-14](./Firedrake-meeting-2022-09-14)

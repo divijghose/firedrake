@@ -12,7 +12,7 @@ Date and time 2022-09-07 15:00UTC (16:00BST)
 
 Present: DH, NB, RNH, KS, RK
 
-Apologies: 
+Apologies: JB
 
 ## DH: Firedrake 2022
 

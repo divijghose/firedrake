@@ -13,7 +13,8 @@ Present:
 
 Apologies: 
 
-## JB: Status of PETSc/petsc4py GC MR
+## ~~JB: Status of PETSc/petsc4py GC MR~~
+Since rebasing this now has more memory leaks and needs fixing before it will pass tests. Perhaps revisit this next week.
 
 ## Merge PRs
 

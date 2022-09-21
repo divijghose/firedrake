@@ -20,6 +20,7 @@ See #general for discussion
 Post rebase memory leaks fixed. Code reorganisation has been requested I will try and get this done this week.
 
 ## Merge PRs
+Irksome: https://github.com/firedrakeproject/Irksome/pull/53
 
 ## Date of next meeting
 

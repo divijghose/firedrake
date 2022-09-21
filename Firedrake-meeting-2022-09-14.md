@@ -7,7 +7,7 @@ Date and time 2022-09-14 15:00UTC (16:00BST 22:00AEST)
 1. DH: talk to Jemma about Firedrake 2022 (done? maybe we can take this out for now)
 1. JB: SIAM CSE23 Minisymposium/minisymposterium
 
-# Agenda
+# Minutes
 
 Present: David, Scott, Rob, Reuben, Connor, Daiane, Colin, Jack, Koki, Nacime, Me
 
@@ -33,7 +33,5 @@ I recall that DH described `assign` as equivalent to `interpolate` in many cases
 ## Merge PRs
 
 ## Date of next meeting
-
-Next meeting: Not next week
 
 1600 UTC [2022-09-21](./Firedrake-meeting-2022-09-21)

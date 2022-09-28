@@ -13,7 +13,9 @@ Present:
 
 Apologies: 
 
-## Item 1
+## JMC projects - DH
+
+What would we like graduating JMC students to do as projects?
 
 ## Merge PRs
 

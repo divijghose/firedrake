@@ -7,7 +7,7 @@ Date and time 2022-09-21 15:00UTC (16:00BST)
 1. DH: talk to Jemma about Firedrake 2022 (nearly done! Abstracts open next week hopefully)
 1. JB: SIAM CSE23 Minisymposium/minisymposterium
 
-# Agenda
+# Minutes
 
 Present:
 

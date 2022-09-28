@@ -61,6 +61,8 @@ DH: This won't quite work (even though textbooks say this is how it works). Adjo
 
 See the following issue for a discussion: https://github.com/dolfin-adjoint/pyadjoint/issues/84
 
+Also take a look at: https://www.dolfin-adjoint.org/en/latest/documentation/pyadjoint_api.html#pyadjoint.Tape.visualise
+
 ## Merge PRs
 
 ## Date of next meeting

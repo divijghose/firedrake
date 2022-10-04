@@ -12,7 +12,8 @@ Present:
 
 Apologies:
 
-## Item 1
+## RNH: SymFem and SymFIAT
+[This PR](https://github.com/firedrakeproject/fiat/pull/29) has popped out of nowhere - anyone know what it's for and what SymFem is?
 
 ## Merge PRs
 

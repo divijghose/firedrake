@@ -187,9 +187,17 @@ Testing must be run on a compute node. An interactive session can be started usi
 qsub -I -q arm-dev -l walltime=00:10:00
 ```
 Alternatively submit a jobscript, see [additional notes](#Additional-notes).
-1. Test you can import Firedrake by running `python -c "from firedrake import *"`
+1. Test you can import Firedrake by running `aprun -n 1 python -c "from firedrake import *"`. You must run via `aprun` to make sure the MPI modules are found.
     - If this fails, before trying anything else, deactivate the environment with `spack env deactivate` and reactivate with `spack env activate -p ./firedrake` (as above) and try running `python -c "from firedrake import *"` again. This appears to be a shortcoming of spack.
-1. Run the basic functionality tests:
+1. Run the basic functionality tests. Before running you will need to set a few pyop2 variables:
+    ```bash
+    unset PYOP2_LD
+    export PYOP2_CC=`which cc`
+    export PYOP2_CXX=`which CC`
+    export PYOP2_CFLAGS="-I${CRAY_MPICH_DIR}/include/"
+    export PYOP2_LDFLAGS='-shared'
+    ```
+   Run the tests with:
     ```bash
     cd $SPACK_ENV/py-firedrake
     pytest tests/regression/ -m "not parallel" -k "poisson_strong or stokes_mini or dg_advection"

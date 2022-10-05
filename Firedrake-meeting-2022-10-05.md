@@ -17,6 +17,8 @@ Apologies:
 
 ## Merge PRs
 
+CW: https://github.com/OP2/PyOP2/pull/673
+
 ## Date of next meeting
 
 1600 UTC [2022-10-12](./Firedrake-meeting-2022-10-12)

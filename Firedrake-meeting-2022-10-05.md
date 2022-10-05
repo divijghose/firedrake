@@ -15,6 +15,8 @@ Apologies:
 ## RNH: SymFem and SymFIAT
 [This PR](https://github.com/firedrakeproject/fiat/pull/29) has popped out of nowhere - anyone know what it's for and what SymFem is?
 
+## RNH: Do we want to (briefly) discuss the `split` confusion complaint on slack?
+
 ## Merge PRs
 
 CW: https://github.com/OP2/PyOP2/pull/673

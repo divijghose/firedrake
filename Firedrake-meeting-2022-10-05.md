@@ -20,6 +20,7 @@ Apologies:
 ## Merge PRs
 
 CW: https://github.com/OP2/PyOP2/pull/673
+KS: https://github.com/OP2/PyOP2/pull/674
 
 ## Date of next meeting
 

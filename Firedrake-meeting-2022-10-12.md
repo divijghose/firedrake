@@ -12,7 +12,9 @@ Present:
 
 Apologies:
 
-## Item 1
+## RNH: Travel and Accommodation at CSE23
+Might as well book early. Figure UK people will take the Eurostar? 
+The conference have a [link](https://www.siam.org/conferences/cm/lodging-and-support/hotel-transportation-information/cse23-hotel-transportation-information) for group booking hotels using the RAI hotels service.
 
 ## Merge PRs
 

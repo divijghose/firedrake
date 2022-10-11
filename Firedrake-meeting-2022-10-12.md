@@ -20,6 +20,8 @@ Also it claims to start on a Sunday and run to a Friday. Does anyone know more p
 
 ## Merge PRs
 
+DRS: Anaconda install ready for another look
+
 ## Date of next meeting
 
 1600 UTC [2022-10-26](./Firedrake-meeting-2022-10-26)

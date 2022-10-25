@@ -7,7 +7,7 @@ Date and time 2022-10-12 15:00UTC (16:00BST)
 1. DH: talk to Jemma about Firedrake 2022 (nearly done! Abstracts open next week hopefully)
 1. ALL: Rename split (`.split` -> `.subfunctions`)
 
-# Agenda
+# Minutes
 
 Present: RK, NB, DH, KS, CC, JB, RNH, PK, PB, CW, DS
 

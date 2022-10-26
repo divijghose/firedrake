@@ -10,9 +10,9 @@ Date and time 2022-10-26 15:00UTC (16:00BST)
 
 # Agenda
 
-Present:
+Present: JB, KS, CW (minuter)
 
-Apologies:
+Apologies: RNH
 
 ## JB: Clocks change
 
@@ -22,11 +22,11 @@ UK on 30th October
 
 https://github.com/firedrakeproject/firedrake/pull/2562 is very nearly done. Currently the only failures are in pyadjoint (https://github.com/dolfin-adjoint/pyadjoint/pull/93) where `assign` in Firedrake now fails but switching to `interpolate` breaks FEnICs. What should I do?
 
+Defer to next week.
+
 ## Merge PRs
 
-
-
-
+#2592 merged.
 
 ## Date of next meeting
 

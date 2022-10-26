@@ -18,8 +18,9 @@ Apologies:
 
 UK on 30th October
 
-## Item 2:
+## CW: `assign` for weighted sums
 
+https://github.com/firedrakeproject/firedrake/pull/2562 is very nearly done. Currently the only failures are in pyadjoint (https://github.com/dolfin-adjoint/pyadjoint/pull/93) where `assign` in Firedrake now fails but switching to `interpolate` breaks FEnICs. What should I do?
 
 ## Merge PRs
 

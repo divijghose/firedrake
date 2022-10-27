@@ -100,14 +100,11 @@ The other ranks can be broken at any time with an interupt signal (`ctrl-C`) to 
 
 This is particularly useful when trying to debug hanging programs where no rank processes have actually errored.
 
-## What Doesn't Work
+## PETSc's `-start_in_debugger` argument
 
-Note that I have yet to get PETSc's `-start-in-debugger` argument, which should cause the program on all ranks to start in the debugger, working with this example.
+Note that PETSc has `-start_in_debugger` argument, which cause the program on all ranks to start in the debugger in multiple xterm windows. For this example, run the following command.
 
-`$ tmux-mpi 3 gdb --ex run --args $(which python) test.py -start-in-debugger`
+`$ mpiexec -n 3 $(which python) test.py  -start_in_debugger`
 
-or indeed any arguments such as PETSc's `-on_error_attach_debugger`.
-
-Please update this and let me know if you manage to get it working!
 
  - Reuben Nixon-Hill May 2021

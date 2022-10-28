@@ -18,6 +18,9 @@ Apologies:
 
 https://github.com/firedrakeproject/firedrake/pull/2562 is very nearly done. Currently the only failures are in pyadjoint (https://github.com/dolfin-adjoint/pyadjoint/pull/93) where `assign` in Firedrake now fails but switching to `interpolate` breaks FEnICs. What should I do?
 
+## RNH: Issue [2595](https://github.com/firedrakeproject/firedrake/issues/2595)
+The UFL update to fenics main made certain things not work any more and is currently breaking Gusto
+
 ## Merge PRs
 
 ## Date of next meeting

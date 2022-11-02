@@ -14,10 +14,6 @@ Present:
 
 Apologies:
 
-## CW: `assign` for weighted sums
-
-https://github.com/firedrakeproject/firedrake/pull/2562 is very nearly done. Currently the only failures are in pyadjoint (https://github.com/dolfin-adjoint/pyadjoint/pull/93) where `assign` in Firedrake now fails but switching to `interpolate` breaks FEnICs. What should I do?
-
 ## RNH: Issue [2595](https://github.com/firedrakeproject/firedrake/issues/2595)
 The UFL update to fenics main made certain things not work any more and is currently breaking Gusto
 
@@ -28,6 +24,8 @@ Need to look over "abuse of comms" [PR in PyOP2](https://github.com/OP2/PyOP2/pu
 MacOS users, please create me some [VTK](https://github.com/firedrakeproject/VTKPythonPackage) wheels! We are still waiting for an mpi4py wheel before [this](https://github.com/firedrakeproject/firedrake/pull/2358) can be merged :slightly_frowning_face:.
 
 ## Merge PRs
+
+CW: https://github.com/firedrakeproject/firedrake/pull/2562 and https://github.com/dolfin-adjoint/pyadjoint/pull/93
 
 ## Date of next meeting
 

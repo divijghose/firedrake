@@ -7,6 +7,7 @@ Date and time 2022-11-09 16:00UTC
 1. ALL: Rename split (`.split` -> `.subfunctions`) (ongoing)
 1. JB: A Firedrake manual (ongoing)
 1. JB: Python 3.11 (ongoing)
+1. All: Go through TSFC PRs
 
 # Agenda
 
@@ -33,7 +34,8 @@ Some formatting is inconsistent/bad. I have used black in a recent PR to cleanup
  - Python change could cause issues with ubuntu's default python: we should choose not to care! We will instead follow python's support (which is 5 years, i.e. back to 3.7)
    - We will keep f-strings out of the install script to make sure users of old python get appropriate warnings
  - Yes PyOP2 should use our runners
- - Fork PyOP2 and FInAT into firedrake organisation and tombstone the old ones (will need to update the documentation)
+ - Fork PyOP2 and FInAT into firedrake organisation and ~tombstone the old ones~ (will need to update the documentation)
+   - Move them instead AS LONG AS urls resolve to the new location (**JB to check before moving**)
 
 ## DH: Hiring
 Person who was offered mesh refinement role turned it down. If anyone knows someone looking for a postdoc in firedrake land please let us know!
@@ -45,10 +47,10 @@ Join the #newfl slack channel on fenics slack where changes to the language are 
 
 JB: Versioneer finally removed `distutils` dependency, so these are ready to go:
 
-- https://github.com/firedrakeproject/firedrake/pull/2368,
-- https://github.com/OP2/PyOP2/pull/678
+- https://github.com/firedrakeproject/firedrake/pull/2368, **merged!**
+- https://github.com/OP2/PyOP2/pull/678 **merged!**
 
-JB: We can ignore this failing test (I think) https://github.com/firedrakeproject/firedrake/pull/2613
+JB: We can ignore this failing test (I think) https://github.com/firedrakeproject/firedrake/pull/2613 **merged!**
 
 ## Date of next meeting
 

@@ -32,6 +32,8 @@ JB: #2599 is ready (previous CI run is the one tested with the _correct_ branche
 
 CW: https://github.com/firedrakeproject/firedrake/pull/2562 and https://github.com/dolfin-adjoint/pyadjoint/pull/93
 
+JB: #2358
+
 ## Date of next meeting
 
 1600 UTC [2022-11-23](./Firedrake-meeting-2022-11-23)

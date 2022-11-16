@@ -10,7 +10,7 @@ Date and time 2022-11-09 16:00UTC
 1. All: Go through TSFC PRs
 1. RNH: check if [issue #2516](https://github.com/firedrakeproject/firedrake/issues/2516) is still a problem, if yes, see if [#2509 Try installing pre-release of VTK from PyPI (supporting Python 3.10)](https://github.com/firedrakeproject/firedrake/pull/2509) fixes
 
-# Agenda
+# Minutes
 
 Present: RK RNH KS CW JB DH
 

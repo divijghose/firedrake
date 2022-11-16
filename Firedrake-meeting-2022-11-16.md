@@ -28,11 +28,11 @@ Doc Strings: https://black.readthedocs.io/en/stable/the_black_code_style/current
 
 
 ## Merge PRs
-JB: #2599 is ready (previous CI run is the one tested with the _correct_ branches). Order should be PETSc then PyOP2 then Firedrake.
+~~JB: [#2599](#2599) is ready (previous CI run is the one tested with the _correct_ branches). Order should be PETSc then PyOP2 then Firedrake.~~
 
 CW: https://github.com/firedrakeproject/firedrake/pull/2562 and https://github.com/dolfin-adjoint/pyadjoint/pull/93
 
-JB: #2358
+JB: [#2358](#2358)
 
 ## Date of next meeting
 

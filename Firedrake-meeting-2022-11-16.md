@@ -13,11 +13,29 @@ Date and time 2022-11-16 16:00UTC
 
 # Agenda
 
-Present:
+Present: DH, CW, JB, RNH, RK, PK, KS
 
 Apologies:
 
 ## Item 1
+
+RK: some newfl discussion (with Matthew) at Firedrake 22?
+
+DH: vtk wheel for Python 3.11 ready(?)
+
+RNH: Yes [2516] and Yes[2509] with JB's branch.
+
+## newfl meeting
+
+Matthew, DH, India were present
+
+India: will work on element oracle
+
+Dual PR might be merged next week.
+
+Clean current UFL as much as we can and then discuss what we need to do.
+
+Next meeting some time in January.
 
 ## JB: Black
 Answers to previous questions:
@@ -25,7 +43,6 @@ Answers to previous questions:
 GH Actions: https://black.readthedocs.io/en/stable/integrations/github_actions.html
 
 Doc Strings: https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#comments
-
 
 ## Merge PRs
 ~~JB: [#2599](#2599) is ready (previous CI run is the one tested with the _correct_ branches). Order should be PETSc then PyOP2 then Firedrake.~~

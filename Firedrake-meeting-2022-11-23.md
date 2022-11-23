@@ -18,7 +18,9 @@ Present:
 
 Apologies:
 
-## Item 1
+## DRS: miscellaneous bugs
+
+Checkpointing and pyadjont + ROL
 
 ## Merge PRs
 

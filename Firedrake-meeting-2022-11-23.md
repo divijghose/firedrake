@@ -22,6 +22,8 @@ Apologies:
 
 ## Merge PRs
 
+1.  JHC: Additional MPI methods for Ensemble [#2639](https://github.com/firedrakeproject/firedrake/pull/2639)
+
 ## Date of next meeting
 
 1600 UTC [2022-12-07](./Firedrake-meeting-2022-12-07)

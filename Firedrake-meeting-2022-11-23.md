@@ -23,6 +23,7 @@ Apologies:
 ## Merge PRs
 
 1.  JHC: Additional MPI methods for Ensemble [#2639](https://github.com/firedrakeproject/firedrake/pull/2639)
+1. CW: Halo freezing: [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2635) and [PyOP2](https://github.com/OP2/PyOP2/pull/680)
 
 ## Date of next meeting
 

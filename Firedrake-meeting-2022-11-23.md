@@ -22,10 +22,17 @@ Apologies:
 
 Checkpointing and pyadjont + ROL
 
+## JB: PyOP2 `PYOP2_NO_FORK_AVAILABLE` status
+The code associated with `PYOP2_NO_FORK_AVAILABLE` is not tested and is broken
+(okay **I** broke it, but it's broken beyond this!! ie: loopy forks, maybe other dependencies too).
+I think I know why this exists, but is anyone using it, is it still worth maintaining and testing?
+
 ## Merge PRs
 
-1.  JHC: Additional MPI methods for Ensemble [#2639](https://github.com/firedrakeproject/firedrake/pull/2639)
+1. JHC: Additional MPI methods for Ensemble [#2639](https://github.com/firedrakeproject/firedrake/pull/2639)
 1. CW: Halo freezing: [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2635) and [PyOP2](https://github.com/OP2/PyOP2/pull/680)
+1. JB: [GC Fix #2599](https://github.com/firedrakeproject/firedrake/pull/2599) been round once before, DEFCON now has a fix, are we ready?
+1. JB: [Python 3.11 #2358](https://github.com/firedrakeproject/firedrake/pull/2358), is this ready? Mac users?
 
 ## Date of next meeting
 

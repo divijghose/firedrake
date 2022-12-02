@@ -174,6 +174,7 @@
 <summary>Policy</summary>
 
 - [Closing Installation Issues](./Closing-Installation-Issues)
+- [Python version support](./Python-version-support)
 
 </details>
 

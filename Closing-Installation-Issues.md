@@ -1,5 +1,3 @@
-# Closing Installation Issues
-
 The Firedrake installation script changes very frequently due to:
 - Sheer number of dependencies which are updated.
 - Changing hardware and different platforms.

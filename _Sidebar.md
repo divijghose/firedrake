@@ -170,6 +170,13 @@
   - [2020-03-19](./Firedrake-meeting-2020-03-19)
 </details>
 
+<details>
+<summary>Policy</summary>
+
+- [Closing Installation Issues](./Closing-Installation-Issues)
+
+</details>
+
 [Gravity wave scaling](./Gravity-wave-scaling)
 
 [Merge Complex Sprint](./MergeComplexSprint)

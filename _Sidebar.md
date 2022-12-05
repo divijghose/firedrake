@@ -14,7 +14,7 @@
 
 - [Modifying and Rebuilding PETSc and petsc4py](./Modifying-and-Rebuilding-PETSc-and-petsc4py-in-Firedrake)
 - [Vectorisation](./vectorization-in-firedrake)
-- [Debugging C kernels with lldb on MacOS](./Debugging-C-kernels-with-lldb-on-MacOS)
+- [Debugging C kernels with `lldb` on MacOS](./Debugging-C-kernels-with-lldb-on-MacOS)
 - [Parallel MPI Debugging with `tmux-mpi`, `pdb` and `gdb`](./Parallel-MPI-Debugging-with-tmux-mpi-(python-and-c!))
 - [Parallel MPI Debugging with VSCode and `debugpy`](./Parallel-MPI-Debugging-with-debugpy)
 - [Wiki for Developers](./A-FAQ-for-Firedrake-Developers)

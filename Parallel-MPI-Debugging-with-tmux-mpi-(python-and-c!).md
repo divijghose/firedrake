@@ -76,10 +76,12 @@ Note you need to do this manually - you can't expect a step on one rank to step 
 
 If you don't want to jump straight into the debugger but run through to a `pdb` breakpoint (set with either `breakpoint()` in recent python versions or via `import pdb; pdb.set_trace()` in general) then you can omit the `-m pdb` and simply run `$ tmux-mpi 3 $(which python) test.py`.
 
-# Debugging C Code - **Not on MacOS**
+# Debugging C Code - **Won't work as described on MacOS**
 
 This requires you to be on a platform where your debugger is `gdb` since MPICH (which firedrake uses by default) does not play nicely with `lldb` and will give very confusing results.
 In practice this means that **you cannot easily debug MPI C code on MacOS**.
+
+**NOTE**: This may now not be true, see [Debugging C kernels with lldb on MacOS](https://github.com/firedrakeproject/firedrake/wiki/Debugging-C-kernels-with-lldb-on-MacOS).
 
 To debug, in a C debugger, the `mpiexec -n -3 python test.py` example:
 

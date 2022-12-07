@@ -18,29 +18,29 @@ Present: JB, KS, CW, NB, RK, RNH, DH
 
 Apologies:
 
-# Firedrake 2022
+## Firedrake 2022
 
 Transport: Try to set up a coach starting from Imperial that will go through different places to collect people. Return on Friday afternoon.
 
 Departure time: 8-9 am since we probably want to be there by 1pm (travel time: 4h30)
 
-# JB: Move PyOP2 and FInAT to firedrakeproject
+## JB: Move PyOP2 and FInAT to firedrakeproject
 
 This should be fine, github will move the PRs, issues, etc. automatically.
 
-# ALL: do things with SV's branches
+## ALL: do things with SV's branches
 
 Notes on Sophia's code: https://hackmd.io/UHCwsYaTTzyaWUIFSe9axg
 
 -> Someone that knows enough about the branches should take this over
 
-# UFL update
+## UFL update
 
 - Need to merge FEniCS master: Make a UFL branch merging fenics master and a firedrake branch linked to the UFL branch to check that we don't break anything.
 
 - Fix the accidental merge of a PR into Firedrake UFL and not in FEnICS UFL -> We can take it out. The concern being that people might be using it.
 
-# JB: Issues and new wiki section
+## JB: Issues and new wiki section
 
 JB has been closing a bunch of issues. JB and CW have made a policy section in the wiki about closing installation issues and python version support
 

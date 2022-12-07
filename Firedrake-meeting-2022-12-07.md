@@ -16,7 +16,7 @@ Date and time 2022-12-07 16:00UTC
 
 Present:
 
-Apologies:
+Apologies: RNH
 
 ## Merge PRs
 

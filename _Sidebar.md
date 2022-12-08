@@ -176,6 +176,7 @@
 
 - [Closing Installation Issues](./Closing-Installation-Issues)
 - [Python version support](./Python-version-support)
+- [How to create Zenodo releases](./How-to-create-Zenodo-releases)
 
 </details>
 

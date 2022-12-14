@@ -13,11 +13,11 @@ Date and time 2022-12-14 16:00UTC
 1. DRS: Fix ROL/pyadjoint versioning issues with Angus Gibson
 1. JB: **Buy a new laptop!**
 
+# Minutes
+
 Present: UZ CW RNH DH JB KS NB PK
 
 Apologies:
-
-# Minutes
 
 ## DH: Firedrake22
 Coach is organised, DH to send email with timings but leaving 0800 4th Jan from Imperial College.
@@ -30,17 +30,15 @@ Now working on ARM Mac, just need to test on Intel Mac.
 ## KS: Fix checkpointing error with pickling elements
 Can't test locally due to broken MPI.
 
-DH: When checkpointing was pickling finite elements, but this doesn't work due to upstream changes in UFL.
-
-#
+DH: When checkpointing was pickling finite elements, but this doesn't work since upstream changes in UFL.
 
 ## Merge PRs
 
-UZ: [#2607](https://github.com/firedrakeproject/firedrake/pull/2607), changes requested
+UZ: [#2607](https://github.com/firedrakeproject/firedrake/pull/2607), changes requested (see PR for comments).
 
 ~~JB: [#2358](https://github.com/firedrakeproject/firedrake/pull/2358)~~
 
 ## Date of next meeting
 
-11/01/2023 1600(UTC)
+1600 UTC [2023-01-11](./Firedrake-meeting-2023-01-11)
 

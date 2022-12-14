@@ -34,9 +34,13 @@ DH: When checkpointing was pickling finite elements, but this doesn't work since
 
 ## Merge PRs
 
-UZ: [#2607](https://github.com/firedrakeproject/firedrake/pull/2607), changes requested (see PR for comments).
+UZ: [#2607](https://github.com/firedrakeproject/firedrake/pull/2607), changes requested (see PR for comments). Needs to be more abstraction and look less like PETSc code.
 
 ~~JB: [#2358](https://github.com/firedrakeproject/firedrake/pull/2358)~~
+
+KS: [#2682](https://github.com/firedrakeproject/firedrake/pull/2682), changes requested.
+
+NB: [#2550](https://github.com/firedrakeproject/firedrake/pull/2550), missing performance results? See Melina's Masters Thesis
 
 ## Date of next meeting
 

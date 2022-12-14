@@ -12,7 +12,7 @@ Date and time 2022-12-07 16:00UTC
 1. KS: Fix checkpointing error with pickling elements
 1. DRS: Fix ROL/pyadjoint versioning issues with Angus Gibson
 
-# Agenda
+# Minutes
 
 Present: JB, KS, CW, NB, RK, RNH, DH
 

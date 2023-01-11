@@ -38,6 +38,10 @@ Here are the [UFL](https://github.com/firedrakeproject/ufl/pull/26) and [Firedra
 
 We already went through UFL PR a while ago, we should prioritize the Firedrake one.
 
+## CI fail
+
+Due to Numpy upgrade to 1.24.1
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -15,9 +15,22 @@ Date and time 2022-01-11 16:00UTC
 
 # Minutes
 
-Present:
+Present: DH, JB, CW, NB, DS, RNH, UZ, KS
 
 Apologies:
+
+
+## JB: Firedrake manual
+
+DH: Get template from OOPython book.
+
+## KS: Fix checkpointing
+
+Need to fix some `repr`s in UFL.
+
+##
+
+Dual landed in UFL. -> update our fork!
 
 ## NB: Interp
 
@@ -29,5 +42,5 @@ We already went through UFL PR a while ago, we should prioritize the Firedrake o
 
 ## Date of next meeting
 
-1600 UTC [2023-01-11](./Firedrake-meeting-2023-01-18)
+1600 UTC [2023-01-18](./Firedrake-meeting-2023-01-18)
 

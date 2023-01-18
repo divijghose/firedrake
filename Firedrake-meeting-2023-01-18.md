@@ -1,7 +1,7 @@
 Date and time 2023-01-18 16:00UTC
 
 # Action Items
-1. **Pick Chair and Minuter** (JB to pick minuter)
+1. **Pick Chair and Minuter** (KS to pick minuter)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. JB: A Firedrake manual
 1. JB: Move PyOP2 and FInAT to firedrakeproject

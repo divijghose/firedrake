@@ -12,17 +12,34 @@ Date and time 2023-01-18 16:00UTC
 
 # Agenda
 
-Present:
+Present: Pablo Brubeck, Reuben Nixon-Hill, Umburto Zerbinati, Francis Aznaran, Rob Kirby, David Ham, Jack Betteridge, Daniel Shapero, Nacime Bouziani
 
 Apologies:
 
+## JB: Firedrake manual
+Not much to update
+
+## JB: Moving repos
+On the backburner - need to make sure install script works but won't quietly point people to the new repos
+
+## KS: Fix checkpointing error with pickling elements
+Fixed itself by updating sympy
+
+## UZ: (PR) Firedrake-NetGen Interface.
+[#2607](https://github.com/firedrakeproject/firedrake/pull/2607) - currently failing tests, try rebasing onto master.
+Otherwise, see PR. More work needed but well done so far!
+
+## UZ: (PR) Misc eigenvalue problem.
+Not discussed at this meeting.
+
+## DH: Firedrake 2023/2024/2025 Meetings
+ - 2023: DH suggests September in Europe, suggest Imperial.
+ - 2024: we could do a follow on to SIAM PP24 but there is not yet any information about the conference. Suggest Oxford (DH to talk to Patrick Farrell).
+ - 2025: SIAM CSE25 will be at Fort Worth so could have RK hosting. DS has also offered.
+
 ## Merge PRs
 
-JB: [#2674](https://github.com/firedrakeproject/firedrake/pull/2674)
-
-UZ: (PR) FD-NG Interface.
-
-UZ: (PR) Misc eigenvalue problem.
+JB: [#2674](https://github.com/firedrakeproject/firedrake/pull/2674) - merged!
 
 ## Date of next meeting
 

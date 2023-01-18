@@ -19,8 +19,10 @@ Apologies:
 ## Merge PRs
 
 JB: [#2674](https://github.com/firedrakeproject/firedrake/pull/2674)
+
 UZ: (PR) FD-NG Interface.
-YZ: (PR) Misc eigenvalue problem.
+
+UZ: (PR) Misc eigenvalue problem.
 
 ## Date of next meeting
 

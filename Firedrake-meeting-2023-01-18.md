@@ -10,7 +10,7 @@ Date and time 2023-01-18 16:00UTC
 1. JB: **Buy a new laptop!** --> DH: Aprove Jack's new laptop
 1. ~~KS: Fix CI fail~~ Fixed by magic
 
-# Agenda
+# Minutes
 
 Present: Pablo Brubeck, Reuben Nixon-Hill, Umburto Zerbinati, Francis Aznaran, Rob Kirby, David Ham, Jack Betteridge, Daniel Shapero, Nacime Bouziani
 

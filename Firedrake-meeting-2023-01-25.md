@@ -30,6 +30,8 @@ RNH: [#2721](https://github.com/firedrakeproject/firedrake/pull/2721)
 
 CW: (very quick, method or property?) [#2725](https://github.com/firedrakeproject/firedrake/pull/2725)
 
+GV: [#2116](https://github.com/firedrakeproject/firedrake/pull/2116)
+
 ## Date of next meeting
 
 1600 UTC [2023-02-01](./Firedrake-meeting-2023-02-01)

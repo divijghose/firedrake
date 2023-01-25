@@ -14,10 +14,6 @@ Present:
 
 Apologies:
 
-## NB: Merge UFL Upstream
-
-PRs: [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2715) and [UFL](https://github.com/firedrakeproject/ufl/pull/32)
-
 ## Merge PRs
 
 PB: [#2728](https://github.com/firedrakeproject/firedrake/pull/2728)

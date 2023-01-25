@@ -30,7 +30,7 @@ RNH: [#2721](https://github.com/firedrakeproject/firedrake/pull/2721) merged!
 
 CW: (very quick, method or property?) [#2725](https://github.com/firedrakeproject/firedrake/pull/2725) discussed as necessary
 
-GV: [#2116](https://github.com/firedrakeproject/firedrake/pull/2116)
+GV: [#2116](https://github.com/firedrakeproject/firedrake/pull/2116) changes requested
 
 ## Date of next meeting
 

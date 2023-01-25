@@ -26,8 +26,6 @@ PB: [#2708](https://github.com/firedrakeproject/firedrake/pull/2708)
 
 PB: [#2707](https://github.com/firedrakeproject/firedrake/pull/2707)
 
-RNH (via Lawrence): [TSFC #286](https://github.com/firedrakeproject/tsfc/pull/286)
-
 RNH: [#2721](https://github.com/firedrakeproject/firedrake/pull/2721)
 
 ## Date of next meeting

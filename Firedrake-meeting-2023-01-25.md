@@ -16,15 +16,15 @@ Apologies:
 
 ## Merge PRs
 
-PB: [#2728](https://github.com/firedrakeproject/firedrake/pull/2728)
+PB: [#2728](https://github.com/firedrakeproject/firedrake/pull/2728) merged!
 
-PB: [#2729](https://github.com/firedrakeproject/firedrake/pull/2729)
+PB: [#2729](https://github.com/firedrakeproject/firedrake/pull/2729) merged!
 
-PB: [#2730](https://github.com/firedrakeproject/firedrake/pull/2730)
+PB: [#2730](https://github.com/firedrakeproject/firedrake/pull/2730) merged!
 
-PB: [#2708](https://github.com/firedrakeproject/firedrake/pull/2708)
+PB: [#2708](https://github.com/firedrakeproject/firedrake/pull/2708) tidy up
 
-PB: [#2707](https://github.com/firedrakeproject/firedrake/pull/2707)
+PB: [#2707](https://github.com/firedrakeproject/firedrake/pull/2707) 
 
 RNH: [#2721](https://github.com/firedrakeproject/firedrake/pull/2721)
 

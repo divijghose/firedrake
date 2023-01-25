@@ -26,7 +26,7 @@ PB: [#2708](https://github.com/firedrakeproject/firedrake/pull/2708) tidy up
 
 PB: [#2707](https://github.com/firedrakeproject/firedrake/pull/2707) needs documenting
 
-RNH: [#2721](https://github.com/firedrakeproject/firedrake/pull/2721)
+RNH: [#2721](https://github.com/firedrakeproject/firedrake/pull/2721) merged!
 
 CW: (very quick, method or property?) [#2725](https://github.com/firedrakeproject/firedrake/pull/2725)
 

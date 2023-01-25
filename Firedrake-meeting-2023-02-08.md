@@ -1,4 +1,4 @@
-Date and time 2023-01-25 16:00UTC
+Date and time 2023-02-08 16:00UTC
 
 # Action Items
 1. **Pick Chair and Minuter** (RNH to pick minuter)
@@ -18,5 +18,5 @@ Apologies:
 
 ## Date of next meeting
 
-1600 UTC [2023-02-08](./Firedrake-meeting-2023-02-08)
+1600 UTC [2023-02-15](./Firedrake-meeting-2023-02-15)
 

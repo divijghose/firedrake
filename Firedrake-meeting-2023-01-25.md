@@ -10,7 +10,7 @@ Date and time 2023-01-25 16:00UTC
 
 # Agenda
 
-Present: RNH, PB, PF, FA, RK, DH, NB, JB
+Present: RNH, PB, PF, FA, RK, DH, NB, JB, CW
 
 Apologies:
 

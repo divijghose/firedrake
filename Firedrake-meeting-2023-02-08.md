@@ -14,6 +14,12 @@ Present:
 
 Apologies:
 
+## JB: CI Memory issue
+Often CI is failing with:
+```
+Error: Process completed with exit code 137.
+```
+
 ## Merge PRs
 
 ## Date of next meeting

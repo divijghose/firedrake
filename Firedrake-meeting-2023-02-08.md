@@ -20,6 +20,11 @@ Often CI is failing with:
 Error: Process completed with exit code 137.
 ```
 
+# JB: Update Funding on website
+This is out of date.
+
+Is there anything else out of date on the website that needs updating? (Feel free to add to this agenda item)
+
 ## Merge PRs
 
 ## Date of next meeting

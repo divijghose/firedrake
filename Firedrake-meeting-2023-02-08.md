@@ -20,8 +20,11 @@ Often CI is failing with:
 Error: Process completed with exit code 137.
 ```
 
-# JB: Update Funding on website
-This is out of date.
+## JB: Firedrake Manual
+Action on everybody to take the time to check your details are up to date. Whilst you're at it please flick through the manual to check for errors. :slightly_smiling_face: 
+
+### JB: Update Funding on website
+This is out of date. We should update the website so the manual contains correct info before it is released.
 
 Is there anything else out of date on the website that needs updating? (Feel free to add to this agenda item)
 

@@ -30,6 +30,8 @@ Is there anything else out of date on the website that needs updating? (Feel fre
 
 ## Merge PRs
 
+[https://github.com/firedrakeproject/firedrake/pull/2756](https://github.com/firedrakeproject/firedrake/pull/2756)
+
 ## Date of next meeting
 
 1600 UTC [2023-02-15](./Firedrake-meeting-2023-02-15)

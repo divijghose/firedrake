@@ -44,10 +44,6 @@ PB: [https://github.com/firedrakeproject/fiat/pull/34](https://github.com/firedr
 
 PB: [https://github.com/firedrakeproject/fiat/pull/35](https://github.com/firedrakeproject/fiat/pull/35)
 
-RNH: [Firedrake: Use sympys in built ccode generation #2741](https://github.com/firedrakeproject/firedrake/pull/2741)
-
-RNH: [Firedrake: Add default redundant option to VertexOnlyMesh #2744](https://github.com/firedrakeproject/firedrake/pull/2744)
-
 RNH: [Firedrake: VertexOnlyMesh on ExtrudedMesh #2750](https://github.com/firedrakeproject/firedrake/pull/2750)
 
 RNH: [FIAT: Add methods for getting L1 distance of a point from reference cells #33](https://github.com/firedrakeproject/fiat/pull/33)

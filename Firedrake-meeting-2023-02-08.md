@@ -34,7 +34,7 @@ Is there anything else out of date on the website that needs updating? (Feel fre
 
 ## Merge PRs
 
-[https://github.com/firedrakeproject/firedrake/pull/2756](https://github.com/firedrakeproject/firedrake/pull/2756)
+PF: [https://github.com/firedrakeproject/firedrake/pull/2756](https://github.com/firedrakeproject/firedrake/pull/2756)
 
 PB: [https://github.com/firedrakeproject/firedrake/pull/2708](https://github.com/firedrakeproject/firedrake/pull/2708)
 

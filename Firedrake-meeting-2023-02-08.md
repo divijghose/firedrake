@@ -44,6 +44,8 @@ PB: [https://github.com/firedrakeproject/fiat/pull/34](https://github.com/firedr
 
 PB: [https://github.com/firedrakeproject/fiat/pull/35](https://github.com/firedrakeproject/fiat/pull/35)
 
+PB: [https://github.com/FInAT/FInAT/pull/107](https://github.com/FInAT/FInAT/pull/107)
+
 RNH: [Firedrake: VertexOnlyMesh on ExtrudedMesh #2750](https://github.com/firedrakeproject/firedrake/pull/2750)
 
 RNH: [FIAT: Add methods for getting L1 distance of a point from reference cells #33](https://github.com/firedrakeproject/fiat/pull/33)

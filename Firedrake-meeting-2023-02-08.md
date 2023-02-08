@@ -9,11 +9,12 @@ Date and time 2023-02-08 16:00UTC
 1. KS: Fix checkpointing error with pickling elements
 
 # Agenda
-1. RCK: Let's discuss the possibility of "extraction operators" in PyOP2/3 as a pathway to get more elements/simplify zany elements?
 
 Present: 
 
 Apologies:
+
+## 1. RCK: Let's discuss the possibility of "extraction operators" in PyOP2/3 as a pathway to get more elements/simplify zany elements?
 
 ## JB: CI Memory issue
 Often CI is failing with:
@@ -24,8 +25,10 @@ Error: Process completed with exit code 137.
 ## JB: Firedrake Manual
 Action on everybody to take the time to check your details are up to date. Whilst you're at it please flick through the manual to check for errors. :slightly_smiling_face: 
 
-### JB: Update Funding on website
-This is out of date. We should update the website so the manual contains correct info before it is released.
+#### JB: Update Funding on website
+> This is out of date. We should update the website so the manual contains correct info before it is released.
+
+I have made a start on this
 
 Is there anything else out of date on the website that needs updating? (Feel free to add to this agenda item)
 

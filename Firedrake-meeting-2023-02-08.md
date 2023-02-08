@@ -17,12 +17,12 @@ Apologies:
 ## 1. RCK: Let's discuss the possibility of "extraction operators" in PyOP2/3 as a pathway to get more elements/simplify zany elements?
 
 ## JB: CI Memory issue
-Often CI is failing with:
+[Often](https://github.com/firedrakeproject/firedrake/actions/runs/4116758225/jobs/7107208525) CI is failing with:
 ```
 Error: Process completed with exit code 137.
 ```
 
-## JB: Firedrake Manual
+## JB: [Firedrake Manual](https://github.com/firedrakeproject/firedrake/pull/2633)
 Action on everybody to take the time to check your details are up to date. Whilst you're at it please flick through the manual to check for errors. :slightly_smiling_face: 
 
 #### JB: Update Funding on website

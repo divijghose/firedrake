@@ -9,6 +9,7 @@ Date and time 2023-02-08 16:00UTC
 1. KS: Fix checkpointing error with pickling elements
 
 # Agenda
+1. RCK: Let's discuss the possibility of "extraction operators" in PyOP2/3 as a pathway to get more elements/simplify zany elements?
 
 Present: 
 

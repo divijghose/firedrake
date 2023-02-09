@@ -8,7 +8,7 @@ Date and time 2023-02-08 16:00UTC
 1. ALL: do things with SV's branches
 1. KS: Fix checkpointing error with pickling elements
 
-# Agenda
+# Minutes
 
 Present: CW (minuter), RK, KS, DH, JB, IM, DS, RNH, PB, NB, FA, PF
 

@@ -108,5 +108,7 @@ Note that PETSc has `-start_in_debugger` argument, which cause the program on al
 
 `$ mpiexec -n 3 $(which python) test.py  -start_in_debugger`
 
+(in macos you might need to do something like `export PETSC_OPTIONS='-on_error_attach_debugger lldb -debug_terminal "xterm -e"'` first)
+
 
  - Reuben Nixon-Hill May 2021

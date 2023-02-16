@@ -39,4 +39,4 @@ If local changes are made to `petsc4py` the following will update firedrake to r
 
 ## Notes
 
-You may find that `pip` uses a cached petsc4py build instead of rebuilding from scratch. To resolve this you can run `rm -rf $VIRTUAL_ENV/src/petsc/src/binding/petsc4py/build`.
+You may find that `pip` uses a cached petsc4py build instead of rebuilding from scratch. To resolve this you can run `rm -rf $VIRTUAL_ENV/src/petsc/src/binding/petsc4py/build` prior to `pip install <args>`.

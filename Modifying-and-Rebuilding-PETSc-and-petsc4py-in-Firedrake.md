@@ -36,3 +36,7 @@ If local changes are made to `petsc4py` the following will update firedrake to r
  2. Navigate to `[firedrake-install-dir]/src/petsc`. 
  3. Set the PETSC_DIR and PETSC_ARCH environment variables with the `export PETSC_DIR=[firedrake-install-dir]/src/petsc` and `export PETSC_ARCH=default` commands
  4. Run `pip install -U --no-deps src/binding/petsc4py` petsc4py should now be updated.
+
+## Notes
+
+You may find that `pip` uses a cached petsc4py build instead of rebuilding from scratch. To resolve this you can run `rm -rf $VIRTUAL_ENV/src/petsc/src/binding/petsc4py/build`.

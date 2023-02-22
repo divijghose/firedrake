@@ -17,6 +17,10 @@ Apologies:
 
 ## Merge PRs
 
+KS: https://github.com/firedrakeproject/firedrake/pull/2582 (periodic extrusion)
+
+KS: https://github.com/firedrakeproject/firedrake/pull/2778
+
 ## Date of next meeting
 
 CSE23 is next week!

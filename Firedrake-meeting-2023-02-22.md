@@ -12,7 +12,7 @@ Date and time 2023-02-22 16:00UTC
 
 Present:
 
-Apologies:
+Apologies: NB
 
 
 ## Merge PRs

@@ -22,6 +22,8 @@ Pyadjoint: [#95](https://github.com/dolfin-adjoint/pyadjoint/pull/95)
 
 ## Merge PRs
 
+KS: https://github.com/firedrakeproject/firedrake/pull/2582
+
 ## Date of next meeting
 
 1600 UTC [2023-03-15](./Firedrake-meeting-2023-03-15)

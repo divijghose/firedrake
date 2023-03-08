@@ -22,7 +22,9 @@ Pyadjoint: [#95](https://github.com/dolfin-adjoint/pyadjoint/pull/95)
 
 ## Merge PRs
 
-KS: https://github.com/firedrakeproject/firedrake/pull/2582
+KS: https://github.com/firedrakeproject/firedrake/pull/2582 (periodic extrusion)
+
+KS: https://github.com/firedrakeproject/firedrake/pull/2787 (I/O repr)
 
 ## Date of next meeting
 

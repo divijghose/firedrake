@@ -1,7 +1,7 @@
 Date and time 2023-03-08 16:00UTC
 
 # Action Items
-1. **Pick Chair and Minuter** (JB to pick minuter)
+1. **Pick Chair and Minuter** (JB to pick minuter, JB picks the person closest to the centre of DHs zoom window)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. ALL: Review the [Firedrake manual](https://github.com/firedrakeproject/firedrake/files/10537013/Firedrake_draft1.pdf)
 1. JB: Move PyOP2 and FInAT to firedrakeproject
@@ -12,7 +12,7 @@ Date and time 2023-03-08 16:00UTC
 
 Present: 
 
-Apologies: 
+Apologies: JB
 
 ## NB: PyTorch coupling
 

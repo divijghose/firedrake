@@ -10,9 +10,17 @@ Date and time 2023-03-08 16:00UTC
 
 # Agenda
 
-Present: 
+Present: DH, CJC, NB, CW, KS
 
 Apologies: JB
+
+## Firedrake master failing
+
+Started mid Jan.
+
+First observed in https://github.com/firedrakeproject/firedrake/pull/2674?
+
+CW: put gc.disable() back in and see if it fixes.
 
 ## NB: PyTorch coupling
 

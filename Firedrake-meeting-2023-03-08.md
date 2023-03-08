@@ -14,7 +14,11 @@ Present:
 
 Apologies: 
 
-## Item 1
+## NB: PyTorch coupling
+
+Firedrake:[#2804](https://github.com/firedrakeproject/firedrake/pull/2804)
+
+Pyadjoint: [#95](https://github.com/dolfin-adjoint/pyadjoint/pull/95)
 
 ## Merge PRs
 

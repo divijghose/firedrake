@@ -22,6 +22,8 @@ First observed in https://github.com/firedrakeproject/firedrake/pull/2674?
 
 CW: put gc.disable() back in and see if it fixes.
 
+CW: weak value dictionary in CheckpointFile might be causing the issue
+
 ## NB: PyTorch coupling
 
 Firedrake:[#2804](https://github.com/firedrakeproject/firedrake/pull/2804)
@@ -36,4 +38,4 @@ KS: https://github.com/firedrakeproject/firedrake/pull/2787 (I/O repr)
 
 ## Date of next meeting
 
-1600 UTC [2023-03-15](./Firedrake-meeting-2023-03-15)
+1600 UTC [2023-03-29](./Firedrake-meeting-2023-03-29)

@@ -19,7 +19,7 @@ Apologies:
 
 ## Merge PRs
 
-Misc for Eigenvalue problem: [https://github.com/firedrakeproject/firedrake/pull/2703](https://github.com/firedrakeproject/firedrake/pull/2703)
+UZ: [https://github.com/firedrakeproject/firedrake/pull/2703](https://github.com/firedrakeproject/firedrake/pull/2703)
 
 ## Date of next meeting
 

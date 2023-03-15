@@ -12,7 +12,7 @@ Date and time 2023-03-08 16:00UTC
 
 Present: DH, CJC, NB, CW, KS
 
-Apologies: JB
+Apologies: JB, RNH
 
 ## Firedrake master failing
 

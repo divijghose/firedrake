@@ -21,6 +21,8 @@ Apologies:
 
 UZ: [https://github.com/firedrakeproject/firedrake/pull/2703](https://github.com/firedrakeproject/firedrake/pull/2703)
 
+RNH: [VOM voting algorithm (will need to pass tests first)](https://github.com/firedrakeproject/firedrake/pull/2773)
+
 ## Date of next meeting
 
 1600 UTC [2023-04-05](./Firedrake-meeting-2023-04-05)

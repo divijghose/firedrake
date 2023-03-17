@@ -15,13 +15,15 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: Please review the manual
 
 ## Merge PRs
 
 UZ: [https://github.com/firedrakeproject/firedrake/pull/2703](https://github.com/firedrakeproject/firedrake/pull/2703)
 
 RNH: [VOM voting algorithm (will need to pass tests first)](https://github.com/firedrakeproject/firedrake/pull/2773)
+
+JB: [2831](https://github.com/firedrakeproject/firedrake/pull/2831) [2825](https://github.com/firedrakeproject/firedrake/pull/2825) [2732](https://github.com/firedrakeproject/firedrake/pull/2732) [692](https://github.com/OP2/PyOP2/pull/692)
 
 ## Date of next meeting
 

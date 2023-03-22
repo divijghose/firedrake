@@ -28,4 +28,6 @@ JB: [2831](https://github.com/firedrakeproject/firedrake/pull/2831) [2825](https
 NB: PyTorch coupling: [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2804) and [Pyadjoint](https://github.com/dolfin-adjoint/pyadjoint/pull/95)
 ## Date of next meeting
 
+PB [FIAT #36](https://github.com/firedrakeproject/fiat/pull/36)
+
 1600 UTC [2023-04-05](./Firedrake-meeting-2023-04-05)

@@ -179,7 +179,7 @@
 </details>
 
 <details>
-<summary>Policy</summary>
+<summary>Policies</summary>
 
 - [Closing Installation Issues](./Closing-Installation-Issues)
 - [Python version support](./Python-version-support)

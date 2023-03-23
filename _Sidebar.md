@@ -17,7 +17,7 @@
 - [Debugging C kernels with `lldb` on MacOS](./Debugging-C-kernels-with-lldb-on-MacOS)
 - [Parallel MPI Debugging with `tmux-mpi`, `pdb` and `gdb`](./Parallel-MPI-Debugging-with-tmux-mpi-(python-and-c!))
 - [Parallel MPI Debugging with VSCode and `debugpy`](./Parallel-MPI-Debugging-with-debugpy)
-- [Wiki for Developers](./A-FAQ-for-Firedrake-Developers)
+- [Modifying generated code](./Modifying-auto-generated-kernels)
 - [Kernel profiling with LIKWID](./Kernel-profiling-with-LIKWID)
 
 </details>

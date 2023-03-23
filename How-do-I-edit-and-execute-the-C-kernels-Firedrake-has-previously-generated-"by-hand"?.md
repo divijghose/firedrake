@@ -1,5 +1,3 @@
-### How do I edit and execute the C kernels Firedrake has previously generated "by hand"?
-
 1. look in .cache
 1. delete the .so
 1. edit the C file

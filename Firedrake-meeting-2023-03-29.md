@@ -29,6 +29,9 @@ What goes [here](https://github.com/firedrakeproject/firedrake/wiki/Updating-for
  - Also FInAT/FIAT combination would help with element definitions being pulled out of UFL
  - FInAT/FIAT needs careful work due to FInAT depending on GEM which is in TSFC
 
+## JB: We should add some minor namespacing to speed up import
+ - Yes.
+
 ## Merge PRs
 
 UZ: [https://github.com/firedrakeproject/firedrake/pull/2703](https://github.com/firedrakeproject/firedrake/pull/2703)

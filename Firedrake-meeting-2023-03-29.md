@@ -29,7 +29,7 @@ RNH: [VOM voting algorithm (will need to pass tests first)](https://github.com/f
 
 JB: [2825](https://github.com/firedrakeproject/firedrake/pull/2825) [2732](https://github.com/firedrakeproject/firedrake/pull/2732) [2842](https://github.com/firedrakeproject/firedrake/pull/2842) [692](https://github.com/OP2/PyOP2/pull/692)
 
-NB: PyTorch coupling: [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2804) and [Pyadjoint](https://github.com/dolfin-adjoint/pyadjoint/pull/95)
+NB: PyTorch coupling: [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2804)
 
 PB: [FIAT #36](https://github.com/firedrakeproject/fiat/pull/36)
 

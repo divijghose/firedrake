@@ -29,8 +29,9 @@ What goes [here](https://github.com/firedrakeproject/firedrake/wiki/Updating-for
  - Also FInAT/FIAT combination would help with element definitions being pulled out of UFL
  - FInAT/FIAT needs careful work due to FInAT depending on GEM which is in TSFC
 
-## JB: We should add some minor namespacing to speed up import
+## JB: We should add some minor namespacing to plotting to avoid hard matplotlib dependency
  - Yes.
+ - Might also speed up import
 
 ## UZ: NetGen firedrake interface is now very delayed for reasons beyond our control
  - Thanks NetGen!

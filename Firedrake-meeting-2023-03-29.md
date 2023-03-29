@@ -32,6 +32,9 @@ What goes [here](https://github.com/firedrakeproject/firedrake/wiki/Updating-for
 ## JB: We should add some minor namespacing to speed up import
  - Yes.
 
+## UZ: NetGen firedrake interface is now very delayed for reasons beyond our control
+ - Thanks NetGen!
+
 ## Merge PRs
 
 UZ: [https://github.com/firedrakeproject/firedrake/pull/2703](https://github.com/firedrakeproject/firedrake/pull/2703)

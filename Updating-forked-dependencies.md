@@ -26,10 +26,11 @@ These forked repositories should be updated every few months using the following
     ```
     $ git fetch upstream
     ```
-1. Update the local branch (see "rebase vs merge" below to know which instruction to use):
+1. Update the local branch:
     ```
-    $ git <rebase/merge> upstream/main
+    $ git merge upstream/main
     ```
+    Note that `git merge` should be used here instead of `git rebase` to avoid rewriting the commit history and breaking `firedrake-update`.
 1. Create, checkout and push a new branch that is identical to the current one:
     ```
     $ git checkout -b <github username>/upstream-update
@@ -41,7 +42,3 @@ These forked repositories should be updated every few months using the following
     $ git checkout firedrake
     $ git push
     ```
-
-## `git merge` vs `git rebase`
-
-TODO

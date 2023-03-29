@@ -19,6 +19,8 @@ Apologies:
 
 ## Merge PRs
 
+UZ: [Eig Misc](https://github.com/firedrakeproject/firedrake/pull/2703)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-04-19](./Firedrake-meeting-2023-04-19)

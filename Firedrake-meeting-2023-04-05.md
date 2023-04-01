@@ -20,6 +20,7 @@ Apologies:
 ## Merge PRs
 
 UZ: [Eig Misc](https://github.com/firedrakeproject/firedrake/pull/2703)
+UZ: [Netgen](https://github.com/firedrakeproject/firedrake/pull/2607)
 
 # Date of next meeting
 

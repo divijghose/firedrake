@@ -21,7 +21,6 @@ Apologies:
 
 1. UZ: [Eig Misc](https://github.com/firedrakeproject/firedrake/pull/2703)
 1. UZ: [Netgen](https://github.com/firedrakeproject/firedrake/pull/2607)
-1. CW: https://github.com/firedrakeproject/firedrake/pull/2863 and https://github.com/OP2/PyOP2/pull/695
 
 # Date of next meeting
 

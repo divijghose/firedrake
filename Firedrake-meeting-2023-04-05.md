@@ -7,7 +7,7 @@ Date and time 2023-04-05 16:00 BST (1500 UTC)
 1. JB: Move PyOP2 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches
 1. KS: Fix checkpointing error with pickling elements
-1. CW: Attempt to fix gc + CheckpointFile [JB: DONE?]
+1. ~CW: Attempt to fix gc + CheckpointFile~ [CW: DONE]
 
 # Agenda
 
@@ -21,6 +21,7 @@ Apologies:
 
 1. UZ: [Eig Misc](https://github.com/firedrakeproject/firedrake/pull/2703)
 1. UZ: [Netgen](https://github.com/firedrakeproject/firedrake/pull/2607)
+1. CW: https://github.com/firedrakeproject/firedrake/pull/2863 and https://github.com/OP2/PyOP2/pull/695
 
 # Date of next meeting
 

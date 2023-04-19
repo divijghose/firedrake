@@ -18,6 +18,7 @@ Apologies:
 
 1. UZ: [Eig Misc](https://github.com/firedrakeproject/firedrake/pull/2703): Minor changes required
 1. UZ: [Netgen](https://github.com/firedrakeproject/firedrake/pull/2607): Need to change the way to install Netgen for passing tests
+1. NB: [Add torch to firedrake-vanilla](https://github.com/firedrakeproject/firedrake/pull/2881)
 
 # Date of next meeting
 

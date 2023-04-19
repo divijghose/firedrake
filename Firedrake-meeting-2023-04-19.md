@@ -11,7 +11,22 @@ Date and time 2023-04-19 16:00 BST (1500 UTC)
 
 Present:
 
+DH, NB, DID, KS, CW, JB, UZ, IM, FA
+
 Apologies:
+
+## petsc4py documentation
+
+petsc4py merged
+
+## Firedrake manual
+
+
+Action: remove team.py.
+
+Action: structurally go down team.ini and fix publication name; almost none is right.
+
+RH: make PR targeting JB's branch.
 
 ## Merge PRs
 

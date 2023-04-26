@@ -14,6 +14,7 @@ Present:
 Apologies:
 
 ## Merge PRs
+JB: Firedrake Manual (errata) [#2784](https://github.com/firedrakeproject/firedrake/pull/2784) ready to go
 
 # Date of next meeting
 

@@ -15,7 +15,9 @@ Apologies:
 
 ## Merge PRs
 JB: Firedrake Manual (errata) [#2784](https://github.com/firedrakeproject/firedrake/pull/2784) ready to go
+
 PB: FDM for de Rham elements [#2801](https://github.com/firedrakeproject/firedrake/pull/2801)
+
 PB: together with [tsfc#287](https://github.com/firedrakeproject/tsfc/pull/287)
 # Date of next meeting
 

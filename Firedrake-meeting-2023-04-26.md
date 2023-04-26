@@ -19,6 +19,9 @@ JB: Firedrake Manual (errata) [#2784](https://github.com/firedrakeproject/firedr
 PB: FDM for de Rham elements [#2801](https://github.com/firedrakeproject/firedrake/pull/2801)
 
 PB: together with [tsfc#287](https://github.com/firedrakeproject/tsfc/pull/287)
+
+JB: If [#2893](https://github.com/firedrakeproject/firedrake/pull/2893) passes it should go in. This is a rebase of Alberto's work (#2754), but he didn't respond for a month +
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-05-03](./Firedrake-meeting-2023-05-03)

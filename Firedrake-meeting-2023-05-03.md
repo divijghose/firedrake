@@ -17,6 +17,21 @@ Apologies:
 ## RNH: Slow point evaluation
 https://github.com/firedrakeproject/firedrake/discussions/2902
 
+## CW: Removing COFFEE
+### PRs
+- https://github.com/firedrakeproject/firedrake/pull/2899
+- https://github.com/OP2/PyOP2/pull/697
+- https://github.com/firedrakeproject/tsfc/pull/291
+
+### Discussion points
+- Rounding and tolerances for vertex-only meshes (https://github.com/firedrakeproject/firedrake/pull/2899#issuecomment-1531262106)
+- String parloops (https://github.com/firedrakeproject/firedrake/issues/2898)
+
+## CW: CI Issues
+
+- Python 3.7 dropped by loopy and UFL
+- PyOP2 CI currently broken
+
 ## Merge PRs
 
 # Date of next meeting

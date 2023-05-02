@@ -3,7 +3,7 @@ Date and time 2023-05-03 16:00 BST (1500 UTC)
 # Action Items
 1. **Pick Chair and Minuter** (JB to pick minuter)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
-1. ALL: Review the [Firedrake manual](https://github.com/firedrakeproject/firedrake/files/10537013/Firedrake_draft1.pdf)
+1. ALL: Review the [Firedrake manual](https://github.com/firedrakeproject/firedrake/files/11374708/Firedrake.pdf) DONE, see PRs
 1. JB: Move PyOP2 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches
 1. ALL: Pick a date for Firedrake User meeting
@@ -32,6 +32,7 @@ https://github.com/firedrakeproject/firedrake/discussions/2902
 - Python 3.7 has been dropped by [loopy](https://github.com/inducer/loopy/blob/main/setup.py#L85) and [UFL](https://github.com/FEniCS/ufl/blob/main/setup.cfg#L40), this is breaking (at least) TSFC and PyOP2 CI.
 
 ## Merge PRs
+JB: Please merge [#2784](https://github.com/firedrakeproject/firedrake/pull/2784)
 
 # Date of next meeting
 

@@ -14,7 +14,8 @@ Present:
 
 Apologies:
 
-## Item 1
+## RNH: Slow point evaluation
+https://github.com/firedrakeproject/firedrake/discussions/2902
 
 ## Merge PRs
 

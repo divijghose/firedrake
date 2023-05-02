@@ -27,10 +27,9 @@ https://github.com/firedrakeproject/firedrake/discussions/2902
 - Rounding and tolerances for vertex-only meshes (https://github.com/firedrakeproject/firedrake/pull/2899#issuecomment-1531262106)
 - String parloops (https://github.com/firedrakeproject/firedrake/issues/2898)
 
-## CW: CI Issues
+## CW: CI Issues/Python version support
 
-- Python 3.7 dropped by loopy and UFL
-- PyOP2 CI currently broken
+- Python 3.7 has been dropped by [loopy](https://github.com/inducer/loopy/blob/main/setup.py#L85) and [UFL](https://github.com/FEniCS/ufl/blob/main/setup.cfg#L40), this is breaking (at least) TSFC and PyOP2 CI.
 
 ## Merge PRs
 

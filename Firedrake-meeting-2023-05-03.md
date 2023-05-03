@@ -37,6 +37,8 @@ JB: Please merge [#2784](https://github.com/firedrakeproject/firedrake/pull/2784
 
 PB: Please merge [#2801](https://github.com/firedrakeproject/firedrake/pull/2801)
 
+RNH: Please merge [#2910](https://github.com/firedrakeproject/firedrake/pull/2910) unless the new firedrake manual will cause issues
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-05-10](./Firedrake-meeting-2023-05-10)

@@ -7,6 +7,7 @@ Date and time 2023-05-10 16:00 BST (1500 UTC)
 1. JB: Move PyOP2 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches
 1. ALL: Pick a date for Firedrake User meeting
+1. Action item: Only check links on master.
 
 # Agenda
 

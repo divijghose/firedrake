@@ -34,6 +34,7 @@ Fixed by my PR https://github.com/firedrakeproject/firedrake/pull/2909
 
 ## Merge PRs
 JB: Please merge [#2784](https://github.com/firedrakeproject/firedrake/pull/2784)
+
 PB: Please merge [#2801](https://github.com/firedrakeproject/firedrake/pull/2801)
 
 # Date of next meeting

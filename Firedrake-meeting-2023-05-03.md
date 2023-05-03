@@ -15,7 +15,8 @@ Present:
 Apologies:
 
 ## RNH: Slow point evaluation
-https://github.com/firedrakeproject/firedrake/discussions/2902
+Discussed here, https://github.com/firedrakeproject/firedrake/discussions/2902
+Fixed by my PR https://github.com/firedrakeproject/firedrake/pull/2909
 
 ## CW: Removing COFFEE
 ### PRs

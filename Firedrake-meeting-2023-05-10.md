@@ -20,7 +20,7 @@ Apologies:
 
 
 ## Merge PRs
-
+ - RNH: [VOM manual pages](https://github.com/firedrakeproject/firedrake/pull/2912)
 
 # Date of next meeting
 

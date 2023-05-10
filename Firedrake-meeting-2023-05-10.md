@@ -21,7 +21,7 @@ Apologies:
 
 ## Merge PRs
  - RNH: [VOM manual pages](https://github.com/firedrakeproject/firedrake/pull/2912) - note website already needs rebuilding
-
+ - UZ: [Fixing issue #2923 and Netgen docs](https://github.com/firedrakeproject/firedrake/pull/2922).
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-05-17](./Firedrake-meeting-2023-05-17)

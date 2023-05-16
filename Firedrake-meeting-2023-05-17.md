@@ -17,6 +17,8 @@ Apologies:
 
 ## Merge PRs
 
+1. NB: [Pytorch coupling](https://github.com/firedrakeproject/firedrake/pull/2804)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-05-24](./Firedrake-meeting-2023-05-24)

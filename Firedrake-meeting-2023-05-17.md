@@ -21,6 +21,8 @@ NB: [Pytorch coupling](https://github.com/firedrakeproject/firedrake/pull/2804)
 
 JB: [2918](https://github.com/firedrakeproject/firedrake/pull/2918) (related [2919](https://github.com/firedrakeproject/firedrake/pull/2919))
 
+UZ: [Netgen Demo](https://github.com/firedrakeproject/firedrake/pull/2922)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-05-24](./Firedrake-meeting-2023-05-24)

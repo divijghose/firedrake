@@ -17,7 +17,9 @@ Apologies:
 
 ## Merge PRs
 
-1. NB: [Pytorch coupling](https://github.com/firedrakeproject/firedrake/pull/2804)
+NB: [Pytorch coupling](https://github.com/firedrakeproject/firedrake/pull/2804)
+
+JB: [2918](https://github.com/firedrakeproject/firedrake/pull/2918) (related [2919](https://github.com/firedrakeproject/firedrake/pull/2919))
 
 # Date of next meeting
 

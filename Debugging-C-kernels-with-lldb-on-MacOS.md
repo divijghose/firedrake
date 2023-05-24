@@ -6,19 +6,37 @@ A list of `lldb` commands can be found [in this cheat sheet](https://www.nesono.
 
 ```diff
 diff --git a/pyop2/compilation.py b/pyop2/compilation.py
-index ecca4318..3bfba50e 100644
+index 8fd7bf02..f5cd18b8 100644
 --- a/pyop2/compilation.py
 +++ b/pyop2/compilation.py
-@@ -350,7 +350,7 @@ class Compiler(ABC):
+@@ -315,7 +315,7 @@ class Compiler(ABC):
          soname = os.path.join(cachedir, "%s.so" % basename)
          # Link into temporary file, then rename to shared library
          # atomically (avoiding races).
 -        tmpname = os.path.join(cachedir, "%s_p%d.so.tmp" % (basename, pid))
-+        tmpname = soname # os.path.join(cachedir, "%s_p%d.so.tmp" % (basename, pid))
++        # tmpname = os.path.join(cachedir, "%s_p%d.so.tmp" % (basename, pid))
  
          if configuration['check_src_hashes'] or configuration['debug']:
              matching = self.comm.allreduce(basename, op=_check_op)
-@@ -443,7 +443,7 @@ Unable to compile code
+@@ -347,7 +347,7 @@ class Compiler(ABC):
+                     if not self.ld:
+                         cc = (compiler,) \
+                             + compiler_flags \
+-                            + ('-o', tmpname, cname) \
++                            + ('-o', soname, cname) \
+                             + self.ldflags
+                         debug('Compilation command: %s', ' '.join(cc))
+                         with open(logfile, "w") as log, open(errfile, "w") as err:
+@@ -375,7 +375,7 @@ Compile errors in %s""" % (e.cmd, e.returncode, logfile, errfile))
+                             + ('-c', '-o', oname, cname)
+                         # Extract linker specific "cflags" from ldflags
+                         ld = tuple(shlex.split(self.ld)) \
+-                            + ('-o', tmpname, oname) \
++                            + ('-o', soname, oname) \
+                             + tuple(self.expandWl(self.ldflags))
+                         debug('Compilation command: %s', ' '.join(cc))
+                         debug('Link command: %s', ' '.join(ld))
+@@ -408,7 +408,7 @@ Unable to compile code
  Compile log in %s
  Compile errors in %s""" % (e.cmd, e.returncode, logfile, errfile))
                      # Atomically ensure soname exists
@@ -28,6 +46,8 @@ index ecca4318..3bfba50e 100644
              self.comm.barrier()
              # Load resulting library
 ```
+(correct as of 24th of May 2023).
+
 To quote Lawrence, this diff
 > ... turns off the compilation into a temp file and then renaming (which we do for parallel filesystem safety reasons) ... but that renaming defeats the debug symbol tracking on macos where the debug symbols are in a separate file from the shared library
 

@@ -1,0 +1,3 @@
+One curious feature of an activated Firedrake environment is that the Python [builtin `breakpoint()` function](https://docs.python.org/3/library/functions.html?highlight=breakpoint#breakpoint) no longer works when run with `pytest`, but the more verbose `import pdb; pdb.set_trace()` still does. This is caused by the Python package used for testing notebooks, `nbval`, and the interplay between testing for code coverage and setting breakpoints ([related issue](https://github.com/nedbat/coveragepy/issues/1337)).
+
+The standard behaviour of `breakpoint()` may be achieved by either uninstalling `nbval` (`pip uninstall nbval`), or disabling the `nbval` plugin by passing `-p no:nbval` to `pytest` on the command line.

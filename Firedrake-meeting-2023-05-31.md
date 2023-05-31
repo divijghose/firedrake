@@ -18,6 +18,10 @@ Apologies:
 
 ## Merge PRs
 
+JB: [#2892](https://github.com/firedrakeproject/firedrake/pull/2892) Add Firedrake manual to website + Github (still missing DOI).
+
+JB: [#2871](https://github.com/firedrakeproject/firedrake/pull/2871) Change GH actions + Firedrake docker images. Also build website on GH pages automatically.
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-06-07](./Firedrake-meeting-2023-06-07)

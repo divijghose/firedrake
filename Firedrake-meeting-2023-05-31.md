@@ -11,7 +11,7 @@ Date and time 2023-05-31 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present: KS, JB, DH, CW, NB, RNH
+Present: KS, JB, DH, CW, NB, RNH, DD
 
 Apologies:
 

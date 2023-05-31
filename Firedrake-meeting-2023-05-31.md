@@ -16,6 +16,12 @@ Apologies:
 
 ## RNH Broken Ubuntu Install
 
+## CW: Lazy `petsc4py.PETSc` import?
+
+I think that it is possible to delay the import of `petsc4py.PETSc` such that `from firedrake import *` can run without calling PETSc Initialize. This will make importing Firedrake do less "magic". In particular MPI Init would not be called so we could use OpenMPI for running our parallel tests.
+
+Is this idea worth spending any time on?
+
 ## Merge PRs
 
 JB: [#2892](https://github.com/firedrakeproject/firedrake/pull/2892) Add Firedrake manual to website + Github (still missing DOI).

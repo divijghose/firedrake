@@ -28,7 +28,7 @@ JB: [#2892](https://github.com/firedrakeproject/firedrake/pull/2892) Add Firedra
 
 JB: [#2871](https://github.com/firedrakeproject/firedrake/pull/2871) Change GH actions + Firedrake docker images. Also build website on GH pages automatically.
 
-KS: pgfplot [https://github.com/firedrakeproject/firedrake/pull/2939]
+KS: pgfplot (https://github.com/firedrakeproject/firedrake/pull/2939)
 
 # Date of next meeting
 

@@ -20,7 +20,7 @@
 - [Parallel MPI Debugging with VSCode and `debugpy`](./Parallel-MPI-Debugging-with-debugpy)
 - [Modifying generated code](./Modifying-auto-generated-kernels)
 - [Kernel profiling with LIKWID](./Kernel-profiling-with-LIKWID)
-- [breakpoint() builtin not working](./breakpoint-builtin-not-working)
+- [breakpoint() builtin not working](./breakpoint()-builtin-not-working-with-pytest)
 
 </details>
 

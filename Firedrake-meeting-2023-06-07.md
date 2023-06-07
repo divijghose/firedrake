@@ -15,6 +15,13 @@ Present:
 
 Apologies:
 
+## JB: RSECon Firedrake tutorial
+Accepted! [Conference webpage](https://rsecon23.society-rse.org/).
+
+## JB: Constants
+Branches probably need another review
+[2927](https://github.com/firedrakeproject/firedrake/pull/2927).
+
 ## Merge PRs
 
 # Date of next meeting

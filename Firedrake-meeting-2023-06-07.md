@@ -18,9 +18,21 @@ Apologies:
 ## JB: RSECon Firedrake tutorial
 Accepted! [Conference webpage](https://rsecon23.society-rse.org/).
 
+3-hour full-long Firedrake tutorial. JB and DD are going.
+
 ## JB: Constants
 Branches probably need another review
 [2927](https://github.com/firedrakeproject/firedrake/pull/2927).
+
+Minor changes requested
+
+PyOP2 [#701](https://github.com/OP2/PyOP2/pull/701)
+
+TSFC: [#294](https://github.com/firedrakeproject/tsfc/pull/294)
+
+Pyadjoint: [#98](https://github.com/dolfin-adjoint/pyadjoint/pull/98)
+
+Firedrake: [#2927](https://github.com/firedrakeproject/firedrake/pull/2927)
 
 ## Merge PRs
 

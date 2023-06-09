@@ -11,7 +11,7 @@ Date and time 2023-06-07 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: KS, DD, JB, NB, DH, RNH, CW, IM, RK
 
 Apologies:
 

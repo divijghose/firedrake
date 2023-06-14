@@ -15,7 +15,15 @@ Present:
 
 Apologies:
 
+## Item 1
+
 ## Merge PRs
+
+UZ: [2986](https://github.com/firedrakeproject/firedrake/pull/2986) Fix Netgen demo
+
+JB: [2987](https://github.com/firedrakeproject/firedrake/pull/2987) Firedrake Manual DOI
+
+JB: [2927](https://github.com/firedrakeproject/firedrake/pull/2927) Constants
 
 # Date of next meeting
 

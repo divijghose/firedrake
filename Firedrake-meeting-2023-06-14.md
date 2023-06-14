@@ -15,7 +15,13 @@ Present:
 
 Apologies:
 
-## Item 1
+## CW: Lazy petsc4py import update ([prior minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-05-31#cw-lazy-petsc4pypetsc-import))
+
+Sadly this is just not possible without significant petsc4py changes/Cython magic. I can avoid lazy imports in Python but `cimport petsc4py.PETSc` is everywhere in our Cython code and this also initialises PETSc (and hence MPI).
+
+## CW: Adjoint caching strategies
+
+See https://github.com/firedrakeproject/firedrake/issues/2979.
 
 ## Merge PRs
 

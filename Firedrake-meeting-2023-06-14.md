@@ -31,6 +31,8 @@ JB: [2987](https://github.com/firedrakeproject/firedrake/pull/2987) Firedrake Ma
 
 JB: [2927](https://github.com/firedrakeproject/firedrake/pull/2927) Constants
 
+DD: [2982](https://github.com/firedrakeproject/firedrake/pull/2982) Delegate checkpoint in recompute.
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-06-21](./Firedrake-meeting-2023-06-21)

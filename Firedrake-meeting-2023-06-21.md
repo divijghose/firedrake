@@ -15,9 +15,15 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: Performance regression
+Fixed in [2997](https://github.com/firedrakeproject/firedrake/pull/2997)
+
+## JB: Clean up PRs?
+I mentioned this last week, if we're short of agenda items we can clean up some stagnant PRs.
 
 ## Merge PRs
+
+JB: Additional linting for everyone: [2991](https://github.com/firedrakeproject/firedrake/pull/2991)
 
 # Date of next meeting
 

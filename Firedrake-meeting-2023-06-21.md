@@ -23,7 +23,7 @@ I mentioned this last week, if we're short of agenda items we can clean up some 
 
 ## Merge PRs
 
-JB: Additional linting for everyone: [2991](https://github.com/firedrakeproject/firedrake/pull/2991)
+JB: Additional linting for everyone: [2991](https://github.com/firedrakeproject/firedrake/pull/2991) (Side note: does anyone think [this annotation](https://github.com/firedrakeproject/firedrake/pull/2991/commits/e1a6594fa826543d28788661309ff0b3c4744df0) is cool?)
 
 # Date of next meeting
 

@@ -20,6 +20,11 @@ Apologies:
 
 ## DH: Firedrake23
 
+## CW: Codegen issues with the new `Constant`
+
+We need to renumber `Constant`s to have stable form signatures (https://github.com/firedrakeproject/firedrake/issues/2999).
+
+More generally I also want to know the exact abstraction provided by a `Constant`. When do we expect users to use them? Should it be possible to differentiate w.r.t. them?
 
 ## Merge PRs
 

@@ -22,7 +22,7 @@ Apologies:
 
 ## CW: Codegen issues with the new `Constant`
 
-We need to renumber `Constant`s to have stable form signatures (https://github.com/firedrakeproject/firedrake/issues/2999).
+We need to renumber `Constant`s to have stable form signatures (https://github.com/firedrakeproject/firedrake/issues/2999). Possible fix: https://github.com/firedrakeproject/firedrake/pull/3011.
 
 More generally I also want to know the exact abstraction provided by a `Constant`. When do we expect users to use them? Should it be possible to differentiate w.r.t. them? If we had vector-valued R `Function`s would they ever be required? (I think yes since sometimes identifying the right domain is hard).
 

@@ -11,25 +11,35 @@ Date and time 2023-07-05 16:00 BST (1500 UTC)
 1. RK: Update on [PR#2028](https://github.com/firedrakeproject/firedrake/pull/2028).
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
+1. DD: DD needs to check [PR#3009](https://github.com/firedrakeproject/firedrake/issues/3009).
 
-# Agenda
+# Minute
 
-Present: 
+Present: CW, DH, KS, JB, RNH, RK, DD, NB, FA 
 
 Apologies:
 
 ## DH: Firedrake23
+The Firedrake team needs to think about the abstract to submit. 
 
 ## CW: Codegen issues with the new `Constant`
-
 We need to renumber `Constant`s to have stable form signatures (https://github.com/firedrakeproject/firedrake/issues/2999). Possible fix: https://github.com/firedrakeproject/firedrake/pull/3011.
 
 More generally I also want to know the exact abstraction provided by a `Constant`. When do we expect users to use them? Should it be possible to differentiate w.r.t. them? If we had vector-valued R `Function`s would they ever be required? (I think yes since sometimes identifying the right domain is hard).
 
+- DH: Approved the associated PR (https://github.com/FEniCS/ufl/pull/178) and required the approval from mscroggs.
+
+## DH: Related to the issue (https://github.com/firedrakeproject/firedrake/issues/3009), DD needs to check if the domain is the same before delegating the checkpoint.
+
 ## JB: Make SysGenX hackathon more visible online?
+SysGenX is not totally public.
 
 ## Merge PRs
 JB: [#3014](https://github.com/firedrakeproject/firedrake/pull/3014) Oooh, fancy annotation (eg: [1](https://github.com/firedrakeproject/firedrake/commit/d7a7a9d30) [2](https://github.com/firedrakeproject/firedrake/commit/e8386706f)) 
+Merged.
+
+## DH: [#2985] (https://github.com/firedrakeproject/firedrake/pull/2985)
+- DH: Test fails due to the convergence. 
 
 # Date of next meeting
 

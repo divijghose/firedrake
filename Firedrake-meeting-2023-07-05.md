@@ -26,6 +26,8 @@ We need to renumber `Constant`s to have stable form signatures (https://github.c
 
 More generally I also want to know the exact abstraction provided by a `Constant`. When do we expect users to use them? Should it be possible to differentiate w.r.t. them? If we had vector-valued R `Function`s would they ever be required? (I think yes since sometimes identifying the right domain is hard).
 
+## JB: Make SysGenX hackathon more visible online?
+
 ## Merge PRs
 JB: [#3014](https://github.com/firedrakeproject/firedrake/pull/3014) Oooh, fancy annotation (eg: [1](https://github.com/firedrakeproject/firedrake/commit/d7a7a9d30) [2](https://github.com/firedrakeproject/firedrake/commit/e8386706f)) 
 

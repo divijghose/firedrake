@@ -11,7 +11,6 @@ Date and time 2023-07-05 16:00 BST (1500 UTC)
 1. RK: Update on [PR#2028](https://github.com/firedrakeproject/firedrake/pull/2028).
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
-1. DD: DD needs to check [PR#3009](https://github.com/firedrakeproject/firedrake/issues/3009).
 
 # Minute
 
@@ -29,7 +28,8 @@ More generally I also want to know the exact abstraction provided by a `Constant
 
 - DH: Approved the associated PR (https://github.com/FEniCS/ufl/pull/178) and required the approval from mscroggs.
 
-## DH: Related to the issue (https://github.com/firedrakeproject/firedrake/issues/3009), DD needs to check if the domain is the same before delegating the checkpoint.
+## DH: issue (https://github.com/firedrakeproject/firedrake/issues/3009), 
+- DD: check if the domain is the same before delegating the checkpoint.
 
 ## JB: Make SysGenX hackathon more visible online?
 SysGenX is not totally public.

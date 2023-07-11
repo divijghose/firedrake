@@ -18,7 +18,7 @@ Present:
 
 Apologies:
 
-## There will be a meeting only if there is PR.
+## There will be a meeting only if there are agenda items (other than Firedrake23).
 
 ## DH: Firedrake23
 The Firedrake team needs to think about the abstract to submit. 

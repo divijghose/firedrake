@@ -62,6 +62,8 @@ sbatch firedrake_jobscript.slm
 ```
 on the login node.
 
+**NOTE:** Do not try and replace the Python interpreter `/home/firedrake/firedrake/bin/python` with the BASH interpreter `/bin/bash`. If you want to execute a sequence of bash commands, write a short shell script instead.
+
 Key points to note:
 - We assume the script referenced bt the bash variable `myScript` is in the current directory and that directory is somewhere in the ARCHER2 `/work` filesystem _not_ the `/home` filesystem.
 - We use `cray-mpich-abi` in place of `cray-mpich`.

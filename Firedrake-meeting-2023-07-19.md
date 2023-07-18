@@ -22,6 +22,13 @@ Apologies:
 ## DH: Firedrake23
 The Firedrake team needs to think about the abstract to submit. 
 
+## NB: Dual
+
+- [UFL](https://github.com/firedrakeproject/ufl/pull/39) (Fix a few issues with dual in UFL)
+- [Firedrake](https://github.com/firedrakeproject/ufl/pull/39)
+- [Pyadjoint](https://github.com/dolfin-adjoint/pyadjoint/pull/70)
+
+
 ## Merge PRs
 
 - RNH: [Retrieve original VOM decomposition #2936](https://github.com/firedrakeproject/firedrake/pull/2936)

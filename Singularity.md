@@ -57,7 +57,13 @@ srun --ntasks-per-node 128  \
             /home/firedrake/work/${myScript}
 ```
 
-Key points to note
+If you save this jobscript as `firedrake_jobscript.slm` it can be submitted to the queue by executing
+```bash
+sbatch firedrake_jobscript.slm
+```
+on the login node.
+
+Key points to note:
 - We assume the script referenced bt the bash variable `myScript` is in the current directory and that directory is somewhere in the ARCHER2 `/work` filesystem _not_ the `/home` filesystem.
 - We use `cray-mpich-abi` in place of `cray-mpich`.
 - A `.gitconfig` file is created marking all directories as safe for git. This is necessary since the Docker container runs as the `firedrake` user, but Singularity runs as the current user. Without it each rank spews many errors, sometimes crashing the interconnect. Since the `$PWD` is mounted as home the Singularity container sees this file as `$HOME/.gitconfig`.

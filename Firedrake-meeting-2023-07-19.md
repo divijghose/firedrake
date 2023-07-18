@@ -24,7 +24,7 @@ The Firedrake team needs to think about the abstract to submit.
 
 ## Merge PRs
 
-- RNH: (Retrieve original VOM decomposition #2936)[https://github.com/firedrakeproject/firedrake/pull/2936]
+- RNH: [Retrieve original VOM decomposition #2936](https://github.com/firedrakeproject/firedrake/pull/2936)
 
 # Date of next meeting
 

@@ -29,12 +29,10 @@ myScript="HPC_demo.py"
 module purge
 module load load-epcc-module
 
-module load PrgEnv-gnu/8.1.0
-module swap gcc gcc/10.2.0
+module load PrgEnv-gnu/8.3.3
 
-module swap cray-mpich cray-mpich-abi/8.1.9
-module swap cray-dsmml cray-dsmml/0.2.1
-module swap cray-libsci cray-libsci/21.08.1.2
+module swap cray-mpich cray-mpich-abi/8.1.23
+module swap cray-libsci cray-libsci/22.12.1.1
 module load xpmem
 
 cat <<EOF >.gitconfig
@@ -42,8 +40,9 @@ cat <<EOF >.gitconfig
 	directory = *
 EOF
 
-export SINGULARITYENV_LD_LIBRARY_PATH=/opt/cray/pe/mpich/8.1.9/ofi/gnu/9.1/lib-abi-mpich:/opt/cray/pe/pmi/6.0.10/lib:/opt/cray/libfabric/1.11.0.4.71/lib64:/usr/lib64/host:/usr/lib/x86_64-linux-gnu/libibverbs:/.singularity.d/libs:/opt/cray/pe/gcc-libs
-export SINGULARITY_BIND="/opt/cray,/usr/lib64/libibverbs.so.1,/usr/lib64/librdmacm.so.1,/usr/lib64/libnl-3.so.200,/usr/lib64/libnl-route-3.so.200,/usr/lib64/libpals.so.0,/var/spool/slurmd/mpi_cray_shasta,/usr/lib64/libibverbs/libmlx5-rdmav25.so,/etc/libibverbs.d,/opt/gcc"
+export SINGULARITYENV_LD_LIBRARY_PATH="/opt/cray/pe/mpich/8.1.23/ofi/gnu/9.1/lib-abi-mpich:/opt/cray/pe/mpich/8.1.23/gtl/lib:/opt/cray/libfabric/1.12.1.2.2.0.0/lib64:/opt/cray/pe/gcc-libs:/opt/cray/pe/lib64:/opt/cray/xpmem/default/lib64:/usr/lib64/libibverbs:/usr/lib64"
+    
+export SINGULARITY_BIND="/opt/cray,/var/spool,/opt/cray/pe/mpich/8.1.23/ofi/gnu/9.1/lib-abi-mpich:/opt/cray/pe/mpich/8.1.23/gtl/lib,/etc/host.conf,/etc/libibverbs.d/mlx5.driver,/etc/libnl/classid,/etc/resolv.conf,/opt/cray/libfabric/1.12.1.2.2.0.0/lib64/libfabric.so.1,/opt/cray/pe/gcc-libs/libatomic.so.1,/opt/cray/pe/gcc-libs/libgcc_s.so.1,/opt/cray/pe/gcc-libs/libgfortran.so.5,/opt/cray/pe/gcc-libs/libquadmath.so.0,opt/cray/pe/lib64/libpals.so.0,/opt/cray/pe/lib64/libpmi2.so.0,/opt/cray/pe/lib64/libpmi.so.0,/opt/cray/xpmem/default/lib64/libxpmem.so.0,/run/munge/munge.socket.2,/usr/lib64/libibverbs/libmlx5-rdmav34.so,/usr/lib64/libibverbs.so.1,/usr/lib64/libkeyutils.so.1,/usr/lib64/liblnetconfig.so.4,/usr/lib64/liblustreapi.so,/usr/lib64/libmunge.so.2,/usr/lib64/libnl-3.so.200,/usr/lib64/libnl-genl-3.so.200,/usr/lib64/libnl-route-3.so.200,/usr/lib64/librdmacm.so.1,/usr/lib64/libyaml-0.so.2"
 
 export SINGULARITYENV_OMP_NUM_THREADS=1
 export SINGULARITYENV_PYOP2_CACHE_DIR=/tmp/$USER/pyop2

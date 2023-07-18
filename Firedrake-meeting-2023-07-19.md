@@ -25,7 +25,7 @@ The Firedrake team needs to think about the abstract to submit.
 ## NB: Dual
 
 - [UFL](https://github.com/firedrakeproject/ufl/pull/39) (Fix a few issues with dual in UFL)
-- [Firedrake](https://github.com/firedrakeproject/ufl/pull/39)
+- [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2294)
 - [Pyadjoint](https://github.com/dolfin-adjoint/pyadjoint/pull/70)
 
 

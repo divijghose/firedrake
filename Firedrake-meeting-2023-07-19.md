@@ -29,7 +29,7 @@ The Firedrake team needs to think about the abstract to submit.
 
 - 5-8th March 2024, Baltimore
 - Minisymposium proposal deadline 7th August (under 3 weeks away!)
-- Suggestion: "Differentiable programming for parallel simulation"
+- Suggestion: "Differentiable programming for parallel simulation" or similar
  - Firedrake, FEniCS, devito, deadalus, hippylib/hippyfire...
  - Name "Differentiable programming" might only be known in ML community?
  - NB to email: 
@@ -41,13 +41,16 @@ The Firedrake team needs to think about the abstract to submit.
 ## NB: Dual
 
 - [UFL](https://github.com/firedrakeproject/ufl/pull/39) (Fix a few issues with dual in UFL)
+  - Needs to be made against FEniCS UFL
 - [Firedrake](https://github.com/firedrakeproject/firedrake/pull/2294)
 - [Pyadjoint](https://github.com/dolfin-adjoint/pyadjoint/pull/70)
+  - See review
 
 
 ## Merge PRs
 
 - RNH: [Retrieve original VOM decomposition #2936](https://github.com/firedrakeproject/firedrake/pull/2936)
+  - See review
 
 # Date of next meeting
 

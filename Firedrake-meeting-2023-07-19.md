@@ -11,7 +11,6 @@ Date and time 2023-07-19 16:00 BST (1500 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. ~DD: check [PR#3009](https://github.com/firedrakeproject/firedrake/issues/3009).~ DONE!
-1. NB: PP24 minisymposium update
 
 # Agenda
 

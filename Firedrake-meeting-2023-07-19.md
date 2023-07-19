@@ -10,11 +10,12 @@ Date and time 2023-07-19 16:00 BST (1500 UTC)
 1. DH: Get Firedrake a docker open source account ([link here](https://www.docker.com/community/open-source/application/))
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
-1. DD: check [PR#3009](https://github.com/firedrakeproject/firedrake/issues/3009).
+1. ~DD: check [PR#3009](https://github.com/firedrakeproject/firedrake/issues/3009).~ DONE!
+1. NB: PP24 minisymposium update
 
 # Agenda
 
-Present:
+Present: DH, KS, JB, DD, NB, FA, IM
 
 Apologies:
 
@@ -22,7 +23,20 @@ Apologies:
 ## DH: Firedrake23
 The Firedrake team needs to think about the abstract to submit.
 
+- Next week: start talking to venue, working out schedule etc
+
 ## DH: PP24
+
+- 5-8th March 2024, Baltimore
+- Minisymposium proposal deadline 7th August (under 3 weeks away!)
+- Suggestion: "Differentiable programming for parallel simulation"
+ - Firedrake, FEniCS, devito, deadalus, hippylib/hippyfire...
+ - Name "Differentiable programming" might only be known in ML community?
+ - NB to email: 
+    - George Bisbas and Fabio Luporini for Devito,
+    - Igor Baratta and Jorgen Dokken for FEniCS,
+    - [Geoff Vasil](https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=1066) for deadalus,
+    - Umberto Villa for hippyfire
 
 ## NB: Dual
 

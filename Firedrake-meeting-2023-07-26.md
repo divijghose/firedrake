@@ -18,7 +18,11 @@ Present:
 
 Apologies:
 
+## JS: Gusto Hackathon update
+
 ## Merge PRs
+
+- JB: [#3037](https://github.com/firedrakeproject/firedrake/pull/3037)
 
 # Date of next meeting
 

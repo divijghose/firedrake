@@ -20,6 +20,7 @@ Apologies:
 
 ## JS/TB/JB: Gusto Hackathon update
 TB: UFL [#184](https://github.com/FEniCS/ufl/pull/184) What's going on with UFL, are we following upstream now? Do we have additional commits on top of this?
+
 TB: Is this the oldest PR to get merged!? [#1488](https://github.com/firedrakeproject/firedrake/pull/1488) Links to dependent PRs in the PR description. TB requires push access to Finat.
 
 

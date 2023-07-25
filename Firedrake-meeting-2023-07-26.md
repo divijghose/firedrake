@@ -18,7 +18,9 @@ Present:
 
 Apologies:
 
-## JS: Gusto Hackathon update
+## JS/TB/JB: Gusto Hackathon update
+TB: UFL [#184](https://github.com/FEniCS/ufl/pull/184) What's going on with UFL, are we following upstream now? Do we have additional commits on top of this?
+
 
 ## Merge PRs
 

@@ -14,21 +14,43 @@ Date and time 2023-07-26 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present: 
+Present: KS, JS, TB, JB, DD, NB, FA, DH
 
 Apologies:
 
-## JS/TB/JB: Gusto Hackathon update
-TB: UFL [#184](https://github.com/FEniCS/ufl/pull/184) What's going on with UFL, are we following upstream now? Do we have additional commits on top of this?
+## DH: Firedrake 23
 
-TB: Is this the oldest PR to get merged!? [#1488](https://github.com/firedrakeproject/firedrake/pull/1488) Links to dependent PRs in the PR description. TB requires push access to Finat.
+26 abstracts submitted
+
+## NB: PP24
+
+Dedalus: Geoff accepted and proposed two other names.
+
+Devito replied: PP24 clashes with another conference but they will let us know if at least a few of them can join.
+
+-> NB: Reach out to Ludger P. and Patrick K.
+
+## JS/TB/JB: Gusto Hackathon update
+
+> TB: UFL [#184](https://github.com/FEniCS/ufl/pull/184) What's going on with UFL, are we following upstream now? Do we have additional commits on top of this?
+
+-> TB: Set up a Firedrake branch which tests UFL [#184](https://github.com/FEniCS/ufl/pull/184)
+
+> TB: Is this the oldest PR to get merged!? [#1488](https://github.com/firedrakeproject/firedrake/pull/1488) Links to dependent PRs in the PR description. TB requires push access to Finat.
+
+-> TB/JB: Take on that PR. This should be ready to go.
 
 ## JB: Mac users
+
 [#3030](https://github.com/firedrakeproject/firedrake/issues/3030)
+
+-> KS or DD: Have a look at it. It seems we are missing some caching on Mac.
 
 ## Merge PRs
 
-- JB: [#3037](https://github.com/firedrakeproject/firedrake/pull/3037)
+- JS/TB/JB: Firedrake FML [#3041](https://github.com/firedrakeproject/firedrake/pull/3041): _In progress_
+- JB: [#3037](https://github.com/firedrakeproject/firedrake/pull/3037): _Merged_
+- JB: [#3038](https://github.com/firedrakeproject/firedrake/pull/3039): _Merged_
 
 # Date of next meeting
 

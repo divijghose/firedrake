@@ -1,7 +1,7 @@
 Date and time 2023-07-26 16:00 BST (1500 UTC)
 
 # Action Items
-1. **Pick Chair and Minuter** (NB to pick minuter)
+1. **Pick Chair and Minuter** (DD to pick minuter)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. JB: Move PyOP2 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches

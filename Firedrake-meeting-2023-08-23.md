@@ -22,7 +22,9 @@ Apologies:
 
 Update
 
-## Iemw 1
+## RNH: Assigning to cofunctions
+Seems oddly defined vs assigning to functions. See the thread on slack that starts with James Maddison's comment.
+Nacime and David, can you comment?
 
 ## Merge PRs
 

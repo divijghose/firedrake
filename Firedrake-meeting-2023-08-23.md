@@ -23,7 +23,7 @@ Apologies:
 Update
 
 ## RNH: Assigning to cofunctions
-Seems oddly defined vs assigning to functions. See the thread on slack that starts with James Maddison's comment.
+Seems oddly defined vs assigning to functions. See the thread on slack that starts with James Maddison's comment. Should this be disallowed? Does the API or documentation need updating?
 Nacime and David, can you comment?
 
 ## Merge PRs

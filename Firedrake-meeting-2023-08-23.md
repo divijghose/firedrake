@@ -28,6 +28,8 @@ Nacime and David, can you comment?
 
 ## Merge PRs
 
+- CW: https://github.com/OP2/PyOP2/pull/704 and https://github.com/firedrakeproject/firedrake/pull/3073
+
 
 # Date of next meeting
 

@@ -16,7 +16,7 @@ Date and time 2023-08-23 16:00 BST (1500 UTC)
 
 Present: 
 
-Apologies:
+Apologies: JB
 
 ## DH: Firedrake 23
 

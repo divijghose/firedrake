@@ -12,28 +12,39 @@ Date and time 2023-08-23 16:00 BST (1500 UTC)
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. NB: PP24 minisymposium update
 
-# Agenda
+# Minutes
 
-Present: 
+Present: DD, NB, DH, CW (minuter), RK, RNH
 
 Apologies: JB
 
 ## DH: Firedrake 23
 
-Update
+Update. Things are going well.
 
 ## RNH: Assigning to cofunctions
 Seems oddly defined vs assigning to functions. See the thread on slack that starts with James Maddison's comment. Should this be disallowed? Does the API or documentation need updating?
 Nacime and David, can you comment?
 
+- DH: Semantics of cofunction assignment:
+  1. Assemble the RHS (this is a no-op for cofunctions)
+  2. If the assembled RHS is a cofunction in the same space then copy the DoFs across, otherwise throw an exception
+  3. Zero assignment is also a valid special case
+
 ## DD: Questions 
+
 About this issue: https://github.com/firedrakeproject/firedrake/issues/3074
 
+- DH: [Commented on issue](https://github.com/firedrakeproject/firedrake/pull/3072#issuecomment-1690191369)
+
 Adjoint notebooks in RSECon23
+
+- DH: A seismic inversion demo/notebook would be good to have, but it is not a priority.
 
 ## Merge PRs
 
 - CW: https://github.com/OP2/PyOP2/pull/704 and https://github.com/firedrakeproject/firedrake/pull/3073
+  - Former merged, latter approved.
 
 
 # Date of next meeting

@@ -26,6 +26,10 @@ Update
 Seems oddly defined vs assigning to functions. See the thread on slack that starts with James Maddison's comment. Should this be disallowed? Does the API or documentation need updating?
 Nacime and David, can you comment?
 
+## DD: Questions about this issue: https://github.com/firedrakeproject/firedrake/issues/3074
+
+## DD: Adjoint notebooks in RSECon23
+
 ## Merge PRs
 
 - CW: https://github.com/OP2/PyOP2/pull/704 and https://github.com/firedrakeproject/firedrake/pull/3073

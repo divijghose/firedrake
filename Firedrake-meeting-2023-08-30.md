@@ -18,6 +18,9 @@ Present:
 
 Apologies:
 
+## RNH: Doc building is broken again
+See for example https://github.com/firedrakeproject/firedrake/actions/runs/6009640862/job/16299473406?pr=3067
+
 ## Merge PRs
 
 # Date of next meeting

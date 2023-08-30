@@ -23,6 +23,8 @@ See for example https://github.com/firedrakeproject/firedrake/actions/runs/60096
 
 ## Merge PRs
 
+- RNH [Parallel Compatible Cross-Mesh Interpolation #3067](https://github.com/firedrakeproject/firedrake/pull/3067)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2023-09-06](./Firedrake-meeting-2023-09-06)

@@ -12,18 +12,30 @@ Date and time 2023-08-30 16:00 BST (1500 UTC)
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. NB: PP24 minisymposium update
 
-# Agenda
+# Minutes
 
-Present:
+Present: JB, DD, CW, DH, RK, RNH
 
-Apologies:
+Apologies: Where is Nacime?
+
+## Firedrake23 Update:
+Programme is available, participants have been emailed, website will be updated soon (see next item).
+
+## SysGenX Meeting Update:
+- Connor and Pablo will work on local sparse tensors.
+- Jack and Igor will discuss GPUs.
+- Also UFL things.
 
 ## RNH: Doc building is broken again
 See for example https://github.com/firedrakeproject/firedrake/actions/runs/6009640862/job/16299473406?pr=3067
 
+This is "fixed" in https://github.com/firedrakeproject/firedrake/pull/3083 (but please never write code like this).
+
 ## Merge PRs
 
-- RNH [Parallel Compatible Cross-Mesh Interpolation #3067](https://github.com/firedrakeproject/firedrake/pull/3067)
+- #3082 Website update for Firedrake23 (Rebase)
+- #3073 Block sparsity fix - Remove package branch and approved
+- RNH [Parallel Compatible Cross-Mesh Interpolation #3067](https://github.com/firedrakeproject/firedrake/pull/3067) - Changes requested
 
 # Date of next meeting
 

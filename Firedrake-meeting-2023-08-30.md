@@ -16,7 +16,7 @@ Date and time 2023-08-30 16:00 BST (1500 UTC)
 
 Present: JB, DD, CW, DH, RK, RNH
 
-Apologies: Where is Nacime?
+Apologies: NB (sick)
 
 ## Firedrake23 Update:
 Programme is available, participants have been emailed, website will be updated soon (see next item).

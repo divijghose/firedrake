@@ -18,7 +18,8 @@ Present:
 
 Apologies: JB, CW, DD
 
-## Item 1
+## RNH: Immersed manifold point evaluation gets wrong result for N1curl, fails for N1div
+Issue [3089](https://github.com/firedrakeproject/firedrake/issues/3089)
 
 ## Merge PRs
 

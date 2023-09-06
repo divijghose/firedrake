@@ -18,12 +18,20 @@ Present:
 
 Apologies: JB, CW, DD
 
+## NB: PP24 minisymposium update
+All sorted
+
 ## RNH: Immersed manifold point evaluation gets wrong result for N1curl, fails for N1div
 Issue [3089](https://github.com/firedrakeproject/firedrake/issues/3089)
+ - See issue comment
 
 ## Merge PRs
 
-- RNH : [VertexOnlyMesh in immersed manifold and cross mesh interpolation from immersed manifold #3068](https://github.com/firedrakeproject/firedrake/pull/3068)
+- RNH : [VertexOnlyMesh in immersed manifold and cross mesh interpolation from immersed manifold #3068](https://github.com/firedrakeproject/firedrake/pull/3068) - 
+
+### #3068 Review note
+RNH to do: 
+ - Re need change to tolerance: it indicates a possible bug. Check if I get a football when I plot the cell midpoints in matplotlib. Also see which points are being incorrectly given cell locations to investigate. File an issue!
 
 # Date of next meeting
 

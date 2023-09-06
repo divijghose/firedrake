@@ -23,6 +23,8 @@ Issue [3089](https://github.com/firedrakeproject/firedrake/issues/3089)
 
 ## Merge PRs
 
+- RNH : [VertexOnlyMesh in immersed manifold and cross mesh interpolation from immersed manifold #3068](https://github.com/firedrakeproject/firedrake/pull/3068)
+
 # Date of next meeting
 
 No meeting next week, you should all be at Firedrake23!

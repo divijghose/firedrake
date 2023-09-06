@@ -14,7 +14,7 @@ Date and time 2023-09-06 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, NB, RNH, RK
 
 Apologies: JB, CW, DD
 

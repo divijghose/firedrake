@@ -23,6 +23,11 @@ I didn't have sufficient permission
 Noticed this when the website wasn't being updated automatically.
 I think [this keepalive workflow](https://github.com/marketplace/actions/keepalive-workflow) would work for us. This is largely a reminder for me to do this, but bringing it to everyone's attention: **Rebuilding the website currently requires a manual step**
 
+## NB: Dualspace PR
+
+Firedrake: https://github.com/firedrakeproject/firedrake/pull/2294
+Pyadjoint: https://github.com/dolfin-adjoint/pyadjoint/pull/70
+
 ## Merge PRs
 
 - 

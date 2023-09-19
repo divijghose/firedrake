@@ -31,7 +31,7 @@ Pyadjoint: https://github.com/dolfin-adjoint/pyadjoint/pull/70
 
 ## Merge PRs
 
-- 
+- [Cross-mesh interpolation extrusion fix and extra tests #3092](https://github.com/firedrakeproject/firedrake/pull/3092)
 
 # Date of next meeting
 

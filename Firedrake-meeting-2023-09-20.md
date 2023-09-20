@@ -29,6 +29,10 @@ Firedrake: https://github.com/firedrakeproject/firedrake/pull/2294
 
 Pyadjoint: https://github.com/dolfin-adjoint/pyadjoint/pull/70
 
+## CW: Homebrew Python seems to be broken
+
+We are failing to install on some machines as the latest homebrew Python cannot programmatically create a venv. It's weird. I have been asking users to install with pyenv instead and even written a [wiki article explaining how](https://github.com/firedrakeproject/firedrake/wiki/Installing-pyenv). Should we recommend pyenv instead of homebrew on the website?
+
 ## Merge PRs
 
 - [Cross-mesh interpolation extrusion fix and extra tests #3092](https://github.com/firedrakeproject/firedrake/pull/3092)

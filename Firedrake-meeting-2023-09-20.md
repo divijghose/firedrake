@@ -36,6 +36,8 @@ We are failing to install on some machines as the latest homebrew Python cannot 
 ## Merge PRs
 
 - [Cross-mesh interpolation extrusion fix and extra tests #3092](https://github.com/firedrakeproject/firedrake/pull/3092)
+- CW: https://github.com/firedrakeproject/firedrake/pull/3109
+- CW: https://github.com/firedrakeproject/tsfc/pull/298 and https://github.com/firedrakeproject/firedrake/pull/3110
 
 # Date of next meeting
 

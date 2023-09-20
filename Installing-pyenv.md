@@ -22,13 +22,13 @@ To install pyenv (assuming MacOS with homebrew installed) one needs to:
     $ eval "$(pyenv init -)"
     ```
     Note that this command is optional. One can instead find the installed Python versions under `$(pyenv root)/versions`. See [here](https://github.com/pyenv/pyenv/#advanced-configuration) for more information.
-1. Install a Python version (here 3.10)
+1. Install a Python version (here 3.11)
     ```
-    $ pyenv install 3.10
+    $ pyenv install 3.11
     ```
 1. Set this Python as the default for this shell (only if using `pyenv init`)
     ```
-    $ pyenv shell 3.10
+    $ pyenv shell 3.11
     ```
 1. Run `firedrake-install`, `python` will resolve to the correct executable
     ```

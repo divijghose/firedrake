@@ -12,7 +12,7 @@ Date and time 2023-09-20 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present: JB, RNH, DH, MK, CW, DD, KS, IM
+Present: JB, RNH, DH, MK, CW, DD, KS, IM, NB
 
 Apologies: 
 

@@ -16,7 +16,11 @@ Date and time 2023-09-27 16:00 BST (1500 UTC)
 
 Present:
 
-Apologies: 
+Apologies:
+
+## CW/JB: libsupermesh needs updating
+
+A MacOS user has [failed to build libsupermesh](https://github.com/firedrakeproject/firedrake/issues/3123) due to the fact that the libspatialindex inside of libsupermesh is very old. How should we proceed? Why do we have 2 libspatialindex's ([here](https://github.com/firedrakeproject/libspatialindex) and [here](https://github.com/firedrakeproject/libsupermesh/tree/master/spatialindex-1.8.5))??
 
 ## Merge PRs
 

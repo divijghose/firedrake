@@ -10,7 +10,7 @@ Date and time 2023-09-20 16:00 BST (1500 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 
-# Agenda
+# Minutes
 
 Present: JB, RNH, DH, MK, CW, DD, KS, IM, NB
 

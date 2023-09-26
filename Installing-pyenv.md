@@ -36,3 +36,10 @@ To install pyenv (assuming MacOS with homebrew installed) one needs to:
     ```
 
 Note that the above instructions are equivalent to those found [here](https://github.com/pyenv/pyenv/#set-up-your-shell-environment-for-pyenv).
+
+You might also find it helpful to install the Firedrake virtual environment in such a way that pyenv can easily find it.
+You can do that by adding an argument to the install script:
+    ```
+    $ python firedrake-install <args> --venv-name=$(pyenv root)/versions/firedrake
+    ```
+After the installation succeeds, you can activate the Firedrake virtual environment with `pyenv shell firedrake`.

@@ -38,6 +38,7 @@ JB: I don't think RTree PyPI package will save us: The headers are not bundled i
 - UZ: [Netgen curved mesh #3096](https://github.com/firedrakeproject/firedrake/pull/3096)
 - KS: https://github.com/firedrakeproject/firedrake/pull/3128
 - KS: https://github.com/firedrakeproject/firedrake/pull/3129
+- AG: https://github.com/dolfin-adjoint/pyadjoint/pull/118
 
 # Date of next meeting
 

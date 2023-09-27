@@ -34,6 +34,8 @@ A MacOS user has [failed to build libsupermesh](https://github.com/firedrakeproj
 - CW: https://github.com/OP2/PyOP2/pull/708
 - RNH: [Switch off annotation when making an interpolator #3087](https://github.com/firedrakeproject/firedrake/pull/3087)
 - UZ: [Netgen curved mesh #3096](https://github.com/firedrakeproject/firedrake/pull/3096)
+- KS: https://github.com/firedrakeproject/firedrake/pull/3128
+- KS: https://github.com/firedrakeproject/firedrake/pull/3129
 
 # Date of next meeting
 

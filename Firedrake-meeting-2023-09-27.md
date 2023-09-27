@@ -37,7 +37,7 @@ A MacOS user has [failed to build libsupermesh](https://github.com/firedrakeproj
 ## DH: How to fix MacOS build
 
 - RNH: MacOS command line tools version 15 is apparently buggy.
-- Action point: Fix PNetCDF build by defaulting to downloading BLAS with MacOS (`--with-blas=download`).
+- Action point JB: Fix PNetCDF build by defaulting to downloading BLAS with MacOS (`--with-blas=download`).
 - Action point KS: xfail tests and update PETSc fork.
 
 ## NB: Interpolate PR

@@ -10,7 +10,7 @@ Date and time 2023-09-27 16:00 BST (1500 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. JB: Scheduled GitHub actions to avoid inactivity timeout for website repo ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-20#jb-scheduled-gh-actions-time-out-after-something-like-60-days-of-inactivity))
-1. CW: Update website since homebrew Python is now dodgy.
+1. ~CW: Update website since homebrew Python is now dodgy.~ merged
 1. DH: Order more Firedrake stickers
 
 # Agenda

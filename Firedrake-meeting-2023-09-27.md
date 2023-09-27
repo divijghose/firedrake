@@ -13,19 +13,32 @@ Date and time 2023-09-27 16:00 BST (1500 UTC)
 1. ~~CW: Update website since homebrew Python is now dodgy.~~ merged
 1. DH: Order more Firedrake stickers
 
-# Agenda
+# Minutes
 
-Present:
+Present: CW (minuter), JB, KS, DH, DD, RNH, RK, PB, DS, NB, UZ
 
 Apologies:
 
 ## JMC MEng/Applied MSc projects
 
+- DH: Coupled domain stuff.
+- JB: ROL stuff?
+- RNH: Point evaluation for bendy meshes.
+- DH: Similarly mesh-to-mesh interpolation with more complicated nodes.
+
 ## CW/JB: libsupermesh needs updating
 
 A MacOS user has [failed to build libsupermesh](https://github.com/firedrakeproject/firedrake/issues/3123) due to the fact that the libspatialindex inside of libsupermesh is very old. How should we proceed? Why do we have 2 libspatialindex's ([here](https://github.com/firedrakeproject/libspatialindex) and [here](https://github.com/firedrakeproject/libsupermesh/tree/master/spatialindex-1.8.5))??
 
-JB: I don't think RTree PyPI package will save us: The headers are not bundled in the wheel, so libsupermesh cannot link.
+- JB: I don't think RTree PyPI package will save us: The headers are not bundled in the wheel, so libsupermesh cannot link.
+- Action point JB: submit a PR that bundles the headers with RTree so we can link to it. We can then find the right files by importing `rtree` and asking where its files are.
+- DH: But libsupermesh uses non-public API bits of libspatialindex. We should see if we can drop it and use mesh-to-mesh interpolation instead.
+
+## DH: How to fix MacOS build
+
+- RNH: MacOS command line tools version 15 is apparently buggy.
+- Action point: Fix PNetCDF build by defaulting to downloading BLAS with MacOS (`--with-blas=download`).
+- Action point KS: xfail tests and update PETSc fork.
 
 ## NB: Interpolate PR
 
@@ -38,7 +51,7 @@ JB: I don't think RTree PyPI package will save us: The headers are not bundled i
 - UZ: [Netgen curved mesh #3096](https://github.com/firedrakeproject/firedrake/pull/3096)
 - KS: https://github.com/firedrakeproject/firedrake/pull/3128
 - KS: https://github.com/firedrakeproject/firedrake/pull/3129
-- AG: https://github.com/dolfin-adjoint/pyadjoint/pull/118
+- AG: https://github.com/dolfin-adjoint/pyadjoint/pull/118 merged
 
 # Date of next meeting
 

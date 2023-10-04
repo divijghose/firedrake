@@ -17,22 +17,37 @@ Date and time 2023-10-04 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: KS, CW, JB, DD, DH, IM, UZ, RK, NB
 
 Apologies:
+
+## JB: Libsupermesh
+
+There is a PR passing all tests that makes `libsupermesh` an optional dependency.
+
+## JB: MacOS `firedrake-install` should always download BLAS
+
+[#3137](https://github.com/firedrakeproject/firedrake/pull/3137): Merged
+
+## KS: Merge PETSc upstream
+
+[firedrake](https://github.com/firedrakeproject/firedrake/pull/3105): Merged
+
+[petsc](https://github.com/firedrakeproject/petsc/pull/14): Merged
+
+[slepc](https://github.com/firedrakeproject/slepc/pull/3): Merged
 
 ## Merge PRs
 
 Remaining from last week:
 
-- RNH: [Switch off annotation when making an interpolator #3087](https://github.com/firedrakeproject/firedrake/pull/3087)
-- UZ: [Netgen curved mesh #3096](https://github.com/firedrakeproject/firedrake/pull/3096)
-- KS: https://github.com/firedrakeproject/firedrake/pull/3128
-- KS: https://github.com/firedrakeproject/firedrake/pull/3129
+- UZ: [Netgen curved mesh #3096](https://github.com/firedrakeproject/firedrake/pull/3096): Auto-merged
+- KS: https://github.com/firedrakeproject/firedrake/pull/3128: Merged
+- RNH: https://github.com/firedrakeproject/firedrake/pull/3087: Merged
 
 This week:
 
-- CW: https://github.com/firedrakeproject/firedrake/pull/3135
+- CW: https://github.com/firedrakeproject/firedrake/pull/3135: Auto-merged
 
 # Date of next meeting
 

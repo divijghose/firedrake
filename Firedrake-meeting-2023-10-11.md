@@ -1,4 +1,4 @@
-Date and time 2023-10-04 16:00 BST (1500 UTC)
+Date and time 2023-10-11 16:00 BST (1500 UTC)
 
 # Action Items
 1. **Pick Chair and Minuter** (NB to pick minuter)
@@ -26,4 +26,4 @@ Apologies:
 
 # Date of next meeting
 
-1600 BST (1500 UTC) [2023-10-11](./Firedrake-meeting-2023-10-18)
+1600 BST (1500 UTC) [2023-10-18](./Firedrake-meeting-2023-10-18)

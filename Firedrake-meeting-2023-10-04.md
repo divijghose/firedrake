@@ -29,6 +29,7 @@ Remaining from last week:
 - UZ: [Netgen curved mesh #3096](https://github.com/firedrakeproject/firedrake/pull/3096)
 - KS: https://github.com/firedrakeproject/firedrake/pull/3128
 - KS: https://github.com/firedrakeproject/firedrake/pull/3129
+- CW: https://github.com/firedrakeproject/firedrake/pull/3135
 
 # Date of next meeting
 

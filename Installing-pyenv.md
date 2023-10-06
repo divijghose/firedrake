@@ -8,10 +8,7 @@ It can be helpful to install Firedrake using a Python executable installed with 
 
 To install pyenv (assuming MacOS with homebrew installed) one needs to:
 1. Install [build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
-1. Install pyenv
-    ```
-    brew install pyenv
-    ```
+1. Install pyenv. Note that the pyenv provided by homebrew *should not be installed*. At the time of writing it [unconditionally injects `CFLAGS` and `LDFLAGS`](https://github.com/pyenv/pyenv/issues/2204) that will break components like petsc4py and mpi4py if you have a homebrew-installed OpenMPI.
 1. Set `PYENV_ROOT` and `PATH`
     ```
     $ export PYENV_ROOT=$HOME/.pyenv

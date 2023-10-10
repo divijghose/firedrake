@@ -22,7 +22,7 @@ Apologies:
 
 
 ## Merge PRs
-
+- [Test (and fix!) cross mesh interpolation annotation #3145](https://github.com/firedrakeproject/firedrake/pull/3145)
 
 # Date of next meeting
 

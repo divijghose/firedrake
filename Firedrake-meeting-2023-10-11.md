@@ -23,6 +23,7 @@ Apologies:
 
 ## Merge PRs
 - [Test (and fix!) cross mesh interpolation annotation #3145](https://github.com/firedrakeproject/firedrake/pull/3145)
+- [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML is ready (failing tests are NetGEN) :roll_eyes: 
 
 # Date of next meeting
 

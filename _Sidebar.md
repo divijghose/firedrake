@@ -197,7 +197,7 @@
 </details>
 
 <details>
-<summary>Policies</summary>
+<summary>Policies and procedures</summary>
 
 - [Closing Installation Issues](./Closing-Installation-Issues)
 - [Python version support](./Python-version-support)

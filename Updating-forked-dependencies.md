@@ -36,9 +36,6 @@ These forked repositories should be updated every few months using the following
     $ git checkout -b <github username>/upstream-update
     $ git push -u origin <github username>/upstream-update
     ```
+1. Create a pull request to the forked repository using this branch ([example](https://github.com/firedrakeproject/petsc/pull/15)).
 1. Check that the Firedrake test suite passes using this branch following [these instructions](https://github.com/firedrakeproject/firedrake/wiki/Running-the-Firedrake-test-suite-with-different-branches-for-subpackages).
-1. Checkout and push the updated branch:
-    ```
-    $ git checkout firedrake
-    $ git push
-    ```
+1. Merge the pull request, updating the forked repository. You should also close the associated Firedrake pull request opened to run the test suite (above).

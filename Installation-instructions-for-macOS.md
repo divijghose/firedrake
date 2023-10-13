@@ -27,7 +27,7 @@ To install Firedrake on macOS, follow the steps below:
 If you encounter any issues with the installation, please proceed with the step 4.
 
 4. **Downgrade Xcode (If Necessary):**
-   - If you encounter any issues with the installation, and you are using Xcode 15.0, it's recommended to downgrade to Xcode 14.3.1. You can download Xcode 14.3.1 from the following link: [Xcode 14.3.1 Download](https://xcodereleases.com/).
+   - If you encounter any issues with the installation, and you are using Xcode 15.0, it's recommended to downgrade to Xcode 14.3.1. You can download Xcode 14.3.1 from the following link: [Xcode 14.3.1](https://xcodereleases.com/).
 
    - Install Xcode 14.3.1, and ensure it is set as the active Xcode version for your development environment.
 

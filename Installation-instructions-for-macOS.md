@@ -29,7 +29,11 @@ If you encounter any issues with the installation, please proceed with the step 
 4. **Downgrade Xcode (If Necessary):**
    - If you encounter any issues with the installation, and you are using Xcode 15.0, it's recommended to downgrade to Xcode 14.3.1. You can download Xcode 14.3.1 from the following link: [Xcode 14.3.1](https://xcodereleases.com/).
 
-   - Install Xcode 14.3.1, and ensure it is set as the active Xcode version for your development environment.
+   - Install Xcode 14.3.1, and ensure it is set as the active Xcode version for your development environment with the following command:
+   
+   ```shell
+   xcodebuild -version
+   ```
 
    - For Xcode 14.3.1, it is not necessary to set the `PETSC_CONFIGURE_OPTIONS` as it might be with Xcode 15.0.
 
@@ -43,6 +47,6 @@ If you encounter any issues with the installation, please proceed with the step 
    brew uninstall mpich
    ```
 
-   - After uninstalling these packages, try running the Firedrake parallel tests again. The issue should be resolved.
+   - After uninstalling these packages, run `python3 firedrake-install` again.
 
 These instructions should help you install and configure Firedrake on your macOS system while addressing potential issues with Xcode versions and MPI libraries.

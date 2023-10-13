@@ -22,7 +22,7 @@ To install Firedrake on macOS, follow the steps below:
    - After you have set the `PETSC_CONFIGURE_OPTIONS`, you can proceed with the Firedrake installation. Run the following command in the Terminal:
 
    ```shell
-   python firedrake-install
+   python3 firedrake-install
    ```
 If you encounter any issues with the installation, please proceed with the step 4.
 

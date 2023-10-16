@@ -1,4 +1,4 @@
-In Xcode 15, there is a new linker that can potentially cause compatibility issues with certain projects, including OpenMPI. To work around this problem for Petsc install, we need to set LDFLAGS='-Wl,-ld_classic' which instructs Petsc to use the classic linker, ensuring compatibility and stability for your installation.
+In Xcode 15, there is a new linker that can potentially cause compatibility issues with certain projects, including MPI. To work around this problem for Petsc install, we need to set LDFLAGS='-Wl,-ld_classic' which instructs Petsc to use the classic linker, ensuring compatibility and stability for your installation.
 
 To install Firedrake on macOS for Xcode 15, follow the steps below:
 

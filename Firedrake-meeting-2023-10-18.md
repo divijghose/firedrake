@@ -27,10 +27,14 @@ JB: I still don't like the MacOS platform
 - Apparently can't downgrade CLT to 14.3.1 on latest MacOS Samoa. (I can't find official link, haven't actually tried, been working on a fix).
 - MPICH built by PETSc with CLT 15 is broken, it requires additional LDFLAGS (`-Wl,-ld_classic`) to configure. (PETSc need to fix this)
 - Firedrake install script is in a bit of a state, don't fix by setting `export PETSC_CONFIGURE_OPTIONS=--LDFLAGS=-Wl,-ld_classic` that will break your BLAS configuration.
-- Potential fix, but needs more extensive testing: [PR3171](https://github.com/firedrakeproject/firedrake/pull/3171)
+- Potential fix, but needs more extensive testing: [PR3171](https://github.com/firedrakeproject/firedrake/pull/3171).
+
+## FML
+JB: Documentation needs some policy decisions [#3041](https://github.com/firedrakeproject/firedrake/pull/3041).
 
 
 ## Merge PRs
+- JB: [#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.
 
 
 # Date of next meeting

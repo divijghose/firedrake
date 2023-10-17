@@ -12,8 +12,8 @@ Date and time 2023-10-18 16:00 BST (1500 UTC)
 1. JB: Scheduled GitHub actions to avoid inactivity timeout for website repo ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-20#jb-scheduled-gh-actions-time-out-after-something-like-60-days-of-inactivity))
 1. DH: Order more Firedrake stickers
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))?
-1. UZ: Mark netGEN tests as xfail
-1. JB: Update Github PR template
+1. UZ: Mark netGEN tests as xfail (not required any more)
+1. JB: Update Github PR template (done)
 
 
 # Agenda
@@ -23,6 +23,11 @@ Present:
 Apologies:
 
 ## MacOS Installation issues (UPDATE)
+JB: I still don't like the MacOS platform
+- Apparently can't downgrade CLT to 14.3.1 on latest MacOS Samoa. (I can't find official link, haven't actually tried, been working on a fix).
+- MPICH built by PETSc with CLT 15 is broken, it requires additional LDFLAGS (`-Wl,-ld_classic`) to configure. (PETSc need to fix this)
+- Firedrake install script is in a bit of a state, don't fix by setting `export PETSC_CONFIGURE_OPTIONS=--LDFLAGS=-Wl,-ld_classic` that will break your BLAS configuration.
+- Potential fix, but needs more extensive testing: [PR3171](https://github.com/firedrakeproject/firedrake/pull/3171)
 
 
 ## Merge PRs

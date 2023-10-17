@@ -35,6 +35,7 @@ JB: Documentation needs some policy decisions [#3041](https://github.com/firedra
 
 ## Merge PRs
 - JB: [#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.
+- JB: [#3165](https://github.com/firedrakeproject/firedrake/pull/3165)
 
 
 # Date of next meeting

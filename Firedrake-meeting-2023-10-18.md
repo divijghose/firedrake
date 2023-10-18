@@ -14,6 +14,7 @@ Date and time 2023-10-18 16:00 BST (1500 UTC)
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))?
 1. UZ: Mark netGEN tests as xfail (not required any more)
 1. JB: Update Github PR template (done)
+1. PB: Spectral on triangles and tetrahedra.
 
 
 # Agenda

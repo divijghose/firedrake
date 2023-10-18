@@ -40,6 +40,7 @@ RNH: Also, why does `Cofunction` not have a `.zero` method?
 - JB: [#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.
 - JB: [#3165](https://github.com/firedrakeproject/firedrake/pull/3165)
 - JB: [#1](https://github.com/firedrakeproject/firedrakeproject.github.io/pull/1) Do we need protection on this repo?
+- UZ: [#3176](https://github.com/firedrakeproject/firedrake/pull/3176) Netgen circular import
 
 
 # Date of next meeting

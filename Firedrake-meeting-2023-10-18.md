@@ -33,13 +33,15 @@ JB: I still don't like the MacOS platform
 
 ## FML
 JB: Documentation needs some policy decisions [#3041](https://github.com/firedrakeproject/firedrake/pull/3041).
+ - Close to merging
 
-
-## Thoughts on [#3167](https://github.com/firedrakeproject/firedrake/pull/3167)
-RNH: Also, why does `Cofunction` not have a `.zero` method?
+## RNH: Thoughts on [#3167](https://github.com/firedrakeproject/firedrake/pull/3167)
+Also, why does `Cofunction` not have a `.zero` method?
+ - Needs annotation added 
+ - RNH's PR needs the fix to be specific to the case he has identified - i.e. within the SFreduce.
 
 ## Merge PRs
-- JB: [#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.
+- JB: ~[#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.~ MERGED!
 - JB: [#3165](https://github.com/firedrakeproject/firedrake/pull/3165)
 - JB: [#1](https://github.com/firedrakeproject/firedrakeproject.github.io/pull/1) Do we need protection on this repo?
 - UZ: [#3176](https://github.com/firedrakeproject/firedrake/pull/3176) Netgen circular import

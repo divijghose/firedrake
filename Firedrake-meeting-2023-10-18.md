@@ -9,7 +9,7 @@ Date and time 2023-10-18 16:00 BST (1500 UTC)
 1. DH: Get Firedrake a docker open source account ([link here](https://www.docker.com/community/open-source/application/))
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
-1. JB: Scheduled GitHub actions to avoid inactivity timeout for website repo ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-20#jb-scheduled-gh-actions-time-out-after-something-like-60-days-of-inactivity))
+1. JB: Scheduled GitHub actions to avoid inactivity timeout for website repo ~~([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-20#jb-scheduled-gh-actions-time-out-after-something-like-60-days-of-inactivity))~~ (See Merge PRs)
 1. DH: Order more Firedrake stickers
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))?
 1. UZ: Mark netGEN tests as xfail (not required any more)
@@ -34,11 +34,12 @@ JB: Documentation needs some policy decisions [#3041](https://github.com/firedra
 
 
 ## Thoughts on [#3167](https://github.com/firedrakeproject/firedrake/pull/3167)
-Also, why does `Cofunction` not have a `.zero` method?
+RNH: Also, why does `Cofunction` not have a `.zero` method?
 
 ## Merge PRs
 - JB: [#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.
 - JB: [#3165](https://github.com/firedrakeproject/firedrake/pull/3165)
+- JB: [#1](https://github.com/firedrakeproject/firedrakeproject.github.io/pull/1) Do we need protection on this repo?
 
 
 # Date of next meeting

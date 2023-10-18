@@ -42,6 +42,7 @@ RNH: Also, why does `Cofunction` not have a `.zero` method?
 - JB: [#3165](https://github.com/firedrakeproject/firedrake/pull/3165)
 - JB: [#1](https://github.com/firedrakeproject/firedrakeproject.github.io/pull/1) Do we need protection on this repo?
 - UZ: [#3176](https://github.com/firedrakeproject/firedrake/pull/3176) Netgen circular import
+- UZ: [Netgen Hierarchy Stuff](https://github.com/NGSolve/netgen/pull/163)
 - PB: [#3148](https://github.com/firedrakeproject/firedrake/pull/3148) Fix prolong/restrict on extruded.
 - PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Cache/no-op for prolong/restrict/inject.
 

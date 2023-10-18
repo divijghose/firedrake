@@ -33,6 +33,9 @@ JB: I still don't like the MacOS platform
 JB: Documentation needs some policy decisions [#3041](https://github.com/firedrakeproject/firedrake/pull/3041).
 
 
+## Thoughts on [#3167](https://github.com/firedrakeproject/firedrake/pull/3167)
+Also, why does `Cofunction` not have a `.zero` method?
+
 ## Merge PRs
 - JB: [#3153](https://github.com/firedrakeproject/firedrake/pull/3153) Github PR template.
 - JB: [#3165](https://github.com/firedrakeproject/firedrake/pull/3165)

@@ -46,8 +46,8 @@ Also, why does `Cofunction` not have a `.zero` method?
 - JB: ~[#1](https://github.com/firedrakeproject/firedrakeproject.github.io/pull/1)~ MERGED! Q: Do we need protection on this repo? A: No.
 - UZ: ~[#3176](https://github.com/firedrakeproject/firedrake/pull/3176) Netgen circular import~ MERGED!
 - UZ: [Netgen Hierarchy Stuff](https://github.com/NGSolve/netgen/pull/163) Won't effect us since we use netgen wheels. UZ to make a PR with them. For now merged to our fork so it can be used by those who want it and don't mind having to build it themselves.
-- PB: [#3148](https://github.com/firedrakeproject/firedrake/pull/3148) Fix prolong/restrict on extruded.
-- PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Cache/no-op for prolong/restrict/inject.
+- PB: ~[#3148](https://github.com/firedrakeproject/firedrake/pull/3148) Fix prolong/restrict on extruded.~ MERGED!
+- PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Cache/no-op for prolong/restrict/inject. Needs checking for dual space safety.
 
 # Date of next meeting
 

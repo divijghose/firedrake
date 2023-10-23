@@ -20,8 +20,12 @@ Present:
 
 Apologies:
 
+## New docstring and typehint policy
+Read more here: https://github.com/firedrakeproject/firedrake/wiki/Docstrings
+
 ## Merge PRs
 - PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Cache/no-op for prolong/restrict/inject.
+- JB: [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML.
 
 # Date of next meeting
 

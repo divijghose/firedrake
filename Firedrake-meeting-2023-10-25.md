@@ -26,6 +26,7 @@ Read more here: https://github.com/firedrakeproject/firedrake/wiki/Docstrings
 ## Merge PRs
 - PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Cache/no-op for prolong/restrict/inject.
 - JB: [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML.
+- KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174) VOM touch up.
 
 # Date of next meeting
 

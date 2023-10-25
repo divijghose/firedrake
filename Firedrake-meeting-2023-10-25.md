@@ -14,7 +14,7 @@ Date and time 2023-10-25 16:00 BST (1500 UTC)
 1. PB: Spectral on triangles and tetrahedra?
 
 
-# Agenda
+# Minutes
 
 Present: CW, JB, KN, DH, PB, RH, NB, FA, DD
 

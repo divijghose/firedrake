@@ -22,14 +22,15 @@ Apologies:
 
 ## New docstring and typehint policy
 Read more here: https://github.com/firedrakeproject/firedrake/wiki/Docstrings
+
 Docstring policy was discussed at the meeting. The code must follow PEP8 and PEP257(where PEP257 does not conflict numpydoc).
 DH agreed with the policy docstring text.
 
 ## libersupermesh
-The work with libersupermesh is advancing. JB is working on arch platform.
+The work with libersupermesh is advancing. JB is working on the arch platform.
 
-## Zenodo canary fail
-JB is going to disable it.
+## Zenodo canary fails in GitHub action
+JB is going to disable Zenodo Canary.
 
 
 ## Merge PRs

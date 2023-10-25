@@ -16,20 +16,44 @@ Date and time 2023-10-25 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: CW, JB, KN, DH, PB, RH, NB, FA
 
 Apologies:
 
 ## New docstring and typehint policy
 Read more here: https://github.com/firedrakeproject/firedrake/wiki/Docstrings
+Docstring policy was discussed at the meeting. The code must follow PEP8 and PEP257(where PEP257 does not conflict numpydoc).
+DH agreed with the policy docstring text.
+
+## libersupermesh
+The work with libersupermesh is advancing. JB is working on arch platform.
+
+## Zenodo fail
+JB is going to disable Zenodo
+
 
 ## Merge PRs
 - PB: [#3181](https://github.com/firedrakeproject/firedrake/pull/3181) Cofunction coarsening.
-- PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Re-injection of coefficients; no-op for unmodified dat.
-- PB: [#3164](https://github.com/firedrakeproject/firedrake/pull/3164) Make tests basis-independent.
-- JB: [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML.
-- KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174) VOM touch up.
 
+  This PR requires PB review. 
+
+- PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Re-injection of coefficients; no-op for unmodified dat.
+
+  This PR depends on the anterior PR (3181). It was not reviewed once the previous PR required changes.
+
+- PB: [#3164](https://github.com/firedrakeproject/firedrake/pull/3164) Make tests basis-independent.
+  
+  This PR still requires trivial changes.
+  
+- JB: [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML.
+
+  Approved!
+  
+- KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174) VOM touch up.
+  
+  This PR discussed the concepts.
+  
+  
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-11-01](./Firedrake-meeting-2023-11-01)

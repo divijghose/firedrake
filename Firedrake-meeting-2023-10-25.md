@@ -26,6 +26,7 @@ Read more here: https://github.com/firedrakeproject/firedrake/wiki/Docstrings
 ## Merge PRs
 - PB: [#3181](https://github.com/firedrakeproject/firedrake/pull/3181) Cofunction coarsening.
 - PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Re-injection of coefficients; no-op for unmodified dat.
+- PB: [#3164](https://github.com/firedrakeproject/firedrake/pull/3164) Make tests basis-independent.
 - JB: [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML.
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174) VOM touch up.
 

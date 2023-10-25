@@ -16,7 +16,7 @@ Date and time 2023-10-25 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present: CW, JB, KN, DH, PB, RH, NB, FA
+Present: CW, JB, KN, DH, PB, RH, NB, FA, DD
 
 Apologies:
 
@@ -28,8 +28,8 @@ DH agreed with the policy docstring text.
 ## libersupermesh
 The work with libersupermesh is advancing. JB is working on arch platform.
 
-## Zenodo fail
-JB is going to disable Zenodo
+## Zenodo canary fail
+JB is going to disable it.
 
 
 ## Merge PRs
@@ -51,7 +51,7 @@ JB is going to disable Zenodo
   
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174) VOM touch up.
   
-  This PR discussed the concepts.
+  This PR discussed the concepts, it was not reviewed.
   
   
 # Date of next meeting

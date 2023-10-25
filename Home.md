@@ -1,1 +1,1 @@
-Welcome to the firedrake wiki!
+Welcome to the firedrake wiki! See the sidebar for useful links.

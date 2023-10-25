@@ -11,7 +11,7 @@ Date and time 2023-10-25 16:00 BST (1500 UTC)
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. DH: Order more Firedrake stickers
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))?
-1. PB: Spectral on triangles and tetrahedra.
+1. PB: Spectral on triangles and tetrahedra?
 
 
 # Agenda
@@ -24,7 +24,8 @@ Apologies:
 Read more here: https://github.com/firedrakeproject/firedrake/wiki/Docstrings
 
 ## Merge PRs
-- PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Cache/no-op for prolong/restrict/inject.
+- PB: [#3181](https://github.com/firedrakeproject/firedrake/pull/3181) Cofunction coarsening.
+- PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159) Re-injection of coefficients; no-op for unmodified dat.
 - JB: [#3041](https://github.com/firedrakeproject/firedrake/pull/3041) FML.
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174) VOM touch up.
 

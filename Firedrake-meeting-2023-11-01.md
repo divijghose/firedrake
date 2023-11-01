@@ -16,14 +16,31 @@ Date and time 2023-11-01 16:00 BST (1500 UTC)
 
 # Agenda
 
-Present: 
+Present: PB, IM, FA, RNH, DH, JB, KS, CW, DD, NB
 
 Apologies:
 
+
+## PB: Spectral on triangles and tetrahedra?
+
+Check docs: https://www.firedrakeproject.org/variational-problems.html#element-variants
+
+The default is spectral.
+
+PB: Add support for P and DP and update the docs accordingly
+
+## PB: GLL/GL on simplices with recursive points
+
+fiat PR: https://github.com/firedrakeproject/fiat/pull/46
+
+-> PB: Use Tobin Isaac' code (can be piped installed) and replace `fiat/setup.py` by a `pyproject.toml` (see [here](https://github.com/firedrakeproject/fiat/issues/48))
+
 ## Merge PRs
 
-PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159)
-  
+PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159): Changes requested
+JB: [#3192](https://github.com/firedrakeproject/firedrake/pull/3192): Merged
+PB: [#3178](https://github.com/firedrakeproject/firedrake/pull/3178): Closed
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-11-08](./Firedrake-meeting-2023-11-08)

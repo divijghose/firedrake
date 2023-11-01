@@ -38,8 +38,10 @@ fiat PR: https://github.com/firedrakeproject/fiat/pull/46
 ## Merge PRs
 
 PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159): Changes requested
+
 JB: [#3192](https://github.com/firedrakeproject/firedrake/pull/3192): Merged
-PB: [#3178](https://github.com/firedrakeproject/firedrake/pull/3178): Closed
+
+PB: [#3178](https://github.com/firedrakeproject/firedrake/pull/3178): Closed -> lifted to UFL: https://github.com/FEniCS/ufl/pull/232
 
 # Date of next meeting
 

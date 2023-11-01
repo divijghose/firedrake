@@ -21,6 +21,8 @@ Present:
 Apologies:
 
 ## Merge PRs
+
+PB: [#3159](https://github.com/firedrakeproject/firedrake/pull/3159)
   
 # Date of next meeting
 

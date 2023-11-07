@@ -18,6 +18,12 @@ Present:
 
 Apologies:
 
+## JB: PETSc and SLEPc forks need to be kept in sync
+https://github.com/firedrakeproject/petsc/blob/firedrake/include/petscversion.h
+
+https://github.com/firedrakeproject/slepc/blob/firedrake/include/slepcversion.h
+
+
 ## Merge PRs
 
 # Date of next meeting

@@ -22,4 +22,4 @@ Apologies:
 
 # Date of next meeting
 
-1600 GMT (1600 UTC) [2023-11-08](./Firedrake-meeting-2023-11-15)
+1600 GMT (1600 UTC) [2023-11-15](./Firedrake-meeting-2023-11-15)

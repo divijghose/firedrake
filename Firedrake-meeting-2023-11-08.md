@@ -25,6 +25,17 @@ https://github.com/firedrakeproject/slepc/blob/firedrake/include/slepcversion.h
 
 
 ## Merge PRs
+DD: There are Matthew Scroggs PRs to adapt firedrake, tsfc and finat to the latest UFL element interface.
+
+FInAT PR: [111](https://github.com/FInAT/FInAT/pull/111)
+
+tsfc PR: [302](https://github.com/firedrakeproject/tsfc/pull/302)
+
+Firedrake PR: [3166](https://github.com/firedrakeproject/firedrake/pull/3166)
+
+DD: UFL upstream [PR 46](https://github.com/firedrakeproject/ufl/pull/46)
+
+DD: Adding `__str__` method in `SolverVarFormBlock`. [3199](https://github.com/firedrakeproject/firedrake/pull/3199)
 
 # Date of next meeting
 

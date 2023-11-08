@@ -11,6 +11,7 @@ Date and time 2023-11-15 1600 GMT (1600 UTC)
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. DH: Order more Firedrake stickers
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))?
+1. UZ: Review, check and merge upstream NGSolve changes required for UFL update.
 
 # Agenda
 

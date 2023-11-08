@@ -37,6 +37,8 @@ DD: UFL upstream [PR 46](https://github.com/firedrakeproject/ufl/pull/46)
 
 DD: Adding `__str__` method in `SolverVarFormBlock`. [3199](https://github.com/firedrakeproject/firedrake/pull/3199)
 
+PB: TransferManager: Re-injection of coefficients [3159](https://github.com/firedrakeproject/firedrake/pull/3159)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-11-15](./Firedrake-meeting-2023-11-15)

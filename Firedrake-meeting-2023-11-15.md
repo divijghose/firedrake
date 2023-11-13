@@ -24,10 +24,7 @@ Apologies:
 
 ## Merge PRs
 
-- PB: [FInAT #112](https://github.com/FInAT/FInAT/pull/112).
 - PB: [TSFC #301](https://github.com/firedrakeproject/tsfc/pull/301).
-- PB: [FD dependency #3219](https://github.com/firedrakeproject/firedrake/pull/3219).
-- PB: [FD test #3220](https://github.com/firedrakeproject/firedrake/pull/3220).
 - PB: [FD docs #3221](https://github.com/firedrakeproject/firedrake/pull/3221).
 
 

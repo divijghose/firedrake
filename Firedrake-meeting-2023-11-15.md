@@ -26,7 +26,7 @@ Apologies:
 
 - PB: [TSFC #301](https://github.com/firedrakeproject/tsfc/pull/301).
 - PB: [FD docs #3221](https://github.com/firedrakeproject/firedrake/pull/3221).
-- PB [MG fix #3231](https://github.com/firedrakeproject/firedrake/pull/3231)
+- PB: [MG bugfix #3231](https://github.com/firedrakeproject/firedrake/pull/3231)
 
 # Date of next meeting
 

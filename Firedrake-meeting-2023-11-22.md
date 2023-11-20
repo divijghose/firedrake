@@ -23,6 +23,8 @@ Apologies:
 
 ## Merge PRs
 
+- PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-11-29](./Firedrake-meeting-2023-11-29)

@@ -21,6 +21,9 @@ Present:
 
 Apologies:
 
+## Pyadjoint Firedrake tests erroring
+[#3247](https://github.com/firedrakeproject/firedrake/issues/3247)
+
 ## Merge PRs
 
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)

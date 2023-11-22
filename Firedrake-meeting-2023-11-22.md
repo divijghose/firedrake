@@ -58,7 +58,7 @@ JB and I were trying to move the documentation for numpydoc format.
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
 - DD: [#3239](https://github.com/firedrakeproject/firedrake/pull/3239)
-- DD: [#3250](https://github.com/firedrakeproject/firedrake/pull/3250)
+- DD: [#3249](https://github.com/firedrakeproject/firedrake/pull/3249)
 
 # Date of next meeting
 

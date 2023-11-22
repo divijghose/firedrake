@@ -21,8 +21,16 @@ Present:
 
 Apologies:
 
-## Pyadjoint Firedrake tests erroring
+## JB: Pyadjoint Firedrake tests erroring
 [#3247](https://github.com/firedrakeproject/firedrake/issues/3247)
+
+DD to update
+
+## JB: Separate Matplotlib
+This is PR 3117 below. CW suggests this is worth wider discussion.
+
+## JB: Public interface to GC
+This is PR 3152 below. CW suggests this is worth wider discussion. JB thinks this should really only be a semi-public interface, excessive calls to this functionality will be disastrous for performance!
 
 ## Merge PRs
 

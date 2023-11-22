@@ -32,6 +32,8 @@ This is PR 3117 below. CW suggests this is worth wider discussion.
 ## JB: Public interface to GC
 This is PR 3152 below. CW suggests this is worth wider discussion. JB thinks this should really only be a semi-public interface, excessive calls to this functionality will be disastrous for performance!
 
+## CW: Docs currently failing, what's the status of the fix?
+
 ## Merge PRs
 
 - PB: [FIAT #54](https://github.com/firedrakeproject/fiat/pull/54)

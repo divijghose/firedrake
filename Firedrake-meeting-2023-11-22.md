@@ -37,6 +37,7 @@ Apologies:
   + Needs merging in this order: [#3229](https://github.com/firedrakeproject/firedrake/pull/3229), [PyOP2 #712](https://github.com/OP2/PyOP2/pull/712), [PyOP2 #711](https://github.com/OP2/PyOP2/pull/711), [#3152](https://github.com/firedrakeproject/firedrake/pull/3152)
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
+- CW: [FInAT #116](https://github.com/FInAT/FInAT/pull/116)
 
 # Date of next meeting
 

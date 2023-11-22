@@ -34,6 +34,16 @@ This is PR 3152 below. CW suggests this is worth wider discussion. JB thinks thi
 
 ## CW: Docs currently failing, what's the status of the fix?
 
+## DD: Users are having errors on installing Firedrake with Xcode15
+and apparently, Xcode15 has sorted this issue.
+
+See the PR 3249
+
+## DD: Documentation building is now working with the PR 3239.
+
+JB and I were trying to move the documentation for numpydoc format. 
+
+
 ## Merge PRs
 
 - PB: [FIAT #54](https://github.com/firedrakeproject/fiat/pull/54)
@@ -47,6 +57,8 @@ This is PR 3152 below. CW suggests this is worth wider discussion. JB thinks thi
   + Needs merging in this order: [#3229](https://github.com/firedrakeproject/firedrake/pull/3229), [PyOP2 #712](https://github.com/OP2/PyOP2/pull/712), [PyOP2 #711](https://github.com/OP2/PyOP2/pull/711), [#3152](https://github.com/firedrakeproject/firedrake/pull/3152)
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
+- DD: [#3239](https://github.com/firedrakeproject/firedrake/pull/3239)
+- DD: [#3250](https://github.com/firedrakeproject/firedrake/pull/3250)
 
 # Date of next meeting
 

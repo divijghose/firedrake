@@ -26,6 +26,12 @@ Apologies:
 
 ## Merge PRs
 
+- PB: [FIAT #54](https://github.com/firedrakeproject/fiat/pull/54)
+
+- PB: [FInAT #115](https://github.com/FInAT/FInAT/pull/115)
+
+- PB: [MG easy fix](https://github.com/firedrakeproject/firedrake/pull/3246)
+
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
 
 - JHC: [sort FormSum.coefficients](https://github.com/FEniCS/ufl/pull/243)

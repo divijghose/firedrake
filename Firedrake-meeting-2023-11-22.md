@@ -27,14 +27,14 @@ Apologies:
 ## Merge PRs
 
 - PB: [FIAT #54](https://github.com/firedrakeproject/fiat/pull/54)
-
 - PB: [FInAT #115](https://github.com/FInAT/FInAT/pull/115)
-
 - PB: [MG easy fix](https://github.com/firedrakeproject/firedrake/pull/3246)
-
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
-
 - JHC: [sort FormSum.coefficients](https://github.com/FEniCS/ufl/pull/243)
+- JB: [#3117](https://github.com/firedrakeproject/firedrake/pull/3117) Separate out Matplotlib
+- JB: [#3152](https://github.com/firedrakeproject/firedrake/pull/3152) A public interface to the garbage collector (for those who _really_ want one, not that I am encouraging anyone to actually use it!):
+  + Look at in this order: [#3152](https://github.com/firedrakeproject/firedrake/pull/3152), [#3229](https://github.com/firedrakeproject/firedrake/pull/3229), [PyOP2 #711](https://github.com/OP2/PyOP2/pull/711), [PyOP2 #712](https://github.com/OP2/PyOP2/pull/712)
+  + Needs merging in this order: [#3229](https://github.com/firedrakeproject/firedrake/pull/3229), [PyOP2 #712](https://github.com/OP2/PyOP2/pull/712), [PyOP2 #711](https://github.com/OP2/PyOP2/pull/711), [#3152](https://github.com/firedrakeproject/firedrake/pull/3152)
 
 # Date of next meeting
 

@@ -29,7 +29,7 @@
 
 - [Installation issues with Firedrake on Xcode-15 for MacOS Users](https://github.com/firedrakeproject/firedrake/wiki/Installation-Issues-with-Firedrake-on-Xcode-15-for-MacOS-Users)
 - [Fixing venv on macOS for Python3.11](./Fixing-venv-on-macOS-after-homebrew-patches-Python)
-
+- [macOS version support](https://github.com/firedrakeproject/firedrake/wiki/macOS-version-support)
 </details>
 
 <details>

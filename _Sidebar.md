@@ -3,7 +3,6 @@
 <details>
 <summary>Building locally</summary>
 
-- [Fixing venv on macOS](./Fixing-venv-on-macOS-after-homebrew-patches-Python)
 - [Installing pyenv](./Installing-pyenv)
 - [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
 - [Configuring Eclipse](./Configuring-Eclipse)
@@ -13,7 +12,6 @@
 <details>
 <summary>Tips</summary>
 
-- [Installation issues with Firedrake on Xcode-15 for MacOS Users](https://github.com/firedrakeproject/firedrake/wiki/Installation-Issues-with-Firedrake-on-Xcode-15-for-MacOS-Users)
 - [Running Firedrake tests with different subpackage branches](https://github.com/firedrakeproject/firedrake/wiki/Running-the-Firedrake-test-suite-with-different-branches-for-subpackages)
 - [Modifying and Rebuilding PETSc and petsc4py](./Modifying-and-Rebuilding-PETSc-and-petsc4py-in-Firedrake)
 - [Vectorisation](./vectorization-in-firedrake)
@@ -23,6 +21,14 @@
 - [Modifying generated code](./Modifying-auto-generated-kernels)
 - [Kernel profiling with LIKWID](./Kernel-profiling-with-LIKWID)
 - [breakpoint() builtin not working](./breakpoint()-builtin-not-working-with-pytest)
+
+</details>
+
+<details>
+<summary>MacOS firedrake install</summary>
+
+- [Installation issues with Firedrake on Xcode-15 for MacOS Users](https://github.com/firedrakeproject/firedrake/wiki/Installation-Issues-with-Firedrake-on-Xcode-15-for-MacOS-Users)
+- [Fixing venv on macOS for Python3.11](./Fixing-venv-on-macOS-after-homebrew-patches-Python)
 
 </details>
 

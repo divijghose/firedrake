@@ -22,7 +22,7 @@ You need a one-off workspace configuration in VS Code. From the `Run and Debug` 
 ```
 If you want to debug more than 2 MPI ranks, add more configurations with corresponding increasing port numbers.
 
-### Preparing the program to be debugged.
+### Preparing the program to be debugged.
 
 The Python program to be debugged needs the following code added, usually right at the start:
 

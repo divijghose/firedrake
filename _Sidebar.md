@@ -175,6 +175,7 @@
 - [Updating forked dependencies](./Updating-forked-dependencies)
 - [How to create Zenodo releases](./How-to-create-Zenodo-releases)
 - [Docstrings and typehints](https://github.com/firedrakeproject/firedrake/wiki/Docstrings)
+- [Isolating optional dependencies](https://github.com/firedrakeproject/firedrake/wiki/Isolating-optional-dependencies)
 
 </details>
 

@@ -14,7 +14,7 @@ Date and time 2023-11-29 1600 GMT (1600 UTC)
 1. NB: Look for changes needed to manual to account for dual spaces
 1. DD: Investigate adjoint test fails in teardown ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-11-22#jb-pyadjoint-firedrake-tests-erroring))
 
-# Minutes
+# Agenda
 
 Present: CW (minuter), DD, JB, KS, DH, RNH, PB, NB, JHC, IM, FA
 

@@ -16,9 +16,9 @@ Date and time 2023-11-29 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present: CW (minuter), DD, JB, KS, DH, RNH, PB, NB, JHC, IM, FA
+Present:
 
-Apologies:
+Apologies: JB
 
 ## Merge PRs (ideally already reviewed)
 

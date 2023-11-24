@@ -182,7 +182,7 @@
 - [How to create Zenodo releases](./How-to-create-Zenodo-releases)
 - [Docstrings and typehints](https://github.com/firedrakeproject/firedrake/wiki/Docstrings)
 - [Isolating optional dependencies](https://github.com/firedrakeproject/firedrake/wiki/Isolating-optional-dependencies)
-
+- [MacOS version support](https://github.com/firedrakeproject/firedrake/wiki/macOS-version-support)
 </details>
 
 [Gravity wave scaling](./Gravity-wave-scaling)

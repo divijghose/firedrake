@@ -27,8 +27,11 @@ Apologies: JB
 
 ## Merge PRs (ideally already reviewed)
 
-- PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
+- PB: [ufl #246](https://github.com/FEniCS/ufl/pull/246)
+- PB: [tsfc #304](https://github.com/firedrakeproject/tsfc/pull/304)
+- PB: [Expunge ufl_domain #3259](https://github.com/firedrakeproject/firedrake/pull/3259)
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
+- PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
 
 
 # Date of next meeting

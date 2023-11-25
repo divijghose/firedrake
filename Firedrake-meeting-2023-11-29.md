@@ -16,11 +16,20 @@ Date and time 2023-11-29 1600 GMT (1600 UTC)
 
 # Agenda
 
+## PB: MixedFunctionSpace([primal, dual])
+
+Currently `V * V.dual() == V * V` is wrong, and `is_primal(V * V) == True` goes against the original design. We need a better wrapper class for MixedFunctionSpace (as opposed to `WithGeometry`) or change what a MixedFunctionSpace is in ufl. The PR where we introduce `V.reconstruct()` should not address this.
+
+
 Present:
 
 Apologies: JB
 
 ## Merge PRs (ideally already reviewed)
+
+- PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
+- PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
+
 
 # Date of next meeting
 

@@ -24,7 +24,14 @@
 
 </details>
 
+<details>
+<summary>
+
 [Frequently Asked Questions (FAQ)](./Frequently-Asked-Questions-(FAQ))
+</summary>
+
+- [FAQ: MacOS firedrake install](https://github.com/firedrakeproject/firedrake/wiki/FAQ:-MacOS-firedrake-install)
+</details>
 
 <details>
 <summary>

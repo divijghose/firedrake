@@ -8,4 +8,4 @@ A: To help us diagnose the problem, please include the `firedrake-install.log`. 
 
 **Q3: I am encountering installation issues with Firedrake on MacOS. What steps should I take?**
 
-A: Check if your issue is reported [here](./FAQ:-MacOS-firedrake-install).
+A: Check if your issue is reported [here](https://github.com/firedrakeproject/firedrake/wiki/FAQ:-MacOS-firedrake-install).

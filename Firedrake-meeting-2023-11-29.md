@@ -28,7 +28,7 @@ Currently `V * V.dual() == V * V` is wrong, and `is_primal(V * V) == True` goes 
 Actually, the test message error appears for every case. 
 For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) these message errors. See the PR [#3260](https://github.com/firedrakeproject/firedrake/pull/3260).
 
-## DD: Build a FAQ at firedrake wiki.
+## DD: Build a [FAQ](https://github.com/firedrakeproject/firedrake/wiki/Frequently-Asked-Questions-(FAQ)) at firedrake wiki.
 
 ## Merge PRs (ideally already reviewed)
 

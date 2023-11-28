@@ -25,12 +25,22 @@
 </details>
 
 <details>
-<summary>MacOS firedrake install</summary>
+<summary style="color:red; font-weight:bold;"> Frequently Asked Questions (FAQ)</summary>
 
-- [Installation issues with Firedrake on Xcode-15 for MacOS Users](https://github.com/firedrakeproject/firedrake/wiki/Installation-Issues-with-Firedrake-on-Xcode-15-for-MacOS-Users)
-- [Fixing venv on macOS for Python3.11](./Fixing-venv-on-macOS-after-homebrew-patches-Python)
-- [macOS version support](https://github.com/firedrakeproject/firedrake/wiki/macOS-version-support)
+**Q1: Where can I find additional help or support?**
+
+A: If you encounter any issues not covered in the resources provided below, feel free to [contact us](https://www.firedrakeproject.org/contact.html). 
+
+**Q2: I am facing issues with the Firedrake installation. What information should I provide to the Firedrake developers for assistance?**
+
+A: To help us diagnose the problem, please include the `firedrake-install.log`. Additionally, if available, providing the `firedrake/petsc/configure.log` file can be useful.
+
+**Q3: I am encountering installation issues with Firedrake on MacOS. What steps should I take?**
+
+A: Check if your issue is reported in the [MacOS Firedrake Install FAQ](https://github.com/firedrakeproject/firedrake/wiki/FAQ:-MacOS-firedrake-install).
+
 </details>
+
 
 <details>
 <summary>

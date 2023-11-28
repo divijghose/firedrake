@@ -38,7 +38,8 @@ For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) thes
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
 - DD: [#3260](https://github.com/firedrakeproject/firedrake/pull/3260)
-
+- KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
+- KS: [#3240](https://github.com/firedrakeproject/firedrake/pull/3240)
 
 # Date of next meeting
 

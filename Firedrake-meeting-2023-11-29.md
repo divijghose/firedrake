@@ -16,14 +16,19 @@ Date and time 2023-11-29 1600 GMT (1600 UTC)
 
 # Agenda
 
+Present:
+
+Apologies: JB
+
 ## PB: MixedFunctionSpace([primal, dual])
 
 Currently `V * V.dual() == V * V` is wrong, and `is_primal(V * V) == True` goes against the original design. We need a better wrapper class for MixedFunctionSpace (as opposed to `WithGeometry`) or change what a MixedFunctionSpace is in ufl. The PR where we introduce `V.reconstruct()` should not address this.
 
+## DD: about the petsc message errors in `firedrake_adjoint` tests.
+Actually, the test message error appears for every case. 
+For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) these message errors. See the PR [#3260](https://github.com/firedrakeproject/firedrake/pull/3260).
 
-Present:
-
-Apologies: JB
+## DD: Build a FAQ at firedrake wiki.
 
 ## Merge PRs (ideally already reviewed)
 
@@ -32,6 +37,7 @@ Apologies: JB
 - PB: [Expunge ufl_domain #3259](https://github.com/firedrakeproject/firedrake/pull/3259)
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
+- DD: [#3260](https://github.com/firedrakeproject/firedrake/pull/3260)
 
 
 # Date of next meeting

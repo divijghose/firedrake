@@ -27,7 +27,7 @@
 <details>
 <summary>
 
-[Install Frequently Asked Questions](./Frequently-Asked-Questions-(FAQ))
+[Install Frequently Asked Questions](./Install-Frequently-Asked-Questions)
 </summary>
 </details>
 

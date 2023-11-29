@@ -13,4 +13,4 @@ A: If you have issues not addressed in the provided resources, feel free to [con
 ---
 **Archived install issues**
 ---
-Archived install issues are available [here](https://github.com/firedrakeproject/firedrake/wiki/Archived-install-issues)
+Archived install issues are available [here](https://github.com/firedrakeproject/firedrake/wiki/Archived-install-issues).

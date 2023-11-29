@@ -38,7 +38,7 @@ For an unknowing reason (at least for me) the flag `python3 -m pytest --cov` hid
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
 - KS: [#3240](https://github.com/firedrakeproject/firedrake/pull/3240)
-- NB: [#3274](https://github.com/firedrakeproject/firedrake/pull/3274) (very easy one)
+- NB: [#3274](https://github.com/firedrakeproject/firedrake/pull/3274)/[FEniCS/ufl#247](https://github.com/FEniCS/ufl/pull/247) (very easy ones)
 
 # Date of next meeting
 

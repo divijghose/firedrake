@@ -25,7 +25,7 @@ Currently `V * V.dual() == V * V` is wrong, and `is_primal(V * V) == True` goes 
 
 ## DD: about the petsc message errors in `firedrake_adjoint` tests.
 Actually, the test message error appears for every single firedrake tests. 
-For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) these message errors.
+For an unknowing reason (at least for me) the flag `python3 -m pytest --cov` hides (or fixes?) these message errors in firedrake tests. The original problem is in `petsc4py.init(sys.args)`. See the [PR #3260](https://github.com/firedrakeproject/firedrake/pull/3260)
 
 ## DD: Build a [install FAQ](https://github.com/firedrakeproject/firedrake/wiki/Install-Frequently-Asked-Questions) at firedrake wiki.
 

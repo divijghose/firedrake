@@ -11,7 +11,6 @@ Date and time 2023-11-29 1600 GMT (1600 UTC)
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. DH: Order more Firedrake stickers
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))? JB: Waiting for https://github.com/Toblerity/rtree/pull/292
-1. NB: Look for changes needed to manual to account for dual spaces
 1. DD: Investigate adjoint test fails in teardown ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-11-22#jb-pyadjoint-firedrake-tests-erroring))
 
 # Agenda
@@ -40,6 +39,7 @@ For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) thes
 - DD: [#3260](https://github.com/firedrakeproject/firedrake/pull/3260)
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
 - KS: [#3240](https://github.com/firedrakeproject/firedrake/pull/3240)
+- NB: [#3274](https://github.com/firedrakeproject/firedrake/pull/3274) (very easy one)
 
 # Date of next meeting
 

@@ -1,6 +1,7 @@
 **Q1: I am facing issues with the Firedrake installation. What information should I provide to the Firedrake developers for assistance?**
 
-A: Please include the `firedrake-install.log` to facilitate a thorough diagnosis. Additionally, providing the `firedrake/petsc/configure.log` file can be valuable for the firedrake developers.
+A: Please include the **firedrake-install.log**, which you can find in the directory where you invoked firedrake-install from. Additionally,
+**configure.log** and **make.log** from PETSc, which you can find in `src/petsc/` inside the directory where the Firedrake virtual environment was created.
 
 **Q2: I am encountering installation failure with Firedrake on MacOS. I opened `firedrake-install.log` and saw the error message `Error configuring SUPERLU_DIST with CMake`. What could be a potential solution?**
 

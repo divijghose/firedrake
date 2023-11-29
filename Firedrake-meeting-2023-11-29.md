@@ -24,10 +24,10 @@ Apologies: JB
 Currently `V * V.dual() == V * V` is wrong, and `is_primal(V * V) == True` goes against the original design. We need a better wrapper class for MixedFunctionSpace (as opposed to `WithGeometry`) or change what a MixedFunctionSpace is in ufl. The PR where we introduce `V.reconstruct()` should not address this.
 
 ## DD: about the petsc message errors in `firedrake_adjoint` tests.
-Actually, the test message error appears for every case. 
-For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) these message errors. See the PR [#3260](https://github.com/firedrakeproject/firedrake/pull/3260).
+Actually, the test message error appears for every single firedrake tests. 
+For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) these message errors.
 
-## DD: Build a [FAQ](https://github.com/firedrakeproject/firedrake/wiki/Frequently-Asked-Questions-(FAQ)) at firedrake wiki.
+## DD: Build a [install FAQ](https://github.com/firedrakeproject/firedrake/wiki/Install-Frequently-Asked-Questions) at firedrake wiki.
 
 ## Merge PRs (ideally already reviewed)
 
@@ -36,7 +36,6 @@ For an unknowing reason (at least for me) the flag `-cov` hides (or fixes?) thes
 - PB: [Expunge ufl_domain #3259](https://github.com/firedrakeproject/firedrake/pull/3259)
 - PB: [HypreAMS easy fix](https://github.com/firedrakeproject/firedrake/pull/3252)
 - PB: [reconstruct FunctionSpace](https://github.com/firedrakeproject/firedrake/pull/3241)
-- DD: [#3260](https://github.com/firedrakeproject/firedrake/pull/3260)
 - KS: [#3174](https://github.com/firedrakeproject/firedrake/pull/3174)
 - KS: [#3240](https://github.com/firedrakeproject/firedrake/pull/3240)
 - NB: [#3274](https://github.com/firedrakeproject/firedrake/pull/3274) (very easy one)

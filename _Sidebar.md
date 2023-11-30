@@ -61,7 +61,7 @@
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
 
-  - Next meeting [2023-12-06](./Firedrake-meeting-2023-12-06)
+  - upcoming meeting [2023-12-06](./Firedrake-meeting-2023-12-06)
 
 ---
   - [2023-11-29](./Firedrake-meeting-2023-11-29)

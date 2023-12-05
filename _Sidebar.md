@@ -21,6 +21,7 @@
 - [Modifying generated code](./Modifying-auto-generated-kernels)
 - [Kernel profiling with LIKWID](./Kernel-profiling-with-LIKWID)
 - [breakpoint() builtin not working](./breakpoint()-builtin-not-working-with-pytest)
+- [Debugging pytest with multiple processing](https://github.com/firedrakeproject/firedrake/wiki/Debugging-pytest-with-multiple-processing-(pytest-%E2%80%90n))
 
 </details>
 

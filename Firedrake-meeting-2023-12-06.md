@@ -15,13 +15,15 @@ Date and time 2023-11-29 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present:
+Present: DD, DH, JB, KS, CC, CW, RK, PB, RNH, NB
 
 Apologies:
 
 ## CW: Fix for fun finalize bug
 
-Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptable fix for [#3247](https://github.com/firedrakeproject/firedrake/issues/3247)? In particular my fix will not catch this failure mode again, but I have no idea how to do that.
+> Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptable fix for [#3247](https://github.com/firedrakeproject/firedrake/issues/3247)? In particular my fix will not catch this failure mode again, but I have no idea how to do that.
+
+-> Yes, [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) got merged.
 
 ## CW/PB/JB:`Constant`s
 
@@ -29,24 +31,31 @@ Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptabl
 
 More than half of the ~1250 warnings raised during CI are coming from 3 files (regression/test_zero_forms.py, regression/test_scaled_mass.py, test_interpolation_from_parent.py). The most common warning has to do with `Constant(domain=mesh)`. Some of these Constants are vector valued, and cannot be replaced with Function(Rspace), as there's a silent bug that allows the creation of a vector-valued R-space but with Function.dat of the wrong shape, see [#3046](https://github.com/firedrakeproject/firedrake/issues/3046).
 
+-> Can't differentiate wrt `Constant` and vector-valued constants are currently not supported. Ongoing PR: [#3046](https://github.com/firedrakeproject/firedrake/issues/3046).
+
 ### CW: `Constant` implementation discussion
 
 The way `Constant`s are currently implemented is hacky and weird (e.g. see [#3261](https://github.com/firedrakeproject/firedrake/pull/3261) for how we differentiate them and implement `ufl2unicode`). What is the way forward? Do they need adding to UFL (I think no, providing that UFL fix their type system)? Do we need to have vector-valued real `Function`s (not `Argument`s) (see above)?
 
+-> A proper fix would require some serious thoughts and would need to happen at the UFL level, probably as part of the newfl rewrite. Not a priority at the moment.
+
 ## JB: Notifying users of breaking changes
 Users are not happy!
-- How do we better inform users that they need to update a separately built PETSc?
+- How do we better inform users that they need to update a separately built PETSc? -> Don't know
 - How do we inform users of breaking changes being introduced by PRs?
 
 ## DD: `firedrakeproject/firedrake` Docker image is not working in macOS.
 
 See the issue [3276](https://github.com/firedrakeproject/firedrake/issues/3276). This error is related to `netgen` installation. We do not have this issue with the `firedrakeproject/firedrake` image built in Ubuntu.
 
+-> Make this go away by building on Docket container
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-- PB: [fix demo #3281](https://github.com/firedrakeproject/firedrake/pull/3281)
+- PB: [fix demo #3281](https://github.com/firedrakeproject/firedrake/pull/3281): Merged
+- SM: [#2776](https://github.com/firedrakeproject/firedrake/pull/2776): Merged
 
 # Date of next meeting
 

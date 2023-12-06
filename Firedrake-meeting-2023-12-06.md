@@ -27,6 +27,10 @@ Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptabl
 
 The way `Constant`s are currently implemented is hacky and weird (e.g. see [#3261](https://github.com/firedrakeproject/firedrake/pull/3261) for how we differentiate them and implement `ufl2unicode`). What is the way forward? Do they need adding to UFL (I think no, providing that UFL fix their type system)? Do we need to have vector-valued real `Function`s (not `Argument`s)?
 
+## PB: `Constant(domain=mesh)` warnings in tests
+
+More than half of the ~1250 warnings raised during CI are coming from 3 files (regression/test_zero_forms.py, regression/test_scaled_mass.py, test_interpolation_from_parent.py). The most common warning has to do with `Constant(domain=mesh)`. Some of these Constants are vector valued, and cannot be replaced with Function(Rspace), as there's a silent bug that allows the creation of a vector-valued R-space but with Function.dat of the wrong shape, see [#3046](https://github.com/firedrakeproject/firedrake/issues/3046).
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

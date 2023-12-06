@@ -25,7 +25,7 @@ Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptabl
 
 ## Merge PRs 
 
-*Note that these PRs should ideally already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 # Date of next meeting
 

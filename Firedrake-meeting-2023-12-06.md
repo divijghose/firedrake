@@ -38,6 +38,10 @@ Users are not happy!
 - How do we better inform users that they need to update a separately built PETSc?
 - How do we inform users of breaking changes being introduced by PRs?
 
+## DD: `firedrakeproject/firedrake` Docker image is not working in macOS.
+
+See the issue [3276](https://github.com/firedrakeproject/firedrake/issues/3276). This error is related to `netgen` installation. We do not have this issue with the `firedrakeproject/firedrake` image built in Ubuntu.
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -19,7 +19,13 @@ Present:
 
 Apologies:
 
-## Merge PRs (ideally already reviewed)
+## CW: Fix for fun finalize bug
+
+Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptable fix for [#3247](https://github.com/firedrakeproject/firedrake/issues/3247)? In particular my fix will not catch this failure mode again, but I have no idea how to do that.
+
+## Merge PRs 
+
+*Note that these PRs should ideally already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 # Date of next meeting
 

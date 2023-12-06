@@ -27,6 +27,8 @@ Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptabl
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- PB: [fix demo #3281](https://github.com/firedrakeproject/firedrake/pull/3281)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-12-13](./Firedrake-meeting-2023-12-13)

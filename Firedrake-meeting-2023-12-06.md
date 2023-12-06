@@ -33,7 +33,10 @@ More than half of the ~1250 warnings raised during CI are coming from 3 files (r
 
 The way `Constant`s are currently implemented is hacky and weird (e.g. see [#3261](https://github.com/firedrakeproject/firedrake/pull/3261) for how we differentiate them and implement `ufl2unicode`). What is the way forward? Do they need adding to UFL (I think no, providing that UFL fix their type system)? Do we need to have vector-valued real `Function`s (not `Argument`s) (see above)?
 
-
+## JB: Notifying users of breaking changes
+Users are not happy!
+- How do we better inform users that they need to update a separately built PETSc?
+- How do we inform users of breaking changes being introduced by PRs?
 
 ## Merge PRs 
 

@@ -23,6 +23,10 @@ Apologies:
 
 Is [#3282](https://github.com/firedrakeproject/firedrake/pull/3282) an acceptable fix for [#3247](https://github.com/firedrakeproject/firedrake/issues/3247)? In particular my fix will not catch this failure mode again, but I have no idea how to do that.
 
+## CW/JB: `Constant` implementation discussion
+
+The way `Constant`s are currently implemented is hacky and weird (e.g. see [#3261](https://github.com/firedrakeproject/firedrake/pull/3261) for how we differentiate them and implement `ufl2unicode`). What is the way forward? Do they need adding to UFL (I think no, providing that UFL fix their type system)? Do we need to have vector-valued real `Function`s (not `Argument`s)?
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

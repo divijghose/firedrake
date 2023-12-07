@@ -19,6 +19,10 @@ Present:
 
 Apologies:
 
+## CW Squash merges only?
+
+We can set the repo settings so only squash merges are permitted. Given the number of times "garbage" commits are accidentally committed should we enable this?
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

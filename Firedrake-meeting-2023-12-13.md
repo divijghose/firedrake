@@ -35,6 +35,7 @@ ngsPETSc: [#14](https://github.com/NGSolve/ngsPETSc/pull/14)
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS: https://github.com/firedrakeproject/firedrake/pull/3268
 
 # Date of next meeting
 

@@ -23,6 +23,14 @@ Apologies:
 
 We can set the repo settings so only squash merges are permitted. Given the number of times "garbage" commits are accidentally committed should we enable this?
 
+## NB: Interpolate PRs
+
+Firedrake:  [#2297](https://github.com/firedrakeproject/firedrake/pull/2297)
+
+Pyadjoint: [#127](https://github.com/dolfin-adjoint/pyadjoint/pull/127)
+
+ngsPETSc: [#14](https://github.com/NGSolve/ngsPETSc/pull/14)
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -37,6 +37,8 @@ ngsPETSc: [#14](https://github.com/NGSolve/ngsPETSc/pull/14)
 
 KS: https://github.com/firedrakeproject/firedrake/pull/3268
 
+PB: https://github.com/firedrakeproject/firedrake/pull/3284
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-12-20](./Firedrake-meeting-2023-12-20)

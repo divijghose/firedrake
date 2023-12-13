@@ -1,7 +1,7 @@
 Date and time 2023-12-13 1600 GMT (1600 UTC)
 
 # Action Items
-1. **Pick Chair and Minuter** (NB to pick minuter)
+1. **Pick Chair and Minuter** (NB pick RNH to minute)
 1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
 1. JB: Move pyop3 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches
@@ -23,13 +23,15 @@ Apologies:
 
 We can set the repo settings so only squash merges are permitted. Given the number of times "garbage" commits are accidentally committed should we enable this?
 
+  - Yes.
+
 ## NB: Interpolate PRs
 
 Firedrake:  [#2297](https://github.com/firedrakeproject/firedrake/pull/2297)
 
-Pyadjoint: [#127](https://github.com/dolfin-adjoint/pyadjoint/pull/127)
+Pyadjoint: [#127](https://github.com/dolfin-adjoint/pyadjoint/pull/127) 
 
-ngsPETSc: [#14](https://github.com/NGSolve/ngsPETSc/pull/14)
+ngsPETSc: [#14](https://github.com/NGSolve/ngsPETSc/pull/14) Approved, pending correct merge pathway (may need to build wheels)
 
 ## Merge PRs 
 
@@ -45,4 +47,4 @@ JB: [#3117](https://github.com/firedrakeproject/firedrake/pull/3117) Remove matp
 
 # Date of next meeting
 
-1600 GMT (1600 UTC) [2023-12-20](./Firedrake-meeting-2023-12-20)
+1600 GMT (1600 UTC) [2024-01-10](./Firedrake-meeting-2024-01-10)

@@ -39,6 +39,10 @@ KS: https://github.com/firedrakeproject/firedrake/pull/3268
 
 PB: https://github.com/firedrakeproject/firedrake/pull/3284
 
+JB: [#3117](https://github.com/firedrakeproject/firedrake/pull/3117) Remove matplotlib (previously reviewed)
+
+JB: [#3152](https://github.com/firedrakeproject/firedrake/pull/3152) and PyOP2 [#712](https://github.com/OP2/PyOP2/pull/712) Public interface to GC (previously reviewed)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2023-12-20](./Firedrake-meeting-2023-12-20)

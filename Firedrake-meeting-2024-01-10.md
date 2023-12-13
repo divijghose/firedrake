@@ -24,6 +24,8 @@ Apologies:
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- RNH: https://github.com/firedrakeproject/firedrake/pull/3167
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-01-17](./Firedrake-meeting-2024-01-17)

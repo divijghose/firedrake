@@ -6,8 +6,7 @@ Please include the **firedrake-install.log**, which you can find in the director
 
 **Q2: I am encountering installation failure with Firedrake on MacOS. I opened `firedrake-install.log` and saw the error message `Error configuring SUPERLU_DIST with CMake`. What could be a potential solution?**
 
-Begin by confirming your Xcode version with the terminal command `xcodebuild -version`. If the response is `Xcode 15.0`, a potential solution is to upgrade from Xcode 15 to Xcode 15 beta. Detailed instructions for this can be found [here](https://github.com/firedrakeproject/firedrake/wiki/Installation-Issues-with-Firedrake-on-Xcode-15-for-MacOS-Users).
-
+Begin by confirming your Xcode version with the terminal command `xcodebuild -version`. If the response is `Xcode 15.0`, upgrading from Xcode 15 to Xcode 15.1 is a potential solution. Xcode 15.1 is available at the Apple Store.
 
 **Q3: Where can I find additional help or support?**
 

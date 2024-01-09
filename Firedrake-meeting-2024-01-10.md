@@ -13,11 +13,14 @@ Date and time 2023-12-13 1600 GMT (1600 UTC)
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))? JB: Waiting for https://github.com/Toblerity/rtree/pull/292
 1. NB: Update on what is needed for Interp/ExternalOperator to be merged
 
+
 # Agenda
 
 Present: 
 
 Apologies: DID (Returning to 🇬🇧).
+
+UZ: ngsPETSc Netgen hierarchy
 
 ## JB: Thoughts on included files in RST
 See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example. This needs some thought, _my_ initial thoughts are:

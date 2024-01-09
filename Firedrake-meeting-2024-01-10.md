@@ -17,7 +17,7 @@ Date and time 2023-12-13 1600 GMT (1600 UTC)
 
 Present: 
 
-Apologies:
+Apologies: DID (Returning to 🇬🇧).
 
 ## JB: Thoughts on included files in RST
 See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example. This needs some thought, _my_ initial thoughts are:
@@ -31,6 +31,7 @@ See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 - RNH: https://github.com/firedrakeproject/firedrake/pull/3167
+- DID: https://github.com/firedrakeproject/firedrake/pull/3305
 
 # Date of next meeting
 

@@ -1,4 +1,4 @@
-Date and time 2023-12-13 1600 GMT (1600 UTC)
+Date and time 2024-01-10 1600 GMT (1600 UTC)
 
 # Action Items
 1. **Pick Chair and Minuter** (KS to minute)

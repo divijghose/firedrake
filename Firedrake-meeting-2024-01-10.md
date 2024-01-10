@@ -27,7 +27,7 @@ See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example
 - I dislike that errors in the documentation will not easily be caught.
 
 ## UZ: ngsPETSc Netgen hierarchy
-JB: Can we fix the failing NG test?
+
 
 ## Merge PRs 
 

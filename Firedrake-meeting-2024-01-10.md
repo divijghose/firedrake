@@ -16,7 +16,7 @@ Date and time 2023-12-13 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present: 
+Present: DH, JB, CW, FA, RK, KS, UZ
 
 Apologies: DID and NB (Returning to 🇬🇧).
 
@@ -26,18 +26,19 @@ See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example
 - I dislike the fact that it requires manual updating every time a change is made.
 - I dislike that errors in the documentation will not easily be caught.
 
-## UZ: ngsPETSc Netgen hierarchy
-- https://github.com/firedrakeproject/firedrake/pull/3314
-- https://github.com/NGSolve/ngsPETSc/commit/d933c82a202b7756027f8392503d6e7b632f64bf
+RNH put raw code in test and put that in manual.
 
+DH: Sphinx already has feature that allows us to use tags for inclusion; see sphinx-doc.
+
+## UZ: ngsPETSc Netgen hierarchy
 
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-- RNH: https://github.com/firedrakeproject/firedrake/pull/3167
-- DID: https://github.com/firedrakeproject/firedrake/pull/3305
-- KS: https://github.com/firedrakeproject/firedrake/pull/3288
+- RNH: ~https://github.com/firedrakeproject/firedrake/pull/3167~ (will be auto merged)
+- DID: https://github.com/firedrakeproject/firedrake/pull/3305 (not yet ready?)
+- KS: https://github.com/firedrakeproject/firedrake/pull/3288 (to be discusses offline)
 
 # Date of next meeting
 

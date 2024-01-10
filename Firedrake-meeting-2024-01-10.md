@@ -20,14 +20,14 @@ Present:
 
 Apologies: DID and NB (Returning to 🇬🇧).
 
-UZ: ngsPETSc Netgen hierarchy
-
 ## JB: Thoughts on included files in RST
 See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example. This needs some thought, _my_ initial thoughts are:
 - I like that this is DRY (don't repeat yourself).
 - I dislike the fact that it requires manual updating every time a change is made.
 - I dislike that errors in the documentation will not easily be caught.
 
+## UZ: ngsPETSc Netgen hierarchy
+JB: Can we fix the failing NG test?
 
 ## Merge PRs 
 

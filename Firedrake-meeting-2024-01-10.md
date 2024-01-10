@@ -27,6 +27,8 @@ See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example
 - I dislike that errors in the documentation will not easily be caught.
 
 ## UZ: ngsPETSc Netgen hierarchy
+- https://github.com/firedrakeproject/firedrake/pull/3314
+- https://github.com/NGSolve/ngsPETSc/commit/d933c82a202b7756027f8392503d6e7b632f64bf
 
 
 ## Merge PRs 

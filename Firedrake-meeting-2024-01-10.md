@@ -35,6 +35,7 @@ See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example
 
 - RNH: https://github.com/firedrakeproject/firedrake/pull/3167
 - DID: https://github.com/firedrakeproject/firedrake/pull/3305
+- KS: https://github.com/firedrakeproject/firedrake/pull/3288
 
 # Date of next meeting
 

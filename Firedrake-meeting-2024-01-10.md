@@ -28,7 +28,7 @@ See https://github.com/firedrakeproject/firedrake/pull/3309/files for an example
 
 RNH put raw code in test and put that in manual.
 
-DH: Sphinx already has feature that allows us to use tags for inclusion; see sphinx-doc.
+DH: Sphinx already has feature that allows us to use tags for inclusion; see [issue](https://github.com/firedrakeproject/firedrake/issues/3316)
 
 ## UZ: ngsPETSc Netgen hierarchy
 

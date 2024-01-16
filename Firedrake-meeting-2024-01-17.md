@@ -24,9 +24,7 @@ Apologies:
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-- RNH: ~https://github.com/firedrakeproject/firedrake/pull/3167~ (will be auto merged)
-- DID: https://github.com/firedrakeproject/firedrake/pull/3305 (not yet ready?)
-- KS: https://github.com/firedrakeproject/firedrake/pull/3288 (to be discusses offline)
+## Item 1
 
 # Date of next meeting
 

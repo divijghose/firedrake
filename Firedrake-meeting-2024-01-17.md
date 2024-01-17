@@ -32,9 +32,14 @@ https://github.com/firedrakeproject/firedrake/pull/3324
 ## CW: Status of "backend" for adjoint
 See [relevant issue](https://github.com/firedrakeproject/firedrake/issues/3325). Surely "backend" is a redundant concept now?
 
+## JB: Firedrake team
+Add Daiane to "Active" and move Sophia to "Former". We should make sure we are not forgetting anyone else either!
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
+JB: [#3152](https://github.com/firedrakeproject/firedrake/pull/3152) Firedrake public interface to GC + [PyOP2#712](https://github.com/OP2/PyOP2/pull/712) this has been reviewed and iterated several times.
 
 # Date of next meeting
 

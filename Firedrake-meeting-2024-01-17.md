@@ -16,30 +16,56 @@ Date and time 2024-01-17 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present:
+Present: DH, DID, JB, CW, NB, FA, IM, JHC, KS
 
 Apologies:
 
 ## JB: PDESoft in Cambridge
 Info + registration at [this link](https://pdesoft.org/)
 
+Required for SysgenX.
+
+Happening in July.
+
+ALL: submit abstract.
+
 ## JB: Make VTK a soft dependency
 https://github.com/firedrakeproject/firedrake/pull/3324
+
+VTK wheels are not available on some platforms.
+
+DH: netcdf is like HDF5, so it itself is not required by Firedrake, but by Gusto.
+
+JB: Move checkpointing.py to output folder.
 
 ## JB: Progress on RTree
 [PR](https://github.com/Toblerity/rtree/pull/292) closer to being merged. See [libsupermesh](https://github.com/firedrakeproject/libsupermesh/pull/4) and [firedrake](https://github.com/firedrakeproject/firedrake/pull/3138) PRs for progress on our side.
 
+JB: continue working with the firedrake branch.
+
 ## CW: Status of "backend" for adjoint
 See [relevant issue](https://github.com/firedrakeproject/firedrake/issues/3325). Surely "backend" is a redundant concept now?
 
+Yes. Someone needs to replace all backend with whatever.
+
+expunge vectors in adjoint -> use Cofunctions.
+
+expunge Function.vector -> suggest using PETSc.vec or dat.data.
+
 ## JB: Firedrake team
 Add Daiane to "Active" and move Sophia to "Former". We should make sure we are not forgetting anyone else either!
+
+DID: Do this adding her own photo.
 
 ## NB: Interp
 
 - Firedrake [PR](https://github.com/firedrakeproject/firedrake/pull/2297)
 
 - Pyadjoint [PR](https://github.com/dolfin-adjoint/pyadjoint/pull/127)
+
+Documentation is failing.
+
+DH: probably just take "optional" out?
 
 ## Merge PRs 
 

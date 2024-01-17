@@ -20,11 +20,12 @@ Present:
 
 Apologies:
 
+## JB: PDESoft in Cambridge
+Info + registration at [this link](https://pdesoft.org/)
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
-
-## Item 1
 
 # Date of next meeting
 

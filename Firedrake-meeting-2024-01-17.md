@@ -29,6 +29,9 @@ https://github.com/firedrakeproject/firedrake/pull/3324
 ## JB: Progress on RTree
 [PR](https://github.com/Toblerity/rtree/pull/292) closer to being merged. See [libsupermesh](https://github.com/firedrakeproject/libsupermesh/pull/4) and [firedrake](https://github.com/firedrakeproject/firedrake/pull/3138) PRs for progress on our side.
 
+## CW: Status of "backend" for adjoint
+See [relevant issue](https://github.com/firedrakeproject/firedrake/issues/3325). Surely "backend" is a redundant concept now?
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

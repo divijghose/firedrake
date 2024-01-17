@@ -35,6 +35,12 @@ See [relevant issue](https://github.com/firedrakeproject/firedrake/issues/3325).
 ## JB: Firedrake team
 Add Daiane to "Active" and move Sophia to "Former". We should make sure we are not forgetting anyone else either!
 
+## NB: Interp
+
+- Firedrake [PR](https://github.com/firedrakeproject/firedrake/pull/2297)
+
+- Pyadjoint [PR](https://github.com/dolfin-adjoint/pyadjoint/pull/127)
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -1,5 +1,5 @@
 This page assumes that you already have a singularity container with Firedrake called `firedrake.sif`, and you now want to run it on Archer2.
-See the Singularity page for how to build a Firedrake container.
+See the [Singularity](https://github.com/firedrakeproject/firedrake/wiki/singularity) page for how to build a Firedrake container
 
 ### Environment setup
 These commands must be run before launching the container (either in job script or from interactive session).

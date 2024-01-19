@@ -38,10 +38,11 @@
 [Running on HPC](./Running-on-HPC)
 </summary>
 
-- [Apptainer/Singularity](./singularity)
 - [Generic](./Generic-Instructions-for-HPC)
+- [Singularity](./singularity)
 - [Archer](./Archer)
-- [Archer2](./archer2)
+- [Archer2 spack](./archer2)
+- [Archer2 Singularity](./Singularity-on-Archer2)
 - [Isambard](./isambard)
 - [CX1](./CX1)
 - [CX2](./CX2)

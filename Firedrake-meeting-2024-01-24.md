@@ -20,7 +20,7 @@ Present:
 
 Apologies:
 
-# JB: Spatialindex include headers are in Rtree 1.2.0
+## JB: Spatialindex include headers are in Rtree 1.2.0
 On PyPI https://pypi.org/project/Rtree/ merging https://github.com/firedrakeproject/firedrake/pull/3138 and associated supermesh PR should be fairly uncontroversial, as well as archiving our fork of `libspatialindex`.
 
 ## Merge PRs 

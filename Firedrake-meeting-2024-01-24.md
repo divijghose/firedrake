@@ -27,6 +27,8 @@ On PyPI https://pypi.org/project/Rtree/ merging https://github.com/firedrakeproj
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- JB: [3324](https://github.com/firedrakeproject/firedrake/pull/3324) Requested changes have been made
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-01-31](./Firedrake-meeting-2024-01-31)

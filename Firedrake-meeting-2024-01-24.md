@@ -16,17 +16,37 @@ Date and time 2024-01-24 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present:
+Present: DH, DD, JB, CW, PF, RK, IM, UZ, PB, KS
 
 Apologies:
 
+## Firedrake '24
+
+Sep 16 - 18 (Oxford)
+
+UZ: Advertise this at DD28.
+
+DH: Make a page for this.
+
+PF: Reserve 20 rooms? Other accommodation options are available.
+
+# Firedrake '25
+
+Friday to Saturday before CSE25.
+
 ## JB: Spatialindex include headers are in Rtree 1.2.0
 On PyPI https://pypi.org/project/Rtree/ merging https://github.com/firedrakeproject/firedrake/pull/3138 and associated supermesh PR should be fairly uncontroversial, as well as archiving our fork of `libspatialindex`.
+
+We currently carry two entire copies of libspatialindex.
+
+Can build libsupermesh using Ubuntu libspatialindex or let Firedrake build it using rtree libspatialindex.
 
 ## UZ: Mesh Hierarchy support when working with Netgen mesh 2D
 The PR [3314](https://github.com/firedrakeproject/firedrake/pull/3314) only covers 2D for serial and parallel implementation.
 The 3D case requires a bit of work on the Netgen side, which needs to land in Netgen main, so is far in the timeline.
 I think the 3D implementation deserves a separate PR.
+
+UZ: Added parallel Bergen tests.
 
 ## UZ: Netgen meshing documentation (following up on Connor comment in PR 3314)
 Since Patrick has been preparing a course on how to solve PDE using Firedrake with a specific class on Netgen, we have a lot of new or improved material for documentation and demos.
@@ -38,6 +58,20 @@ Anisotropic mesh refinement,
 Adaptive mesh refinement (many improvements thanks to Patrick), 
 High-order mesh in Netgen (curved Alfeld and Powell-Sabin splits), 
 Netgen multi-grid hierarchies.
+
+Three places for documentation:
+
+-- manual
+
+Explanation of math + Firedrake codes.
+
+-- tutorials
+
+Tutorial notebooks for Firedrake tutorial.
+
+-- demos
+
+Practical demonstration.
 
 ## Merge PRs 
 

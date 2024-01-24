@@ -45,6 +45,8 @@ Netgen multi-grid hierarchies.
 
 - JB: [3324](https://github.com/firedrakeproject/firedrake/pull/3324) Requested changes have been made
 
+- PB: [pyop2 #708](https://github.com/OP2/PyOP2/pull/708)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-01-31](./Firedrake-meeting-2024-01-31)

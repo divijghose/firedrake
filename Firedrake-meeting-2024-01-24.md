@@ -47,7 +47,7 @@ Netgen multi-grid hierarchies.
 
 - PB: [pyop2 #708](https://github.com/OP2/PyOP2/pull/708)
 
-- DD: [Fix constant dimension](https://github.com/firedrakeproject/firedrake/pull/3344)
+- DD: [Fix constant dimension #3344](https://github.com/firedrakeproject/firedrake/pull/3344)
 
 # Date of next meeting
 

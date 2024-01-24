@@ -73,6 +73,18 @@ Tutorial notebooks for Firedrake tutorial.
 
 Practical demonstration.
 
+## 
+
+JB: make "pip install firedrake" work
+
+## Future works
+
+Move FInAT inside FIAT.
+
+Move tsfc/gem to FIAT.
+
+Move all element specific things in tsfc to FIAT.
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

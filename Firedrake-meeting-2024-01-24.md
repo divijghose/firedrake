@@ -28,6 +28,16 @@ The PR [3314](https://github.com/firedrakeproject/firedrake/pull/3314) only cove
 The 3D case requires a bit of work on the Netgen side, which needs to land in Netgen main, so is far in the timeline.
 I think the 3D implementation deserves a separate PR.
 
+## UZ: Netgen meshing documentation (following up on Connor comment in PR 3314)
+Since Patrick has been preparing a course on how to solve PDE using Firedrake with a specific class on Netgen, we have a lot of new or improved material for documentation and demos.
+What is the appropriate way to include the new material in the Firedrake manual, more demos? Or a specific section on Netgen as mesher ?
+If the section is the best way to go, what should be the content? Some ideas:
+Constructive Solid Geometry via OCC
+Linear Netgen mesh and parameters for splits (we can now do Powell-Sabin and Alfeld)
+Anisotropic mesh refinement
+Adaptive mesh refinement (many improvements thanks to Patrick)
+High-order mesh in Netgen (curved Alfeld and Powell-Sabin splits)
+Netgen multi-grid hierarchies 
 
 ## Merge PRs 
 

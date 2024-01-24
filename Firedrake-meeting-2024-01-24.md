@@ -24,10 +24,10 @@ Apologies:
 On PyPI https://pypi.org/project/Rtree/ merging https://github.com/firedrakeproject/firedrake/pull/3138 and associated supermesh PR should be fairly uncontroversial, as well as archiving our fork of `libspatialindex`.
 
 ## UZ: Mesh Hierarchy support when working with Netgen mesh 2D
-The PR only covers 2D for serial and parallel implementation.
+The PR [3314](https://github.com/firedrakeproject/firedrake/pull/3314) only covers 2D for serial and parallel implementation.
 The 3D case requires a bit of work on the Netgen side, which needs to land in Netgen main, so is far in the timeline.
 I think the 3D implementation deserves a separate PR.
-[3314](https://github.com/firedrakeproject/firedrake/pull/3314)
+
 
 ## Merge PRs 
 

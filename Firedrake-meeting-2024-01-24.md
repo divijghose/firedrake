@@ -43,7 +43,7 @@ Netgen multi-grid hierarchies.
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-- JB: [3324](https://github.com/firedrakeproject/firedrake/pull/3324) Requested changes have been made
+- ~JB: [3324](https://github.com/firedrakeproject/firedrake/pull/3324) Requested changes have been made~ There are more changes from the minutes not logged on the PR that haven't been made...
 
 - PB: [pyop2 #708](https://github.com/OP2/PyOP2/pull/708)
 

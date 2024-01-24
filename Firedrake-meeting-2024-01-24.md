@@ -49,6 +49,8 @@ Netgen multi-grid hierarchies.
 
 - DD: [Fix constant dimension #3344](https://github.com/firedrakeproject/firedrake/pull/3344)
 
+- DD: [Update inactive and active team.](https://github.com/firedrakeproject/firedrake/pull/3350)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-01-31](./Firedrake-meeting-2024-01-31)

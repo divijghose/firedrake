@@ -91,11 +91,11 @@ Move all element specific things in tsfc to FIAT.
 
 - ~JB: [3324](https://github.com/firedrakeproject/firedrake/pull/3324) Requested changes have been made~ There are more changes from the minutes not logged on the PR that haven't been made...
 
-- PB: [pyop2 #708](https://github.com/OP2/PyOP2/pull/708)
+- PB: ~[pyop2 #708](https://github.com/OP2/PyOP2/pull/708)~ Merged.
 
-- DD: [Fix constant dimension #3344](https://github.com/firedrakeproject/firedrake/pull/3344)
+- DD: ~[Fix constant dimension #3344](https://github.com/firedrakeproject/firedrake/pull/3344)~ Merged.
 
-- DD: [Update inactive and active team.](https://github.com/firedrakeproject/firedrake/pull/3350)
+- DD: ~[Update inactive and active team.](https://github.com/firedrakeproject/firedrake/pull/3350)~ Merged.
 
 # Date of next meeting
 

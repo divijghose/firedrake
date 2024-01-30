@@ -11,14 +11,14 @@ Date and time 2024-01-31 1600 GMT (1600 UTC)
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. DH: Order more Firedrake stickers
 1. ALL/ANY: Drop libsupermesh ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2023-09-27#cwjb-libsupermesh-needs-updating))? JB: Waiting for https://github.com/Toblerity/rtree/pull/292
-1. NB: Update on what is needed for Interp/ExternalOperator to be merged
+1. NB: Update on what is needed for ExternalOperator to be merged
 1. ALL: Submit abstract for PDESoft [PDESoft](https://pdesoft.org))
 
 # Agenda
 
 Present:
 
-Apologies:
+Apologies: NB (ExCALIBUR Workshop at Exeter)
 
 ## Merge PRs 
 

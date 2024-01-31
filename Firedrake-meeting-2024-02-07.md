@@ -2,7 +2,7 @@ Date and time 2024-02-14 1600 GMT (1600 UTC)
 
 # Action Items
 1. **Pick Chair and Minuter** (JB to pick)
-1. ALL: (ongoing) triage the open issues and confirm if they are indeed still open (and perhaps provide labels)
+1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
 1. JB: Move pyop3 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
@@ -19,7 +19,11 @@ Present:
 
 Apologies:
 
-## Item 1
+## DH: Update on outstanding action items
+
+## DH: Review old pull requests
+
+## DH: Review old issues
 
 ## Merge PRs 
 

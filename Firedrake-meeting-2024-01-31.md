@@ -14,7 +14,7 @@ Date and time 2024-01-31 1600 GMT (1600 UTC)
 1. NB: Update on what is needed for ExternalOperator to be merged
 1. ALL: Submit abstract for PDESoft [PDESoft](https://pdesoft.org))
 
-# Agenda
+# Minutes
 
 Present: JB, KS, CW, DD, DH, IM, PB
 

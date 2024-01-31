@@ -20,6 +20,9 @@ Present:
 
 Apologies: NB (ExCALIBUR Workshop at Exeter)
 
+## JB: `pyop3` Sprint
+Scheduled for the week of 22nd April.
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -30,6 +30,8 @@ https://github.com/firedrakeproject/firedrake/tree/uzerbinati/netgenHierarchy
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS: [checkpoint timestepping](https://github.com/firedrakeproject/firedrake/pull/3310)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-02-07](./Firedrake-meeting-2024-02-07)

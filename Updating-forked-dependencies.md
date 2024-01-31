@@ -41,4 +41,6 @@ These forked repositories should be updated every few months using the following
 1. Merge the pull request, updating the forked repository. You should also close the associated Firedrake pull request opened to run the test suite (see above).
 
 ### Important
-The SLEPc fork must be kept up to date with the PETSc fork. Specifically check that at a bare minimum the version specified in `/include/petscversion.h` matches `/include/slepcversion.h`.
+
+- The SLEPc fork must be kept up to date with the PETSc fork. Specifically check that at a bare minimum the version specified in `/include/petscversion.h` matches `/include/slepcversion.h`.
+- When updating PETSc, users should be notified via a Slack announcement that this has been done as they may need to update an external PETSc installation manually.

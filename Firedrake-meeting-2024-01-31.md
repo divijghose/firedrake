@@ -19,9 +19,12 @@ Date and time 2024-01-31 1600 GMT (1600 UTC)
 Present:
 
 Apologies: NB (ExCALIBUR Workshop at Exeter)
+UZ: Can't attend for DD28 :( 
 
 ## JB: `pyop3` Sprint
 Scheduled for the week of 22nd April.
+## UZ: Netgen Hierarchies 2D
+https://github.com/firedrakeproject/firedrake/tree/uzerbinati/netgenHierarchy
 
 ## Merge PRs 
 

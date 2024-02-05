@@ -25,6 +25,10 @@ Apologies:
 
 ## DH: Review old issues
 
+## NB: SIAM PP24 minisymposium 
+
+Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someone else needs to chair the session where I am giving a talk) ?
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

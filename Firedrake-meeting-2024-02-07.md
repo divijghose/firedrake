@@ -35,6 +35,8 @@ Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someon
 
 - NB: [#3390](https://github.com/firedrakeproject/firedrake/pull/3390)
 
+- PB [#3372](https://github.com/firedrakeproject/firedrake/pull/3372)
+
 - PB [FIAT](https://github.com/firedrakeproject/fiat/pull/58)
 
 - PB [FInAT](https://github.com/FInAT/FInAT/pull/117/files)

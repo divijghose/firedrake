@@ -35,6 +35,14 @@ Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someon
 
 - NB: [#3390](https://github.com/firedrakeproject/firedrake/pull/3390)
 
+- PB [FIAT](https://github.com/firedrakeproject/fiat/pull/58)
+
+- PB [FInAT](https://github.com/FInAT/FInAT/pull/117/files)
+
+- PB [TSFC](https://github.com/firedrakeproject/tsfc/pull/308/files)
+
+- PB [#3300](https://github.com/firedrakeproject/firedrake/pull/3300/files)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-02-14](./Firedrake-meeting-2024-02-14)

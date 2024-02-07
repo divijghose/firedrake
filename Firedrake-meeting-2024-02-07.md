@@ -33,6 +33,8 @@ Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someon
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- NB: [#3390](https://github.com/firedrakeproject/firedrake/pull/3390)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-02-14](./Firedrake-meeting-2024-02-14)

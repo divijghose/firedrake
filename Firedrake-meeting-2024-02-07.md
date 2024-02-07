@@ -44,6 +44,7 @@ Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someon
 - PB [TSFC](https://github.com/firedrakeproject/tsfc/pull/308/files)
 
 - PB [#3300](https://github.com/firedrakeproject/firedrake/pull/3300/files)
+- UZ [#3314](https://github.com/firedrakeproject/firedrake/pull/3314)
 
 # Date of next meeting
 

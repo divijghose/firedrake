@@ -10,7 +10,6 @@ Date and time 2024-02-14 1600 GMT (1600 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Revisit [PR#2484](https://github.com/firedrakeproject/firedrake/pull/2484).
 1. DH: Order more Firedrake stickers
-1. NB: Update on what is needed for ExternalOperator to be merged
 1. ALL: Submit abstract for PDESoft [PDESoft](https://pdesoft.org))
 
 # Agenda

@@ -1,4 +1,4 @@
-Date and time 2024-02-14 1600 GMT (1600 UTC)
+Date and time 2024-02-07 1600 GMT (1600 UTC)
 
 # Action Items
 1. **Pick Chair and Minuter** (JB to pick)
@@ -15,19 +15,24 @@ Date and time 2024-02-14 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present:
+Present: JB, KS, DH, CW, DD, FA, RK, PB, IM, UZ, NB
 
 Apologies:
 
 ## DH: Update on outstanding action items
+DH: Postpone until next week 
 
 ## DH: Review old pull requests
+DH: Postpone until next week 
 
 ## DH: Review old issues
+DH: Postpone until next week 
 
 ## NB: SIAM PP24 minisymposium 
 
 Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someone else needs to chair the session where I am giving a talk) ?
+
+Action NB: Create a slack channel, post in #general or #random asking people to join. Coordinate from there. Pick a chair! Don't break SIAM rules.
 
 ## Merge PRs 
 
@@ -35,16 +40,19 @@ Who is going ? Travel/Hotel ? Session chairs (I can chair one session but someon
 
 - NB: [#3390](https://github.com/firedrakeproject/firedrake/pull/3390)
 
-- PB [#3372](https://github.com/firedrakeproject/firedrake/pull/3372)
+- PB [#3372](https://github.com/firedrakeproject/firedrake/pull/3372). Merged
 
-- PB [FIAT](https://github.com/firedrakeproject/fiat/pull/58)
+- PB [FIAT](https://github.com/firedrakeproject/fiat/pull/58). *
 
-- PB [FInAT](https://github.com/FInAT/FInAT/pull/117/files)
+- PB [FInAT](https://github.com/FInAT/FInAT/pull/117/files). *
 
-- PB [TSFC](https://github.com/firedrakeproject/tsfc/pull/308/files)
+- PB [TSFC](https://github.com/firedrakeproject/tsfc/pull/308/files). *
 
-- PB [#3300](https://github.com/firedrakeproject/firedrake/pull/3300/files)
-- UZ [#3314](https://github.com/firedrakeproject/firedrake/pull/3314)
+- PB [#3300](https://github.com/firedrakeproject/firedrake/pull/3300/files). * Merged
+
+- UZ [#3314](https://github.com/firedrakeproject/firedrake/pull/3314). (Minor) Changes applied, merged. UZ: Find a test for *exotic* refinement which I didn't catch the name of.
+
+- NB [#3394](https://github.com/firedrakeproject/firedrake/pull/3394). Changes requested
 
 # Date of next meeting
 

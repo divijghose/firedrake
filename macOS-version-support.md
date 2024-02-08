@@ -11,3 +11,11 @@ ld: warning: object file (/opt/homebrew/Cellar/gcc/12.2.0/lib/gcc/current/gcc/aa
 ```
 
 In this case indicating that `MACOSX_DEPLOYMENT_TARGET` should be [updated from 10.15 to 11.0](https://github.com/firedrakeproject/firedrake/pull/2838).
+
+Sometimes users will report warnings like the following:
+
+```
+ld: warning: object file (...) was built for newer macOS version (XXX) than being linked (YYY)
+```
+
+where `XXX` is a much more modern version number (e.g. `newer macOS version (14.0) than being linked (11.0)`). This does *not* mean that the variable inside `firedrake-install` should be updated to `14.0`, instead it should be updated to the oldest still supported version. Here for example this could be `12.0`.

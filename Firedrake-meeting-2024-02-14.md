@@ -32,6 +32,8 @@ DD: Firedrake [PR 3398](https://github.com/firedrakeproject/firedrake/pull/3398)
 
 DD: Firedrake tests in pyadjoint [PR 133](https://github.com/dolfin-adjoint/pyadjoint/pull/133)
 
+KS: [I/O](https://github.com/firedrakeproject/firedrake/pull/3363)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-02-21](./Firedrake-meeting-2024-02-21)

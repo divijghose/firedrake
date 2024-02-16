@@ -228,7 +228,7 @@ USER firedrake
 WORKDIR /home/firedrake
 
 # Copy the firedrake-install from the correct branch
-RUN curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/${FIREDRAKE_BRANCH}/ scripts/firedrake-install                                                                     
+RUN curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/${FIREDRAKE_BRANCH}/scripts/firedrake-install                                                                     
 RUN bash -c 'python3 firedrake-install \
     --no-package-manager \
     --disable-ssh \

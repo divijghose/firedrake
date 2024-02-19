@@ -29,6 +29,16 @@ Apologies:
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- PB: [3412](https://github.com/firedrakeproject/firedrake/pull/3412)
+
+- PB: [3295](https://github.com/firedrakeproject/firedrake/pull/3295)
+
+- PB: [3416](https://github.com/firedrakeproject/firedrake/pull/3416)
+
+- PB: [3341](https://github.com/firedrakeproject/firedrake/pull/3341)
+
+- PB: [TSFC](https://github.com/firedrakeproject/tsfc/pull/306)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-02-21](./Firedrake-meeting-2024-02-29)

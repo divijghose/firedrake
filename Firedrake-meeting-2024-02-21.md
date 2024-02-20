@@ -45,6 +45,8 @@ Firedrake PR: [#3394](https://github.com/firedrakeproject/firedrake/pull/3394)
 
 - NB: Interpolation block tags: [Firedrake #3420](https://github.com/firedrakeproject/firedrake/pull/3420) and [Pyadjoint #136](https://github.com/dolfin-adjoint/pyadjoint/pull/136)
 
+- PB: [FInAT](https://github.com/FInAT/FInAT/pull/122)
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-02-21](./Firedrake-meeting-2024-02-29)

@@ -21,6 +21,10 @@ Apologies:
 
 ## DH: Update on outstanding action items
 
+## NB: External operators
+
+Firedrake PR: [#3394](https://github.com/firedrakeproject/firedrake/pull/3394)
+
 ## DH: Review old pull requests
 
 ## DH: Review old issues
@@ -38,6 +42,8 @@ Apologies:
 - PB: [3341](https://github.com/firedrakeproject/firedrake/pull/3341)
 
 - PB: [TSFC](https://github.com/firedrakeproject/tsfc/pull/306)
+
+- NB: Interpolation block tags: [Firedrake #3420](https://github.com/firedrakeproject/firedrake/pull/3420) and [Pyadjoint #136](https://github.com/dolfin-adjoint/pyadjoint/pull/136)
 
 # Date of next meeting
 

@@ -41,11 +41,11 @@ Firedrake PR: [#3394](https://github.com/firedrakeproject/firedrake/pull/3394)
 
 - PB: [3341](https://github.com/firedrakeproject/firedrake/pull/3341)
 
+- PB: [FInAT](https://github.com/FInAT/FInAT/pull/122)
+
 - PB: [TSFC](https://github.com/firedrakeproject/tsfc/pull/306)
 
 - NB: Interpolation block tags: [Firedrake #3420](https://github.com/firedrakeproject/firedrake/pull/3420) and [Pyadjoint #136](https://github.com/dolfin-adjoint/pyadjoint/pull/136)
-
-- PB: [FInAT](https://github.com/FInAT/FInAT/pull/122)
 
 # Date of next meeting
 

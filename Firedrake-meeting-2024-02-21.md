@@ -12,7 +12,7 @@ Date and time 2024-02-21 1600 GMT (1600 UTC)
 1. DH: Order more Firedrake stickers
 1. ALL: Submit abstract for PDESoft [PDESoft](https://pdesoft.org))
 
-# Agenda
+# Minutes
 
 Present: CW (minuter), DD, JB, KS, DH, RK, FA, NB, IM, PB
 

@@ -29,6 +29,10 @@ Firedrake PR: [#3394](https://github.com/firedrakeproject/firedrake/pull/3394)
 
 ## DH: Review old issues
 
+## JB: We should enable merge queues
+
+## JB + CW: Point query status?
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

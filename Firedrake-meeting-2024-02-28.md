@@ -10,6 +10,7 @@ Date and time 2024-02-28 1600 GMT (1600 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Order more Firedrake stickers
 1. ALL: Submit abstract for PDESoft [PDESoft](https://pdesoft.org))
+1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 
 # Agenda
 

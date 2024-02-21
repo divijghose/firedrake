@@ -33,6 +33,12 @@ Firedrake PR: [#3394](https://github.com/firedrakeproject/firedrake/pull/3394)
 
 ## JB + CW: Point query status?
 
+## PB + JB: Slow tests
+
+We want to keep the slow tests, can we make them faster?
+
+[Speed up some tests PR #3416](https://github.com/firedrakeproject/firedrake/pull/3416) (depends on #3295, listed below)
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
@@ -40,8 +46,6 @@ Firedrake PR: [#3394](https://github.com/firedrakeproject/firedrake/pull/3394)
 - PB: [3412](https://github.com/firedrakeproject/firedrake/pull/3412)
 
 - PB: [3295](https://github.com/firedrakeproject/firedrake/pull/3295)
-
-- PB: [3416](https://github.com/firedrakeproject/firedrake/pull/3416)
 
 - PB: [3341](https://github.com/firedrakeproject/firedrake/pull/3341)
 

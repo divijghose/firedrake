@@ -14,21 +14,25 @@ Date and time 2024-02-28 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present:
+Present: KS, DH, DD, CW, JB, IM, NB
 
-Apologies:
+Apologies: 
+
+## JB: Enable merge queues
+
+TODO for next week.
 
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-KS: UFL fork partial update https://github.com/firedrakeproject/ufl/pull/49
+KS: UFL fork partial update https://github.com/firedrakeproject/ufl/pull/49: Merged
 
-KS: I/O backward compat tests https://github.com/firedrakeproject/firedrake/pull/3363
+KS: I/O backward compat tests https://github.com/firedrakeproject/firedrake/pull/3363: Merged
 
-KS: Sparsity https://github.com/firedrakeproject/firedrake/pull/3288
+KS: Sparsity https://github.com/firedrakeproject/firedrake/pull/3288: Requested changes
 
-PB: ASMExtrudedStarPC vertical edges and faces https://github.com/firedrakeproject/firedrake/pull/3422
+PB: ASMExtrudedStarPC vertical edges and faces https://github.com/firedrakeproject/firedrake/pull/3422: Merged
 
 # Date of next meeting
 

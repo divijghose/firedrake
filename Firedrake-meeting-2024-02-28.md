@@ -22,6 +22,8 @@ Apologies:
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS: UFL fork partial update https://github.com/firedrakeproject/ufl/pull/49
+
 KS: I/O backward compat tests https://github.com/firedrakeproject/firedrake/pull/3363
 
 KS: Sparsity https://github.com/firedrakeproject/firedrake/pull/3288

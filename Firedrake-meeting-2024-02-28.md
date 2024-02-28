@@ -28,6 +28,8 @@ KS: I/O backward compat tests https://github.com/firedrakeproject/firedrake/pull
 
 KS: Sparsity https://github.com/firedrakeproject/firedrake/pull/3288
 
+PB: ASMExtrudedStarPC vertical edges and faces https://github.com/firedrakeproject/firedrake/pull/3422
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-03-06](./Firedrake-meeting-2024-03-06)

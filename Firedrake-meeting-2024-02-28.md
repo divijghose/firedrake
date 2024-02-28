@@ -22,6 +22,10 @@ Apologies:
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS: I/O backward compat tests https://github.com/firedrakeproject/firedrake/pull/3363
+
+KS: Sparsity https://github.com/firedrakeproject/firedrake/pull/3288
+
 # Date of next meeting
 
 1600 GMT (1600 UTC) [2024-03-06](./Firedrake-meeting-2024-03-06)

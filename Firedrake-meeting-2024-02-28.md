@@ -9,7 +9,8 @@ Date and time 2024-02-28 1600 GMT (1600 UTC)
 1. DH: Get Firedrake a docker open source account ([link here](https://www.docker.com/community/open-source/application/))
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Order more Firedrake stickers
-1. ALL: Submit abstract for PDESoft [PDESoft](https://pdesoft.org))
+1. ALL: Register and submit abstracts for [PDESoft](https://pdesoft.org) 01/07-03/07 (early reg deadline 28/03, abstract deadline: 17/05)
+1. ALL: Register and submit abstracts for the [PETSc user meeting](https://cds.uni-koeln.de/en/workshops/petsc-2024/home) 23/05-24/05 ( abstract and reg deadline: 11/04)
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 
 # Agenda

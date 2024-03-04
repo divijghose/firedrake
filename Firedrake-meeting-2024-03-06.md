@@ -31,6 +31,8 @@ See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- PB: [ASM tests](https://github.com/firedrakeproject/firedrake/pull/3435)
+
 
 # Date of next meeting
 

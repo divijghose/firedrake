@@ -27,6 +27,9 @@ Apologies: DD and NB (at SIAM PP24 - Baltimore)
 ## JB: Keepalive workflow is finally working
 See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6e46f8c40a44e97088ee0e6d1eb30d122b8
 
+## JB: This is supposed to just be a bug fix
+But I'm in danger of forgetting what was supposed to be going on https://github.com/firedrakeproject/firedrake/pull/3261
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -30,6 +30,9 @@ See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6
 ## JB: This is supposed to just be a bug fix
 But I'm in danger of forgetting what was supposed to be going on https://github.com/firedrakeproject/firedrake/pull/3261
 
+## JB: Do we still want the option of a no VTK install path
+I haven't moved checkpointing into `output`, but that isn't holding up binary release related things. https://github.com/firedrakeproject/firedrake/pull/3324
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

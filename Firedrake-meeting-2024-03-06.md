@@ -74,6 +74,8 @@ JB: Fix this in Gusto.
 
 - PB: [ASM tests](https://github.com/firedrakeproject/firedrake/pull/3435)
 
+Approved, but check with Scott.
+
 # Date of next meeting
 
 No Firedrake meeting next week ([Numerical analysis memorial lecture](https://www.homepages.ucl.ac.uk/~ucahjen/seminar.html) at ~Imperial~ UCL)

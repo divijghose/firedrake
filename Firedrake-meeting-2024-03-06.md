@@ -18,12 +18,25 @@ Date and time 2024-03-06 1600 GMT (1600 UTC)
 
 # Agenda
 
-Present:
+Present: DH, CW, JB, PK, PB, FA, IM, KS
 
 Apologies: DD and NB (at SIAM PP24 - Baltimore)
 
+## PETSc meeting in Germany
+
+Everyone whose line manager is David Ham discuss this with David.
+
+## PK
+Meeting with Nvidia. -- make Firedrake GPU in production.
+
+We need enough resources.
+
+JB and CW: chase whom(?) they have been in touch via email.
+
 ## JB: Merge queues
 I need to update CI to get this to work, leave as an action item for now.
+
+JB: More involved than initially though.
 
 ## JB: Keepalive workflow is finally working
 See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6e46f8c40a44e97088ee0e6d1eb30d122b8
@@ -31,17 +44,35 @@ See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6
 ## JB: This is supposed to just be a bug fix for `Consant`s
 But I'm in danger of forgetting what was supposed to be going on https://github.com/firedrakeproject/firedrake/pull/3261
 
+Should fix in UFL instead of using the backdoor Constant.
+
+JB: See also linked issues.
+
+Merged.
+
 ## JB: Do we still want the option of a no VTK install path?
 I haven't moved checkpointing into `output`, but that isn't holding up binary release related things. https://github.com/firedrakeproject/firedrake/pull/3324
 
+We are making VTK default.
+
+Merged.
+
 ## DH: Is having FML in the main namespace actually a good idea?
+
+DH: We should wind back.
+
+Confusion:
+
+identity -- UFL
+Identity -- FML
+
+JB: Fix this in Gusto.
 
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 - PB: [ASM tests](https://github.com/firedrakeproject/firedrake/pull/3435)
-
 
 # Date of next meeting
 

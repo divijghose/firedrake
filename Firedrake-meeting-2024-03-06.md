@@ -22,7 +22,8 @@ Present:
 
 Apologies: DD and NB (at SIAM PP24 - Baltimore)
 
-## Item 1
+## JB: Merge queues
+I need to update CI to get this to work, leave as an action item for now.
 
 ## JB: Keepalive workflow is finally working
 See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6e46f8c40a44e97088ee0e6d1eb30d122b8

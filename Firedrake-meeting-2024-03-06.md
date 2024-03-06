@@ -33,6 +33,8 @@ But I'm in danger of forgetting what was supposed to be going on https://github.
 ## JB: Do we still want the option of a no VTK install path
 I haven't moved checkpointing into `output`, but that isn't holding up binary release related things. https://github.com/firedrakeproject/firedrake/pull/3324
 
+## DH: Is having FML in the main namespace actually a good idea?
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

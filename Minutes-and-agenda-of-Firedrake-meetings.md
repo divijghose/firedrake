@@ -7,9 +7,10 @@ The meeting is held via Zoom:
 - Passcode: 822921
 
 ## Upcoming meetings
-- [2024-03-06](./Firedrake-meeting-2024-03-06)
+- [2024-03-20](./Firedrake-meeting-2024-03-20)
 
 ## Past meetings
+- [2024-03-06](./Firedrake-meeting-2024-03-06)
 - [2024-02-28](./Firedrake-meeting-2024-02-28)
 - [2024-02-21](./Firedrake-meeting-2024-02-21)
 - [2024-02-14](./Firedrake-meeting-2024-02-14)

@@ -28,10 +28,10 @@ I need to update CI to get this to work, leave as an action item for now.
 ## JB: Keepalive workflow is finally working
 See https://github.com/firedrakeproject/firedrakeproject.github.io/commit/f728f6e46f8c40a44e97088ee0e6d1eb30d122b8
 
-## JB: This is supposed to just be a bug fix
+## JB: This is supposed to just be a bug fix for `Consant`s
 But I'm in danger of forgetting what was supposed to be going on https://github.com/firedrakeproject/firedrake/pull/3261
 
-## JB: Do we still want the option of a no VTK install path
+## JB: Do we still want the option of a no VTK install path?
 I haven't moved checkpointing into `output`, but that isn't holding up binary release related things. https://github.com/firedrakeproject/firedrake/pull/3324
 
 ## DH: Is having FML in the main namespace actually a good idea?

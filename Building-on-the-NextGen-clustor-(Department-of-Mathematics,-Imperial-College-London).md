@@ -2,7 +2,9 @@ The NextGen clustor has different specifications on the login and compute nodes,
 
 On NextGen, it is necessary to build and run Firedrake using the clustor or clustor2 filesystems to avoid quota issues. On the clustor filesystem, the path to your own user space is given by
 
+```
 /home/clustor/ma/a/abc12
+```
 
 upon replacing abc12 by your Imperial shortcode and a by the first letter of that shortcode. In these instructions we assume that you want to build in a directory called 
 /home/clustor/ma/a/abc12/work

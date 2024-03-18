@@ -6,8 +6,7 @@ On NextGen, it is necessary to build and run Firedrake using the clustor or clus
 /home/clustor/ma/a/abc12
 ```
 
-upon replacing abc12 by your Imperial shortcode and a by the first letter of that shortcode. In these instructions we assume that you want to build in a directory called 
-/home/clustor/ma/a/abc12/work
+upon replacing abc12 by your Imperial shortcode and a by the first letter of that shortcode. In these instructions we assume that you want to build in a directory called  `/home/clustor/ma/a/abc12/work`
 
 You will need to amend the scripts below to the appropriate name.
 

@@ -23,7 +23,8 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: Firedrake namespacing
+PF raises the point that some of our recent namespacing changes have undesirable consequences. However, sometimes this is necessary. There should be a discussion around having a policy on what needs to be added to the global namespace (eg: UFL yes, FML no).
 
 ## Merge PRs 
 

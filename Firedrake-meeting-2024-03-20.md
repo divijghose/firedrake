@@ -17,18 +17,44 @@ Date and time 2024-03-20 1600 GMT (1600 UTC)
 1. PETSc User Meeting 23-24 May 2024 Cologne, Germany [PETSc User Meeting](https://cds.uni-koeln.de/en/workshops/petsc-2024/registration) (Registration and Abstracts 11th April)
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration/Abstracts TBD)
 
-# Agenda
+# Minutes
 
-Present:
+Present: DD, KS, KB, JB, CW, NB, DH, IM, FA, PB  
 
 Apologies:
+
 
 ## JB: Firedrake namespacing
 PF raises the point that some of our recent namespacing changes have undesirable consequences. However, sometimes this is necessary. There should be a discussion around having a policy on what needs to be added to the global namespace (eg: UFL yes, FML no).
 
+JB: To have a proper plan to change namespacing. 
+
+## About [PR 3455](https://github.com/firedrakeproject/firedrake/pull/3348)
+
+It is building `create_halo_exchange_sf`. Tests for this is that every parallel test is not going to die.
+
+## About [PR 3426](https://github.com/firedrakeproject/firedrake/pull/3426)
+
+`RestrictedFunctionSpace` is not a Function Space. `ufl.FunctionSpace` has now a label as str of a set of boundary values.
+
+## KS mentioned UFL and Pestc meging in firedrake. KS can work in petsc upstream merging. 
+
+## Reuben viva is this coming Monday!
+
+Comments DH: Petsc words local and global are related to the parallel. 
+
+
+## About [PR 3348](https://github.com/firedrakeproject/firedrake/pull/3348)
+
+This branch uses different petsc configurations. It is nearly to merge it.
+
+## See the time change. The next weak is UTC and after the next weak is UTC+1
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
+[PR 3461](https://github.com/firedrakeproject/firedrake/pull/3461) was approved.
 
 # Date of next meeting
 

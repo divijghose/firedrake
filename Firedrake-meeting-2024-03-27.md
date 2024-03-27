@@ -25,7 +25,7 @@ Apologies:
 
 ## JB: Various PETSc build issues
 
-DD - Petsc issues: [Chaco](https://gitlab.com/petsc/petsc/-/issues/1557) and [dowload-openblas](https://gitlab.com/petsc/petsc/-/issues/1566)
+DD - Petsc issues: [Chaco](https://gitlab.com/petsc/petsc/-/issues/1557) and [download-openblas](https://gitlab.com/petsc/petsc/-/issues/1566)
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

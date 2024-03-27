@@ -23,6 +23,7 @@ Present:
 
 Apologies:
 
+## JB: Various PETSc build issues
 
 ## Merge PRs 
 

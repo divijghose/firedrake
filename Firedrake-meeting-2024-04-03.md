@@ -29,7 +29,7 @@ We've implemented macroelements in [FIAT #64](https://github.com/firedrakeprojec
 
 We want feedback on our proposed interface: Alfeld and P1-P2-Iso as Lagrange variants (this requires no UFL or firedrake PRs).
 
-We don't get the sparsity right so far, good candidates for this are pyop(2/3) kernels on subcells or even sparse GEM.
+We don't get the sparsity right so far, good candidates for this are pyop(2/3) kernels on subcells (similar to what we have for `dS`) or even sparse GEM.
 
 
 ## Merge PRs 

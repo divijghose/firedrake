@@ -35,6 +35,7 @@ We don't get the sparsity right so far, good candidates for this are pyop(2/3) k
 
 What is the current status of this?
 
+DD: We have a set of issues involving [CHACO](https://gitlab.com/petsc/petsc/-/issues/1557) and [mpich](https://gitlab.com/petsc/petsc/-/issues/1569) for Xcode15.3. In [mpich issue](https://gitlab.com/petsc/petsc/-/issues/1569), downgrading the Xcode version was one of the core petsc suggestions.
 
 ## Merge PRs 
 

@@ -1,7 +1,7 @@
-Date and time 2024-04-03 1600 GMT (1600 UTC)
+Date and time 2024-04-03 1600 BST (1500 UTC)
 
 # Action Items
-1. **Pick Chair and Minuter** (?? to pick)
+1. **Pick Chair and Minuter** (NB to pick)
 1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
 1. JB: Move pyop3 and FInAT to firedrakeproject
 1. ALL: do things with SV's branches

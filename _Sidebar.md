@@ -58,10 +58,7 @@
 </details>
 
 <details>
-<summary>
-
-[Developers Notes](./Developers)
-</summary>
+<summary> Developers Notes </summary>
 
 - [Daiane](./Daiane)
 </details>

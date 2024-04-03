@@ -4,8 +4,9 @@
 
 Steps to reproduce:
 
+```
 python3 firedrake-install --with-blas /opt/homebrew/opt/openblas
-
+```
 Error:
 
 ```

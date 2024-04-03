@@ -60,6 +60,15 @@
 <details>
 <summary>
 
+[Developers Notes](./Developers)
+</summary>
+
+- [Daiane](./Daiane)
+</details>
+
+<details>
+<summary>
+
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
 

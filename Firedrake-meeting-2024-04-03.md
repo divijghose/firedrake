@@ -31,6 +31,10 @@ We want feedback on our proposed interface: Alfeld and P1-P2-Iso as Lagrange var
 
 We don't get the sparsity right so far, good candidates for this are pyop(2/3) kernels on subcells (similar to what we have for `dS`) or even sparse GEM.
 
+## CW: MacOS build issues with latest Xcode
+
+What is the current status of this?
+
 
 ## Merge PRs 
 

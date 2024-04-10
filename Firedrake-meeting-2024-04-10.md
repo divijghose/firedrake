@@ -31,7 +31,7 @@ Cofunction assignment is working for `solve(Eq=Cofunction)` and for Variational 
 
 ## DD - Petsc issues MacOS 
 
-Petsc upstream fixed the MasOS issues related to CHACO and Openblas. However, it [fails](https://github.com/firedrakeproject/firedrake/wiki/Daiane) to install `petsc4py`.  
+Petsc upstream fixed the MasOS issues related to CHACO and Openblas. However, firedrake install [fails](https://github.com/firedrakeproject/firedrake/wiki/Daiane) for `petsc4py` installation.  
 
 ## Merge PRs 
 

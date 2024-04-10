@@ -23,7 +23,7 @@ Present:
 
 Apologies:
 
-## DH - PR #3497 Missing interpolate cases.
+## DH - PR [#3497](https://github.com/firedrakeproject/firedrake/pull/3497) Missing interpolate cases.
 
 ## Merge PRs 
 

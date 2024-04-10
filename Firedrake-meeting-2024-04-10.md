@@ -33,6 +33,8 @@ Cofunction assignment is working for `solve(Eq=Cofunction)` and for Variational 
 
 Petsc upstream fixed the MasOS issues related to CHACO and Openblas. However, firedrake install [fails](https://github.com/firedrakeproject/firedrake/wiki/Daiane) for `petsc4py` installation.  
 
+CW: This is hard. See [my previous attempt at landing Cython 3](https://github.com/firedrakeproject/firedrake/pull/3290#issuecomment-1849967265).
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

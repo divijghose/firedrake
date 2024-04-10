@@ -25,6 +25,14 @@ Apologies:
 
 ## DH - PR [#3497](https://github.com/firedrakeproject/firedrake/pull/3497) Missing interpolate cases.
 
+## DD - PR [#3476](https://github.com/firedrakeproject/firedrake/pull/3476) 
+
+Cofunction assignment is working for `solve(Eq=Cofunction)` and for Variational solvers. See [Cofunction identity](https://github.com/firedrakeproject/firedrake/pull/3476/files#diff-7b0c111813feb73ccbc80ee0a3bbf7534e285bc537f3763109908b2151917a1dR198).
+
+## DD - Petsc issues MacOS 
+
+Petsc upstream fixed the MasOS issues related to CHACO and Openblas. However, it [fails](https://github.com/firedrakeproject/firedrake/wiki/Daiane) to install `petsc4py`.  
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

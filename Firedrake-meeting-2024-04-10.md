@@ -19,7 +19,7 @@ Date and time 2024-04-10 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, DD, CW, NB, KS
 
 Apologies:
 

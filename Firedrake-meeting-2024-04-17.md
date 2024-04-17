@@ -21,13 +21,34 @@ Date and time 2024-04-17 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: JB, DH, DD, KS, CW, DV
 
 Apologies: NB
+
+## CW: Built with numpy 2.0
+Things seem to work!
+
+## pyop3 sprint
+Is happening! Meeting at 10am each day, preferably in person, but online will be available. DH may not be on site on Friday.
+
+## DD: Fixing Cofunction.sub with adjoint
+Generalising merge blocks (DD: [#3470](https://github.com/firedrakeproject/firedrake/pull/3470)).
+
+## DH: We're behind UFL issue
+UFL finite element: Reference space or physical space? Firedrake and TSFC need updating to use new code.
+
+## CW: optimize.py
+:rofl: 
+
+## JB: Another manual release
+DH: Maybe not needed (yet). At this point David got distracted and started reading a paper.
 
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
+- DH: [#3505](https://github.com/firedrakeproject/firedrake/pull/3505) Fix docs for interpolate (merged)
+- JB: [#3348](https://github.com/firedrakeproject/firedrake/pull/3348) PETSc Needs another look
 
 # Date of next meeting
 

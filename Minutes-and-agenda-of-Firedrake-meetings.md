@@ -4,7 +4,6 @@ The meeting is held via Zoom:
 
 - Meeting ID: 998 1993 0455
 - Password: Sa7GN*
-- Passcode: 822921
 
 ## Upcoming meetings
 - [2024-04-24](./Firedrake-meeting-2024-04-24)

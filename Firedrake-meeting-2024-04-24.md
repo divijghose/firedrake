@@ -3,7 +3,7 @@ Date and time 2024-04-24 1600 BST (1500 UTC)
 # Action Items
 1. **Pick Chair and Minuter** (JB to pick)
 1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
-1. JB: Move pyop3 and FInAT to firedrakeproject
+1. JB: Move pyop3 and TSFC to firedrake and move FInAT to FIAT
 1. ALL: do things with SV's branches
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
 1. DH: Get Firedrake a docker open source account ([link here](https://www.docker.com/community/open-source/application/))
@@ -19,12 +19,22 @@ Date and time 2024-04-24 1600 BST (1500 UTC)
 
 # Agenda
 
-Present: 
+Present: JB, DH, KS, DD, JB, PB
 
 Apologies: NB
 
+## JB: Move pyop3 and TSFC to firedrake and move FInAT to FIAT
+* TSFC goes into the Firedrake repo
+* pyop3 goes into the Firedrake repo, pyop2 is going to die
+* FInAT and GEM get moved to the FIAT repo, gets us close to single source of truth
+* Only 4 repos to mantain: firedrake, FIAT, checkpoint_schedules, and half of pyadjoint
+
+
 ## pyop3 sprint
 In progress:
+
+## Firedrake workshop 2024
+Registration is open.
 
 ## Merge PRs 
 

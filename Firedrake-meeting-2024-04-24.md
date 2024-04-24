@@ -21,7 +21,7 @@ Date and time 2024-04-24 1600 BST (1500 UTC)
 
 Present: 
 
-Apologies: 
+Apologies: NB
 
 ## pyop3 sprint
 In progress:

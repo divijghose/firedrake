@@ -33,8 +33,11 @@ Apologies:
 
 Merge in this order
 [FIAT](https://github.com/firedrakeproject/fiat/pull/64)
+
 [FInAT](https://github.com/FInAT/FInAT/pull/123)
+
 [TSFC](https://github.com/firedrakeproject/tsfc/pull/310)
+
 [firedrake](https://github.com/firedrakeproject/firedrake/pull/3482)
 
 

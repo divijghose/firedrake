@@ -23,6 +23,11 @@ Present:
 
 Apologies:
 
+## DD: 
+
+PRs: [Ensemble reduced functional](https://github.com/firedrakeproject/firedrake/pull/3500) and 
+[Cofunction.sub in adjoint](https://github.com/firedrakeproject/firedrake/pull/3470)
+
 
 ## Merge PRs 
 

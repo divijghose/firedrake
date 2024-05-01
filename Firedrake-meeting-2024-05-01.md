@@ -29,6 +29,15 @@ Apologies:
 [Cofunction.sub in adjoint](https://github.com/firedrakeproject/firedrake/pull/3470)
 
 
+## RK & PB macroelements
+
+Merge in this order
+[FIAT](https://github.com/firedrakeproject/fiat/pull/64)
+[FInAT](https://github.com/FInAT/FInAT/pull/123)
+[TSFC](https://github.com/firedrakeproject/tsfc/pull/310)
+[firedrake](https://github.com/firedrakeproject/firedrake/pull/3482)
+
+
 ## Merge PRs 
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

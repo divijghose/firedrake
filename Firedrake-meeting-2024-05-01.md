@@ -17,30 +17,50 @@ Date and time 2024-04-24 1600 BST (1500 UTC)
 1. PETSc User Meeting 23-24 May 2024 Cologne, Germany [PETSc User Meeting](https://cds.uni-koeln.de/en/workshops/petsc-2024/registration) (Registration and Abstracts 11th April)
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
-# Agenda
+# Minutes
 
-Present:
+Present: DD, JB, DH, KN, CW, PB, RK, IM, DS and his baby, NB
 
 Apologies:
 
 ## DD: PRs 
 
-[Ensemble reduced functional](https://github.com/firedrakeproject/firedrake/pull/3500) and 
-[Cofunction.sub in adjoint](https://github.com/firedrakeproject/firedrake/pull/3470)
+[Ensemble reduced functional](https://github.com/firedrakeproject/firedrake/pull/3500)
 
+Review required. It is near to being approved.
+
+
+[Cofunction.sub in adjoint](https://github.com/firedrakeproject/firedrake/pull/3470)
+Approved.
 
 ## RK & PB macroelements
 
 Merge in this order
 
 [FIAT](https://github.com/firedrakeproject/fiat/pull/64)
+Approved!
 
 [FInAT](https://github.com/FInAT/FInAT/pull/123)
 
+Approved!
+
 [TSFC](https://github.com/firedrakeproject/tsfc/pull/310)
+
+Approved!
 
 [firedrake](https://github.com/firedrakeproject/firedrake/pull/3482)
 
+Approved!
+
+
+## About pyop3
+
+Firedrake developers worked the last week to sort out the errors and implement features in pyop3.
+
+## [PR 3536](https://github.com/firedrakeproject/firedrake/pull/3536)
+
+
+Request changes.
 
 ## Merge PRs 
 

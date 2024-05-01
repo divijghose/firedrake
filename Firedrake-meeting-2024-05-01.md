@@ -23,9 +23,9 @@ Present:
 
 Apologies:
 
-## DD: 
+## DD: PRs 
 
-PRs: [Ensemble reduced functional](https://github.com/firedrakeproject/firedrake/pull/3500) and 
+[Ensemble reduced functional](https://github.com/firedrakeproject/firedrake/pull/3500) and 
 [Cofunction.sub in adjoint](https://github.com/firedrakeproject/firedrake/pull/3470)
 
 

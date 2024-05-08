@@ -35,6 +35,7 @@ Also this contributor has maybe offered to produce a demo, do we want that?
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- [PyOP2 720](https://github.com/OP2/PyOP2/pull/720)
 
 # Date of next meeting
 

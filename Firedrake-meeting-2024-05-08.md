@@ -23,10 +23,13 @@ Present:
 
 Apologies:
 
-Merge in this order
+## CW: CI fails
 
+https://github.com/firedrakeproject/firedrake/pull/3555
 
-Request changes.
+https://github.com/firedrakeproject/firedrake/actions/runs/8990463046/job/24732326479?pr=3555
+
+Also this contributor has maybe offered to produce a demo, do we want that?
 
 ## Merge PRs 
 

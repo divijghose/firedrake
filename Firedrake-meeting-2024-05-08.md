@@ -37,6 +37,10 @@ Also this contributor has maybe offered to produce a demo, do we want that?
 
 - [PyOP2 720](https://github.com/OP2/PyOP2/pull/720)
 
+- KS: https://github.com/firedrakeproject/firedrake/pull/3549
+
+- KS: https://github.com/firedrakeproject/firedrake/pull/3550
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-05-15](./Firedrake-meeting-2024-05-15)

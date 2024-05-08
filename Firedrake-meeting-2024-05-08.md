@@ -35,4 +35,4 @@ Request changes.
 
 # Date of next meeting
 
-1600 BST (1500 UTC) [2024-05-08](./Firedrake-meeting-2024-05-15)
+1600 BST (1500 UTC) [2024-05-15](./Firedrake-meeting-2024-05-15)

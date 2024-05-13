@@ -32,10 +32,10 @@ Apologies:
 I think most are in favour of dropping Chaco from the default build (and we already dropped ML).
 
 ## Merge PRs 
+*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 - JB: [2248](https://github.com/firedrakeproject/firedrake/pull/3348) PETSc changes.
 
 
-*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 # Date of next meeting
 

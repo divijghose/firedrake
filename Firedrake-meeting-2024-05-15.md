@@ -24,7 +24,16 @@ Present:
 
 Apologies:
 
+## JB: What to do about TinyASM
+
+## JB: Python 3.12 and New Unbuntu container
+
+## JB: New PETSc changes
+I think most are in favour of dropping Chaco from the default build (and we already dropped ML).
+
 ## Merge PRs 
+- JB: [2248](https://github.com/firedrakeproject/firedrake/pull/3348) PETSc changes.
+
 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

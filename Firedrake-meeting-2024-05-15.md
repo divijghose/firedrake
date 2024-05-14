@@ -30,6 +30,12 @@ Apologies:
 
 ## JB: New PETSc changes
 I think most are in favour of dropping Chaco from the default build (and we already dropped ML).
+The following PRs demonstrate that we can run Firedrake with the following PETSc configurations:
+- [No chaco](https://github.com/firedrakeproject/firedrake/pull/3566)
+- [No superlu_dist](https://github.com/firedrakeproject/firedrake/pull/3567)
+- [No MUMPS/scalapack???](https://github.com/firedrakeproject/firedrake/pull/3564) Okay, I think we might require MUMPS for the test suite, this is not great...
+- [No hypre](https://github.com/firedrakeproject/firedrake/pull/3563)
+- Just MPI+HDF5+MUMPS+scalapack
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -25,6 +25,9 @@ Present:
 Apologies:
 
 ## JB: What to do about TinyASM
+https://github.com/florianwechsung/TinyASM/pull/13
+
+Florian has confirmed that he is no longer maintaining TinyASM. I think we should fork under the firedrakeproject organisation or integrate the functionality into Firedrake itself.
 
 ## JB: Python 3.12 and New Unbuntu container
 

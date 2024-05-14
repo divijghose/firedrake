@@ -30,6 +30,11 @@ https://github.com/florianwechsung/TinyASM/pull/13
 Florian has confirmed that he is no longer maintaining TinyASM. I think we should fork under the firedrakeproject organisation or integrate the functionality into Firedrake itself.
 
 ## JB: Python 3.12 and New Unbuntu container
+[This PR](https://github.com/firedrakeproject/firedrake/pull/3569) runs with Ubuntu 24.04, Python 3.12, Cython 3.0 and the latest released numpy version (it is unpinned!).
+
+[This PR](https://github.com/firedrakeproject/firedrake/pull/3546) is the same, but is using the latest release candidate of numpy 2.0.
+
+Both seem to have performance regressions (CI going from 50mins to 1hr15mins :cry:)
 
 ## JB: New PETSc changes
 I think most are in favour of dropping Chaco from the default build (and we already dropped ML).

@@ -20,14 +20,34 @@ Date and time 2024-05-15 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, DD, CW, JB, NB, RK, KS
 
 Apologies:
+
+## Firedrake meeting
+
+Registration now open.
 
 ## JB: What to do about TinyASM
 https://github.com/florianwechsung/TinyASM/pull/13
 
 Florian has confirmed that he is no longer maintaining TinyASM. I think we should fork under the firedrakeproject organisation or integrate the functionality into Firedrake itself.
+
+
+There are many users, e.g., RK, SM, PB.
+
+We could:
+
+- put it in Firedrake.
+
+or:
+
+- drop, but let whoever uses/understands it (maybe PB or SM?) handle this.
+
+or:
+
+- put this tinyASM folder in firedrake/preconditioners (will this just work? JB: TODO)
+
 
 ## JB: Python 3.12 and New Unbuntu container
 [This PR](https://github.com/firedrakeproject/firedrake/pull/3569) runs with Ubuntu 24.04, Python 3.12, Cython 3.0 and the latest released numpy version (it is unpinned!).
@@ -37,6 +57,12 @@ Florian has confirmed that he is no longer maintaining TinyASM. I think we shoul
 Both seem to have performance regressions (CI going from 50mins to 1hr15mins :cry:)
 
 Oh, and we need Cython 3.0 changes to land before we can update the HEAD of our PETSc fork too!
+
+KS : figure out why this is slower. 
+
+Wind back Cython to 0.29 and see?
+
+If it turns out that something is wrong with Cython, bisect Cython.
 
 ## JB: New PETSc changes
 I think most are in favour of dropping Chaco from the default build (and we already dropped ML).
@@ -51,8 +77,6 @@ The following PRs demonstrate that we can run Firedrake with the following PETSc
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 - JB: [2248](https://github.com/firedrakeproject/firedrake/pull/3348) PETSc changes.
 
-
-
 # Date of next meeting
 
-1600 BST (1500 UTC) [2024-05-22](./Firedrake-meeting-2024-05-22)
+1600 BST (1500 UTC) [2024-05-29](./Firedrake-meeting-2024-05-29)

@@ -36,6 +36,8 @@ Florian has confirmed that he is no longer maintaining TinyASM. I think we shoul
 
 Both seem to have performance regressions (CI going from 50mins to 1hr15mins :cry:)
 
+Oh, and we need Cython 3.0 changes to land before we can update the HEAD of our PETSc fork too!
+
 ## JB: New PETSc changes
 I think most are in favour of dropping Chaco from the default build (and we already dropped ML).
 The following PRs demonstrate that we can run Firedrake with the following PETSc configurations:

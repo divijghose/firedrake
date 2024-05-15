@@ -11,7 +11,7 @@ Date and time 2024-05-15 1600 BST (1500 UTC)
 1. DH: Order more Firedrake stickers
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 1. JB: FML + Gusto
-1. JB: Fix runners (Docker permissions issues)
+1. JB: Fix runners (Docker permissions issues) [DONE]
 
 # Notices
 1. Submit abstract for PDESoft 1-3 July 2024, Cambridge, UK [PDESoft](https://pdesoft.org) (Registration early 28th March/late 31st May, Abstracts 17th May)

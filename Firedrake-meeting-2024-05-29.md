@@ -15,7 +15,7 @@ Date and time 2024-05-29 1600 BST (1500 UTC)
 1. KS: PETSc + Cython3.0 + numpy2.0 issue: why slow?
 
 # Notices
-1. Submit abstract for PDESoft 1-3 July 2024, Cambridge, UK [PDESoft](https://pdesoft.org) (Registration early 28th March/late 31st May, Abstracts 17th May)
+1. Submit abstract for PDESoft 1-3 July 2024, Cambridge, UK [PDESoft](https://pdesoft.org) (Registration early 28th March/late 31st May)
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
 # Agenda

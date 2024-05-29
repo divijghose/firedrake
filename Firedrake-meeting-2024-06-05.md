@@ -23,7 +23,7 @@ Present:
 
 Apologies: JB
 
-## Item 1
+## DH: Review pyadjoint PRs
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

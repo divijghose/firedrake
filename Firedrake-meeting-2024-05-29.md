@@ -17,7 +17,7 @@ Date and time 2024-05-29 1600 BST (1500 UTC)
 # Notices
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
-# Agenda
+# Minutes
 
 Present: DH, KS, DD, CW, JB, PB, IM
 
@@ -41,8 +41,11 @@ DH: Worked out how to do Josh's new project
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [#3596](https://github.com/firedrakeproject/firedrake/pull/3596) Changes requested
-
+- PB: [#3596](https://github.com/firedrakeproject/firedrake/pull/3596) Changes requested (approved).
+- DD: [#3595](https://github.com/firedrakeproject/firedrake/pull/3595) Merged.
+- CC: [#3577](https://github.com/firedrakeproject/firedrake/pull/3577) Gather functional, changes requested (approved).
+- CC: [#3587](https://github.com/firedrakeproject/firedrake/pull/3587) Lists in ensemble reduced functional, changes requested.
+- DD: [#3562](https://github.com/firedrakeproject/firedrake/pull/3562) FWI Demo, warnings required, changes requested.
 
 # Date of next meeting
 

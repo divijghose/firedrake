@@ -69,9 +69,14 @@
 [Minutes and agenda of Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 </summary>
 
-  - Upcoming meeting [2024-04-28](./Firedrake-meeting-2024-04-28)
+  - Upcoming meeting [2024-06-05](./Firedrake-meeting-2024-06-05)
 
 ---
+  - [2024-05-29](./Firedrake-meeting-2024-05-29)
+  - [2024-05-15](./Firedrake-meeting-2024-05-15)
+  - [2024-05-08](./Firedrake-meeting-2024-05-08)
+  - [2024-05-01](./Firedrake-meeting-2024-05-01)
+  - [2024-04-28](./Firedrake-meeting-2024-04-28)
   - [2024-04-17](./Firedrake-meeting-2024-04-17)
   - [2024-04-10](./Firedrake-meeting-2024-03-10)
   - [2024-04-03](./Firedrake-meeting-2024-04-03)

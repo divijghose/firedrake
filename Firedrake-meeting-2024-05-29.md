@@ -15,17 +15,34 @@ Date and time 2024-05-29 1600 BST (1500 UTC)
 1. KS: PETSc + Cython3.0 + numpy2.0 issue: why slow?
 
 # Notices
-1. Submit abstract for PDESoft 1-3 July 2024, Cambridge, UK [PDESoft](https://pdesoft.org) (Registration early 28th March/late 31st May)
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
 # Agenda
 
-Present:
+Present: DH, KS, DD, CW, JB, PB, IM
 
 Apologies: NB
 
+## Firedrake meeting
+DH: Big names coming: L. Ridgeway Scott, Matt Knepley
+PB: Scott MacLachlan
+DH: Leeds offering to host in 2025, although FiredrakeUSA 2025 in Texas
+
+## PETSc Meeting
+DH: Matt has been prodded about the one reverted commit that we are holding onto (details of commit in PR)
+
+## Performance Regression
+CW: Full test suite with cold or hot cache is slower on Python3.12 running on Ubuntu 24.04 when compared to Python3.11 on Ubuntu 22.04.
+
+## Eindhoven
+DH: Worked out how to do Josh's new project
+
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
+PB: [#3596](https://github.com/firedrakeproject/firedrake/pull/3596) Changes requested
+
 
 # Date of next meeting
 

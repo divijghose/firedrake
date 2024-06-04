@@ -28,6 +28,7 @@ Apologies: JB
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- JB: [#3604](https://github.com/firedrakeproject/firedrake/pull/3604) Incorperate TinyASM into Firedrake. Josh has picked this over once.
 
 # Date of next meeting
 

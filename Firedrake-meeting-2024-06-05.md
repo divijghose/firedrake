@@ -21,7 +21,7 @@ Date and time 2024-06-05 1600 BST (1500 UTC)
 
 Present:
 
-Apologies: JB
+Apologies: JB, PB
 
 ## DH: Review pyadjoint PRs
 
@@ -31,6 +31,7 @@ Apologies: JB
 - JB: [#3604](https://github.com/firedrakeproject/firedrake/pull/3604) Incorperate TinyASM into Firedrake. Josh has picked this over once.
 - DD: [#3579 (Firedrake)](https://github.com/firedrakeproject/firedrake/pull/3579) L2 Riesz maps as default for adjoint-based gradients.
 - DD: [#149 (Pyadjoint)](https://github.com/dolfin-adjoint/pyadjoint/pull/149) Adapting tests for L2 Riesz maps as default.
+- PB: [FIAT](https://github.com/firedrakeproject/fiat/pull/71)
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-06-12](./Firedrake-meeting-2024-06-12)

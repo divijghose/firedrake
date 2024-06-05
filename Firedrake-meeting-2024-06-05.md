@@ -32,6 +32,7 @@ Apologies: JB, PB
 - DD: [#3579 (Firedrake)](https://github.com/firedrakeproject/firedrake/pull/3579) L2 Riesz maps as default for adjoint-based gradients.
 - DD: [#149 (Pyadjoint)](https://github.com/dolfin-adjoint/pyadjoint/pull/149) Adapting tests for L2 Riesz maps as default.
 - PB: [FIAT](https://github.com/firedrakeproject/fiat/pull/71)
+- PB: [UFL](https://github.com/firedrakeproject/ufl/pull/50)
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-06-12](./Firedrake-meeting-2024-06-12)

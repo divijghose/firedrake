@@ -17,7 +17,10 @@ Date and time 2024-06-19 1600 BST (1500 UTC)
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
 # Agenda
-1. JHC - I would like PETSc branch updating but it's dependent on #3546
+
+## JHC: I would like PETSc branch updating but it's dependent on #3546
+
+## CW: How do we solve [this issue](https://github.com/firedrakeproject/firedrake/issues/3612)?
 
 Present:
 

@@ -29,6 +29,11 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [FIAT #67](https://github.com/firedrakeproject/fiat/pull/67)
+PB: [FInAT #126](https://github.com/FInAT/FInAT/pull/126)
+PB: [TSFC #311](https://github.com/firedrakeproject/tsfc/pull/311)
+PB: [firedrake #3548](https://github.com/firedrakeproject/firedrake/pull/3548)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-06-26](./Firedrake-meeting-2024-06-26)

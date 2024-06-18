@@ -29,6 +29,8 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+Johnson-Mercier macroelement (merge in this order)
+
 PB: [FIAT #67](https://github.com/firedrakeproject/fiat/pull/67)
 
 PB: [FInAT #126](https://github.com/FInAT/FInAT/pull/126)
@@ -36,6 +38,14 @@ PB: [FInAT #126](https://github.com/FInAT/FInAT/pull/126)
 PB: [TSFC #311](https://github.com/firedrakeproject/tsfc/pull/311)
 
 PB: [firedrake #3548](https://github.com/firedrakeproject/firedrake/pull/3548)
+
+Multigrid for macroelements (merge in this order)
+
+PB: [FIAT #73](https://github.com/firedrakeproject/fiat/pull/73)
+
+PB: [FInAT #128](https://github.com/FInAT/FInAT/pull/128)
+
+PB: [firedrake #3615](https://github.com/firedrakeproject/firedrake/pull/3615/)
 
 # Date of next meeting
 

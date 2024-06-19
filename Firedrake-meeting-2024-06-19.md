@@ -16,22 +16,35 @@ Date and time 2024-06-19 1600 BST (1500 UTC)
 # Notices
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
-# Agenda
+# Minutes
 
-Present:
+Present: CW, RK, KS, DD, DH, JB, PB, IM
 
 Apologies: NB
 
+DH: 
+
+* Everyone that will present in PDESoft please add the Firedrake 2024 advertisement.
+* DH, NB, and Nickolas will present a Firedrake tutorial in South Africa.
 
 ## JHC: I would like PETSc branch updating but it's dependent on #3546
 
 ## CW: How do we solve [this issue](https://github.com/firedrakeproject/firedrake/issues/3612)?
 
+DH: This looks like a mistake in UFL. The geometry lowering test uses the `embedded_superdegre` but should be `embedded_subdegree`.
+
 ## JB: Ensemble is broken
 And may have been for some time :flushed:
 
+Sometimes the parallel decomposition is not the same.
+
+DH: SPMD is not very robust. Relying that all ranks are doing the same calculation is not robust. 
+Perhaps this thing is happening in CI and not for the user cases.
+ 
 ## JB: Numpy 2.0 is out
 (this is in PRs below, but might be worth discussing in detail)
+
+JB: If you type ``pip install numpy``, the version will be 2.0. We may no longer install numpy from scratch.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
@@ -40,11 +53,18 @@ Johnson-Mercier macroelement (merge in this order)
 
 PB: [FIAT #67](https://github.com/firedrakeproject/fiat/pull/67)
 
+Approved!
+
 PB: [FInAT #126](https://github.com/FInAT/FInAT/pull/126)
+
 
 PB: [TSFC #311](https://github.com/firedrakeproject/tsfc/pull/311)
 
+Approved!
+
 PB: [firedrake #3548](https://github.com/firedrakeproject/firedrake/pull/3548)
+
+Approved!
 
 Multigrid for macroelements (merge in this order)
 
@@ -56,13 +76,23 @@ PB: [firedrake #3615](https://github.com/firedrakeproject/firedrake/pull/3615/)
 
 JB: [Move TinyASM](https://github.com/firedrakeproject/firedrake/pull/3604) - Do we need to notify users?
 
+Approved!
+
 JB: [Finally numpy 2.0/Python 3.12/Cython3.0](https://github.com/firedrakeproject/firedrake/pull/3546)
+
+Request changes: rebase and lose branches in pytorch and tyniasm. 
 
 JB: [Need to make UID a per comm attribute](https://github.com/firedrakeproject/firedrake/pull/3633)
 
-DD: [Return Function/Confunction according the Riesz representation option](https://github.com/firedrakeproject/firedrake/pull/3637)
+Approved!
+
+DD: [Return Function/Cofunction according to the Riesz representation option](https://github.com/firedrakeproject/firedrake/pull/3637)
+
+Approved!
 
 DD: [Add derivative options in pyadjoint minimize](https://github.com/dolfin-adjoint/pyadjoint/pull/151)
+
+Approved!
 
 # Date of next meeting
 

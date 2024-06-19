@@ -60,6 +60,10 @@ JB: [Finally numpy 2.0/Python 3.12/Cython3.0](https://github.com/firedrakeprojec
 
 JB: [Need to make UID a per comm attribute](https://github.com/firedrakeproject/firedrake/pull/3633)
 
+DD: [Return Function/Confunction according the Riesz representation option](https://github.com/firedrakeproject/firedrake/pull/3637)
+
+DD: [Add derivative options in pyadjoint minimize](https://github.com/dolfin-adjoint/pyadjoint/pull/151)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-06-26](./Firedrake-meeting-2024-06-26)

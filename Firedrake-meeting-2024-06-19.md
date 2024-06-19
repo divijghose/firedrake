@@ -18,13 +18,14 @@ Date and time 2024-06-19 1600 BST (1500 UTC)
 
 # Agenda
 
-## JHC: I would like PETSc branch updating but it's dependent on #3546
-
-## CW: How do we solve [this issue](https://github.com/firedrakeproject/firedrake/issues/3612)?
-
 Present:
 
 Apologies: NB
+
+
+## JHC: I would like PETSc branch updating but it's dependent on #3546
+
+## CW: How do we solve [this issue](https://github.com/firedrakeproject/firedrake/issues/3612)?
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

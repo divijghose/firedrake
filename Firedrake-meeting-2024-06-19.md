@@ -24,7 +24,7 @@ Date and time 2024-06-19 1600 BST (1500 UTC)
 
 Present:
 
-Apologies:
+Apologies: NB
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

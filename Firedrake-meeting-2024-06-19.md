@@ -48,6 +48,12 @@ PB: [FInAT #128](https://github.com/FInAT/FInAT/pull/128)
 
 PB: [firedrake #3615](https://github.com/firedrakeproject/firedrake/pull/3615/)
 
+JB: [Move TinyASM](https://github.com/firedrakeproject/firedrake/pull/3604) - Do we need to notify users?
+
+JB: [Finally numpy 2.0/Python 3.12/Cython3.0](https://github.com/firedrakeproject/firedrake/pull/3546)
+
+JB: [Need to make UID a per comm attribute](https://github.com/firedrakeproject/firedrake/pull/3633)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-06-26](./Firedrake-meeting-2024-06-26)

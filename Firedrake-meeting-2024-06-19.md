@@ -27,6 +27,9 @@ Apologies: NB
 
 ## CW: How do we solve [this issue](https://github.com/firedrakeproject/firedrake/issues/3612)?
 
+## JB: Ensemble is broken
+And may have been for some time :flushed: 
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

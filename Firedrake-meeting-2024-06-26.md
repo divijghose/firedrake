@@ -17,7 +17,7 @@ Date and time 2024-06-26 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, CW, DD, JB, PB, IM, NB
 
 Apologies:
 
@@ -25,6 +25,9 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- PB: Test multigrid for macro elements ([#3615](https://github.com/firedrakeproject/firedrake/pull/3615)): Reviewed but still has failing tests. The PR depends on:
+    * [FInAT#128](https://github.com/FInAT/FInAT/pull/128): Merged
+    * [fiat#73](https://github.com/firedrakeproject/fiat/pull/73): Merged
 
 # Date of next meeting
 

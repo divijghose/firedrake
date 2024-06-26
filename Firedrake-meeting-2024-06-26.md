@@ -11,7 +11,6 @@ Date and time 2024-06-26 1600 BST (1500 UTC)
 1. DH: Order more Firedrake stickers
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 1. JB: FML + Gusto
-1. JB: move tinyASM to firedrake/preconditioners: [#3604](https://github.com/firedrakeproject/firedrake/pull/3604)
 
 # Notices
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)

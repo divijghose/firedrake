@@ -31,4 +31,4 @@ Apologies:
 
 # Date of next meeting
 
-1600 BST (1500 UTC) [2024-07-03](./Firedrake-meeting-2024-07-10)
+1600 BST (1500 UTC) [2024-07-10](./Firedrake-meeting-2024-07-10)

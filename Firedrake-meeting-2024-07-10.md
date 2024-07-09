@@ -22,6 +22,14 @@ Present:
 Apologies:
 
 
+## PB: GLL quadrature
+
+Lagrange DOFs are not sorted lexicographically anymore and this breaks codes that used a GLL quadrature rule with lexicographical ordering:
+https://github.com/firedrakeproject/firedrake/issues/3649
+
+The GLL FIAT element simply subclasses Lagrange. It seems that we really want to sort DOFs lexicographically to avoid any confusion in the future, should this be done in FIAT or FInAT and for all 1D variants or only for certain ones (originally, the equispaced variant was not sorted)?
+
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

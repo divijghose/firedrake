@@ -25,6 +25,8 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [FD #3675](https://github.com/firedrakeproject/firedrake/pull/3675)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-07-17](./Firedrake-meeting-2024-07-17)

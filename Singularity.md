@@ -67,11 +67,9 @@ ARG EXTRA_PACKAGES=""
 ENV CORE_PACKAGES=" \
    hdf5 \
    hwloc \
-   hypre \
    mumps \
    ptscotch \
-   scalapack \
-   superlu_dist"
+   scalapack"
 
 LABEL build.debug=${BUILD_DEBUG} \
       build.mpi.version=${MPICH_DOWNLOAD_VERSION} \

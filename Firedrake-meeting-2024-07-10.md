@@ -40,7 +40,7 @@ https://github.com/firedrakeproject/firedrake/issues/3649
 
 The GLL FIAT element is no longer sorted because it simply subclasses the simplicial Lagrange element, which orders DOFs by entity. It seems that we really want to sort GLL DOFs lexicographically to avoid any confusion in the future, should this be done in FIAT or FInAT and for all 1D variants or only for certain ones (originally, the equispaced variant was not sorted)?
 
-- Do not really case about equispaced elements.
+- Do not really care about equispaced elements.
 
 - Change 1D element to respect lexicographic ordering (and thus GLL quadrature ordering).
 

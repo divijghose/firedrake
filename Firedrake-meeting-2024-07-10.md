@@ -17,10 +17,21 @@ Date and time 2024-07-10 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, DD, CW, PB, NB, JB, KS
 
 Apologies:
 
+# CI failure
+
+pytools update requires loopy update.
+
+`.real` (loopy intrinsic) not mapped to `.creal`
+
+PRs:
+
+Firedrake : https://github.com/firedrakeproject/firedrake/pull/3680
+
+loopy : https://github.com/firedrakeproject/loopy/pull/25
 
 ## PB: GLL quadrature
 
@@ -29,11 +40,14 @@ https://github.com/firedrakeproject/firedrake/issues/3649
 
 The GLL FIAT element is no longer sorted because it simply subclasses the simplicial Lagrange element, which orders DOFs by entity. It seems that we really want to sort GLL DOFs lexicographically to avoid any confusion in the future, should this be done in FIAT or FInAT and for all 1D variants or only for certain ones (originally, the equispaced variant was not sorted)?
 
+- Do not really case about equispaced elements.
+
+- Change 1D element to respect lexicographic ordering (and thus GLL quadrature ordering).
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [FD #3675](https://github.com/firedrakeproject/firedrake/pull/3675)
+PB: ~[FD #3675](https://github.com/firedrakeproject/firedrake/pull/3675)~ auto-merge enabled
 
 # Date of next meeting
 

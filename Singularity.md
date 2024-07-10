@@ -65,7 +65,6 @@ ARG EXTRA_PACKAGES=""
 
 # essential packages installed on every build
 ENV CORE_PACKAGES=" \
-   chaco \
    hdf5 \
    hwloc \
    hypre \

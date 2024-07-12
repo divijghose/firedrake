@@ -21,7 +21,10 @@ Present:
 
 Apologies:
 
-## Item 1
+## CC: MUMPS
+Can we change the default direct solver from MUMPS to superlu_dist?
+
+JB: Relevant issue https://github.com/firedrakeproject/firedrake/issues/3463
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

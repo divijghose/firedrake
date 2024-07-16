@@ -29,6 +29,8 @@ JB: Relevant issue https://github.com/firedrakeproject/firedrake/issues/3463
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+- JB: Bug fix for TinyASM when PETSc is compiled with 64-bit indices [#3665](https://github.com/firedrakeproject/firedrake/pull/3665)
+
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-07-24](./Firedrake-meeting-2024-07-24)

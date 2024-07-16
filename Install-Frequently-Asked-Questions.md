@@ -29,7 +29,7 @@ Thank you, [martintruffer](https://github.com/martintruffer), for the helpful ad
 
 For more detailed help on managing Conda while installing Firedrake, you can refer to the Firedrake [installation guide](https://www.firedrakeproject.org/download.html).
 
-**Q4: Where can I seek further assistance or support?**
+**Q3: Where can I seek further assistance or support?**
 
 If you encounter issues not covered in the resources mentioned above, please don't hesitate to [contact us](https://www.firedrakeproject.org/contact.html).
 

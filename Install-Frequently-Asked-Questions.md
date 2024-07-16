@@ -11,21 +11,7 @@ When seeking assistance, please provide the following logs:
 
 ---
 
-**Q2: My Firedrake installation is failing on MacOS, and I have seen in `firedrake-install.log` error messages when trying to install `OPENBLAS`. How should I proceed?**
-
-* **Script Modification**: Open the firedrake-install script and at [line 786](https://github.com/firedrakeproject/firedrake/blob/1bbd9dfa3b9a7dc7e501cc094b93067e89c6448c/scripts/firedrake-install#L786) replace from:
-    ```
-    petsc_options.add("--CFLAGS=-Wno-implicit-function-declaration")
-    ```
-    to:
-    ```
-    petsc_options.add("--CFLAGS=-Wno-implicit-function-declaration -Wno-int-conversion -Wunused-but-set-variable")
-    ```
-    Hopefully, this modification will address the issues with OpenBLAS.
-
----
-
-**Q3: How do I install Firedrake if I already have Conda installed, and it is causing issues?**
+**Q2: How do I install Firedrake if I already have Conda installed, and it is causing issues?**
 
 We have received feedback from a user who successfully installed Firedrake despite having Conda on their system. Here is an approach that has worked well:
 

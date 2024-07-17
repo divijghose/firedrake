@@ -26,6 +26,12 @@ Can we change the default direct solver from MUMPS to superlu_dist?
 
 JB: Relevant issue https://github.com/firedrakeproject/firedrake/issues/3463
 
+JB: Tangentially related, we also fail a bunch of tests when we build in "int64 mode"
+
+https://github.com/firedrakeproject/firedrake/pull/3683
+
+https://github.com/firedrakeproject/firedrake/issues/3690
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -68,8 +68,6 @@ DH: Just fix those tests. (Changes requested)
 
 - DH: [Constant PR](https://github.com/firedrakeproject/firedrake/pull/3686) Merged
 
-
-
 # Date of next meeting
 
 1600 BST (1500 UTC) [2024-07-24](./Firedrake-meeting-2024-07-24)

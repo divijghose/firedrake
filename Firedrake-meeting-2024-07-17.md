@@ -32,10 +32,20 @@ https://github.com/firedrakeproject/firedrake/pull/3683
 
 https://github.com/firedrakeproject/firedrake/issues/3690
 
+
+## PB + RK: GLL ordering
+We might want to change the default GLL(simplex) DOF ordering/entity_ids that ensure that DOFs on the closure of an edge are aligned with the GLL quadrature. 
+
+https://github.com/firedrakeproject/fiat/pull/75/files 
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 - ~JB: Bug fix for TinyASM when PETSc is compiled with 64-bit indices [#3665](https://github.com/firedrakeproject/firedrake/pull/3665)~
+
+- PB: [FIAT #77](https://github.com/firedrakeproject/fiat/pull/77)
+
+- PB: [FInAT #131](https://github.com/FInAT/FInAT/pull/131)
 
 # Date of next meeting
 

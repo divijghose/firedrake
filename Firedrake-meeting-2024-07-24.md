@@ -10,7 +10,7 @@ Date and time 2024-07-24 1600 BST (1500 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. DH: Order more Firedrake stickers
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
-1. JB: FML + Gusto (This will be tackled next week at the Gusto Hackathon)
+1. JB: FML + Gusto (See Merge PRs)
 
 # Notices
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
@@ -21,10 +21,12 @@ Present:
 
 Apologies: 
 
-## Item 1:
+## JB: We need to keep an eye on CI runtimes
+CI has been _very_ inconsistent with runtimes lately.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+JB: [Namespace FML](https://github.com/firedrakeproject/firedrake/pull/3701)
 
 # Date of next meeting
 ??? ???

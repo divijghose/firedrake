@@ -44,5 +44,4 @@ JB: [Namespace FML](https://github.com/firedrakeproject/firedrake/pull/3701)
 Merged.
 
 # Date of next meeting
-??? ???
 1600 BST (1500 UTC) [2024-08-07](./Firedrake-meeting-2024-08-07)

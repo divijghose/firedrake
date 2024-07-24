@@ -15,26 +15,34 @@ Date and time 2024-07-24 1600 BST (1500 UTC)
 # Notices
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
-# Agenda
+# Minutes
 
-Present: 
+Present: DD, KS, IM, JB, DH, NB, PB
 
 Apologies: 
 
 ## JB: We need to keep an eye on CI runtimes
 CI has been _very_ inconsistent with runtimes lately.
 
+DH: Perhaps switching from disk cache to memory will help to understand what is happening.
+
+Another issue: VertexOnlyMesh is expensive in time in CI.
 
 ## PB: Complicated duals
-From [this issue](https://github.com/FEniCS/ufl/issues/301) I encountered several bugs:
+From [this issue](https://github.com/FEniCS/ufl/issues/301) I encountered found several bugs:
 1. One of the latest commits to FEniCS/ufl has bugs within `{Action|Adjoint}.ufl_domains()`
 2. We fail to extract the correct number of arguments of complicated `FormSum`s
 3. In some parts of the code (`Adjoint.__new__`, `Action.__new__`), we forget about the weights of a `FormSum`
+
+* Discuss about adj_input
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 JB: [Namespace FML](https://github.com/firedrakeproject/firedrake/pull/3701)
 
+Merged.
+
 # Date of next meeting
 ??? ???
-1600 BST (1500 UTC) [2024-??-??](./Firedrake-meeting-2024-??-??)
+1600 BST (1500 UTC) [2024-08-07](./Firedrake-meeting-2024-08-07)

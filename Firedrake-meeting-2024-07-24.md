@@ -24,6 +24,13 @@ Apologies:
 ## JB: We need to keep an eye on CI runtimes
 CI has been _very_ inconsistent with runtimes lately.
 
+
+## PB: Complicated duals
+From [this issue](https://github.com/FEniCS/ufl/issues/301) I encountered found several bugs:
+1. One of the latest commits to FEniCS/ufl has bugs within `{Action|Adjoint}.ufl_domains()`
+2. We fail to extract the correct number of arguments of complicated `FormSum`s
+3. In some parts of the code (`Adjoint.__new__`, `Action.__new__`), we forget about the weights of a `FormSum`
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 JB: [Namespace FML](https://github.com/firedrakeproject/firedrake/pull/3701)

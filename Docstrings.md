@@ -7,7 +7,7 @@ Read **new code** as any code not on the master branch of Firedrake as of Octobe
     + This includes the use of [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood).
     + Existing code _should_ follow these conventions already, but there are certainly exceptions.
 - All new code must use [Python type hinting](https://docs.python.org/3/library/typing.html).
-    + ~Python type hints should be imported from `typing` and not from `collections.abc`. Eg: Use `typing.Callable` not `collections.abc.Callable`. This aims to maintain compatibility with Python 3.8 for as long as possible within its remaining lifetime.~ Python type hints should be imported from `collections.abc` and not `typing`. (Support for Python 3.8 was dropped in 2024)
+    + ~Python type hints should be imported from `typing` and not from `collections.abc`. Eg: Use `typing.Callable` not `collections.abc.Callable`. This aims to maintain compatibility with Python 3.8 for as long as possible within its remaining lifetime.~ Python type hints should be imported from `typing` where necessary and built in types used otherwise ie: use `dict` and not `Dict` imported from `typing`. (Support for Python 3.8 was dropped in 2024)
     + Type hints are not compulsory for new code in the install script.
     + Type hints are not compulsory for new code in the test suite.
 - All new code must use [numpy style docstrings](https://numpydoc.readthedocs.io/en/latest/format.html).

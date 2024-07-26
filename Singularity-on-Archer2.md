@@ -90,11 +90,11 @@ salloc --nodes=${nnodes} --ntasks-per-node=${ntasks} --cpus-per-task=1 --exclusi
 
 3. Navigate to the directory where you want to run.
 
-4. Run your script (`SIF_DIR` is an environment variable for the directory that contains the Singularity image):
+4. Run your script (`$SIFDIR` is an environment variable for the directory that contains the Singularity image):
 ```
 srun --oversubscribe --hint=nomultithread --distribution=block:block \
      --nodes=${nnodes} --ntasks-per-node=${ntasks} \
-        singularity run --bind $PWD:/home/firedrake/work --home $PWD $SIFDIR/firedrake-vanilla.sif \
+        singularity run --bind $PWD:/home/firedrake/work --home $PWD $SIFDIR/firedrake.sif \
             /home/firedrake/firedrake/bin/python \
                 myscript.py --my_args
 ```

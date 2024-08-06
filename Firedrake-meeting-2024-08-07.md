@@ -21,7 +21,9 @@ Present:
 
 Apologies: DD (pick NB as a minuter)
 
+## DD: [#PR143](https://github.com/dolfin-adjoint/pyadjoint/pull/143) (pyadjoint) + [#PR3657](https://github.com/firedrakeproject/firedrake/pull/3657) (firedrake): TAO solver
 
+Note: James is planning to attend this meeting.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

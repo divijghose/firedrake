@@ -30,6 +30,9 @@ Note: James is planning to attend this meeting.
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS: [zany](https://github.com/firedrakeproject/firedrake/pull/3726)
+
+KS: [part1](https://github.com/firedrakeproject/firedrake/pull/3727)
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-08-14](./Firedrake-meeting-2024-08-14)

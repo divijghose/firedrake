@@ -25,6 +25,8 @@ Apologies: DD (pick NB as a minuter)
 
 Note: James is planning to attend this meeting.
 
+## JB: Caching is a bit broken
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

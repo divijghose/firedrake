@@ -21,6 +21,8 @@ Present:
 Apologies:
 
 ## Item 1
+JHC: [PR#3742](https://github.com/firedrakeproject/firedrake/pull/3742).
+By default, Sphinx doesn't build the docs for "special" methods i.e. dunder methods. This PR adds a line to the documentation configuration so that `__call__` methods are documented in the API listing.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

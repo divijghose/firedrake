@@ -20,15 +20,16 @@ Present:
 
 Apologies:
 
-## Item 1
+## JHC: Docs
 JHC: [PR#3742](https://github.com/firedrakeproject/firedrake/pull/3742).
 By default, Sphinx doesn't build the docs for "special" methods i.e. dunder methods. This PR adds a line to the documentation configuration so that `__call__` methods are documented in the API listing.
 
-## Item 2
-DD: MUMPS + Mac updates:
+## DD: MUMPS + Mac updates:
 * The PETSc `make test` runs successfully with MUMPS. However, Firedrake tests are still failing when run in parallel.
 * petsc4py also fails in parallel when using MUMPS. So, I believe this is not a problem with Firedrake itself but rather with petsc4py. I will continue to investigate this further.
 
+## JB: Caching update
+WIP is in [PyOP2](https://github.com/OP2/PyOP2/pull/724) and [Firedrake](https://github.com/firedrakeproject/firedrake/pull/3730) PRs, discussion needed?
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

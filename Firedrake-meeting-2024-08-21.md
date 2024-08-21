@@ -49,12 +49,14 @@ WIP is in [PyOP2](https://github.com/OP2/PyOP2/pull/724) and [Firedrake](https:/
 
 JB: Centralise all caching in one place (disk or memory cache). Removed CachedObject.
 
+DH: In principle this looks right.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 KS: [part1](https://github.com/firedrakeproject/firedrake/pull/3727): Minor changes required.
 
-DD: [FWI demo](https://github.com/firedrakeproject/firedrake/pull/3562)
+DD: [FWI demo](https://github.com/firedrakeproject/firedrake/pull/3562): 
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-08-28](./Firedrake-meeting-2024-08-28)

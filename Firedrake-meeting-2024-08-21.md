@@ -51,6 +51,10 @@ JB: Centralise all caching in one place (disk or memory cache). Removed CachedOb
 
 DH: In principle this looks right.
 
+## Irksome
+
+DH: Is it nice to have progress bar?
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -16,25 +16,43 @@ Date and time 2024-08-21 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, CW, JB, IM, DD, RK, PB, JHC, KS
 
 Apologies:
 
-## JHC: Docs
+##
+
+GregVernon's PR [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116):
+
+real-mode test failed for some reason.
+
+Sophia's PR:
+
+DH: This is not the part of the code that we often touch.
+
+# Firedrake US 2025
+
+Friday and Saturday before CSE.## JHC: Docs
 JHC: [PR#3742](https://github.com/firedrakeproject/firedrake/pull/3742).
 By default, Sphinx doesn't build the docs for "special" methods i.e. dunder methods. This PR adds a line to the documentation configuration so that `__call__` methods are documented in the API listing.
+
+DH: Uncontroversial.
 
 ## DD: MUMPS + Mac updates:
 * The PETSc `make test` runs successfully with MUMPS. However, Firedrake tests are still failing when run in parallel.
 * petsc4py also fails in parallel when using MUMPS. So, I believe this is not a problem with Firedrake itself but rather with petsc4py. I will continue to investigate this further.
 
+DD: Wrap up MFE and open new issue in upstream.
+
 ## JB: Caching update
 WIP is in [PyOP2](https://github.com/OP2/PyOP2/pull/724) and [Firedrake](https://github.com/firedrakeproject/firedrake/pull/3730) PRs, discussion needed?
+
+JB: Centralise all caching in one place (disk or memory cache). Removed CachedObject.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-KS: [part1](https://github.com/firedrakeproject/firedrake/pull/3727): Deferred
+KS: [part1](https://github.com/firedrakeproject/firedrake/pull/3727): Minor changes required.
 
 DD: [FWI demo](https://github.com/firedrakeproject/firedrake/pull/3562)
 

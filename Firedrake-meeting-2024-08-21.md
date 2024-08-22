@@ -63,4 +63,5 @@ KS: [part1](https://github.com/firedrakeproject/firedrake/pull/3727): Minor chan
 DD: [FWI demo](https://github.com/firedrakeproject/firedrake/pull/3562): 
 
 # Date of next meeting
-1600 BST (1500 UTC) [2024-08-28](./Firedrake-meeting-2024-08-28)
+No meeting next week!
+1600 BST (1500 UTC) [2024-09-04](./Firedrake-meeting-2024-09-04)

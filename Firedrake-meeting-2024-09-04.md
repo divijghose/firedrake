@@ -37,6 +37,7 @@ Can whoever minutes also make it very clear what the outcomes of the discussions
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
 JB: [FIAT #81](https://github.com/firedrakeproject/fiat/pull/81) Use some relevant versions of Python for CI and fix missing `pkg_resources`.
 
 JB: [FInAT #136](https://github.com/FInAT/FInAT/pull/136) Requires the above to pass tests, this can be re-run "live" the tests take <1min.

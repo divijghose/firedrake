@@ -8,7 +8,7 @@ Date and time 2024-09-04 1600 BST (1500 UTC)
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
 1. DH: Get Firedrake a docker open source account ([link here](https://www.docker.com/community/open-source/application/))
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
-1. DH: Order more Firedrake stickers
+1. ~DH: Order more Firedrake stickers~ DONE
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 
 # Notices
@@ -16,7 +16,7 @@ Date and time 2024-09-04 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: CW (minuter), DD, KS, DH, RK, IM, NB, PB
 
 Apologies: JB
 
@@ -26,11 +26,15 @@ JB is away this week and probably won't make the meeting, but there are several 
 - I think the FInAT hash stuff is ready, I have written a test, I don't think coverage of more elements is necessary.
 - The caching changes that are causing deadlock need another look. This is much closer to being merged, this needs:
   + Another look over the [PyOP2 changes](https://github.com/OP2/PyOP2/pull/724)/review.
+    * DH: thinks a meeting with JB to review would be more productive.
   + Comments/feedback on `PYOP2_SPMD_STRICT` mode (not switched on by default, but I've already found it exceedingly useful).
+    * DH: thinks this is sensible.
   + Feedback/review on the corresponding [Firedrake changes](https://github.com/firedrakeproject/firedrake/pull/3730), specifically I'd like some group thought/wisdom about the hashing functions that are used (ensuring that they are unique, I don't necessarily know all the details of the arguments).
+    * See feedback from DH.
 - I have had [this PR](https://github.com/firedrakeproject/firedrake/pull/3385) open for a log time as a bit of a pet project, but find myself needing it more and more. The idea is to allow running the full test suite on systems that do not allow a recursive MPI init call (Side note: there is an officially blessed MPI way of doing this, see: https://github.com/JDBetteridge/mpispawn for a proof of concept solution). This Firedrake branch now contains a bunch of test fixes that ought to be moved back to master. What I want to know is:
   + Can we switch to "MPI on the outside" test execution? Or will I have to keep maintaining this branch to test on HPC and other pedantic systems?
   + Additionally, does someone want to fix, or at least tell me how to fix `tests/output/test_adjoint_disk_checkpointing.py::test_disk_checkpointing`? I have had to mark the test broken in this PR. The test pollutes the tape and only passes on master because each parallel test is run in isolation! Also, I don't think `pytest-mpi` propagates markers like `xfail`. (**I (Daiane) can see this.**)
+  * DH: Considers this too complex a PR to review without JB present.
 
 Can whoever minutes also make it very clear what the outcomes of the discussions are so that I can pick this up next week when I'm back.
 
@@ -38,27 +42,28 @@ Can whoever minutes also make it very clear what the outcomes of the discussions
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-JB: [FIAT #81](https://github.com/firedrakeproject/fiat/pull/81) Use some relevant versions of Python for CI and fix missing `pkg_resources`.
+JB: [FIAT #81](https://github.com/firedrakeproject/fiat/pull/81) Use some relevant versions of Python for CI and fix missing `pkg_resources`. - merged
 
-JB: [FInAT #136](https://github.com/FInAT/FInAT/pull/136) Requires the above to pass tests, this can be re-run "live" the tests take <1min.
+JB: [FInAT #136](https://github.com/FInAT/FInAT/pull/136) Requires the above to pass tests, this can be re-run "live" the tests take <1min. - approved
 
-JB: [FInAT #134](https://github.com/FInAT/FInAT/pull/134) Update FInAT UFL element hashes so they are persistent across invocations (so expressions can be retrieved from disk cache). There is [proof](https://github.com/firedrakeproject/firedrake/pull/3729) that Firedrake works with these changes.
+JB: [FInAT #134](https://github.com/FInAT/FInAT/pull/134) Update FInAT UFL element hashes so they are persistent across invocations (so expressions can be retrieved from disk cache). There is [proof](https://github.com/firedrakeproject/firedrake/pull/3729) that Firedrake works with these changes. - merged
 
-PB: [FD #3719](https://github.com/firedrakeproject/firedrake/pull/3719) PatchPC: Log flops
+PB: [FD #3719](https://github.com/firedrakeproject/firedrake/pull/3719) PatchPC: Log flops - merged
 
-PB: [FD #3734](https://github.com/firedrakeproject/firedrake/pull/3734/files) Fix TransferManager reuse for MixedFunctionSpace
+PB: [FD #3734](https://github.com/firedrakeproject/firedrake/pull/3734/files) Fix TransferManager reuse for MixedFunctionSpace - merged
 
-PB: [pyop2 #727](https://github.com/OP2/PyOP2/pull/727) Fix Function.sub(i).zero()
+PB: [pyop2 #727](https://github.com/OP2/PyOP2/pull/727) Fix Function.sub(i).zero() - merged
 
-PB: [FD #3749](https://github.com/firedrakeproject/firedrake/pull/3749) Test Function.sub(i).zero()
+PB: [FD #3749](https://github.com/firedrakeproject/firedrake/pull/3749) Test Function.sub(i).zero() - approved, set to auto-merge
 
-PB: [FIAT #82](https://github.com/firedrakeproject/fiat/pull/82) Macro: bin points to nearest cell
+PB: [FIAT #82](https://github.com/firedrakeproject/fiat/pull/82) Macro: bin points to nearest cell - not ready
 
-PB: [FInAT #137](https://github.com/FInAT/FInAT/pull/137) sympy2gem: if-then-else
+PB: [FInAT #137](https://github.com/FInAT/FInAT/pull/137) sympy2gem: if-then-else - merged
 
-DD: [Fix MUMPS macOS #3752](https://github.com/firedrakeproject/firedrake/pull/3752)
+DD: [Fix MUMPS macOS #3752](https://github.com/firedrakeproject/firedrake/pull/3752) - small comment, otherwise ready to merge
+  * DH: Suspects something is wrong inside MUMPS causing the `pytest` issue. Thinks it is acceptable to treat as a 'wontfix'.
 
-DD: [Fix link in FWI demo #3756](https://github.com/firedrakeproject/firedrake/pull/3756)
+DD: [Fix link in FWI demo #3756](https://github.com/firedrakeproject/firedrake/pull/3756) - merged
 
 
 # Date of next meeting

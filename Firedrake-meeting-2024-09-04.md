@@ -56,6 +56,8 @@ PB: [FIAT #82](https://github.com/firedrakeproject/fiat/pull/82) Macro: bin poin
 
 PB: [FInAT #137](https://github.com/FInAT/FInAT/pull/137) sympy2gem: if-then-else
 
+DD: [Fix MUMPS macOS #3752](https://github.com/firedrakeproject/firedrake/pull/3752)
+
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-09-13](./Firedrake-meeting-2024-09-13)

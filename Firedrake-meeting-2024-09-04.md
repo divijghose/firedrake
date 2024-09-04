@@ -44,6 +44,17 @@ JB: [FInAT #136](https://github.com/FInAT/FInAT/pull/136) Requires the above to 
 
 JB: [FInAT #134](https://github.com/FInAT/FInAT/pull/134) Update FInAT UFL element hashes so they are persistent across invocations (so expressions can be retrieved from disk cache). There is [proof](https://github.com/firedrakeproject/firedrake/pull/3729) that Firedrake works with these changes.
 
+PB: [FD #3719](https://github.com/firedrakeproject/firedrake/pull/3719) PatchPC: Log flops
+
+PB: [FD #3734](https://github.com/firedrakeproject/firedrake/pull/3734/files) Fix TransferManager reuse for MixedFunctionSpace
+
+PB: [pyop2 #727](https://github.com/OP2/PyOP2/pull/727) Fix Function.sub(i).zero()
+
+PB: [FD #3749](https://github.com/firedrakeproject/firedrake/pull/3749) Test Function.sub(i).zero()
+
+PB: [FIAT #82](https://github.com/firedrakeproject/fiat/pull/82) Macro: bin points to nearest cell
+
+PB: [FInAT #137](https://github.com/FInAT/FInAT/pull/137) sympy2gem: if-then-else
 
 
 # Date of next meeting

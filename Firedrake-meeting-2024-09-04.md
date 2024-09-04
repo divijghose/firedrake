@@ -58,6 +58,8 @@ PB: [FInAT #137](https://github.com/FInAT/FInAT/pull/137) sympy2gem: if-then-els
 
 DD: [Fix MUMPS macOS #3752](https://github.com/firedrakeproject/firedrake/pull/3752)
 
+DD: [Fix link in FWI demo #3756](https://github.com/firedrakeproject/firedrake/pull/3756)
+
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-09-13](./Firedrake-meeting-2024-09-13)

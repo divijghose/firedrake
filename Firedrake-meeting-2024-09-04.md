@@ -14,7 +14,7 @@ Date and time 2024-09-04 1600 BST (1500 UTC)
 # Notices
 1. Firedrake User Meeting 16-18 September 2024 [Firedrake](https://www.firedrakeproject.org/firedrake_24.html) (Registration 25th August/Abstracts 18th August)
 
-# Agenda
+# Minutes
 
 Present: CW (minuter), DD, KS, DH, RK, IM, NB, PB
 

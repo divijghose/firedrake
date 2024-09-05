@@ -67,4 +67,4 @@ DD: [Fix link in FWI demo #3756](https://github.com/firedrakeproject/firedrake/p
 
 
 # Date of next meeting
-1600 BST (1500 UTC) [2024-09-13](./Firedrake-meeting-2024-09-13)
+1600 BST (1500 UTC) [2024-09-11](./Firedrake-meeting-2024-09-11)

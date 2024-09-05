@@ -1,4 +1,4 @@
-Date and time 2024-09-13 1600 BST (1500 UTC)
+Date and time 2024-09-11 1600 BST (1500 UTC)
 
 # Action Items
 1. **Pick Chair and Minuter** (CW to pick)
@@ -23,4 +23,4 @@ Apologies: CW
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 # Date of next meeting
-1600 BST (1500 UTC) [2024-09-20](./Firedrake-meeting-2024-09-20)
+1600 BST (1500 UTC) [2024-09-18](./Firedrake-meeting-2024-09-18)

@@ -19,6 +19,10 @@ Present:
 
 Apologies: CW
 
+## NB: Add JAX support
+
+[#3759](https://github.com/firedrakeproject/firedrake/pull/3759): Add support to couple Firedrake and JAX systems in a differentiable manner using external operators and a similar JAX concept.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

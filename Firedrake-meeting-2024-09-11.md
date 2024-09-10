@@ -23,6 +23,8 @@ Apologies: CW
 
 [#3759](https://github.com/firedrakeproject/firedrake/pull/3759): Add support to couple Firedrake and JAX systems in a differentiable manner using external operators and a similar JAX concept.
 
+## JM: Tao optimisation solver: [PR 143](https://github.com/dolfin-adjoint/pyadjoint/pull/143)
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

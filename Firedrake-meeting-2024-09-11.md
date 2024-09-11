@@ -34,5 +34,9 @@ PB: [firedrake #3757](https://github.com/firedrakeproject/firedrake/pull/3757)
 
 PB: [firedrake #3762](https://github.com/firedrakeproject/firedrake/pull/3762)
 
+JB: [3758](https://github.com/firedrakeproject/firedrake/pull/3758)
+
+JB: [3707](https://github.com/firedrakeproject/firedrake/pull/3707)
+
 # Date of next meeting
 1600 BST (1500 UTC) [2024-09-18](./Firedrake-meeting-2024-09-18)

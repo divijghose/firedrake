@@ -30,5 +30,7 @@ Apologies: CW, PB
 
 PB: [firedrake #3757](https://github.com/firedrakeproject/firedrake/pull/3757)
 
+PB: [firedrake #3762](https://github.com/firedrakeproject/firedrake/pull/3762)
+
 # Date of next meeting
 1600 BST (1500 UTC) [2024-09-18](./Firedrake-meeting-2024-09-18)

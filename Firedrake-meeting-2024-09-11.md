@@ -17,7 +17,7 @@ Date and time 2024-09-11 1600 BST (1500 UTC)
 
 Present:
 
-Apologies: CW
+Apologies: CW, PB
 
 ## NB: Add JAX support
 
@@ -27,6 +27,8 @@ Apologies: CW
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
+PB: [firedrake #3757](https://github.com/firedrakeproject/firedrake/pull/3757)
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-09-18](./Firedrake-meeting-2024-09-18)

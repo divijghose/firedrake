@@ -25,6 +25,8 @@ Apologies: CW, PB
 
 ## JM: Tao optimisation solver: [PR 143](https://github.com/dolfin-adjoint/pyadjoint/pull/143)
 
+## KS: hex interior facet integration : https://github.com/firedrakeproject/firedrake/pull/3755
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

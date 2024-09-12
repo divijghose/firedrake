@@ -54,4 +54,4 @@ JB: [3707](https://github.com/firedrakeproject/firedrake/pull/3707)
 Approved!
 
 # Date of next meeting
-1600 BST (1500 UTC) [2024-09-18](./Firedrake-meeting-2024-09-18)
+1600 BST (1500 UTC) [2024-09-25](./Firedrake-meeting-2024-09-25)

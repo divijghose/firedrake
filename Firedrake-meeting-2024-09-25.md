@@ -16,7 +16,7 @@ Date and time 2024-09-25 1600 BST (1500 UTC)
 
 Present:
 
-Apologies:
+Apologies: CW
 
 
 ## Merge PRs 

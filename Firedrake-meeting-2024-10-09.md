@@ -16,12 +16,17 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: Has spec'd some runners
 
+## JB: Triage issues in meetings?
+There are a lot of open issues with no action and no triage. (Maybe some of them are 4th year/MSc projects...) Should we start triaging during meetings?
+
+## JB: Revisiting old PRs
+We never off-boarded Rueben's branches and we should probably off-board Nacime's now. (And don't forget Sophia's branches!)
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
-
+- JB: [#3730](https://github.com/firedrakeproject/firedrake/pull/3730) (and corresponding Pyop2 #724](https://github.com/OP2/PyOP2/pull/724))
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-16](./Firedrake-meeting-2024-10-16)

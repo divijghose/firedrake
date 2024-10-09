@@ -1,10 +1,10 @@
 ## Motivation
 
-Firedrake maintains forks of some of its dependencies (e.g. [PETSc](https://github.com/firedrakeproject/petsc)). This is so we can control the release schedule and protect users from breaking upstream changes whilst also be able to use the latest versions of these projects if we require specific changes.
+Firedrake maintains forks of some of its dependencies (e.g. [PETSc](https://github.com/firedrakeproject/petsc)). This is so we can control the release schedule and protect users from breaking upstream changes whilst also be able to use the latest release versions of these projects if we require specific changes.
 
 ## Process
 
-These forked repositories should be updated every few months using the following steps:
+These forked repositories should be updated every month when the bug-fix release is made by using the following steps:
 
 ### Prerequisites
 
@@ -24,16 +24,17 @@ These forked repositories should be updated every few months using the following
     ```
 1. Update the `upstream` remote:
     ```
-    $ git fetch upstream
+    $ git fetch --tags upstream
+    $ git checkout v3.XX.Y upstream/tags/v3.XX.Y
+    $- git checkout -b <github_username>/upstream-update
     ```
 1. Update the local branch:
     ```
-    $ git merge upstream/main
+    $ git merge v3.XX.Y
     ```
     Note that `git merge` should be used here instead of `git rebase` to avoid rewriting the commit history and breaking `firedrake-update`.
 1. Create, checkout and push a new branch that is identical to the current one:
     ```
-    $ git checkout -b <github username>/upstream-update
     $ git push -u origin <github username>/upstream-update
     ```
 1. Create a pull request to the forked repository using this branch ([example](https://github.com/firedrakeproject/petsc/pull/15)).

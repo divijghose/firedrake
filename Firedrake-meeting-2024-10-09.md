@@ -29,6 +29,10 @@ We never off-boarded Rueben's branches and we should probably off-board Nacime's
 ## JB: Pin PETSc/SLEPc forks to releases rather than arbitrary commits
 Fixes are ported to releases and there is 1 minor release per month. I believe this will make installation a bit more stable in the run up to wheel. Thoughts?
 
+## PB/RK: Issues with sphinx in FInAT
+Doc build is broken, we suspect is due to an API change.
+https://github.com/FInAT/FInAT/actions/runs/11236557144/job/31237402300
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 - JB: [#3730](https://github.com/firedrakeproject/firedrake/pull/3730) (and corresponding [PyOP2 #724](https://github.com/OP2/PyOP2/pull/724))
@@ -38,6 +42,7 @@ Fixes are ported to releases and there is 1 minor release per month. I believe t
   - Update IO in Firedrake for PETSc changes [#3792](https://github.com/firedrakeproject/firedrake/pull/3792),
   - Unpin mpi4py [#3777](https://github.com/firedrakeproject/firedrake/pull/3777), 
   - Allow installing with Python 3.13 [#3791](https://github.com/firedrakeproject/firedrake/pull/3791)
+- PB: [#3736](https://github.com/firedrakeproject/firedrake/pull/3736) Reviewed last week.
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-16](./Firedrake-meeting-2024-10-16)

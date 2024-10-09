@@ -12,26 +12,76 @@ Date and time 2024-10-09 1600 BST (1500 UTC)
 
 # Agenda
 
-Present: 
+Present: DH, JB, CW, PB, IM, RK, KS, CJC
 
 Apologies:
 
 ## JB: Has spec'd some runners
 
+AMD HPC grade processors 32 cores, more memory channels
+
+No GPU
+
+JB: [this](https://www.novatech.co.uk/savedbuild/5d1a496f-9b01-48ee-8aa2-22a03413366c)
+
+DH: self-hosted, linux:
+
+[related PR](https://github.com/firedrakeproject/firedrake/pull/3787)
+
+[gusto](https://github.com/firedrakeproject/gusto/pull/559)
+
+[gust_case_studies](https://github.com/firedrakeproject/gusto_case_studies/pull/29)
+
+[libsupermesh](https://github.com/firedrakeproject/libsupermesh/pull/5)
+
+[irksome](https://github.com/firedrakeproject/Irksome/pull/97)
+
 ## JB: Triage issues in meetings?
 There are a lot of open issues with no action and no triage. (Maybe some of them are 4th year/MSc projects...) Should we start triaging during meetings?
+
+Not today.
+
+Nacime's PRs (not sure how active he will be, so wait a bit)
+
+Reuben's PRs: 
+
+[Fix voting algorithm](https://github.com/firedrakeproject/firedrake/pull/3293)
+
+Action Leo (with CW)
+
+[Correct transpose](https://github.com/firedrakeproject/firedrake/pull/3167)
+
+Action JB (rebase and test)
+
+[Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
+
+Action Leo
+
+[Cubit](https://github.com/firedrakeproject/firedrake/pull/2116)
+
+...
 
 ## JB: Revisiting old PRs
 We never off-boarded Rueben's branches and we should probably off-board Nacime's now. (And don't forget Sophia's branches!)
 
 ## JB/CW/UZ: Move ngsPETSc tests out of Firedrake
 
+DH: Yes.
+
 ## JB: Pin PETSc/SLEPc forks to releases rather than arbitrary commits
 Fixes are ported to releases and there is 1 minor release per month. I believe this will make installation a bit more stable in the run up to wheel. Thoughts?
+
+Yes.
 
 ## PB/RK: Issues with sphinx in FInAT
 Doc build is broken, we suspect is due to an API change.
 https://github.com/FInAT/FInAT/actions/runs/11236557144/job/31237402300
+
+Look for inter sphinx_mapping in firedrake: docs/source/conf.py:
+
+...
+'python': https:.. ....
+...
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

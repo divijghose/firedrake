@@ -43,6 +43,7 @@ https://github.com/FInAT/FInAT/actions/runs/11236557144/job/31237402300
   - Unpin mpi4py [#3777](https://github.com/firedrakeproject/firedrake/pull/3777), 
   - Allow installing with Python 3.13 [#3791](https://github.com/firedrakeproject/firedrake/pull/3791)
 - PB: [#3736](https://github.com/firedrakeproject/firedrake/pull/3736) Reviewed last week.
+- PB: [#3771](https://github.com/firedrakeproject/firedrake/pull/3771) Reviewed last week.
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-16](./Firedrake-meeting-2024-10-16)

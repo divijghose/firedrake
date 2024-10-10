@@ -45,21 +45,19 @@ not sure how active he will be, so wait a bit.
 
 Reuben's PRs: 
 
-[Fix voting algorithm](https://github.com/firedrakeproject/firedrake/pull/3293)
-
 Action LC (assisted by CW)
 
-[Correct transpose](https://github.com/firedrakeproject/firedrake/pull/3167)
-
-Action JB (rebase and test)
+[Fix voting algorithm](https://github.com/firedrakeproject/firedrake/pull/3293)
 
 [Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
 
-Action LC
+Action JB (rebase and test)
+
+[Correct transpose](https://github.com/firedrakeproject/firedrake/pull/3167)
+
+Action ?
 
 [Cubit](https://github.com/firedrakeproject/firedrake/pull/2116)
-
-?
 
 ## JB: Revisiting old PRs
 We never off-boarded Rueben's branches and we should probably off-board Nacime's now. (And don't forget Sophia's branches!)

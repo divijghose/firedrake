@@ -18,11 +18,9 @@ Apologies:
 
 ## JB: Has spec'd some runners
 
-AMD HPC grade processors 32 cores, more memory channels
+JB: [AMD EPYC Milan 7543](https://www.novatech.co.uk/savedbuild/5d1a496f-9b01-48ee-8aa2-22a03413366c)
 
 No GPU
-
-JB: [this](https://www.novatech.co.uk/savedbuild/5d1a496f-9b01-48ee-8aa2-22a03413366c)
 
 DH: self-hosted, linux:
 
@@ -41,13 +39,15 @@ There are a lot of open issues with no action and no triage. (Maybe some of them
 
 Not today.
 
-Nacime's PRs (not sure how active he will be, so wait a bit)
+Nacime's PRs:
+
+not sure how active he will be, so wait a bit.
 
 Reuben's PRs: 
 
 [Fix voting algorithm](https://github.com/firedrakeproject/firedrake/pull/3293)
 
-Action Leo (with CW)
+Action LC (assisted by CW)
 
 [Correct transpose](https://github.com/firedrakeproject/firedrake/pull/3167)
 
@@ -55,11 +55,11 @@ Action JB (rebase and test)
 
 [Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
 
-Action Leo
+Action LC
 
 [Cubit](https://github.com/firedrakeproject/firedrake/pull/2116)
 
-...
+?
 
 ## JB: Revisiting old PRs
 We never off-boarded Rueben's branches and we should probably off-board Nacime's now. (And don't forget Sophia's branches!)
@@ -80,7 +80,9 @@ https://github.com/FInAT/FInAT/actions/runs/11236557144/job/31237402300
 Look for inter sphinx_mapping in firedrake: docs/source/conf.py:
 
 ...
+
 'python': https:.. ....
+
 ...
 
 ## Merge PRs 

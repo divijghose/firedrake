@@ -10,7 +10,7 @@ Date and time 2024-10-16 1600 BST (1500 UTC)
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 1. LC: Try to merge RNH' PRs: [Voting algorithm](https://github.com/firedrakeproject/firedrake/pull/3293), [Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
-1. JB: Rebase and test [Transpose](https://github.com/firedrakeproject/firedrake/pull/3167)
+1. ~JB: Rebase and test [Transpose](https://github.com/firedrakeproject/firedrake/pull/3167)~ Done
 1. DH: Finish UFL element.value_shape() update
 
 # Agenda

@@ -31,7 +31,23 @@ And other test suite fixes: https://github.com/firedrakeproject/firedrake/pull/3
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [#3796 TransferManager](https://github.com/firedrakeproject/firedrake/pull/3796)
+PB: Merge in any order
+
+PB: [FInAT #141](https://github.com/FInAT/FInAT/pull/141) Fixes docs, but points to legacy fenics FIAT (same as in FD).
+
+PB: [FIAT #89](https://github.com/firedrakeproject/fiat/pull/89) Already tested firedrake
+
+PB: [TransferManager #3796](https://github.com/firedrakeproject/firedrake/pull/3796)
+
+PB: Merge in this order. Already reviewed.
+
+PB: [FIAT #86](https://github.com/firedrakeproject/fiat/pull/86)
+
+PB: [FInAT #140](https://github.com/FInAT/FInAT/pull/140)
+
+PB: [TSFC #320](https://github.com/firedrakeproject/tsfc/pull/320)
+
+PB: [Firedrake #3795](https://github.com/firedrakeproject/firedrake/pull/3795)
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-23](./Firedrake-meeting-2024-10-23)

@@ -31,5 +31,7 @@ And other test suite fixes: https://github.com/firedrakeproject/firedrake/pull/3
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [#3796 TransferManager](https://github.com/firedrakeproject/firedrake/pull/3796)
+
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-23](./Firedrake-meeting-2024-10-23)

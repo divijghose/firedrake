@@ -47,7 +47,7 @@ PB: [FInAT #140](https://github.com/FInAT/FInAT/pull/140)
 
 PB: [TSFC #320](https://github.com/firedrakeproject/tsfc/pull/320)
 
-PB: [Firedrake #3795](https://github.com/firedrakeproject/firedrake/pull/3795)
+PB: [Firedrake #3795](https://github.com/firedrakeproject/firedrake/pull/3795) Need to drop branches
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-23](./Firedrake-meeting-2024-10-23)

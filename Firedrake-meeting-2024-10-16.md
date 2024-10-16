@@ -13,7 +13,7 @@ Date and time 2024-10-16 1600 BST (1500 UTC)
 1. ~JB: Rebase and test [Transpose](https://github.com/firedrakeproject/firedrake/pull/3167)~ Done
 1. DH: Finish UFL element.value_shape() update
 
-# Agenda
+# Minutes
 
 Present: CW (minuter), PB, UZ, IM, RK, LC, DH, JB, JHC, KS
 

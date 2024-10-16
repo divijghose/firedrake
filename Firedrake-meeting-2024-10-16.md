@@ -35,7 +35,7 @@ PB: Merge in any order
 
 PB: [FInAT #141](https://github.com/FInAT/FInAT/pull/141) Fixes docs, but points to legacy fenics FIAT (same as in FD).
 
-PB: [FIAT #89](https://github.com/firedrakeproject/fiat/pull/89) Already tested firedrake
+PB: [FIAT #89](https://github.com/firedrakeproject/fiat/pull/89) High-degree tabulated quadratures. Already tested firedrake
 
 PB: [TransferManager #3796](https://github.com/firedrakeproject/firedrake/pull/3796)
 

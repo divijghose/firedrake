@@ -19,7 +19,14 @@ Present:
 
 Apologies:
 
-## Item 1
+## JB: ngsPETSc
+If Umberto is attending we should talk about this again in light of Patrick's comments. If not `goto next`.
+
+## JB: An ancient branch rebased
+Is anyone interested in further developing this work? https://github.com/firedrakeproject/firedrake/pull/3799
+
+## JB: Allow the test suite to run with MPI "on the outside"
+And other test suite fixes: https://github.com/firedrakeproject/firedrake/pull/3385
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -1,3 +1,6 @@
+# Isambard is no more!
+The Isambard 2 service was [retired](https://gw4-isambard.github.io/docs/) on 30th September 2024. These notes are only for reference.
+
 We have only tried installing on the XCI (ARM/ThunderX2/TX2) system, not the MACS, A64FX or Phase3 portions of the machine.
 
 ## Prerequisites

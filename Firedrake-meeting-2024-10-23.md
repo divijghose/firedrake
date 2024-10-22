@@ -20,12 +20,18 @@ Present:
 
 Apologies:
 
+## DD: [PR #3723](https://github.com/firedrakeproject/firedrake/pull/3723)
+
+Adjoint Variational Solver and fix recomputing tape when Jacobian is constant.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 PB: [#3815](https://github.com/firedrakeproject/firedrake/pull/3815) Skip checks for Tinyasm
 
 PB: [#3814](https://github.com/firedrakeproject/firedrake/pull/3814) MG for R space
+
+DD: [#3816](https://github.com/firedrakeproject/firedrake/pull/3816) Fix gradient computation where the boundary condition is a control parameter.
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-30](./Firedrake-meeting-2024-10-30)

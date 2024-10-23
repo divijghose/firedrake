@@ -20,6 +20,8 @@ Present:
 
 Apologies: PB
 
+## RK: Firedrake USA 2025.
+
 ## DD: [PR #3723](https://github.com/firedrakeproject/firedrake/pull/3723)
 
 Adjoint Variational Solver and fix recomputing tape when Jacobian is constant.

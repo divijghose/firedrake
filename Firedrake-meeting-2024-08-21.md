@@ -32,7 +32,10 @@ DH: This is not the part of the code that we often touch.
 
 # Firedrake US 2025
 
-Friday and Saturday before CSE.## JHC: Docs
+Friday and Saturday before CSE.
+
+## JHC: Docs
+
 JHC: [PR#3742](https://github.com/firedrakeproject/firedrake/pull/3742).
 By default, Sphinx doesn't build the docs for "special" methods i.e. dunder methods. This PR adds a line to the documentation configuration so that `__call__` methods are documented in the API listing.
 

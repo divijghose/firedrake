@@ -34,6 +34,9 @@ Adjoint Variational Solver and fix recomputing tape when Jacobian is constant.
 ```
 CI time has shot up as a result.
 
+## JB: Move pyop3 and TSFC to firedrake and move FInAT to FIAT
+This is now happening, beware PB we need to pause merges on FIAT/FInAT for a bit.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -26,6 +26,14 @@ Apologies: PB
 
 Adjoint Variational Solver and fix recomputing tape when Jacobian is constant.
 
+## JB: Long running tests
+```
+427.50s call     tests/demos/test_demos_run.py::test_demo_runs[full_waveform_inversion.py.rst]
+363.02s call     tests/macro/test_macro_interp_project.py::test_piola_convergence[h1_proj-3-Johnson-Mercier-1-1]
+345.51s call     tests/regression/test_fdm.py::test_p_independence_hcurl[Box]
+```
+CI time has shot up as a result.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

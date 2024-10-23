@@ -16,15 +16,43 @@ Date and time 2024-10-23 1600 BST (1500 UTC)
 
 # Agenda
 
-Present:
+Present: DH, CW, KS, JB, IM, FA, RK, DD, JHC, LC, Y
 
 Apologies: PB
 
+## Merge queues
+
+Low priority for now.
+
+## Voting algorithm
+
+Connor has a WIP solution for this, so will take this on.
+
 ## RK: Firedrake USA 2025.
+
+SIAM has funding call deadline next week: $2k ish hopefully. They may expect the meeting to be at a university.
+
+- Finding a venue: in/near Fort Worth, or in Wako?
+- Fort Worth: + Easier for people to get to. - Harder logistics. - SIAM may not want to fund something this close?
+- Wako: + Easier to organise, RK has contacts. - Harder to get to from Dallas airport. Airport transport can be expensive.
+
+- DH: likely to be fewer UK/Europe attendees than usual, but we want to encourage US attendees. Which is easier location from the US?
+- RK: Wako is on the way to Fort Worth, but only for driving. But Washington, LLNL, etc won't be driving. Can we ask on Slack General what people would prefer?
+
+RK: We can organise a group shuttle to get everyone to Fort Worth after Firedrake Meeting.
+
+Ideas for Sunday group activities? Dinosaur footprint valley?
+
+FA: Finite element rodeo is a week before Firedrake & CSE.
 
 ## DD: [PR #3723](https://github.com/firedrakeproject/firedrake/pull/3723)
 
 Adjoint Variational Solver and fix recomputing tape when Jacobian is constant.
+
+- DH: Why does memory increase at end of NS example? DD: Will rerun with more time to see if it stabilises.
+
+- Linear wave example: why does memory match? Isn't master version creating a new solver every time? Why doesn't this overhead show up? DD: I will investigate this.
+
 
 ## JB: Long running tests
 ```
@@ -34,15 +62,26 @@ Adjoint Variational Solver and fix recomputing tape when Jacobian is constant.
 ```
 CI time has shot up as a result.
 
-## JB: Move pyop3 and TSFC to firedrake and move FInAT to FIAT
+- DD: It may be possible to simplify FWI demo.
+- DH: FWI: inverse problems are inherently large, but what do we want the tests to do? Can we have simpler/smaller parameters when the tests are run.
+
+- RK: Piola convergence is running 2D and 3D convergence tests. Do we need to test these rigorously? But meshes are small, so we need to see why it is taking so long.
+- DH: This needs to be on the agenda until PB is at the meeting so we can discuss.
+
+## JB: Move PyOP2 and TSFC to firedrake and move FInAT to FIAT
 This is now happening, beware PB we need to pause merges on FIAT/FInAT for a bit.
+
+- JB: FInAT/TSFC: we need a pause on adding elements while we merge them.
+- DH: FInAT/TSFC: just merge it
+
+- JB: PyOP2 has successfully been merged!
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [#3814](https://github.com/firedrakeproject/firedrake/pull/3814) MG for R space
+PB: [#3814](https://github.com/firedrakeproject/firedrake/pull/3814) MG for R space. Will deal with this when we have more time.
 
-DD: [#3816](https://github.com/firedrakeproject/firedrake/pull/3816) Fix gradient computation where the boundary condition is a control parameter.
+DD: [#3816](https://github.com/firedrakeproject/firedrake/pull/3816) Fix gradient computation where the boundary condition is a control parameter. Approved and merged.
 
 # Date of next meeting
 1600 BST (1500 UTC) [2024-10-30](./Firedrake-meeting-2024-10-30)

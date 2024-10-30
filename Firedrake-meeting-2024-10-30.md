@@ -36,12 +36,22 @@ merged.
 ```
 CI time has shot up as a result.
 
-Transfer to next week; wait for Pablo showing up.
+JB: Why are fdm tests slow?
+
+PB: Can make it use lower-degrees.
+
+PB: Code generations are slow with Johnson-Mercier.
+
+DH: Are they supposed to be that slow?
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 KS: [io high-order mesh H(div)/H(curl)](https://github.com/firedrakeproject/firedrake/pull/3838)
+
+DH: We do not want additional arguments in `save_function`.
+
+KS: Best solution is to fix our definition of elements so that DG projection would not be necessary.
 
 # Date of next meeting
 1600 UTC [2024-11-06](./Firedrake-meeting-2024-11-06)

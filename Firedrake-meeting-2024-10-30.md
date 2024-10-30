@@ -18,7 +18,7 @@ Date and time 2024-10-30 1600 UTC
 
 Present: 
 
-Apologies:
+Apologies: DD
 
 ## CW: Voting algorithm
 

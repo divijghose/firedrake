@@ -16,13 +16,17 @@ Date and time 2024-10-30 1600 UTC
 
 # Agenda
 
-Present: 
+Present: DH, JB, IM, JHC, CW, LC, KS
 
 Apologies: DD
 
 ## CW: Voting algorithm
 
 https://github.com/firedrakeproject/firedrake/pull/3293
+
+mesh.py line 4171 explains.
+
+merged.
 
 ## (from last week) JB: Long running tests
 ```
@@ -31,6 +35,8 @@ https://github.com/firedrakeproject/firedrake/pull/3293
 345.51s call     tests/regression/test_fdm.py::test_p_independence_hcurl[Box]
 ```
 CI time has shot up as a result.
+
+Transfer to next week; wait for Pablo showing up.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -28,5 +28,7 @@ Andreas [has indicated](https://github.com/firedrakeproject/loopy/issues/27) tha
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+* CW: https://github.com/dolfin-adjoint/pyadjoint/pull/174
+
 # Date of next meeting
 1600 UTC [2024-11-13](./Firedrake-meeting-2024-11-13)

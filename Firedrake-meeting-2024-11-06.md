@@ -25,6 +25,10 @@ Apologies:
 
 Andreas [has indicated](https://github.com/firedrakeproject/loopy/issues/27) that loopy will be moving to Python 3.10 soon. Do we follow? If we don't then we might need to pin to a pymbolic git hash instead of a version.
 
+## CW: Slack channel for developers?
+
+I don't want to bother 650 people when our docs fail to build etc...
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -40,6 +40,7 @@ I don't want to bother 650 people when our docs fail to build etc...
 
 * DD: [Test mode for FWI CI execution](https://github.com/firedrakeproject/firedrake/pull/3836)
 
+* KS: [EquationBC + PC](https://github.com/firedrakeproject/firedrake/pull/3842)
 
 # Date of next meeting
 1600 UTC [2024-11-13](./Firedrake-meeting-2024-11-13)

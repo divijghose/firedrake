@@ -34,5 +34,12 @@ I don't want to bother 650 people when our docs fail to build etc...
 
 * CW: https://github.com/dolfin-adjoint/pyadjoint/pull/174
 
+* DD: tape `_recompute_count`: https://github.com/dolfin-adjoint/pyadjoint/pull/172
+
+* DD: [Adjoint variational solver](https://github.com/firedrakeproject/firedrake/pull/3723)
+
+* DD: [Test mode for FWI CI execution](https://github.com/firedrakeproject/firedrake/pull/3836)
+
+
 # Date of next meeting
 1600 UTC [2024-11-13](./Firedrake-meeting-2024-11-13)

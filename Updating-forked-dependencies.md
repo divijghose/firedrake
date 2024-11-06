@@ -4,7 +4,7 @@ Firedrake maintains forks of some of its dependencies (e.g. [PETSc](https://gith
 
 ## Process
 
-These forked repositories should be updated every month when the bug-fix release is made by using the following steps:
+These forked repositories should be updated **every month when the bug-fix release is made** by using the following steps:
 
 ### Prerequisites
 

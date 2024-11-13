@@ -18,12 +18,13 @@ Date and time 2024-11-13 1600 UTC
 
 # Agenda
 
-Present: FA, RK, DH, DD, KS, IM, LC
+Present: FA, RK, DH, DD, KS, IM, LC, CW
 
 Apologies: CW (will be 20 minutes late)
 
 ## Issues
 
+[Skipping Jacobian reassembly](https://github.com/firedrakeproject/firedrake/issues/3813) DH: Nontrivial, it is low priority, high risk of getting it wrong. KH: easy if we inspect Parloop arguments.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
@@ -31,7 +32,7 @@ Apologies: CW (will be 20 minutes late)
 
 KS:[Firedrake](https://github.com/firedrakeproject/firedrake/pull/3855) adds tests
 
-KS:[TSFC](https://github.com/firedrakeproject/tsfc/pull/327) adds dtype to nodes, requested fixes to type comparisson 
+KS:[TSFC](https://github.com/firedrakeproject/tsfc/pull/327) adds dtype to nodes, requested fixes to type comparison 
 
 # Date of next meeting
 1600 UTC [2024-11-20](./Firedrake-meeting-2024-11-20)

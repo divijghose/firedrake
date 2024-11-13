@@ -19,7 +19,7 @@ Date and time 2024-11-13 1600 UTC
 
 Present: 
 
-Apologies:
+Apologies: CW (will be 20 minutes late)
 
 
 ## Merge PRs 

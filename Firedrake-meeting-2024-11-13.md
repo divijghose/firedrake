@@ -14,7 +14,7 @@ Date and time 2024-11-13 1600 UTC
 1. ANY: Add Python 3.13 to PyOP2, TSFC, FIAT, FInAT CI (and others?)
 1. JB/UZ: ngsPETSc releases ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-16))
 1. PB: Speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30))
-1. RK: sort out Firedrake USA details before Christmas time
+1. RK: sort out Firedrake USA details and website before Christmas time
 
 # Agenda
 

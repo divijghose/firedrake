@@ -33,7 +33,7 @@ Apologies: CW (will be 20 minutes late)
 
 ## Ongoing PRs
 
-[UFL update](https://github.com/firedrakeproject/firedrake/pull/3862) KS: droppping gdim will break chekpointing, this has to be addressed by filtering the previosuly generated hashes.
+[UFL update](https://github.com/firedrakeproject/firedrake/pull/3862) KS: droppping gdim will break checkpointing, this has to be addressed by filtering the previosuly generated hashes.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

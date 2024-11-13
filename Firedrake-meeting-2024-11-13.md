@@ -26,5 +26,7 @@ Apologies: CW (will be 20 minutes late)
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 
+KS:[Firedrake + TSFC](https://github.com/firedrakeproject/firedrake/pull/3855)
+
 # Date of next meeting
 1600 UTC [2024-11-20](./Firedrake-meeting-2024-11-20)

@@ -29,7 +29,7 @@ Apologies: CW (will be 20 minutes late)
 
 [Checkpointing referencing](https://github.com/firedrakeproject/firedrake/issues/3780) Suggestions: CW: use `strip_form_data`. DH: change block_varible.output to a property.
 
-#3707 closed as there was no follow-up.
+[#3779](https://github.com/firedrakeproject/firedrake/issues/3779) closed as there was no follow-up.
 
 ## Ongoing PRs
 

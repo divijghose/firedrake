@@ -21,7 +21,7 @@ Date and time 2024-11-13 1600 UTC
 
 Present: PB, FA, RK, DH, DD, KS, IM, LC, CW
 
-Apologies: CW (will be 20 minutes late)
+Apologies: CW (will be 20 minutes late), JB
 
 ## Issues
 

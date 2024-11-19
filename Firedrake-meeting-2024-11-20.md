@@ -25,6 +25,7 @@ Apologies:
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+UZ: ngsPETSc was not installed via pip (#3873)
 
 
 # Date of next meeting

@@ -74,4 +74,4 @@ My proposal: `RestrictedFunctionSpace(MixedFunctionSpace, bcs)`
 3. KS: [dtype](https://github.com/firedrakeproject/tsfc/pull/327) (merged)
 
 # Date of next meeting
-1600 UTC [2024-11-20](./Firedrake-meeting-2024-11-27)
+1600 UTC [2024-11-27](./Firedrake-meeting-2024-11-27)

@@ -3,7 +3,7 @@ Date and time 2024-11-20 1600 UTC
 # Action Items
 1. **Pick Chair and Minuter** (PB to pick)
 1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
-1. JB: Move pyop3 and TSFC to firedrake and move FInAT to FIAT
+1. CW (formerly JB): Move pyop3 and TSFC to firedrake and move FInAT to FIAT
 1. ALL: do things with SV's branches
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
 1. DH: Get Firedrake a docker open source account ([link here](https://www.docker.com/community/open-source/application/))
@@ -24,6 +24,19 @@ Apologies: UZ
 
 ## [pyadjoint PR#177](https://github.com/dolfin-adjoint/pyadjoint/pull/177)
 Allow `set_working_tape` and `stop_annotating` to be used as function decorators, and implement `no_annotations` in terms of `stop_annotating`.
+
+## CW: Merging JB's big merge
+
+https://github.com/firedrakeproject/firedrake/pull/3817 is very nearly ready I believe. I am keen to get it merged ASAP as it is holding up any changes to PyOP2.
+
+## CW: (related) What is the long-term vision for Firedrake installation?
+
+- I believe that we want to be moving towards `pip install firedrake` (even without a wheel) as the sole installation method.
+- `firedrake-install` should be made much more minimal, effectively building PETSc and then called `pip install firedrake`. Importantly this means:
+    - The script should not manage `homebrew` or `apt`
+    - Extra packages like pytorch, gusto etc should not be installed via special flags. They can just be pip-installed.
+
+Thoughts? If people agree then I can work to rip out a lot of code and incrementally improve the installation process.
 
 
 ## Merge PRs 

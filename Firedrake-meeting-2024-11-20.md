@@ -22,6 +22,9 @@ Present:
 
 Apologies:
 
+## [pyadjoint PR#177](https://github.com/dolfin-adjoint/pyadjoint/pull/177)
+Allow `set_working_tape` and `stop_annotating` to be used as function decorators, and implement `no_annotations` in terms of `stop_annotating`.
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

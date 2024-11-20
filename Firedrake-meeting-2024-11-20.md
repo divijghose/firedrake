@@ -39,6 +39,14 @@ https://github.com/firedrakeproject/firedrake/pull/3817 is very nearly ready I b
 Thoughts? If people agree then I can work to rip out a lot of code and incrementally improve the installation process.
 
 
+## PB: RestrictedFunctionSpace
+
+Ongoing discussion on what is the right interface to restrict any FunctionSpace given the bcs of a problem. 
+
+My proposal: `RestrictedFunctionSpace(MixedFunctionSpace, bcs)`
+
+[PR needs review](https://github.com/firedrakeproject/firedrake/pull/3868)
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

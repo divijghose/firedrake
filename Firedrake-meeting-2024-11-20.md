@@ -28,6 +28,7 @@ Apologies:
 
 1. UZ: ngsPETSc was not installed via pip [PR#3873](https://github.com/firedrakeproject/firedrake/pull/3873)
 
+2. DD: Disk checkpointing for adjoints with schedules: [Firedrake PR 3812](https://github.com/firedrakeproject/firedrake/pull/3812) + [Pyadjoint PR 173](https://github.com/dolfin-adjoint/pyadjoint/pull/173)
 
 # Date of next meeting
 1600 UTC [2024-11-20](./Firedrake-meeting-2024-11-27)

@@ -20,7 +20,7 @@ Date and time 2024-11-20 1600 UTC
 
 Present:
 
-Apologies:
+Apologies: UZ
 
 ## [pyadjoint PR#177](https://github.com/dolfin-adjoint/pyadjoint/pull/177)
 Allow `set_working_tape` and `stop_annotating` to be used as function decorators, and implement `no_annotations` in terms of `stop_annotating`.

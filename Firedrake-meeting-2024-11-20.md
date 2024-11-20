@@ -33,5 +33,7 @@ Allow `set_working_tape` and `stop_annotating` to be used as function decorators
 
 2. DD: Disk checkpointing for adjoints with schedules: [Firedrake PR 3812](https://github.com/firedrakeproject/firedrake/pull/3812) + [Pyadjoint PR 173](https://github.com/dolfin-adjoint/pyadjoint/pull/173)
 
+3. KS: [dtype](https://github.com/firedrakeproject/tsfc/pull/327)
+
 # Date of next meeting
 1600 UTC [2024-11-20](./Firedrake-meeting-2024-11-27)

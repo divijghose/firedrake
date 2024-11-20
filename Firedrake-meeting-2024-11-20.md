@@ -50,7 +50,7 @@ My proposal: `RestrictedFunctionSpace(MixedFunctionSpace, bcs)`
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-1. UZ: ngsPETSc was not installed via pip [PR#3873](https://github.com/firedrakeproject/firedrake/pull/3873)
+1. UZ+PB: ngsPETSc was not installed via pip [PR#3873](https://github.com/firedrakeproject/firedrake/pull/3873)
 
 2. DD: Disk checkpointing for adjoints with schedules: [Firedrake PR 3812](https://github.com/firedrakeproject/firedrake/pull/3812) + [Pyadjoint PR 173](https://github.com/dolfin-adjoint/pyadjoint/pull/173)
 

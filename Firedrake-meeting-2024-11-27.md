@@ -38,6 +38,12 @@ https://github.com/FInAT/FInAT/blob/d3a9b536233870d8853a6162c4112b07689fcdc1/fin
 
 Simply removing `aggressive_unroll` brings compilation time for the Johnson-Mercier Riesz map from 32 seconds down to 5.5 seconds.
 
+
+## DD: Return `AdjFloat` in recompute `FloatOperatorBlock` and check the control `OverloadType` at `rf.__call__` 
+
+(https://github.com/dolfin-adjoint/pyadjoint/pull/181) + (https://github.com/firedrakeproject/firedrake/pull/3890)
+
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -17,7 +17,7 @@ Date and time 2024-11-27 1600 UTC
 
 # Agenda
 
-Present:
+Present: DH, DD, PB, CW, IM, FA, LC, JHC, KS
 
 Apologies:
 
@@ -25,29 +25,44 @@ Apologies:
 
 Everything is addressed. This should be ready to go.
 
+Some people have tested firedrake-update.
+
+Merged.
+
 ## CW: Mac runners (https://github.com/firedrakeproject/firedrake/pull/3881)
+
+CW: This is very close.
+
+CW: Some tests fails; need to ask Tim to do things.
 
 ## PB: Slow tests
 
 After some profiling, it seems that the main bottlenecks are related to the loopy `linearize` warnings:
 ![image](https://github.com/user-attachments/assets/13ebacf3-da75-45d5-93e6-6c4cc68920b4)
 
-
 On top of this, compilation of zany elements is slow mainly due to `gem.optimise.aggressive_unroll`
 https://github.com/FInAT/FInAT/blob/d3a9b536233870d8853a6162c4112b07689fcdc1/finat/physically_mapped.py#L277
 
 Simply removing `aggressive_unroll` brings compilation time for the Johnson-Mercier Riesz map from 32 seconds down to 5.5 seconds.
 
+PB: M is sparse -> need aggressive_unroll.
+
+TSFC: make linearise faster
+
+FInAT: Only use a single Node for M, instead of many.
 
 ## DD: Return `AdjFloat` in recompute `FloatOperatorBlock` and check the control `OverloadType` at `rf.__call__` 
 
 (https://github.com/dolfin-adjoint/pyadjoint/pull/181) + (https://github.com/firedrakeproject/firedrake/pull/3890)
 
+Very close to be merged.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [#3436](https://github.com/firedrakeproject/firedrake/pull/3436)
+PB: [#3436](https://github.com/firedrakeproject/firedrake/pull/3436).
+
+Just need some documentation.
 
 PB: [#3868](https://github.com/firedrakeproject/firedrake/pull/3868)
 

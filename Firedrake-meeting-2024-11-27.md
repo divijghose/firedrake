@@ -45,5 +45,7 @@ PB: [#3436](https://github.com/firedrakeproject/firedrake/pull/3436)
 
 PB: [#3868](https://github.com/firedrakeproject/firedrake/pull/3868)
 
+DD: [#180](https://github.com/dolfin-adjoint/pyadjoint/pull/180) Fix checkpointing for `MixedCheckpointSchedules` (Pyadjoint)
+
 # Date of next meeting
 1600 UTC [2024-12-04](./Firedrake-meeting-2024-12-04)

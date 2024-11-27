@@ -29,8 +29,8 @@ Everything is addressed. This should be ready to go.
 
 ## PB: Slow tests
 
-
-
+I've done some profiling, compilation of zany elements is slow mainly due to aggressive_unroll
+https://github.com/FInAT/FInAT/blob/d3a9b536233870d8853a6162c4112b07689fcdc1/finat/physically_mapped.py#L277
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

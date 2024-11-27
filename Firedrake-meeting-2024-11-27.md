@@ -33,7 +33,7 @@ After some profiling, it seems that the main bottlenecks are related to the loop
 ![image](https://github.com/user-attachments/assets/13ebacf3-da75-45d5-93e6-6c4cc68920b4)
 
 
-On top of this, compilation of zany elements is slow mainly due to `aggressive_unroll`
+On top of this, compilation of zany elements is slow mainly due to `gem.optimise.aggressive_unroll`
 https://github.com/FInAT/FInAT/blob/d3a9b536233870d8853a6162c4112b07689fcdc1/finat/physically_mapped.py#L277
 
 Simply removing `aggressive_unroll` brings compilation time for the Johnson-Mercier Riesz map from 32 seconds down to 5.5 seconds.

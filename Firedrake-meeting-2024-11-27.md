@@ -30,5 +30,9 @@ Everything is addressed. This should be ready to go.
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [#3436](https://github.com/firedrakeproject/firedrake/pull/3436)
+
+PB: [#3868](https://github.com/firedrakeproject/firedrake/pull/3868)
+
 # Date of next meeting
 1600 UTC [2024-12-04](./Firedrake-meeting-2024-12-04)

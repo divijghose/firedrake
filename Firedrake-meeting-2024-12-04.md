@@ -22,7 +22,7 @@ Present:
 Apologies:
 
 ## Item 1
-### DD: [PR 3897](0https://github.com/firedrakeproject/firedrake/pull/3897)
+### DD: [PR 3897](https://github.com/firedrakeproject/firedrake/pull/3897)
 
 Enhance the performance for `FormSum`
 

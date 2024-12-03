@@ -22,6 +22,9 @@ Present:
 Apologies:
 
 ## Item 1
+### DD: [PR 3897](0https://github.com/firedrakeproject/firedrake/pull/3897)
+
+Enhance the performance for `FormSum`
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -29,5 +29,9 @@ Enhance the performance for `FormSum`
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [#3436](https://github.com/firedrakeproject/firedrake/pull/3436) Reviewed last week, docs added.
+
+PB: [#3868](https://github.com/firedrakeproject/firedrake/pull/3868) Reviewed last week, changes addressed.
+
 # Date of next meeting
 1600 UTC [2024-12-11](./Firedrake-meeting-2024-12-11)

@@ -17,7 +17,7 @@ Date and time 2024-12-04 1600 UTC
 
 # Agenda
 
-Present: DH, DD, KS, PB, CW, IM, FA, CC, RK
+Present: DH, DD, KS, PB, CW, IM, FA, CC, RK, JHC (minuter)
 
 Apologies:
 

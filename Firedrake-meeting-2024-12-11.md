@@ -20,7 +20,12 @@ Present:
 
 Apologies: JHC
 
-## Item 1
+## CW: Testing strategy
+
+Someone just reported that Firedrake fails with an int64 build. Since we don't test it we didn't notice. My proposal:
+
+* We should have a set of smoke tests that target a large surface where we encounter issues (e.g. libsupermesh, VoM, parallel, ...). This should take ~5 minutes to run (and we can even call it `make check`).
+* We can run a larger number of possible Firedrake configurations whenever we merge to master (e.g. int64, OpenMPI?, etc). We can also run them if we apply a sensible label like we do for MacOS (`ci:macOS`, `ci:int64`, etc). Using pip it only takes about [30 minutes for a workflow to run](https://github.com/firedrakeproject/firedrake/actions/runs/12199795603).
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

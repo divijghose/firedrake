@@ -30,5 +30,7 @@ Someone just reported that Firedrake fails with an int64 build. Since we don't t
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS:[restricted function space with extrusion](https://github.com/firedrakeproject/firedrake/pull/3905)
+
 # Date of next meeting
 1600 UTC [2024-12-18](./Firedrake-meeting-2024-12-18)

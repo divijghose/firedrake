@@ -32,5 +32,13 @@ Someone just reported that Firedrake fails with an int64 build. Since we don't t
 
 KS:[restricted function space with extrusion](https://github.com/firedrakeproject/firedrake/pull/3905)
 
+DD: [Enable measure options for Riesz representation](https://github.com/firedrakeproject/firedrake/pull/3911/)
+
+DD: [Ensemble reduced functional arguments](https://github.com/firedrakeproject/firedrake/pull/3908)
+
+DD: [Document the Reduced functional args (pyadjoint)](https://github.com/dolfin-adjoint/pyadjoint/pull/186)
+
+DD: [Options for Riesz represention solver (pyadjoint)](https://github.com/dolfin-adjoint/pyadjoint/pull/184)
+
 # Date of next meeting
 1600 UTC [2024-12-18](./Firedrake-meeting-2024-12-18)

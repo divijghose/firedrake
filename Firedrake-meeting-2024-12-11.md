@@ -20,6 +20,10 @@ Present:
 
 Apologies: JHC
 
+## RCK: Firedrake USA'25
+* I have a  PR with the Web page that's approved, but it's failing CI tests for seemingly unrelated things like PyOP2 and TSFC.
+* Update: we have a travel support request form, are waiting on a business office person to give us a registration link.
+
 ## CW: Testing strategy
 
 Someone just reported that Firedrake fails with an int64 build. Since we don't test it we didn't notice. My proposal:
@@ -29,6 +33,8 @@ Someone just reported that Firedrake fails with an int64 build. Since we don't t
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
+RCK: [Firedrake conference](https://github.com/firedrakeproject/firedrake/pull/3910)
 
 KS:[restricted function space with extrusion](https://github.com/firedrakeproject/firedrake/pull/3905)
 

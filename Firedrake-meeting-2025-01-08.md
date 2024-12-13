@@ -11,7 +11,7 @@ Date and time 2025-01-08 1600 UTC
 1. LC: Try to merge RNH' PR: [Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
 1. RK: sort out Firedrake USA details and website before Christmas time
-1. CW: fix PyOP2+TSFC failing tests
+1. ~CW: fix PyOP2+TSFC failing tests~ DONE
 1. CW: Fix artefactsv3 issue
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 

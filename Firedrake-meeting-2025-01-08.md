@@ -21,12 +21,14 @@ Present:
 
 Apologies:
 
+# KS: UFL MixedMesh abstraction
+
+[MixedMesh](https://github.com/FEniCS/ufl/pull/303)
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 1. UZ [References](https://github.com/firedrakeproject/firedrake/pull/3924)
-
-2. KS [MixedMesh](https://github.com/FEniCS/ufl/pull/303)
 
 # Date of next meeting
 1600 UTC [2025-01-15](./Firedrake-meeting-2025-01-15)

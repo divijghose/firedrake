@@ -23,6 +23,8 @@ Apologies:
 
 # KS: UFL MixedMesh abstraction
 
+Mesh class for mixed function spaces.
+
 [MixedMesh](https://github.com/FEniCS/ufl/pull/303)
 
 ## Merge PRs 

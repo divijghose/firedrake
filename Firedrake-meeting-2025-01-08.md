@@ -31,6 +31,8 @@ Mesh class for mixed function spaces.
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 1. UZ [References](https://github.com/firedrakeproject/firedrake/pull/3924)
+2. JHC [pyadjoint typo when checking hessian](https://github.com/dolfin-adjoint/pyadjoint/pull/189)
+3. JHC Only evaluate relevant TLM values - [pyadjoint PR](https://github.com/dolfin-adjoint/pyadjoint/pull/190) & [firedrake PR](https://github.com/firedrakeproject/firedrake/pull/3957)
 
 # Date of next meeting
 1600 UTC [2025-01-15](./Firedrake-meeting-2025-01-15)

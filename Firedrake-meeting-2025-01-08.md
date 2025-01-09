@@ -15,24 +15,33 @@ Date and time 2025-01-08 1600 UTC
 1. CW: Fix artefactsv3 issue
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 
-# Agenda
+# Minutes
 
-Present:
+Present: CW (minuter), JHC, DD, KS, DH, IM, RK, PB, LC
 
 Apologies:
 
-# KS: UFL MixedMesh abstraction
+## PB: Speed up tests
+
+* PB: Has an open PR to speed up `split`.
+
+## KS: UFL MixedMesh abstraction
 
 Mesh class for mixed function spaces.
 
 [MixedMesh](https://github.com/FEniCS/ufl/pull/303)
 
+* DH, KS, CW: Discussion concluding that the abstraction of sticking the mixed-ness inside the mesh (like we do with element) is OK. At the very least adopting `MixedFunctionSpace` would be extremely invasive in Firedrake.
+  * The two approaches are effectively "zipping in opposite directions". With the Firedrake approach the structure of `MixedMesh` must match that of `MixedElement` whereas FEniCS do the zipping eagerly to build function spaces that are then combined.
+* Following discussion on the PR should use `MeshSequence` (or similar) instead of `MixedMesh` to avoid confusion.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-1. UZ [References](https://github.com/firedrakeproject/firedrake/pull/3924)
-2. JHC [pyadjoint typo when checking hessian](https://github.com/dolfin-adjoint/pyadjoint/pull/189)
-3. JHC Only evaluate relevant TLM values - [pyadjoint PR](https://github.com/dolfin-adjoint/pyadjoint/pull/190) & [firedrake PR](https://github.com/firedrakeproject/firedrake/pull/3957)
+1. UZ [References](https://github.com/firedrakeproject/firedrake/pull/3924) (already merged)
+2. JHC [pyadjoint typo when checking hessian](https://github.com/dolfin-adjoint/pyadjoint/pull/189) (merged)
+3. JHC Only evaluate relevant TLM values - [pyadjoint PR](https://github.com/dolfin-adjoint/pyadjoint/pull/190) (merged) & [firedrake PR](https://github.com/firedrakeproject/firedrake/pull/3957) (merged)
+4. Reviewed a number of other PRs.
 
 # Date of next meeting
 1600 UTC [2025-01-15](./Firedrake-meeting-2025-01-15)

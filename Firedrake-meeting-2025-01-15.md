@@ -23,7 +23,9 @@ Apologies:
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 PB: [FIAT HDivTrace](https://github.com/firedrakeproject/fiat/pull/117)
+
 PB: [FIAT CR](https://github.com/firedrakeproject/fiat/pull/118)
+
 PB: [FIAT cell caching](https://github.com/firedrakeproject/fiat/pull/128)
 
 # Date of next meeting

@@ -22,9 +22,13 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [Firedrake ASM stats](https://github.com/firedrakeproject/firedrake/pull/3875)
+
 PB: [FIAT HDivTrace](https://github.com/firedrakeproject/fiat/pull/117)
 
 PB: [FIAT CR](https://github.com/firedrakeproject/fiat/pull/118)
+
+PB: [Firedrake CR](https://github.com/firedrakeproject/firedrake/pull/3969)
 
 PB: [FIAT cell caching](https://github.com/firedrakeproject/fiat/pull/128)
 

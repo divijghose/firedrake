@@ -12,7 +12,7 @@ Date and time 2025-01-22 1600 UTC
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
 1. CW: Fix artefactsv3 issue
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
-1. All: Do JM's PRs [transpose -> adjoint](https://github.com/firedrakeproject/firedrake/pull/3965) [Cofunction self-assignment via interpolate](https://github.com/firedrakeproject/firedrake/pull/3939)
+1. All: Do JM's PRs [transpose -> adjoint](https://github.com/firedrakeproject/firedrake/pull/3965) and [Cofunction self-assignment via interpolate](https://github.com/firedrakeproject/firedrake/pull/3939)
 
 # Agenda
 

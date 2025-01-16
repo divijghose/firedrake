@@ -23,5 +23,8 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS: [Fix hex interior-facet integrals](https://github.com/firedrakeproject/firedrake/pull/3878)
+
+
 # Date of next meeting
 1600 UTC [2025-01-29](./Firedrake-meeting-2025-01-29)

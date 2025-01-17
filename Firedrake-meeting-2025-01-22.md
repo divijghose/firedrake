@@ -20,10 +20,17 @@ Present:
 
 Apologies:
 
+## CW: Improve caching
+
+https://github.com/firedrakeproject/firedrake/pull/3982
+
+(also https://github.com/firedrakeproject/firedrake/issues/3983)
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 KS: [Fix hex interior-facet integrals](https://github.com/firedrakeproject/firedrake/pull/3878)
+CW: https://github.com/firedrakeproject/firedrake/pull/3976
 
 
 # Date of next meeting

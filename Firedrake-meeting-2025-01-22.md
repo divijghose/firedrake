@@ -20,11 +20,15 @@ Present:
 
 Apologies:
 
-## CW: Improve caching
+## CW: Firedrake versioning?
 
-https://github.com/firedrakeproject/firedrake/pull/3982
+Versioning would prevent us from accidentally breaking downstream packages with no warning.
 
-(also https://github.com/firedrakeproject/firedrake/issues/3983)
+* Should we version Firedrake and FIAT? How often would releases be? Semantic or date-based versioning?
+* What about our forks of loopy and UFL?
+* What about `firedrake-zenodo`?
+
+One point of consideration is the fact that some of our dependencies (notably loopy) do not regularly make releases. I don't think versioning makes sense if we depend on non-versioned libraries.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
@@ -32,6 +36,8 @@ https://github.com/firedrakeproject/firedrake/pull/3982
 KS: [Fix hex interior-facet integrals](https://github.com/firedrakeproject/firedrake/pull/3878)
 
 CW: https://github.com/firedrakeproject/firedrake/pull/3976
+
+CW: https://github.com/firedrakeproject/firedrake/pull/3982
 
 
 # Date of next meeting

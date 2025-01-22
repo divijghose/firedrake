@@ -30,6 +30,10 @@ Versioning would prevent us from accidentally breaking downstream packages with 
 
 One point of consideration is the fact that some of our dependencies (notably loopy) do not regularly make releases. I don't think versioning makes sense if we depend on non-versioned libraries.
 
+## CW: Big testing PR: MPI on 'the outside'
+
+https://github.com/firedrakeproject/firedrake/pull/3385 describes the changes made. This is valuable for migrating to a pip install as we can properly start using a system MPI.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

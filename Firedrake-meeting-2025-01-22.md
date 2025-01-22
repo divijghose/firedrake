@@ -54,6 +54,8 @@ CW: https://github.com/firedrakeproject/firedrake/pull/3976
 
 CW: https://github.com/firedrakeproject/firedrake/pull/3982
 
+IM: https://github.com/firedrakeproject/fiat/pull/130
+
 
 # Date of next meeting
 1600 UTC [2025-01-29](./Firedrake-meeting-2025-01-29)

@@ -60,17 +60,22 @@ I think we can just:
 #### Questions
 * Can we drop MPICH at the same time? Downstream packages will need to change their CI anyway (which I can do for them).
 
+Discussion:
+* This is fantastic, thank you Connor and Jack!
+* Yes if we can drop the requirement to build our own MPI that would be ideal. Default to whatever MPI is on the system we're building on.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-KS: [Fix hex interior-facet integrals](https://github.com/firedrakeproject/firedrake/pull/3878)
+KS: [Fix hex interior-facet integrals](https://github.com/firedrakeproject/firedrake/pull/3878) - merged
 
-CW: https://github.com/firedrakeproject/firedrake/pull/3976
+CW: https://github.com/firedrakeproject/firedrake/pull/3976 - merged (we can now rebase and check PRs from JM)
 
-CW: https://github.com/firedrakeproject/firedrake/pull/3982
+CW: https://github.com/firedrakeproject/firedrake/pull/3982 - merged
 
-IM: https://github.com/firedrakeproject/fiat/pull/130
+IM: https://github.com/firedrakeproject/fiat/pull/130 - approved, merge pending a couple of small comments.
 
 
 # Date of next meeting
-1600 UTC [2025-01-29](./Firedrake-meeting-2025-01-29)
+Skipping 2025-01-29. 
+1600 UTC [2025-01-29](./Firedrake-meeting-2025-02-05)

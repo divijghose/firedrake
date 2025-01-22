@@ -28,7 +28,15 @@ Versioning would prevent us from accidentally breaking downstream packages with 
 * What about our forks of loopy and UFL?
 * What about `firedrake-zenodo`?
 
-One point of consideration is the fact that some of our dependencies (notably loopy) do not regularly make releases. I don't think versioning makes sense if we depend on non-versioned libraries.
+
+Discussion:
+* Yes we want to, previous aim has been to do it after pip install lands
+* Biggest organisational barrier is how do you manage bugfixes - do you only add to main, and versions are static, do we bugfix in minor versions? How many versions do we maintain? Bugfixes then need to be applied multiple time. This will be a big change for firedrake contributors, but is potentially just necessary.
+* Loopy is a problem - doesn't have versioning, and even if we make releases for our fork, we would also need to pin a release for all of loopy's upstream dependencies.
+* PETSc seem to do calendar releases for minor release but rolling patches.
+* Semantic versioning is hard to do properly. Calender releases are easier to organise (still having minor versioning for bugfixes).
+* Calendar releases would be simple (e.g. 2025.1, 2025.2), but we then need to decide how to do bugfix patches (2025.1.1, 2025.1.2 etc) - do we only patch for bugs that have been directly affecting user code?
+* One point of consideration is the fact that some of our dependencies (notably loopy) do not regularly make releases. I don't think versioning makes sense if we depend on non-versioned libraries.
 
 ## CW: Big testing PR: MPI on 'the outside'
 
@@ -55,8 +63,6 @@ CW: https://github.com/firedrakeproject/firedrake/pull/3976
 CW: https://github.com/firedrakeproject/firedrake/pull/3982
 
 IM: https://github.com/firedrakeproject/fiat/pull/130
-
-PB: [FIAT fixes for value_shape](https://github.com/firedrakeproject/fiat/pull/122)
 
 
 # Date of next meeting

@@ -43,6 +43,10 @@ Discussion:
 
 https://github.com/firedrakeproject/firedrake/pull/3385 describes the changes made. This is valuable for migrating to a pip install as we can properly start using a system MPI.
 
+* Now have a script for running parallel tests over multiple jobs - manages logic and makes sure we limit the total number of cores used.
+* This script could also be used by downstream libraries - should be used by any CI on the Firedrake runners to limit the total number of cores.
+* See comments on PR.
+
 ## CW: `pip` migration plan?
 
 I think we can just:

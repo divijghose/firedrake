@@ -16,7 +16,7 @@ Date and time 2025-01-22 1600 UTC
 
 # Agenda
 
-Present:
+Present: DD, DH, LC, CW, PB, JHC
 
 Apologies:
 
@@ -46,6 +46,8 @@ https://github.com/firedrakeproject/firedrake/pull/3385 describes the changes ma
 * Now have a script for running parallel tests over multiple jobs - manages logic and makes sure we limit the total number of cores used.
 * This script could also be used by downstream libraries - should be used by any CI on the Firedrake runners to limit the total number of cores.
 * See comments on PR.
+* Shouldn't use letter characters outside the 26 from the Latin alphabet.
+* Changes requested. If these are fixed this PR can be approved and merged.
 
 ## CW: `pip` migration plan?
 

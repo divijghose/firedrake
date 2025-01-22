@@ -34,6 +34,17 @@ One point of consideration is the fact that some of our dependencies (notably lo
 
 https://github.com/firedrakeproject/firedrake/pull/3385 describes the changes made. This is valuable for migrating to a pip install as we can properly start using a system MPI.
 
+## CW: `pip` migration plan?
+
+I think we can just:
+* Update the install docs
+* Make `firedrake-install` warn about not being maintained any more
+* Make an announcement in #general so people know
+* Help downstream packages to migrate
+
+#### Questions
+* Can we drop MPICH at the same time? Downstream packages will need to change their CI anyway (which I can do for them).
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

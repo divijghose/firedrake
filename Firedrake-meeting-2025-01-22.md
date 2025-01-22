@@ -37,6 +37,7 @@ Discussion:
 * Semantic versioning is hard to do properly. Calender releases are easier to organise (still having minor versioning for bugfixes).
 * Calendar releases would be simple (e.g. 2025.1, 2025.2), but we then need to decide how to do bugfix patches (2025.1.1, 2025.1.2 etc) - do we only patch for bugs that have been directly affecting user code?
 * One point of consideration is the fact that some of our dependencies (notably loopy) do not regularly make releases. I don't think versioning makes sense if we depend on non-versioned libraries.
+* We need to keep Zenodo in mind - as long as we have the commit of each repo in our fork it should be fine, but we need to keep it in mind to avoid inadvertently breaking it.
 
 ## CW: Big testing PR: MPI on 'the outside'
 

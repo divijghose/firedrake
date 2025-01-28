@@ -214,6 +214,7 @@
 <details>
 <summary>Policies and procedures</summary>
 
+- [Firedrake versioning (draft)](./Firedrake-versioning-(draft))
 - [Good testing practices](./Good-testing-practices)
 - [Closing Installation Issues](./Closing-Installation-Issues)
 - [Python version support](./Python-version-support)

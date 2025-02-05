@@ -13,26 +13,57 @@ Date and time 2025-01-22 1600 UTC
 1. CW: Fix artefactsv3 issue
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 
-# Agenda
+# Minutes
 
-Present: 
+Present: RK, DH, DD, IM, LC, CW, JHC, KN, AO
 
 Apologies:
+
+## Firedrake USA
+
+* Abstract Submission: Core developers must submit the abstract.
+* Invitations: RB will send emails to potential attendees.
+
+## DH: Firedrake Release Strategy
+* Goal: Minimize user impact when merging PRs.
+* Strategy: Follow PETSc's release. Also, consider the PETSc's releases while addressing potential issues that impact Firedrake.
+
+**Proposed Schedule:**
+*  Major releases every six months (April and October).
+*  Patch releases as needed (e.g., for bug fixes).
+*  Release structure to align with the calendar.
+
+* Collab Compatibility: This should align with Firedrake releases, which will track PETSc’s main releases.
 
 ## KS: UFL DAG Visitor Draft
 
 [draft](https://github.com/FEniCS/ufl/pull/341)
+
+Next Steps:
+* DH will revisit the PR next week.
+* KS needs to demonstrate how the implementation works.
+* KS should check how TSFC handles similar cases.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 CW: https://github.com/firedrakeproject/firedrake/pull/3915
 
+* CW will fix a minor issue.
+* DH approves merging into master.
+* Approval can happen later.
+
 PB: [FEniCS style bcs](https://github.com/firedrakeproject/firedrake/pull/3995)
+
+* Documentation needs improvement.
+* Code readability should be enhanced.
 
 PB: [finat.ufl value_shape part 2](https://github.com/firedrakeproject/fiat/pull/122) See: [Firedrake upstream test PR](https://github.com/firedrakeproject/firedrake/pull/3979)
 
 KS: [fix slate](https://github.com/firedrakeproject/firedrake/pull/4003)
+
+Requires testing in Gusto.
+
 
 # Date of next meeting
 1600 UTC [2025-02-12](./Firedrake-meeting-2025-02-12)

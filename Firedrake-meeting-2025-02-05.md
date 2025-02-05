@@ -26,5 +26,7 @@ CW: https://github.com/firedrakeproject/firedrake/pull/3915
 
 PB: [FEniCS style bcs](https://github.com/firedrakeproject/firedrake/pull/3995)
 
+PB: [finat.ufl value_shape part 2](https://github.com/firedrakeproject/fiat/pull/122)
+
 # Date of next meeting
 1600 UTC [2025-02-12](./Firedrake-meeting-2025-02-12)

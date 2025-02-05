@@ -24,5 +24,7 @@ Apologies:
 
 CW: https://github.com/firedrakeproject/firedrake/pull/3915
 
+PB: [FEniCS style bcs](https://github.com/firedrakeproject/firedrake/pull/3995)
+
 # Date of next meeting
 1600 UTC [2025-02-12](./Firedrake-meeting-2025-02-12)

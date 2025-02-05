@@ -19,6 +19,10 @@ Present:
 
 Apologies:
 
+## KS: UFL DAG Visitor Draft
+
+[draft](https://github.com/FEniCS/ufl/pull/341)
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
@@ -27,6 +31,8 @@ CW: https://github.com/firedrakeproject/firedrake/pull/3915
 PB: [FEniCS style bcs](https://github.com/firedrakeproject/firedrake/pull/3995)
 
 PB: [finat.ufl value_shape part 2](https://github.com/firedrakeproject/fiat/pull/122) See: [Firedrake upstream test PR](https://github.com/firedrakeproject/firedrake/pull/3979)
+
+KS: [fix slate](https://github.com/firedrakeproject/firedrake/pull/4003)
 
 # Date of next meeting
 1600 UTC [2025-02-12](./Firedrake-meeting-2025-02-12)

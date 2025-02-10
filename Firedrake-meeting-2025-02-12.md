@@ -19,6 +19,12 @@ Present:
 
 Apologies:
 
+## CW: Finally remove `.split()`
+
+[#4204](https://github.com/firedrakeproject/firedrake/pull/4024)
+
+The main controversy is renaming `.subfunctions` to `.subspaces` for function spaces. I think this was just a silly mistake we made when deprecating `.split()`.
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

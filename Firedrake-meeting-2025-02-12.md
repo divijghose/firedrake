@@ -32,7 +32,7 @@ Still in draft form, I'm just looking for any feedback at this stage. See the de
 
 ## DH/CW PETSc updates
 
-https://github.com/firedrakeproject/firedrake/pull/3997
+https://github.com/firedrakeproject/firedrake/pull/3997 and https://github.com/firedrakeproject/firedrake/pull/3999
 
 
 ## Merge PRs 

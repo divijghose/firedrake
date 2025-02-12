@@ -10,7 +10,7 @@ Date and time 2025-02-12 1600 UTC
 1. JB: Enable merge queues ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-02-21))
 1. LC: Try to merge RNH' PR: [Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
-1. CW: Fix artefactsv3 issue
+1. ~CW: Fix artefactsv3 issue~ (done by DD for pyadjoint, no other instances found)
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 
 # Agenda
@@ -29,6 +29,10 @@ The main controversy is renaming `.subfunctions` to `.subspaces` for function sp
 New set of classes for representing finite element spaces/functions distributed over an `Ensemble`. Provides some collective semantics and operations that are either useful (e.g. dealing with one `EnsembleFunction` rather than lists of `Function` on each ensemble member), or downright necessary (e.g. `_ad_dot` to be able to create `ReducedFunctionals` over an `Ensemble` that actually passes the Taylor tests).
 
 Still in draft form, I'm just looking for any feedback at this stage. See the description in the PR for more detail.
+
+## DH/CW PETSc updates
+
+https://github.com/firedrakeproject/firedrake/pull/3997
 
 
 ## Merge PRs 

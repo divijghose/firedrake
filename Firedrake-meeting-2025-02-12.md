@@ -62,7 +62,7 @@ DD: [#192](https://github.com/dolfin-adjoint/pyadjoint/pull/192) Remove `firedra
 
 PB: [FEniCS-style bcs](https://github.com/firedrakeproject/firedrake/pull/3995) merged
 
-PB: [Subclass LinearSolver](https://github.com/firedrakeproject/firedrake/pull/4012) review half of it, DH concluded that this is adjoint-safe 
+PB: [Subclass LinearSolver](https://github.com/firedrakeproject/firedrake/pull/4012) Reviewed half of it, DH concluded that this is adjoint-safe 
 
 # Date of next meeting
 1600 UTC [2025-02-19](./Firedrake-meeting-2025-02-19)

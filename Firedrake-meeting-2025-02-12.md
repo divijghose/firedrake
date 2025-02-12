@@ -32,7 +32,7 @@ Still in draft form, I'm just looking for any feedback at this stage. See the de
 
 ## DH/CW PETSc updates
 
-https://github.com/firedrakeproject/firedrake/pull/3997 and https://github.com/firedrakeproject/firedrake/pull/3999
+[#3997](https://github.com/firedrakeproject/firedrake/pull/3997) before [#3999](https://github.com/firedrakeproject/firedrake/pull/3999). Note that we expect the other workflows to fail because they are using the wrong PETSc (from the container).
 
 
 ## Merge PRs 

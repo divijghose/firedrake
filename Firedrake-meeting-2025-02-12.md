@@ -21,12 +21,16 @@ Apologies:
 
 ## RK: Firedrake USA
 
-RK: Firedrake USA 
 RK: $1200 minumum for the buffet, get an invoice from Imperial if registration cannot cover that
+
 RK: Friday morning tutorial: Q & A for newcomers
+
 DH: We also want to devote some time to experienced users
+
 RK: Saturday night plans, if we are 15-20 Rob can host us at his home, there is Uber for transportation. Some people will rent cars.
+
 DH: we can still organize an unofficial dinosaur excurision
+
 RK: we still need to schedule the talks. Registratioin deadline is Feb 13 (tomorrow). Abstract submission is Feb 17.
 
 DH: website has been down for the last two weeks.

@@ -25,6 +25,8 @@ Apologies:
 
 The main controversy is renaming `.subfunctions` to `.subspaces` for function spaces. I think this was just a silly mistake we made when deprecating `.split()`.
 
+We don't want to merge it now as we want to announce it on Slack first and then merge later this week.
+
 ## JHC: [`EnsembleFunction`](https://github.com/firedrakeproject/firedrake/pull/4025)
 New set of classes for representing finite element spaces/functions distributed over an `Ensemble`. Provides some collective semantics and operations that are either useful (e.g. dealing with one `EnsembleFunction` rather than lists of `Function` on each ensemble member), or downright necessary (e.g. `_ad_dot` to be able to create `ReducedFunctionals` over an `Ensemble` that actually passes the Taylor tests).
 

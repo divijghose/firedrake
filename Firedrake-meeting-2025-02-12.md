@@ -34,6 +34,11 @@ Still in draft form, I'm just looking for any feedback at this stage. See the de
 
 [#3997](https://github.com/firedrakeproject/firedrake/pull/3997) before [#3999](https://github.com/firedrakeproject/firedrake/pull/3999). Note that we expect the other workflows to fail because they are using the wrong PETSc (from the container).
 
+## CW: Gusto smoke tests
+
+[#4017](https://github.com/firedrakeproject/firedrake/pull/4017)
+
+We should let other downstream packages know that we have done this so they can also submit a small set of tests to run.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

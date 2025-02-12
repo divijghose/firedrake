@@ -47,5 +47,9 @@ DD: [#4023](https://github.com/firedrakeproject/firedrake/pull/4023) Move `fired
 
 DD: [#192](https://github.com/dolfin-adjoint/pyadjoint/pull/192) Remove `firedrake_adjoint` tests from pyadjoint.
 
+PB: [FEniCS-style bcs](https://github.com/firedrakeproject/firedrake/pull/3995)
+
+PB: [Subclass LinearSolver](https://github.com/firedrakeproject/firedrake/pull/4012)
+
 # Date of next meeting
 1600 UTC [2025-02-19](./Firedrake-meeting-2025-02-19)

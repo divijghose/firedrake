@@ -27,6 +27,7 @@ I am looking for beta testers and would like to merge this next week.
 Outstanding questions:
 
 * `firedrake-zenodo` will not work until we have version numbers: installing packages in non-editable mode discards git information which `firedrake-zenodo` relies on.
+* Similarly `make check` also will not work without an editable install. Do we mention it on the website still?
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

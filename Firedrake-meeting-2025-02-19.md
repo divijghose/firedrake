@@ -22,7 +22,7 @@ Apologies:
 
 [#4011](https://github.com/firedrakeproject/firedrake/pull/4011)
 
-I am looking for beta testers and would like to merge this next week.
+I am looking for beta testers and would like to merge this next week. I can do an announcement to users on Slack after the meeting. They need to know in advance because there are some breaking changes they have to be aware of (e.g. OpenMPI not MPICH in the containers).
 
 Outstanding questions:
 

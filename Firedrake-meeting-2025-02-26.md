@@ -18,6 +18,9 @@ Present:
 
 Apologies:
 
+## pip install?
+
+* JHC: Andy Thomas has suggested we could have a system install of Firedrake on the maths NextGen cluster. Is this something we'd be interested in? We could have specific versions installed for anyone doesn't need bleeding edge features.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

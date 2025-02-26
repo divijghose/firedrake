@@ -12,11 +12,18 @@ Date and time 2025-02-19 1600 UTC
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 
-# Agenda
+# Minutes
 
-Present:
+Present: DD, DH, RK, JHC, CW, KS, KN, AO, LC
 
 Apologies:
+
+## Pip Installation of Firedrake and Upcoming Release
+
+- CW will handle the launch and inform users.  
+- Docker installation is expected to fail.  
+- `firedrake-install` will continue to function as usual.  
+- Interpolation changes will be included in the October release.  
 
 ## pip install?
 
@@ -25,12 +32,17 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-DD: [UFL PR#355](https://github.com/FEniCS/ufl/pull/355) 
+### DD: [UFL PR #355](https://github.com/FEniCS/ufl/pull/355)  
+- Ensure it does not convert from `Zero` to `ZeroBaseForm`.  
+- Investigate where it's failing to return `ZeroBaseForm`.  
 
-PB: [LinearSolver #4012](https://github.com/firedrakeproject/firedrake/pull/4012)
+### PB: [LinearSolver PR #4012](https://github.com/firedrakeproject/firedrake/pull/4012)  
+- Needs to be split into smaller parts.  
+- Take care to avoid breaking Firedrake.  
 
-PB: [tensor kwarg #4056](https://github.com/firedrakeproject/firedrake/pull/4056)
-
+### PB: [Tensor kwarg PR #4056](https://github.com/firedrakeproject/firedrake/pull/4056)  
+- Looks good overall.  
+- It just needs a minor docstring fix. 
 
 # Date of next meeting
 1600 UTC [2025-03-05](./Firedrake-meeting-2025-03-05)

@@ -1,4 +1,4 @@
-Date and time 2025-02-19 1600 UTC
+Date and time 2025-02-26 1600 UTC
 
 # Action Items
 1. **Pick Chair and Minuter** (IM to pick?)

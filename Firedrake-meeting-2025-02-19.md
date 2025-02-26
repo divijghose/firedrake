@@ -68,4 +68,4 @@ Discussion on docs PR re immersed mesh - merged.
 Discussion on Jax - resolve to not allow skips in certain cases and to change the pip install firedrake PR to deal with this. 
 
 # Date of next meeting
-1600 UTC [2025-02-25](./Firedrake-meeting-2025-02-26) ???
+1600 UTC [2025-02-26](./Firedrake-meeting-2025-02-26) ???

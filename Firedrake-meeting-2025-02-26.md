@@ -27,6 +27,8 @@ Apologies:
 
 DD: [UFL PR#355](https://github.com/FEniCS/ufl/pull/355) 
 
+PB: [tensor kwarg #4056](https://github.com/firedrakeproject/firedrake/pull/4056)
+
 
 # Date of next meeting
 1600 UTC [2025-03-05](./Firedrake-meeting-2025-03-05)

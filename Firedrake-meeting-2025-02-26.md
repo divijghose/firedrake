@@ -27,6 +27,8 @@ Apologies:
 
 DD: [UFL PR#355](https://github.com/FEniCS/ufl/pull/355) 
 
+PB: [LinearSolver #4012](https://github.com/firedrakeproject/firedrake/pull/4012)
+
 PB: [tensor kwarg #4056](https://github.com/firedrakeproject/firedrake/pull/4056)
 
 

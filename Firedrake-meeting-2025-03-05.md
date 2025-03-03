@@ -16,7 +16,18 @@ Date and time 2025-03-05 1600 UTC
 
 Present:
 
-Apologies:
+Apologies: CW
+
+## CW: Switch to being root user in the Docker containers
+
+From Francesco Ballarin:
+> And on the topic of docker: can anyone remind me what is the rationale for having a firedrake user and a local installation in $HOME/.local, rather than a simpler setup that uses directly the root user and installing everything in /usr?
+I do understand that outside of a docker image we'd never use the root user for security reasons, but the docker container itself is isolated from the rest and, if security was a concern, the current firedrake user isn't really secure either (since it must allow to sudo without password).
+I also do understand that in the previous iteration of docker images there was a firedrake virtualenv which probably justified a standalone user. But now, with that virtualenv gone, is there really a point in installing to $HOME/.local rather than the system wide path?
+
+I agree with him. It causes needless complication (like having to set `PYTHONPATH` on GitHub-hosted runners) to get things to work properly. This is causing issues for some users ([example](https://github.com/firedrakeproject/firedrake/discussions/4057#discussioncomment-12361270)).
+
+What do people think?
 
 
 ## Merge PRs 

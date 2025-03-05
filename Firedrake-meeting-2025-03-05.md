@@ -37,5 +37,7 @@ PB: [#4073](https://github.com/firedrakeproject/firedrake/pull/4073)
 
 PB: [#4012](https://github.com/firedrakeproject/firedrake/pull/4012) (depends on #4073)
 
+PB: [#4082](https://github.com/firedrakeproject/firedrake/pull/4082)
+
 # Date of next meeting
 1600 UTC [2025-03-12](./Firedrake-meeting-2025-03-12)

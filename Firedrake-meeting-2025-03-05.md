@@ -16,7 +16,7 @@ Date and time 2025-03-05 1600 UTC
 
 Present:
 
-Apologies: CW
+Apologies: CW, PB
 
 ## CW: Switch to being root user in the Docker containers
 
@@ -33,6 +33,9 @@ What do people think?
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: (#4073)[https://github.com/firedrakeproject/firedrake/pull/4073]
+
+PB: (#4012)[https://github.com/firedrakeproject/firedrake/pull/4012] (depends on #4073)
 
 # Date of next meeting
 1600 UTC [2025-03-12](./Firedrake-meeting-2025-03-12)

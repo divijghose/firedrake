@@ -23,13 +23,13 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [#4073](https://github.com/firedrakeproject/firedrake/pull/4073)
+PB: [#4073](https://github.com/firedrakeproject/firedrake/pull/4073) Merged.
 
-PB: [#4012](https://github.com/firedrakeproject/firedrake/pull/4012) (depends on #4073)
+PB: [#4012](https://github.com/firedrakeproject/firedrake/pull/4012) (depends on #4073). API changes/deprecations can wait. Approved, automerge enabled for whenever CI runners are back up.
 
-PB: [#4082](https://github.com/firedrakeproject/firedrake/pull/4082)
+PB: [#4082](https://github.com/firedrakeproject/firedrake/pull/4082) Merged.
 
-KS: [macos install](https://github.com/firedrakeproject/firedrake/pull/4111)
+KS: [macos install](https://github.com/firedrakeproject/firedrake/pull/4111) Merged.
 
 # Date of next meeting
 1600 UTC [2025-03-19](./Firedrake-meeting-2025-03-19)

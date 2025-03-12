@@ -29,5 +29,7 @@ PB: [#4012](https://github.com/firedrakeproject/firedrake/pull/4012) (depends on
 
 PB: [#4082](https://github.com/firedrakeproject/firedrake/pull/4082)
 
+KS: [macos install](https://github.com/firedrakeproject/firedrake/pull/4111)
+
 # Date of next meeting
 1600 UTC [2025-03-19](./Firedrake-meeting-2025-03-19)

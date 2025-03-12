@@ -14,11 +14,23 @@ Date and time 2025-03-12 1600 UTC
 
 # Agenda
 
-Present:
+Present: DH, KS, IM, DD, AO, JHC
 
-Apologies:
+Apologies: CW
 
-## Item 1
+## ngsPETSc
+User question about installing on WSL on Slack. ngsPETSc installation docs are possibly incomplete. If so we should bug them to updated the docs.
+
+## PRs
+
+### DD: [#4020](https://github.com/firedrakeproject/firedrake/pull/4020)
+This fixes a memory leak bug, but also changes the checkpointing interface. This will break existing code. We need to publicise this first.
+
+Aim to get this in before the first versioned release.
+
+### DD: [#4094](https://github.com/firedrakeproject/firedrake/pull/4094)
+Looks very good and was definitely needed.
+Some comments about what level of detail is needed in the explanations before approving.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
@@ -30,6 +42,12 @@ PB: [#4012](https://github.com/firedrakeproject/firedrake/pull/4012) (depends on
 PB: [#4082](https://github.com/firedrakeproject/firedrake/pull/4082) Merged.
 
 KS: [macos install](https://github.com/firedrakeproject/firedrake/pull/4111) Merged.
+
+DD: [pyadjoint #195](https://github.com/dolfin-adjoint/pyadjoint/pull/195) Merged.
+
+AG: [pyadjoint #197](https://github.com/dolfin-adjoint/pyadjoint/pull/197) Merged.
+
+CW: [#4091](https://github.com/firedrakeproject/firedrake/pull/4091) Merged.
 
 # Date of next meeting
 1600 UTC [2025-03-19](./Firedrake-meeting-2025-03-19)

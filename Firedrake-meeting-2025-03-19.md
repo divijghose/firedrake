@@ -18,6 +18,12 @@ Present:
 
 Apologies:
 
+## CW: Root in Docker
+
+https://github.com/firedrakeproject/firedrake/pull/4104
+
+Seems to work fairly well. I have tested with a number of downstream packages.
+
 ## CW: Remove part of CI
 
 https://github.com/firedrakeproject/firedrake/pull/4086

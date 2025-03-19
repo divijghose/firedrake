@@ -1,48 +1,18 @@
 [Home](./)
 
-[HPC installation](./HPC-installation)
+### Installation
+
+* [HPC installation](./HPC-installation)
+* [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
+* [Install Frequently Asked Questions](./Install-Frequently-Asked-Questions)
 
 [Useful tips](./Useful-tips)
 
 ### Firedrake governance
 
-[Policies](./Policies)
-[Procedures](./Procedures)
+* [Policies](./Policies)
+* [Procedures](./Procedures)
 
-<details>
-<summary>Building locally</summary>
-
-- [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
-- [Configuring Eclipse](./Configuring-Eclipse)
-
-</details>
-
-<details>
-<summary>
-
-[Install Frequently Asked Questions](./Install-Frequently-Asked-Questions)
-</summary>
-</details>
-
-<details>
-<summary>
-
-[Running on HPC](./Running-on-HPC)
-</summary>
-
-- [Generic](./Generic-Instructions-for-HPC)
-- [Singularity](./singularity)
-- [Archer](./Archer)
-- [Archer2 spack](./archer2)
-- [Archer2 Singularity](./Singularity-on-Archer2)
-- [Isambard](./isambard)
-- [Isambard AI](./Isambard-AI)
-- [CX1](./CX1)
-- [CX2](./CX2)
-</details>
-
-<details>
-<summary>
 
 [Users](./users)
 </summary>

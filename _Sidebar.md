@@ -13,12 +13,10 @@
 * [Policies](./Policies)
 * [Procedures](./Procedures)
 
+### Other pages
 
-[Users](./users)
-</summary>
+* [Archived pages](./Archived-pages)
 
-- [Firedrake user survey](./Firedrake-user-survey)
-</details>
 
 <details>
 <summary> Developers Notes </summary>

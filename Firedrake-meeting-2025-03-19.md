@@ -43,5 +43,7 @@ CW: [#4083](https://github.com/firedrakeproject/firedrake/pull/4083)
 
 IM: [FIAT #134](https://github.com/firedrakeproject/fiat/pull/134)
 
+AO: [#4115](https://github.com/firedrakeproject/firedrake/pull/4115/)
+
 # Date of next meeting
 1600 UTC [2025-03-26](./Firedrake-meeting-2025-03-26)??? (TBD, many core developers will be away)

@@ -1,2 +1,5 @@
 * [Users](./users)
 * [Firedrake user survey](./Firedrake-user-survey)
+* [Gravity wave scaling](./Gravity-wave-scaling)
+* [Merge Complex Sprint](./MergeComplexSprint)
+* [Reading Group](./Reading-group)

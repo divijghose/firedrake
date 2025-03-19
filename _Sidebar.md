@@ -4,7 +4,10 @@
 
 [Useful tips](./Useful-tips)
 
-[Policies and procedures](./Policies-and-procedures)
+### Firedrake governance
+
+[Policies](./Policies)
+[Procedures](./Procedures)
 
 <details>
 <summary>Building locally</summary>

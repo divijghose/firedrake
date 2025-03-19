@@ -32,6 +32,7 @@ https://github.com/firedrakeproject/firedrake/pull/4086
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 CW: [#4083](https://github.com/firedrakeproject/firedrake/pull/4083)
+IM: [FIAT #134](https://github.com/firedrakeproject/fiat/pull/134)
 
 # Date of next meeting
 1600 UTC [2025-03-26](./Firedrake-meeting-2025-03-26)??? (TBD, many core developers will be away)

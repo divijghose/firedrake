@@ -3,7 +3,6 @@
 <details>
 <summary>Building locally</summary>
 
-- [Installing pyenv](./Installing-pyenv)
 - [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
 - [Configuring Eclipse](./Configuring-Eclipse)
 

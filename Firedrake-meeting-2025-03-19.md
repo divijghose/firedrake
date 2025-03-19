@@ -28,11 +28,13 @@ Seems to work fairly well. I have tested with a number of downstream packages.
 
 https://github.com/firedrakeproject/firedrake/pull/4086
 
-## JHC: Ensure `Function.subfunctions` is always taped.
+## JHC: Various adjoint fixes
 
-Currently, subfunctions are not taped if they are first accessed before annotation is enabled. This PR corrects that and adds a test.
+1. [#4126](https://github.com/firedrakeproject/firedrake/pull/4126) Ensure `Function.subfunctions` is always taped. Currently, subfunctions are not taped if they are first accessed before annotation is enabled. This PR corrects that and adds a test.
 
-https://github.com/firedrakeproject/firedrake/pull/4126
+2. [#4128](https://github.com/firedrakeproject/firedrake/pull/4128) Variational solver should either complain if `bounds` are passed to `solve`, or remove them from the `kwargs` if they are `None`.
+
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

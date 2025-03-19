@@ -6,28 +6,15 @@
 * [Installing on Windows Subsystem for Linux](./Installing-on-Windows-Subsystem-for-Linux)
 * [Install Frequently Asked Questions](./Install-Frequently-Asked-Questions)
 
-[Useful tips](./Useful-tips)
 
 ### Firedrake governance
 
+* [Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 * [Policies](./Policies)
 * [Procedures](./Procedures)
 
 ### Other pages
 
 * [Archived pages](./Archived-pages)
-
-
-<details>
-<summary> Developers Notes </summary>
-
-- [Daiane](./Daiane)
-</details>
-
-[Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
-
-[Gravity wave scaling](./Gravity-wave-scaling)
-
-[Merge Complex Sprint](./MergeComplexSprint)
-
-[Reading Group](./Reading-group)
+* [Useful tips](./Useful-tips)
+* [Daiane](./Daiane)

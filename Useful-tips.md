@@ -1,6 +1,7 @@
 ## Editor customisation
 
 - [Configuring Eclipse](./Configuring-Eclipse)
+- [Using Firedrake with Docker and VSCode](./Writing-Firedrake-code-with-VSCode-inside-a-Docker-container)
 
 ## Debugging
 

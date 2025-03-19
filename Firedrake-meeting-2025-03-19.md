@@ -34,7 +34,7 @@ https://github.com/firedrakeproject/firedrake/pull/4086
 
 2. [#4128](https://github.com/firedrakeproject/firedrake/pull/4128) Variational solver should either complain if `bounds` are passed to `solve`, or remove them from the `kwargs` if they are `None`.
 
-
+3. [#4130](https://github.com/firedrakeproject/firedrake/pull/4130) Only pass `solver_parameters` to the adjoint solver once, and make sure it's the one processed by `OptionsManager`.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

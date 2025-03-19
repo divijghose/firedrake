@@ -1,5 +1,10 @@
 [Home](./)
-[Installation tips and tricks](./Installation-tips-and-tricks)
+
+[HPC installation](./HPC-installation)
+
+[Useful tips](./Useful-tips)
+
+[Policies and procedures](./Policies-and-procedures)
 
 <details>
 <summary>Building locally</summary>

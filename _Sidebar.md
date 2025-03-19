@@ -33,9 +33,3 @@
 [Merge Complex Sprint](./MergeComplexSprint)
 
 [Reading Group](./Reading-group)
-
-<details>
-<summary>Firedrake 2021 Planning Meetings</summary>
-
-- [Firedrake 2021 Planning Meeting 2021 07 14](./Firedrake-2021-Planning-Meeting-2021-07-14)
-</details>

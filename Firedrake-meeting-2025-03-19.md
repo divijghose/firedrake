@@ -28,6 +28,12 @@ Seems to work fairly well. I have tested with a number of downstream packages.
 
 https://github.com/firedrakeproject/firedrake/pull/4086
 
+## JHC: Ensure `Function.subfunctions` is always taped.
+
+Currently, subfunctions are not taped if they are first accessed before annotation is enabled. This PR corrects that and adds a test.
+
+https://github.com/firedrakeproject/firedrake/pull/4126
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

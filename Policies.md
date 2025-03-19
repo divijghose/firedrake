@@ -1,0 +1,7 @@
+- [Firedrake versioning (draft)](./Firedrake-versioning-(draft))
+- [Good testing practices](./Good-testing-practices)
+- [Closing Installation Issues](./Closing-Installation-Issues)
+- [Python version support](./Python-version-support)
+- [macOS version support](./macOS-version-support)
+- [Docstrings and typehints](https://github.com/firedrakeproject/firedrake/wiki/Docstrings)
+- [Isolating optional dependencies](https://github.com/firedrakeproject/firedrake/wiki/Isolating-optional-dependencies)

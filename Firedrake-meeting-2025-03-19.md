@@ -32,7 +32,7 @@ https://github.com/firedrakeproject/firedrake/pull/4086
 
 1. [#4126](https://github.com/firedrakeproject/firedrake/pull/4126) Ensure `Function.subfunctions` is always taped. Currently, subfunctions are not taped if they are first accessed before annotation is enabled. This PR corrects that and adds a test.
 
-2. [#4128](https://github.com/firedrakeproject/firedrake/pull/4128) Variational solver should either complain if `bounds` are passed to `solve`, or remove them from the `kwargs` if they are `None`.
+2. ~~[#4128](https://github.com/firedrakeproject/firedrake/pull/4128) Variational solver should either complain if `bounds` are passed to `solve`, or remove them from the `kwargs` if they are `None`.~~ Merged.
 
 3. [#4130](https://github.com/firedrakeproject/firedrake/pull/4130) Only pass `solver_parameters` to the adjoint solver once, and make sure it's the one processed by `OptionsManager`.
 

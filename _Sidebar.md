@@ -1,4 +1,5 @@
 [Home](./)
+[Installation tips and tricks](./Installation-tips-and-tricks)
 
 <details>
 <summary>Building locally</summary>

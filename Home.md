@@ -8,4 +8,6 @@ Welcome to the firedrake wiki!
 * [Policies](./Policies)
 * [Procedures](./Procedures)
 
-TODO
+## Other pages
+
+* [Archived pages](./Archived-pages)

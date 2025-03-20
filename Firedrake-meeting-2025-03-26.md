@@ -18,6 +18,8 @@ Present:
 
 Apologies: LC
 
+## Merge PRs 
+*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 # Date of next meeting
 1600 UTC [2025-04-02](./Firedrake-meeting-2025-04-02)

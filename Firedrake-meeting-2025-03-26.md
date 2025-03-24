@@ -26,6 +26,13 @@ Apologies: LC, CW (maybe)
     * If so might not need our own forks of PETSc etc
 * What if someone is working from a branch? Do they have to make their own release?
 
+## CW: Use upstream PETSc: [#4137](https://github.com/firedrakeproject/firedrake/pull/4137)
+
+Proposed roadmap:
+1. Merge this (breaks `firedrake-zenodo`)
+2. Update to latest release of PETSc (v3.23.0) very close to release
+3. Firedrake releases (and fix `firedrake-zenodo`). This will require a little thought about what branches of PETSc we track
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

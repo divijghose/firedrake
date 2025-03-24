@@ -18,6 +18,14 @@ Present:
 
 Apologies: LC
 
+## CW: What happens to Zenodo when we move to releases?
+
+* git information not available for packages, instead we have version numbers
+* if someone is using a version of Firedrake then we already have a GitHub release that they are using
+* The simplest case is to gather the various GitHub releases together and put them in a Zenodo release
+    * If so might not need our own forks of PETSc etc
+* What if someone is working from a branch? Do they have to make their own release?
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

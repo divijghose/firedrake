@@ -16,7 +16,7 @@ Date and time 2025-03-26 1400 UTC
 
 Present:
 
-Apologies: LC
+Apologies: LC, CW (maybe)
 
 ## CW: What happens to Zenodo when we move to releases?
 

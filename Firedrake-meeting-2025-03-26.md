@@ -33,6 +33,8 @@ Proposed roadmap:
 2. Update to latest release of PETSc (v3.23.0) very close to release
 3. Firedrake releases (and fix `firedrake-zenodo`). This will require a little thought about what branches of PETSc we track
 
+## CW: should we order a third CI runner?
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

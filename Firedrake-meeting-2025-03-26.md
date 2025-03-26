@@ -14,7 +14,7 @@ Date and time 2025-03-26 1400 UTC
 
 # Agenda
 
-Present:
+Present: DH, PB, IM, JHC, KS
 
 Apologies: LC, AO, CW (maybe)
 
@@ -26,25 +26,48 @@ Apologies: LC, AO, CW (maybe)
     * If so might not need our own forks of PETSc etc
 * What if someone is working from a branch? Do they have to make their own release?
 
+Minutes:
+  - Zenodo all release components on release, create citation.
+  - Release further components (on branches) adhoc when needed.
+
+
 ## CW: Use upstream PETSc: [#4137](https://github.com/firedrakeproject/firedrake/pull/4137)
 
-## LinearSolver initial guess/convergence error: [#4144](https://github.com/firedrakeproject/firedrake/pull/4144)
+Minutes:
+  - Merged already
+  - We should probably instruct PETSc to install SLEPc
 
 Proposed roadmap:
 1. Merge this (breaks `firedrake-zenodo`)
 2. Update to latest release of PETSc (v3.23.0) very close to release
 3. Firedrake releases (and fix `firedrake-zenodo`). This will require a little thought about what branches of PETSc we track
 
+
+## LinearSolver initial guess/convergence error: [#4144](https://github.com/firedrakeproject/firedrake/pull/4144)
+
+Minutes:
+  - Intuitive behaviour - use x that is passed, allow users to pass zero if they want.
+  - This is different from the default behaviour in KSP that uses zeros unless you specify an initial guess. 
+
+  - Convergence error bug. Return the most recent solution even if convergence not achieved?
+     - Is this useful? good for debugging
+     - Matches existing behaviour in VariationalSolver/NonlinearSolver
+  
+  - Goal: be consistent across our solvers.
+  - Resolution: remove behaviour around x, retain convergence behaviour. 
+
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-* CW: [#4138](https://github.com/firedrakeproject/firedrake/pull/4138)
+* CW: [#4138](https://github.com/firedrakeproject/firedrake/pull/4138) - Merged
 
-* PB: [BQ FIAT](https://github.com/firedrakeproject/fiat/pull/126)
+* PB: [BQ FIAT](https://github.com/firedrakeproject/fiat/pull/126) - Review docstring policies and update
 
-* PB: [BQ Firedrake](https://github.com/firedrakeproject/firedrake/pull/3973)
+* PB: [BQ Firedrake](https://github.com/firedrakeproject/firedrake/pull/3973) - Ready when the FIAT one is
 
 * PB: [#139 mimetic](https://github.com/firedrakeproject/fiat/pull/139/files) just review
+  - Some discussion on the naming "mimetic". Not specific enough maybe? Perhaps "mimetic spectral".
 
 # Date of next meeting
 1600 UTC [2025-04-02](./Firedrake-meeting-2025-04-02)

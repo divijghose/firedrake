@@ -28,6 +28,8 @@ Apologies: LC, AO, CW (maybe)
 
 ## CW: Use upstream PETSc: [#4137](https://github.com/firedrakeproject/firedrake/pull/4137)
 
+## LinearSolver initial guess/convergence error: [#4144](https://github.com/firedrakeproject/firedrake/pull/4144)
+
 Proposed roadmap:
 1. Merge this (breaks `firedrake-zenodo`)
 2. Update to latest release of PETSc (v3.23.0) very close to release
@@ -37,6 +39,12 @@ Proposed roadmap:
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 * CW: [#4138](https://github.com/firedrakeproject/firedrake/pull/4138)
+
+* PB: [BQ FIAT](https://github.com/firedrakeproject/fiat/pull/126)
+
+* PB: [BQ Firedrake](https://github.com/firedrakeproject/firedrake/pull/3973)
+
+* PB: [#139 mimetic](https://github.com/firedrakeproject/fiat/pull/139/files) just review
 
 # Date of next meeting
 1600 UTC [2025-04-02](./Firedrake-meeting-2025-04-02)

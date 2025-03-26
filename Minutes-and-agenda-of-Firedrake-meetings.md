@@ -1,14 +1,15 @@
 This page collates agendas and minutes for Firedrake development meetings. Dates and times are also available in [this google calendar](https://calendar.google.com/calendar/embed?src=qbaqqtn2iiu5l6qjbf2t4aafa8%40group.calendar.google.com).
-
+https://github.com/orgs/firedrakeproject/projects/9
 The meeting is held via Zoom:
 
 - Meeting ID: 998 1993 0455
 - Password: Sa7GN*
 
 ## Upcoming meetings
-- [2025-03-26](./Firedrake-meeting-2025-03-26)
+- [2025-04-02](./Firedrake-meeting-2025-04-02)
 
 ## Past meetings
+- [2025-03-26](./Firedrake-meeting-2025-03-26)
 - [2025-03-19](./Firedrake-meeting-2025-03-19)
 - [2025-03-12](./Firedrake-meeting-2025-03-12)
 - [2025-03-05](./Firedrake-meeting-2025-03-05)

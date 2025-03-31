@@ -11,6 +11,7 @@ Welcome to the firedrake wiki!
 * [Firedrake meetings](./Minutes-and-agenda-of-Firedrake-meetings)
 * [Policies](./Policies)
 * [Procedures](./Procedures)
+* [(WIP) Releases FAQ](https://github.com/firedrakeproject/firedrake/wiki/Releases-FAQ)
 
 ## Other pages
 

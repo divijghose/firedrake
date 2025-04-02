@@ -29,6 +29,10 @@ Description in PR. More fiddly `FloatingType` details again.
 
 [#4175](https://github.com/firedrakeproject/firedrake/pull/4175) (information in PR summary)
 
+## PB: UFL performance regression
+
+https://github.com/FEniCS/ufl/pull/367/files
+
 Be warned: be prepared to think hard pip thoughts
 
 ## Merge PRs 
@@ -39,5 +43,8 @@ Be warned: be prepared to think hard pip thoughts
 - KS: https://github.com/FEniCS/ufl/pull/368
 
 - CW: https://github.com/firedrakeproject/firedrake/pull/4189
+
+- PB: [FIAT mimetic spectral](https://github.com/firedrakeproject/fiat/pull/139)
+
 
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

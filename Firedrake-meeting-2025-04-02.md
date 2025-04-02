@@ -25,11 +25,31 @@ https://github.com/orgs/firedrakeproject/projects/9
 ## JHC [Firedrake #4177](https://github.com/firedrakeproject/firedrake/pull/4177). Subfunctions adjoint evaluation.
 Description in PR. More fiddly `FloatingType` details again.
 
+Minutes
+
+JHC: simple fix but involved lots of work to figure it out so there's a long description in the PR.
+
+CW: Add a comment in the code with similar level of detail as the PR description.
+
+CW: self.idx -> self.subfunction_index in `FunctionMergeBlock`.
+
 ## CW petsc4py suggestion
 
 [#4175](https://github.com/firedrakeproject/firedrake/pull/4175) (information in PR summary)
 
 Be warned: be prepared to think hard pip thoughts
+
+Minutes
+
+CW: Proposal: a shim package `petsctools` to install petsc4py directly from PETSc (as opposed to using pip).
+
+DH: There are problems with a separate PETSc install.
+
+DH: We can pip install petsc4py by specifying the system PETSc dir. For Ubuntu the plan is to install a PPA PETSc.
+
+DH: As long as the user can override the specific version, we could by default dynamically figure out the PETSc version.
+
+DH: We need to consider this further. The user should might not get the versions right. 
 
 ## PB: UFL performance regression
 

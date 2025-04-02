@@ -16,7 +16,7 @@ Date and time 2025-04-09 1600 UTC
 
 Present: 
 
-Apologies: 
+Apologies: DH
 
 ## Discussion-worthy issues/PR
 

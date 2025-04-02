@@ -24,6 +24,12 @@ https://github.com/orgs/firedrakeproject/projects/9
 
 ## JHC [Firedrake #4177](https://github.com/firedrakeproject/firedrake/pull/4177). Subfunctions adjoint evaluation.
 
+## CW petsc4py suggestion
+
+[#4175](https://github.com/firedrakeproject/firedrake/pull/4175) (information in PR summary)
+
+Be warned: be prepared to think hard pip thoughts
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

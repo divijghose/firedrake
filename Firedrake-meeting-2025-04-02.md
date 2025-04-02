@@ -45,24 +45,34 @@ CW: Proposal: a shim package `petsctools` to install petsc4py directly from PETS
 
 DH: There are problems with a separate PETSc install.
 
-DH: We can pip install petsc4py by specifying the system PETSc dir. For Ubuntu the plan is to install a PPA PETSc.
+DH: We can pip install petsc4py by specifying the system PETSc dir. For Ubuntu the plan is to install a PPA PETSc (much harder for Mac).
 
 DH: As long as the user can override the specific version, we could by default dynamically figure out the PETSc version.
 
 DH: We need to consider this further. The user should might not get the versions right. 
 
+CW: We consider more flexible minimal PETSc requirements/versions.
+
+DH: Firedrake release branch should be as new user friendly as possible. 
+
+CW: I'll think some more.
+
 ## PB: UFL performance regression
 
 https://github.com/FEniCS/ufl/pull/367/files
+
+PB: I still need to get the caching interface.
+
+DH: use object id to memoize visited nodes in the tree.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 - JHC: [Firedrake #4178](https://github.com/firedrakeproject/firedrake/pull/4178). Only pass solver parameters to adjoint solve block once.
 
-- KS: https://github.com/FEniCS/ufl/pull/368
+- KS: https://github.com/FEniCS/ufl/pull/368. Cleanup BaseFormOperator arguments.
 
-- CW: https://github.com/firedrakeproject/firedrake/pull/4189
+- CW: https://github.com/firedrakeproject/firedrake/pull/4189 We check links in the docs, sometimes we get failures due to the other sites changing, other times sites are temporarily down. This PR deploys the website even if the link check fails.
 
 - PB: [Restrict PC](https://github.com/firedrakeproject/firedrake/pull/4169)
 

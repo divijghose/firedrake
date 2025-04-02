@@ -70,13 +70,17 @@ DH: use object id to memoize visited nodes in the tree.
 
 - JHC: [Firedrake #4178](https://github.com/firedrakeproject/firedrake/pull/4178). Only pass solver parameters to adjoint solve block once.
 
-- KS: https://github.com/FEniCS/ufl/pull/368. Cleanup BaseFormOperator arguments.
+- KS: https://github.com/FEniCS/ufl/pull/368. Cleanup BaseFormOperator arguments. Merged.
 
 - CW: https://github.com/firedrakeproject/firedrake/pull/4189 We check links in the docs, sometimes we get failures due to the other sites changing, other times sites are temporarily down. This PR deploys the website even if the link check fails.
 
-- PB: [Restrict PC](https://github.com/firedrakeproject/firedrake/pull/4169)
+- PB: [Restrict PC](https://github.com/firedrakeproject/firedrake/pull/4169) Not discussed
 
-- PB: [FIAT mimetic spectral](https://github.com/firedrakeproject/fiat/pull/139)
+- PB: [FIAT mimetic spectral](https://github.com/firedrakeproject/fiat/pull/139) Merged
+
+- DH: [Adjoint documentation](https://github.com/firedrakeproject/firedrake/pull/4168) Merged
+
+- DH: [Fix streamline plots](https://github.com/firedrakeproject/firedrake/pull/4188) Reviewed, merge when it passes CI
 
 
 

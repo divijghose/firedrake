@@ -29,11 +29,11 @@ Description in PR. More fiddly `FloatingType` details again.
 
 [#4175](https://github.com/firedrakeproject/firedrake/pull/4175) (information in PR summary)
 
+Be warned: be prepared to think hard pip thoughts
+
 ## PB: UFL performance regression
 
 https://github.com/FEniCS/ufl/pull/367/files
-
-Be warned: be prepared to think hard pip thoughts
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

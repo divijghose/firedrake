@@ -23,6 +23,7 @@ Apologies:
 https://github.com/orgs/firedrakeproject/projects/9
 
 ## JHC [Firedrake #4177](https://github.com/firedrakeproject/firedrake/pull/4177). Subfunctions adjoint evaluation.
+Description in PR. More fiddly `FloatingType` details again.
 
 ## CW petsc4py suggestion
 

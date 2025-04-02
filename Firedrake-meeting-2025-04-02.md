@@ -37,4 +37,6 @@ Be warned: be prepared to think hard pip thoughts
 
 - KS: https://github.com/FEniCS/ufl/pull/368
 
+- CW: https://github.com/firedrakeproject/firedrake/pull/4189
+
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

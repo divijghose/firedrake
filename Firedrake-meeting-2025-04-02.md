@@ -68,7 +68,7 @@ DH: use object id to memoize visited nodes in the tree.
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-- JHC: [Firedrake #4178](https://github.com/firedrakeproject/firedrake/pull/4178). Only pass solver parameters to adjoint solve block once.
+- JHC: [Firedrake #4178](https://github.com/firedrakeproject/firedrake/pull/4178). Only pass solver parameters to adjoint solve block once. Merged.
 
 - KS: https://github.com/FEniCS/ufl/pull/368. Cleanup BaseFormOperator arguments. Merged.
 

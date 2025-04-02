@@ -44,7 +44,10 @@ https://github.com/FEniCS/ufl/pull/367/files
 
 - CW: https://github.com/firedrakeproject/firedrake/pull/4189
 
+- PB: [Restrict PC](https://github.com/firedrakeproject/firedrake/pull/4169)
+
 - PB: [FIAT mimetic spectral](https://github.com/firedrakeproject/fiat/pull/139)
+
 
 
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

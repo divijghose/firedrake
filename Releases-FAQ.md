@@ -21,6 +21,7 @@ To make a major version release the steps are:
 1. Prepare a PR into ``release``:
     * Merge the ``main`` branch into ``release``.
     * Update the version number in the ``pyproject.toml``.
+    * Remove references to git repositories in the `pyproject.toml` and set minimum valid versions where necessary.
 1. Once this is merged create a GitHub release with the new version number.
 1. Trigger the ``dist`` workflow to build and upload artifacts to the GitHub release and PyPI.
 

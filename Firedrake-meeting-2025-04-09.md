@@ -18,7 +18,10 @@ Present:
 
 Apologies: DH
 
-## Discussion-worthy issues/PR
+## Review PRs
+
+*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
+
 
 
 ## Merge PRs 

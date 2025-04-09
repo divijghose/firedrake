@@ -29,7 +29,6 @@ Apologies: DH
 * CW: https://github.com/firedrakeproject/firedrake/pull/4181 (needs #4135)
 * CW: https://github.com/firedrakeproject/firedrake/pull/4191
 * CW: https://github.com/firedrakeproject/firedrake/pull/4208
-* CW: https://github.com/firedrakeproject/firedrake/pull/4212
 
 
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

@@ -24,9 +24,9 @@ Apologies: DH
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-* CW: https://github.com/firedrakeproject/firedrake/pull/4181
 * CW: https://github.com/firedrakeproject/firedrake/pull/4121
 * CW: https://github.com/firedrakeproject/firedrake/pull/4135
+* CW: https://github.com/firedrakeproject/firedrake/pull/4181 (needs #4135)
 * CW: https://github.com/firedrakeproject/firedrake/pull/4191
 * CW: https://github.com/firedrakeproject/firedrake/pull/4208
 * CW: https://github.com/firedrakeproject/firedrake/pull/4212

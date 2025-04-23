@@ -25,11 +25,17 @@ Apologies:
 [#4193](https://github.com/firedrakeproject/firedrake/pull/4193) is ready for review.
 
 
+### PB: Mixed dual interpolation
+
+[UFL #370](https://github.com/FEniCS/ufl/pull/370)
+[Firedrake #4197](https://github.com/firedrakeproject/firedrake/pull/4197)
+
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 * CW: [petsctools](https://github.com/firedrakeproject/firedrake/pull/4194)
 * JHC: [apt packages](https://github.com/firedrakeproject/firedrake/pull/4122)
-
+* PB: [FacetSplitPC](https://github.com/firedrakeproject/firedrake/pull/4238)
 
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

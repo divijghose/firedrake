@@ -23,7 +23,10 @@ Apologies:
 ### CW: Firedrake release
 
 [#4193](https://github.com/firedrakeproject/firedrake/pull/4193) is ready for review.
-
+* Predominantly updates to workflow files.
+* Roll docs build into standard workflow to allow different "main" and "release" website pages with appropriate content/warnings.
+* Don't allow any merges into release with `TODO` comments.
+* Dev install is now slightly more involved, but makes sure we use the `petsc4py` from the local PETSc repo, not pypi.
 
 ### PB: Mixed dual interpolation
 

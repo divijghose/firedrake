@@ -24,5 +24,7 @@ Apologies:
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+* CW: [petsctools](https://github.com/firedrakeproject/firedrake/pull/4194)
+
 
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

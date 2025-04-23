@@ -22,7 +22,7 @@ Apologies:
 
 ### CW: Firedrake release
 
-[#4193](https://github.com/firedrakeproject/firedrake/pull/4193)
+[#4193](https://github.com/firedrakeproject/firedrake/pull/4193) is ready for review.
 
 
 ## Merge PRs 

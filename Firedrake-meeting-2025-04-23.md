@@ -14,7 +14,7 @@ Date and time 2025-04-23 1600 UTC
 
 # Agenda
 
-Present: 
+Present: JHC, IM, CW, DH, RK, PB, KS, AO, CC
 
 Apologies:
 
@@ -27,6 +27,9 @@ Apologies:
 * Roll docs build into standard workflow to allow different "main" and "release" website pages with appropriate content/warnings.
 * Don't allow any merges into release with `TODO` comments.
 * Dev install is now slightly more involved, but makes sure we use the `petsc4py` from the local PETSc repo, not pypi.
+* `firedrake-zenodo` has been updated but is mostly untested. We might have to debug this the first time someone wants a record after release.
+* FAQ and policies for release procedure reviewed and approved.
+* Last dependencies to be released: FIAT and UFL.
 
 ### PB: Mixed dual interpolation
 
@@ -38,7 +41,7 @@ Apologies:
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 * CW: [petsctools](https://github.com/firedrakeproject/firedrake/pull/4194)
-* JHC: [apt packages](https://github.com/firedrakeproject/firedrake/pull/4122)
+* JHC: [apt packages](https://github.com/firedrakeproject/firedrake/pull/4122) - approved pending removal of bugged VOM test.
 * PB: [FacetSplitPC](https://github.com/firedrakeproject/firedrake/pull/4238)
 
 1600 UTC [2025-04-23](./Firedrake-meeting-2025-04-23)

@@ -20,6 +20,10 @@ Apologies: JHC
 
 ## Discussion-worthy issues/PR
 
+### CW: Need PyPI owners for packages
+
+If some of you can create PyPI accounts then I can add you to the PyPI projects that I currently maintain (increase the bus factor).
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

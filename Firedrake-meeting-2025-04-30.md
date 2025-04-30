@@ -26,10 +26,16 @@ If some of you can create PyPI accounts then I can add you to the PyPI projects 
 
 Also Zenodo, Docker, more?
 
+### RCK: [Irksome-izing demos](https://github.com/firedrakeproject/firedrake/pull/4262) 
+
+Do we want to replace/remove existing non-Irksome demos?  Naming conventions, etc.
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-* PB: [FacetSplitPC](https://github.com/firedrakeproject/firedrake/pull/4238) - wait until after release.
+* RCK/PB: [UFL](https://github.com/FEniCS/ufl/pull/370) 
+* RCK/PB: [Dual interp](https://github.com/firedrakeproject/firedrake/pull/4197)
+* PB: [Fix block sizes](https://github.com/firedrakeproject/firedrake/pull/4253)
 
 1600 UTC [2025-05-07](./Firedrake-meeting-2025-05-07)

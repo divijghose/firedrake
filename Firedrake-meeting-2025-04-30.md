@@ -41,7 +41,7 @@ Ask LM how zenodo works.
 
 - Action JHC and KS: create an account, setup 2FA, etc.
 
-- Irksome release?
+- Irksome release? -- One possible thing RK can do while in the UK.
 
 ### RCK: [Irksome-izing demos](https://github.com/firedrakeproject/firedrake/pull/4262) 
 

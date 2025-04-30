@@ -51,6 +51,16 @@ The demo shows how to write custom time steppings, so probably it is not a good 
 
 Instead put a cross-link for Irksome versions of the demos?
 
+## Post-release Actions
+
+Next meeting or in three week time.
+
+- Drop old interpolate.
+
+- Abstract Reduced Functionals
+
+- Put one warning in one release and drop it in the next? (ideally)
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

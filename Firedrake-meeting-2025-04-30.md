@@ -14,11 +14,16 @@ Date and time 2025-04-23 1600 UTC
 
 # Agenda
 
-Present:
+Present: DH, RK, PB, CW, IM, KS
 
 Apologies: JHC
 
 ## Discussion-worthy issues/PR
+
+
+### We now have release.
+
+Congratulations and thanks CW!
 
 ### CW: Need PyPI owners for packages
 
@@ -26,10 +31,25 @@ If some of you can create PyPI accounts then I can add you to the PyPI projects 
 
 Also Zenodo, Docker, more?
 
+Docker: DH and CW
+
+Zenodo: CW probably has access?
+
+Ask LM how zenodo works.
+
+- Give access to JHC and KS for now
+
+- Action JHC and KS: create an account, setup 2FA, etc.
+
+- Irksome release?
+
 ### RCK: [Irksome-izing demos](https://github.com/firedrakeproject/firedrake/pull/4262) 
 
 Do we want to replace/remove existing non-Irksome demos?  Naming conventions, etc.
 
+The demo shows how to write custom time steppings, so probably it is not a good idea to completely replace them.
+
+Instead put a cross-link for Irksome versions of the demos?
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

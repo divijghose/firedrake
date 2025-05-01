@@ -8,15 +8,17 @@ If the sidebar doesn't have a page for running Singularity on the system you are
 
 ## Convert the CI Docker container
 
-A two step procedure is required for performing the image conversion. This example uses the `firedrake-vanilla` container, but `firedrake`, `firedrake-notebooks` and `firedrake-complex` should also work correctly.
+A two step procedure is required for performing the image conversion. This example uses the `firedrake-vanilla-default` container, but `firedrake`, `firedrake-notebooks` and `firedrake-vanilla-complex` should also work correctly.
 
-1. Build the image in a sandbox from the Dockerhub
-`singularity build --sandbox ./firedrake-vanilla docker://firedrakeproject/firedrake-vanilla`
+1. Build the image in a sandbox from DockerHub
+`singularity build --sandbox ./firedrake-vanilla-default docker://firedrakeproject/firedrake-vanilla-default`
 
 2. Convert the sandboxed image to a Singularity container
-`singularity build firedrake-vanilla.sif ./firedrake-vanilla`
+`singularity build firedrake-vanilla-default.sif ./firedrake-vanilla-default`
 
 ## Create a Docker container from scratch.
+
+**IMPORTANT: The instructions below are outdated and will not work.**
 
 This is a four step procedure.
 First, build a Docker container with PETSc, the secondly build a Docker container with Firedrake from the PETSc container.

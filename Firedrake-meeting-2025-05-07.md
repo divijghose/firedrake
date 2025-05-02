@@ -22,6 +22,18 @@ Apologies:
 
 ## Discussion-worthy issues/PR
 
+### CW: Testing more configurations
+
+I would like to test a number of different configurations including:
+
+* default
+* complex
+* macOS
+* default-int64
+* GPU (coming soon)
+
+What sort of testing coverage do we want for these? In particular, **should we think about not running the entire test suite for complex mode?**
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -34,6 +34,8 @@ I would like to test a number of different configurations including:
 
 What sort of testing coverage do we want for these? In particular, **should we think about not running the entire test suite for complex mode?**
 
+## DH New adjoint fix from Daiane: https://github.com/firedrakeproject/firedrake/pull/4284
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

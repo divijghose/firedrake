@@ -22,6 +22,11 @@ Apologies: RK
 
 ## Discussion-worthy issues/PR
 
+### Hackathon planning next week.
+
+- Discussion of what people are doing.
+- Documentation, documentation, documentation.
+
 ### CW: Testing more configurations
 
 I would like to test a number of different configurations including:
@@ -47,8 +52,8 @@ What sort of testing coverage do we want for these? In particular, **should we t
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-* RCK/PB: [UFL](https://github.com/FEniCS/ufl/pull/370) Approved.
-* RCK/PB: [Dual interp](https://github.com/firedrakeproject/firedrake/pull/4197) Approved.
+* RCK/PB: [UFL](https://github.com/FEniCS/ufl/pull/370) Merged.
+* RCK/PB: [Dual interp](https://github.com/firedrakeproject/firedrake/pull/4197) Automerge.
 * CW: https://github.com/firedrakeproject/firedrake/pull/4278 Merged.
 * CW: https://github.com/firedrakeproject/firedrake/pull/4249 Approved.
 * CW: https://github.com/firedrakeproject/firedrake/pull/4270 Pending CI passing.

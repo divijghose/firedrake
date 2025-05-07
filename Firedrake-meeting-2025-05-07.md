@@ -39,5 +39,8 @@ What sort of testing coverage do we want for these? In particular, **should we t
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+* RCK/PB: [UFL](https://github.com/FEniCS/ufl/pull/370) 
+* RCK/PB: [Dual interp](https://github.com/firedrakeproject/firedrake/pull/4197)
+
 
 1600 UTC [2025-05-21](./Firedrake-meeting-2025-05-21)

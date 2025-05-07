@@ -16,9 +16,9 @@ Date and time 2025-05-07 1600 UTC
 
 # Agenda
 
-Present:
+Present: DH KS IM LC PB DH CW JHC
 
-Apologies:
+Apologies: RK
 
 ## Discussion-worthy issues/PR
 
@@ -34,19 +34,26 @@ I would like to test a number of different configurations including:
 
 What sort of testing coverage do we want for these? In particular, **should we think about not running the entire test suite for complex mode?**
 
+- We want to cover different builds, but running the entire test suite for everything is too big.
+- int64 we can check it runs but not that it works at >2billion DoFs
+- complex mode actually changes the maths being done so makes sense to run everything. Code changes also often break something in complex so we need to catch that early.
+- GPU needs special treatment, but only some functionality will be able to run on GPU anyway.
+- SuperLU and hypre will only run on GPU if built for GPU, so we need to check they are set up correctly in both cases.
+- We could make a github label for running the GPU CI like with macOS
+
 ## DH New adjoint fix from Daiane: https://github.com/firedrakeproject/firedrake/pull/4284
+- Approved.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-* RCK/PB: [UFL](https://github.com/FEniCS/ufl/pull/370) 
-* RCK/PB: [Dual interp](https://github.com/firedrakeproject/firedrake/pull/4197)
-* CW: https://github.com/firedrakeproject/firedrake/pull/4278
-* CW: https://github.com/firedrakeproject/firedrake/pull/4249
-* CW: https://github.com/firedrakeproject/firedrake/pull/4270
-* CW: https://github.com/firedrakeproject/firedrake/pull/4277
-* CW: https://github.com/firedrakeproject/firedrake/pull/4285
-* CW: https://github.com/firedrakeproject/firedrake/pull/4281
-
+* RCK/PB: [UFL](https://github.com/FEniCS/ufl/pull/370) Approved.
+* RCK/PB: [Dual interp](https://github.com/firedrakeproject/firedrake/pull/4197) Approved.
+* CW: https://github.com/firedrakeproject/firedrake/pull/4278 Merged.
+* CW: https://github.com/firedrakeproject/firedrake/pull/4249 Approved.
+* CW: https://github.com/firedrakeproject/firedrake/pull/4270 Pending CI passing.
+* CW: https://github.com/firedrakeproject/firedrake/pull/4277 Approved.
+* CW: https://github.com/firedrakeproject/firedrake/pull/4285 Closed.
+* CW: https://github.com/firedrakeproject/firedrake/pull/4281 Reviewed.
 
 1600 UTC [2025-05-21](./Firedrake-meeting-2025-05-21)

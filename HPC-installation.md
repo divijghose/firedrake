@@ -2,14 +2,9 @@ For platforms where Apptainer/Singularity is installed it is possible to convert
 
 - [Isambard 3](./Isambard-3)
 
-## Other systems
-
-[NextGen cluster](./Building-on-the-NextGen-cluster-(Department-of-Mathematics,-Imperial-College-London))
-
-### Archive
+## Archive
 
 - [Generic](./Generic-Instructions-for-HPC)
-- [Singularity](./singularity)
 - [Archer](./Archer)
 - [Archer2 spack](./archer2)
 - [Archer2 Singularity](./Singularity-on-Archer2)
@@ -17,3 +12,4 @@ For platforms where Apptainer/Singularity is installed it is possible to convert
 - [Isambard AI](./Isambard-AI)
 - [CX1](./CX1)
 - [CX2](./CX2)
+- [NextGen cluster](./Building-on-the-NextGen-cluster-(Department-of-Mathematics,-Imperial-College-London))

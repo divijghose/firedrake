@@ -1,4 +1,12 @@
-[Running on HPC](./Running-on-HPC)
+For platforms where Apptainer/Singularity is installed it is possible to convert the Firedrake Docker image for use with the `singularity` program. Details of this procedure are on the [Apptainer/Singularity page](./singularity).
+
+- [Isambard 3](./Isambard-3)
+
+## Other systems
+
+[NextGen cluster](./Building-on-the-NextGen-cluster-(Department-of-Mathematics,-Imperial-College-London))
+
+### Archive
 
 - [Generic](./Generic-Instructions-for-HPC)
 - [Singularity](./singularity)

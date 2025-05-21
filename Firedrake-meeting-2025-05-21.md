@@ -12,7 +12,6 @@ Date and time 2025-05-07 1600 UTC
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. All: Do post merge works (interpolate, abstract reduced functionals, etc.)
-1. JHC, KS: Make docker and pypi accounts and ask CW to invite you.
 
 # Agenda
 

@@ -25,6 +25,14 @@ Apologies: LC
 
 https://github.com/FEniCS/ufl/pull/365
 
+## PB: Fix R space assembly
+
+Recent changes in quadrature degree estimation broke assembly of mixed R-spaces on extruded meshes.
+
+It seems like `kernel.info.coefficients` does not store split coefficients if we have an extruded mesh. Do we want to instead make sure that they are properly split?
+
+https://github.com/firedrakeproject/firedrake/pull/4331
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

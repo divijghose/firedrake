@@ -18,7 +18,7 @@ Date and time 2025-05-07 1600 UTC
 
 Present:
 
-Apologies:
+Apologies: LC
 
 ## Discussion-worthy issues/PR
 

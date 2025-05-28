@@ -26,6 +26,10 @@ Apologies: IM, PB
 ### [#4341](https://github.com/firedrakeproject/firedrake/pull/4341) VOM to Vom permutation matrix
 Failing `test_slate_hybridization.py::test_slate_hybridization_wrong_option` for seemingly unrelated reasons
 
+### CW: petsctools
+
+[#4194](https://github.com/firedrakeproject/firedrake/pull/4194) ready for review.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

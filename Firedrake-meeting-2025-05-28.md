@@ -17,7 +17,7 @@ Date and time 2025-05-07 1600 UTC
 
 Present: 
 
-Apologies: IM
+Apologies: IM, PB
 
 ## Discussion-worthy issues/PR
 

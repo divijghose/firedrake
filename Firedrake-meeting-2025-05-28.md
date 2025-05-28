@@ -33,4 +33,8 @@ Failing `test_slate_hybridization.py::test_slate_hybridization_wrong_option` for
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+KS : fix kwarg name https://github.com/FEniCS/ufl/pull/381
+
+KS : add apply_coefficient_split() https://github.com/FEniCS/ufl/pull/341
+
 1600 UTC [2025-06-04](./Firedrake-meeting-2025-06-04)

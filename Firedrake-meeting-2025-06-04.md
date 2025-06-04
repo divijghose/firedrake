@@ -25,4 +25,6 @@ Apologies: DH
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+* CW (on behalf on KK): https://github.com/firedrakeproject/firedrake/pull/4322
+
 1600 UTC [2025-06-11](./Firedrake-meeting-2025-06-11)

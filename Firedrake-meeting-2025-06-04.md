@@ -14,19 +14,21 @@ Date and time 2025-06-04 1600 UTC
 1. All: Do post merge works (interpolate, abstract reduced functionals, etc.)
 1. CW: Preliminary prep for PETSc User Meeting 2026 ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2025-05-28))
 
-# Agenda
+# Minutes
 
-Present:
+Present: KS, CW (minuter), IM, PB
 
 Apologies: DH
 
 ## Discussion-worthy issues/PR
 
+* Asked everyone about their current work.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-* PB (SLATE + DualSpace): https://github.com/firedrakeproject/firedrake/pull/4342
+* PB (SLATE + DualSpace): https://github.com/firedrakeproject/firedrake/pull/4342 - will be merged
 
-* CW (on behalf on KK): https://github.com/firedrakeproject/firedrake/pull/4322
+* CW (on behalf on KK): https://github.com/firedrakeproject/firedrake/pull/4322 - needs some work, PB to review the maths
 
 1600 UTC [2025-06-11](./Firedrake-meeting-2025-06-11)

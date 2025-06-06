@@ -29,7 +29,7 @@ make PETSC_DIR=$PETSC_DIR PETSC_ARCH=arch-firedrake-default all
 ```
 make PETSC_DIR=path_to_directory_in_which_petsc_was_installed/petsc PETSC_ARCH=arch-firedrake-default check
 ```
-- Install Firedrake: make a virtual environment, activate it, set environment variables, remove previous existing firedrake and petsc4py cache. Then before installing, make a pip constraints text file which is currently necessary for stable release version due to a petsc4py issue.
+- Install Firedrake: make a virtual environment, activate it, set environment variables, remove previous existing firedrake and petsc4py cache. Then before installing, make a pip constraints text file which is currently necessary for the stable release version due to a petsc4py issue.
 ```
 cd ..
 python3 -m venv venv-firedrake
@@ -45,7 +45,7 @@ pip install --no-binary h5py 'firedrake[check]'
 ```
 export LD_LIBRARY_PATH=$PETSC_DIR/arch-firedrake-default/lib:$LD_LIBRARY_PATH
 ```
-- Check if installation was successful. Not that mpiexec is not available on perlmutter, and to run the parallel runs in firedrkae-check, a similar hack as in the guideline for Isambard 3 can be used.
+- Check if installation was successful. Note that mpiexec is not available on perlmutter, and to run the parallel runs in firedrkae-check, a similar hack as in the guideline for Isambard 3 can be used.
 ```
 firedrake-check
 ```

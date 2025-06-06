@@ -9,6 +9,8 @@ curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/refs/tags/2
 module load cmake
 module load cray-python
 ```
+Other modules that should be loaded by default include `cray-mpich` and `gcc`.
+
 - Get correct petsc version
 ```
 git clone --branch $(python3 firedrake-configure --no-package-manager --show-petsc-version) https://gitlab.com/petsc/petsc.git

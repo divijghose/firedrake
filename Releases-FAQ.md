@@ -21,7 +21,7 @@ To make a major version release the steps are:
     1. Merge `main` into this new branch.
     1. Resolve and remove any `# TODO RELEASE` comments.
     1. Update the `version` attribute in the `pyproject.toml`.
-1. Once this is merged create a GitHub release with the new version number.
+1. Once this is merged create a GitHub release from the `release` branch with the new version number.
 1. Check that the release workflow runs without error.
 
 ### How is a patch release made?

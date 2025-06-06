@@ -92,7 +92,7 @@ export FCFLAGS="-w -fallow-argument-mismatch -O2"
 export FFLAGS="-w -fallow-argument-mismatch -O2"
 pip install -r ./firedrake/requirements-build.txt
 pip install wheel
-# Replace `license = "LGPL-3.0-or-later"` inside `firedrake/pyproject.toml` by `license = { text = "LGPL-3.0-or-later" }`
+# Before running the next command, replace `license = "LGPL-3.0-or-later"` inside `firedrake/pyproject.toml` by `license = { text = "LGPL-3.0-or-later" }`
 pip install --no-build-isolation --no-binary h5py 'h5py<3.14' --editable './firedrake[check]'
 ```
 - Update LD_LIBRARY_PATH

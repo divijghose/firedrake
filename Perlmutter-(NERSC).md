@@ -29,7 +29,7 @@ make PETSC_DIR=$PETSC_DIR PETSC_ARCH=arch-firedrake-default all
 ```
 make PETSC_DIR=path_to_directory_in_which_petsc_was_installed/petsc PETSC_ARCH=arch-firedrake-default check
 ```
-- Install Firedrake: make a virtual environment, activate it, set environment variables, remove previous existing firedrake and petsc4py cache. Then before installing, make a pip constraints text file which is currently necessary for the stable release version due to a petsc4py issue.
+- Install Firedrake: make a virtual environment, activate it, set environment variables, remove previous existing firedrake and petsc4py cache.
 ```
 cd ..
 python3 -m venv venv-firedrake
@@ -37,8 +37,6 @@ python3 -m venv venv-firedrake
 export $(python3 firedrake-configure --no-package-manager --show-env)
 pip cache remove petsc4py
 pip cache remove firedrake
-echo 'Cython<3.1' > constraints.txt
-export PIP_CONSTRAINT=constraints.txt
 pip install --no-binary h5py 'firedrake[check]'
 ```
 - Update LD_LIBRARY_PATH to void errors along the line of `ImportError: libpetsc.so.3.23: cannot open shared object file: No such file or directory`
@@ -80,7 +78,7 @@ make PETSC_DIR=$PETSC_DIR PETSC_ARCH=arch-firedrake-default all
 ```
 make PETSC_DIR=path_to_directory_in_which_petsc_was_installed/petsc PETSC_ARCH=arch-firedrake-default check
 ```
-- (!): Install firedrake: clone firedrake repo, set up venv, run configuration. New steps: install pets4py; note that for most recent version of petsc, cython constraint is not needed. This will also install libsupermesh as a firedrake requirement, which will throw an argument mismatch error; need to add FC and FF flags to allow for the mismatch. Further, for the firedrake install command, there will be an error along the lines of `error: invalid command 'bdist_wheel'` because the wheel package is missing, and we therefore need to pip install it first. Finally, there will be an error along the lines of `ValueError: invalid pyproject.toml config: project.license.` for the h5py installation, which seems to be related to an invalid licence for stricter PEP 621 validation rules. The simplest way to resolve this seems to be to load an older version of h5py. The same issue may occur for firedrake too. The simplest way to resolve this seems to be to replace the line license = "LGPL-3.0-or-later" inside firedrake/pyproject.toml by license = { text = "LGPL-3.0-or-later" }
+- (!): Install firedrake: clone firedrake repo, set up venv, run configuration. New steps: install pets4py; note that for most recent version of petsc, cython constraint is not needed. This will also install libsupermesh as a firedrake requirement, which will throw an argument mismatch error; need to add FC and FF flags to allow for the mismatch. Further, for the firedrake install command, there will be an error along the lines of `error: invalid command 'bdist_wheel'` because the wheel package is missing, and we therefore need to pip install it first.
 ```
 cd ..
 git clone https://github.com/firedrakeproject/firedrake.git
@@ -94,8 +92,7 @@ export FCFLAGS="-w -fallow-argument-mismatch -O2"
 export FFLAGS="-w -fallow-argument-mismatch -O2"
 pip install -r ./firedrake/requirements-build.txt
 pip install wheel
-# Before running the next command, replace `license = "LGPL-3.0-or-later"` inside `firedrake/pyproject.toml` by `license = { text = "LGPL-3.0-or-later" }`
-pip install --no-build-isolation --no-binary h5py 'h5py<3.14' --editable './firedrake[check]'
+pip install --no-build-isolation --no-binary h5py h5py --editable './firedrake[check]'
 ```
 - Update LD_LIBRARY_PATH
 ```
@@ -107,5 +104,5 @@ firedrake-check
 ```
 - (!) Install additional packages such as vtk
 ```
-pip install --no-binary h5py 'h5py<3.14' 'firedrake[check,vtk]'
+pip install --no-binary h5py h5py 'firedrake[check,vtk]'
 ```

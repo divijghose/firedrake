@@ -1,8 +1,8 @@
 *As of 06/06/2025. Contributed by Golo Wimmer (Los Alamos National Laboratory)*
 
-- Get the firedrake config file
+- Get the most recent firedrake config file
 ```
-curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/refs/tags/2025.4.0.post0/scripts/firedrake-configure
+curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/refs/tags/<VERSION>/scripts/firedrake-configure
 ```
 - Load appropriate modules
 ```

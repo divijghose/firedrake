@@ -20,6 +20,10 @@ Present:
 
 Apologies:
 
+## CW: PETSc user meeting
+
+PETSc are happy with the suggested dates (1-5 June 2026).
+
 ## Discussion-worthy issues/PR
 
 ## Merge PRs 

@@ -38,6 +38,14 @@ https://github.com/firedrakeproject/firedrake/pull/4344
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+PB: [ASM extruded periodic](https://github.com/firedrakeproject/firedrake/pull/4352) already approved
+
+PB: [Fix typo in test](https://github.com/firedrakeproject/firedrake/pull/4359) already approved
+
+PB: [Matfree SLATE dual fix](https://github.com/firedrakeproject/firedrake/pull/4360) already approved
+
+PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/pull/4338) needs review
+
 ## Date of next meeting
 
 1600 UTC [2025-06-18](./Firedrake-meeting-2025-06-18)

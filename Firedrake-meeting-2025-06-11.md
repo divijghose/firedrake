@@ -24,6 +24,15 @@ Apologies:
 
 PETSc are happy with the suggested dates (1-5 June 2026).
 
+## CW: UFL fork proposal
+
+https://github.com/firedrakeproject/firedrake/pull/4344
+
+## CW: petsctools
+
+* petsctools: https://github.com/firedrakeproject/petsctools
+* Firedrake PR: https://github.com/firedrakeproject/firedrake/pull/4194
+
 ## Discussion-worthy issues/PR
 
 ## Merge PRs 

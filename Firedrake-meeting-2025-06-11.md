@@ -24,13 +24,21 @@ Apologies:
 
 PETSc are happy with the suggested dates (1-5 June 2026).
 
+DH: Can not announce date yet, but put up webpage with minimum amount of information.
+
+CW: PETSc the begining of the week, Firedrake the end of the week?
+
 ## CW: Add Firedrake 25 to website
 
 GW is asking for something official to point to so he can start his travel clearance procedure.
 
+CW: Ask Onno about the website.
+
 ## CW: should we stop using our UFL fork?
 
 https://github.com/firedrakeproject/firedrake/pull/4344
+
+Yes.
 
 ## CW: petsctools
 
@@ -38,6 +46,12 @@ https://github.com/firedrakeproject/firedrake/pull/4344
 * Firedrake PR: https://github.com/firedrakeproject/firedrake/pull/4194
 
 JM wants to use it in pyadjoint but thinks the license might need to change.
+
+DH: GPL does not propagate when distributing.
+
+DH: Would put MIT on everything where possible.
+
+DH: Expecting something like "Copyright (c) 2012. Imperial College London and others."
 
 ## Discussion-worthy issues/PR
 
@@ -59,8 +73,6 @@ PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/
 KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341
 
 KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349
-
-PB: [DirichletBC bugfix](https://github.com/firedrakeproject/firedrake/pull/4370) needs review, but very easy
 
 ## Date of next meeting
 

@@ -41,6 +41,8 @@ JM wants to use it in pyadjoint but thinks the license might need to change.
 
 ## Discussion-worthy issues/PR
 
+### LC: ([#4341](https://github.com/firedrakeproject/firedrake/pull/4341)) Vom to vom permutation matrix
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

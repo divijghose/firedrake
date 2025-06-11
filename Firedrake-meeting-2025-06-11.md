@@ -80,6 +80,10 @@ PB: ~[DirichletBC bugfix](https://github.com/firedrakeproject/firedrake/pull/437
 
 Ask Satish about it?
 
+## Next week
+
+DH: Will not join the meeting next week.
+
 ## Date of next meeting
 
 1600 UTC [2025-06-18](./Firedrake-meeting-2025-06-18)

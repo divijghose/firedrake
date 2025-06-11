@@ -74,6 +74,8 @@ KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341
 
 KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349
 
+PB: [DirichletBC bugfix](https://github.com/firedrakeproject/firedrake/pull/4370) needs review but very simple
+
 ## Date of next meeting
 
 1600 UTC [2025-06-18](./Firedrake-meeting-2025-06-18)

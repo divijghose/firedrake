@@ -70,7 +70,7 @@ PB: ~[Demo](https://github.com/firedrakeproject/firedrake/pull/4309) was previou
 
 PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/pull/4338) needs review, Name change requested, changed, approved.
 
-KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341
+KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341 Ask if it is ok to merge this on FEniCS channel.
 
 KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349 Changes requested.
 

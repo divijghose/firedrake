@@ -37,6 +37,8 @@ https://github.com/firedrakeproject/firedrake/pull/4344
 * petsctools: https://github.com/firedrakeproject/petsctools
 * Firedrake PR: https://github.com/firedrakeproject/firedrake/pull/4194
 
+JM wants to use it in pyadjoint but thinks the license might need to change.
+
 ## Discussion-worthy issues/PR
 
 ## Merge PRs 

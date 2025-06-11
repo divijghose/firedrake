@@ -66,7 +66,7 @@ PB: [Fix typo in test](https://github.com/firedrakeproject/firedrake/pull/4359) 
 
 PB: [Matfree SLATE dual fix](https://github.com/firedrakeproject/firedrake/pull/4360) already approved
 
-PB: [Demo](https://github.com/firedrakeproject/firedrake/pull/4309) was previously failing doc build for legit reason, now it is the usual broken link
+PB: ~[Demo](https://github.com/firedrakeproject/firedrake/pull/4309) was previously failing doc build for legit reason, now it is the usual broken link~ Merged
 
 PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/pull/4338) needs review
 
@@ -74,7 +74,11 @@ KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341
 
 KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349
 
-PB: [DirichletBC bugfix](https://github.com/firedrakeproject/firedrake/pull/4370) needs review but very simple
+PB: ~[DirichletBC bugfix](https://github.com/firedrakeproject/firedrake/pull/4370) needs review but very simple~ Merged
+
+## PETSC link 403 error?
+
+Ask Satish about it?
 
 ## Date of next meeting
 

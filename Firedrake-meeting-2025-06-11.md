@@ -56,6 +56,10 @@ PB: [Demo](https://github.com/firedrakeproject/firedrake/pull/4309) was previous
 
 PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/pull/4338) needs review
 
+KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341
+
+KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349
+
 ## Date of next meeting
 
 1600 UTC [2025-06-18](./Firedrake-meeting-2025-06-18)

@@ -24,6 +24,10 @@ Apologies:
 
 PETSc are happy with the suggested dates (1-5 June 2026).
 
+## CW: Add Firedrake 25 to website
+
+GW is asking for something official to point to so he can start his travel clearance procedure.
+
 ## CW: should we stop using our UFL fork?
 
 https://github.com/firedrakeproject/firedrake/pull/4344

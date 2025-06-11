@@ -68,11 +68,11 @@ PB: [Matfree SLATE dual fix](https://github.com/firedrakeproject/firedrake/pull/
 
 PB: ~[Demo](https://github.com/firedrakeproject/firedrake/pull/4309) was previously failing doc build for legit reason, now it is the usual broken link~ Merged
 
-PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/pull/4338) needs review
+PB + KK: [EquationBC + multigrid](https://github.com/firedrakeproject/firedrake/pull/4338) needs review, Name change requested.
 
 KS: UFL CoefficientSplitter https://github.com/FEniCS/ufl/pull/341
 
-KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349
+KS: Firedrake counterpart https://github.com/firedrakeproject/firedrake/pull/4349 Changes requested.
 
 PB: ~[DirichletBC bugfix](https://github.com/firedrakeproject/firedrake/pull/4370) needs review but very simple~ Merged
 

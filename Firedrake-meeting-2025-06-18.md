@@ -25,7 +25,7 @@ Apologies: DH, IM
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.
 
-([#4341](https://github.com/firedrakeproject/firedrake/pull/4341)) interpolation matrix Vom to Vom
+#([#4341](https://github.com/firedrakeproject/firedrake/pull/4341)) interpolation matrix Vom to Vom
 
 ## Date of next meeting
 

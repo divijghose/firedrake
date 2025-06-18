@@ -27,6 +27,12 @@ Apologies: DH, IM
 
 ### ([#4341](https://github.com/firedrakeproject/firedrake/pull/4341)) interpolation matrix Vom to Vom
 
+PB: [SLATE + Cofunction](https://github.com/firedrakeproject/firedrake/pull/4377)
+
+PB + EM: [GTMG restriction](https://github.com/firedrakeproject/firedrake/pull/4373)
+
+PB: [GTMG + Interpolate](https://github.com/firedrakeproject/firedrake/pull/4374)
+
 ## Date of next meeting
 
 1600 UTC [2025-06-25](./Firedrake-meeting-2025-06-25)

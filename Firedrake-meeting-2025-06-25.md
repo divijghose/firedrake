@@ -23,6 +23,10 @@ Apologies: PB
 
 https://github.com/firedrakeproject/firedrake/pull/4384
 
+## DRS: hard to debug error
+
+https://github.com/danshapero/mantle-convection-test
+
 ## KS: Submesh PRs
 
 Small dependency:

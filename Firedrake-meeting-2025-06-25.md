@@ -33,7 +33,7 @@ Core implementation:
 
 UFL: https://github.com/FEniCS/ufl/pull/264
 
-Firedrake: https://github.com/firedrakeproject/firedrake/pull/3478#pullrequestreview-2958290881
+Firedrake: https://github.com/firedrakeproject/firedrake/pull/3478
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

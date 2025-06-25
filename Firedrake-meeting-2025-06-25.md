@@ -24,7 +24,7 @@ Apologies:
 https://github.com/firedrakeproject/firedrake/pull/4384
 
 ## Merge PRs 
-*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.
+*Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 * CW: https://github.com/firedrakeproject/petsctools/pull/5
 

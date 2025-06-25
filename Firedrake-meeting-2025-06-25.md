@@ -17,7 +17,7 @@ Date and time 2025-06-25 1600 UTC
 
 Present:
 
-Apologies:
+Apologies: PB
 
 ## CW: `petsc_raises`
 

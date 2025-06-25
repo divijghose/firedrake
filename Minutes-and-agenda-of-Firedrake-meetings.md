@@ -6,9 +6,10 @@ The meeting is held via Zoom:
 - Password: Sa7GN*
 
 ## Upcoming meetings
-- [2025-06-18](./Firedrake-meeting-2025-06-18)
+- [2025-06-25](./Firedrake-meeting-2025-06-25)
 
 ## Past meetings
+- [2025-06-18](./Firedrake-meeting-2025-06-18)
 - [2025-06-11](./Firedrake-meeting-2025-06-11)
 - [2025-06-04](./Firedrake-meeting-2025-06-04)
 - [2025-05-28](./Firedrake-meeting-2025-05-28)

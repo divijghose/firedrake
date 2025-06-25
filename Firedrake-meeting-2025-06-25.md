@@ -23,6 +23,18 @@ Apologies: PB
 
 https://github.com/firedrakeproject/firedrake/pull/4384
 
+## KS: Submesh PRs
+
+Small dependency:
+
+UFL: https://github.com/FEniCS/ufl/pull/382
+
+Core implementation:
+
+UFL: https://github.com/FEniCS/ufl/pull/264
+
+Firedrake: https://github.com/firedrakeproject/firedrake/pull/3478#pullrequestreview-2958290881
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

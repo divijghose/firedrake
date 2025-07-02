@@ -25,6 +25,13 @@ Example: https://github.com/firedrakeproject/firedrake/actions/runs/16026361480/
 
 The problem is very obscure. I've identified it but the fix is to either always stick to the latest release or build petsc4py and slepc4py differently.
 
+## JHC: Attach `OptionsManager` to a single PETSc Object
+
+[petsctools #7](https://github.com/firedrakeproject/petsctools/pull/7)
+
+Each instance of `OptionsManager` is meant to be used for only one PETSc object, but this isn't enforced anywhere.
+In Firedrake the solver classes to connect one `OptionManager` to one PETSc object. This PR adds some free functions to make it easier to do this only with `petsctools`.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

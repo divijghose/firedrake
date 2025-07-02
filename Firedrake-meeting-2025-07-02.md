@@ -19,7 +19,11 @@ Present:
 
 Apologies: LC
 
+## CW: PETSc/SLEPc release woes
 
+Example: https://github.com/firedrakeproject/firedrake/actions/runs/16026361480/job/45215200574
+
+The problem is very obscure. I've identified it but the fix is to either always stick to the latest release or build petsc4py and slepc4py differently.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

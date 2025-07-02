@@ -64,7 +64,7 @@ DH: Add a section in the manual?
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
-PB: [GTMGPC restrict](https://github.com/firedrakeproject/firedrake/pull/4373)
+PB: [GTMGPC restrict](https://github.com/firedrakeproject/firedrake/pull/4373) -- JHC to review.
 
 ## Date of next meeting
 

@@ -32,6 +32,11 @@ The problem is very obscure. I've identified it but the fix is to either always 
 Each instance of `OptionsManager` is meant to be used for only one PETSc object, but this isn't enforced anywhere.
 In Firedrake the solver classes to connect one `OptionManager` to one PETSc object. This PR adds some free functions to make it easier to do this only with `petsctools`.
 
+## JHC: `EnsembleFunction` and friends [#4025](https://github.com/firedrakeproject/firedrake/pull/4025)
+Mixed function spaces where the components are distributed over different members of the `Ensemble`.
+
+Also includes `EnsembleFunctionSpace` and the corresponding dual objects.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

@@ -59,6 +59,8 @@ Mixed function spaces where the components are distributed over different member
 
 Also includes `EnsembleFunctionSpace` and the corresponding dual objects.
 
+DH: Add a section in the manual?
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

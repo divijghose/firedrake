@@ -1,8 +1,8 @@
-### Should my change go into ``main`` or ``release``?
+### Should my change go into ``master`` or ``release``?
 
-Since ``release`` is supposed to be stable w.r.t. API, only fixes should be merged into it. Any new features or API changes should be merged into ``main``.
+Since ``release`` is supposed to be stable w.r.t. API, only fixes and documentation changes should be merged into it. Any new features or API changes should be merged into ``master``.
 
-Note that if you are submitting code to be added to ``release`` then a near-identical PR should be submitted to ``main`` with the same fixes.
+If you want your code to be available in both `release` and `master` then you should merge your code first into `release` and then create a subsequent PR merging (a branch off of) `release` into `master`.
 
 ### When should a new major version be released?
 
@@ -26,4 +26,4 @@ To make a major version release the steps are:
 
 ### How is a patch release made?
 
-To make a patch release follow the same steps as above for a major release but do not merge `main`.
+To make a patch release follow the same steps as above for a major release but do not merge `master`.

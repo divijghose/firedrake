@@ -19,7 +19,9 @@ Present:
 
 Apologies:
 
-## Item 1
+## CW: Is it time for a new major release?
+
+A lot of new features have been added.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

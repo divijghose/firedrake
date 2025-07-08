@@ -21,7 +21,7 @@ Apologies:
 
 ## CW: Is it time for a new major release?
 
-A lot of new features have been added.
+A lot of new features have been added. I don't believe that we have to follow PETSc (though a patch release may be necessary).
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -26,6 +26,8 @@ A lot of new features have been added. I don't believe that we have to follow PE
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+https://github.com/firedrakeproject/firedrake/pull/4425
+
 ## Date of next meeting
 
 1600 UTC [2025-07-16](./Firedrake-meeting-2025-07-16)

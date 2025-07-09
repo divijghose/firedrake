@@ -15,9 +15,9 @@ Date and time 2025-07-09 1600 UTC
 
 # Agenda
 
-Present:
+Present: DH, LC, KS, RK, PB, CW, IM
 
-Apologies:
+Apologies: JHC
 
 ## CW: Is it time for a new major release?
 

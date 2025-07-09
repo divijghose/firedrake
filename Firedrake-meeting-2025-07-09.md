@@ -30,6 +30,8 @@ https://github.com/firedrakeproject/firedrake/pull/4425
 
 KS: remove mesh.init() https://github.com/firedrakeproject/firedrake/pull/4201
 
+LC: VOM permutation matrix https://github.com/firedrakeproject/firedrake/pull/4341
+
 ## Date of next meeting
 
 1600 UTC [2025-07-16](./Firedrake-meeting-2025-07-16)

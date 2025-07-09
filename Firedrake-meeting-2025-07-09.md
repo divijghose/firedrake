@@ -23,15 +23,31 @@ Apologies:
 
 A lot of new features have been added. I don't believe that we have to follow PETSc (though a patch release may be necessary).
 
+Minutes:
+- PB/RK having Irksome issues, they don't work with the release, combined with UFL main due to API changes relating to differentiation.
+- DH points out that a major release now means we would need to continue supporting the old release, at least until October.
+- Irksome master works with current release of firedrake and ufl - suggestion to make Irksome release now. Then merge things that are broken and allow Irksome master to track Firedrake master.
+- CW to help RK to set up releases in Irksome. DH suggests a release branch should exist to enable quick bug fixes.
+- No Firedrake release until October as planned. Note that we should publicise this well in September.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 https://github.com/firedrakeproject/firedrake/pull/4425
+  - More payments links to be added
+  - Merge this now, add the others later
 
 KS: remove mesh.init() https://github.com/firedrakeproject/firedrake/pull/4201
+  - Significant changes to mesh constructor
+  - Lots of removals of mesh.init() calls
+  - CW suggests lowering the new parameter `ignore_label_halo` to a different level of the API.
 
 LC: VOM permutation matrix https://github.com/firedrakeproject/firedrake/pull/4341
+  - Adds correct structure to match PETSc MatContext
+  - Some conversation about how to handle errors raised from PETSc in tests - resolved that what is there is fine.
+  - Merged
 
+Blitz of other PRs took us from 100 open PRs to less than 90!
 ## Date of next meeting
 
 1600 UTC [2025-07-16](./Firedrake-meeting-2025-07-16)

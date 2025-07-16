@@ -10,22 +10,27 @@ Date and time 2025-07-16 1600 UTC
 1. LC: Try to merge RNH' PR: [Movable VOM](https://github.com/firedrakeproject/firedrake/pull/2929)
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
-1. All: Do post merge works (interpolate, abstract reduced functionals, etc.)
+1. All: Do post merge works (abstract reduced functionals, etc.)
 1. CW: Preliminary prep for PETSc User Meeting 2026 ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2025-05-28))
 
-# Agenda
+# Minutes
 
-Present:
+Present: CW (minuter), JHC, IM, LC, KS, DH, HAD
 
 Apologies:
 
+## DH: Abstract reduced functional
+
+* DH: There is a stochastic test failure that is holding things up. **JHC to investigate.**
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 Pyadjoint TLM: [pyadjoint#212](https://github.com/dolfin-adjoint/pyadjoint/pull/212) [Firedrake tests](https://github.com/firedrakeproject/firedrake/pull/4448/files)
 
-https://github.com/firedrakeproject/firedrake/pull/4443
+* Approved.
+
+Other PRs reviewed.
 
 ## Date of next meeting
 

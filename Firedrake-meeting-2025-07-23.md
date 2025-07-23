@@ -12,11 +12,13 @@ Date and time 2025-07-23 1600 UTC
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. All: Do post merge works (abstract reduced functionals, etc.)
 
-# Agenda
+# Minutes
 
-Present:
+Present: CW (minuter), KS, JHC, PB, LC, IM
 
 Apologies:
+
+* General catch up and closed old issues.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

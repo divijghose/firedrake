@@ -11,6 +11,7 @@ Date and time 2025-07-30 1600 UTC
 1. PB: Profile and speed up some tests ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-10-30), [minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-11-20))
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. All: Do post merge works (abstract reduced functionals, etc.)
+1. All: Go through issues and mark with "good first issue" for new MSc/PhD contributor projects.
 
 # Agenda
 
@@ -29,6 +30,10 @@ Apologies:
 - TODO: Collate the code in the manual into a test and insert code blocks into the manual page from the test.
 
 ### Reviewing PR backlog.
+- pyproject dependency groups #4463
+- Improve install docs #4461
+- Point data assimilation demo #4315
+- Abstract reduced functional branches can be merged once master branches are merged in and passing.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

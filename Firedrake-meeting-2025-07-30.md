@@ -20,12 +20,21 @@ Apologies:
 
 ### LC: Refactor interpolate: https://github.com/firedrakeproject/firedrake/pull/4432
 
-### EnsembleFunction docs: https://github.com/firedrakeproject/firedrake/pull/4025
+- New since last time: fixes in Gusto are now merged.
+- Merged.
+
+### EnsembleFunction: https://github.com/firedrakeproject/firedrake/pull/4025
+
+- New since last time - Manual page.
+- TODO: Collate the code in the manual into a test and insert code blocks into the manual page from the test.
+
+### Reviewing PR backlog.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 PB: [TFS empty shape](https://github.com/firedrakeproject/firedrake/pull/4470)
+- A sane and good thing to do - except for the failing test. Merge once test is passing.
 
 
 ## Date of next meeting

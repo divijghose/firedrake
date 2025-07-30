@@ -18,6 +18,8 @@ Present:
 
 Apologies:
 
+### LC: Refactor interpolate: https://github.com/firedrakeproject/firedrake/pull/4432
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

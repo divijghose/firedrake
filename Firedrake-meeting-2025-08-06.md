@@ -21,7 +21,9 @@ Apologies:
 
 ### UFL error on CI
 https://github.com/firedrakeproject/firedrake/actions/runs/16777757965/job/47507893616?pr=3941
+
 Error message appears on CI but not locally.
+
 `2	FAILED firedrake-repo/tests/firedrake/regression/test_periodic_interval_advection.py::test_periodic_1d_advection_parallel[DG0] - AttributeError: 'Sum' object has no attribute 'coefficients'`
 
 ## Merge PRs 

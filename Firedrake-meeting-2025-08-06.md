@@ -15,9 +15,9 @@ Date and time 2025-08-06 1600 UTC
 
 # Agenda
 
-Present:
+Present: KS RK CW IM JHC
 
-Apologies:
+Apologies: DH
 
 ### UFL error on CI
 https://github.com/firedrakeproject/firedrake/actions/runs/16777757965/job/47507893616?pr=3941

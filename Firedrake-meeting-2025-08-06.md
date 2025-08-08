@@ -13,7 +13,7 @@ Date and time 2025-08-06 1600 UTC
 1. All: Do post merge works (abstract reduced functionals, etc.)
 1. All: Go through issues and mark with "good first issue" for new MSc/PhD contributor projects.
 
-# Agenda
+# Minutes
 
 Present: KS RK CW IM JHC
 
@@ -26,10 +26,12 @@ Error message appears on CI but not locally.
 
 `2	FAILED firedrake-repo/tests/firedrake/regression/test_periodic_interval_advection.py::test_periodic_1d_advection_parallel[DG0] - AttributeError: 'Sum' object has no attribute 'coefficients'`
 
+* Advised to fix adjoint failures first as global state may be polluted.
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 
 ## Date of next meeting
 
-1600 UTC [2025-08-06](./Firedrake-meeting-2025-08-06)
+1600 UTC [2025-08-13](./Firedrake-meeting-2025-08-13)

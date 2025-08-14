@@ -11,6 +11,7 @@ Date and time 2025-08-20 1600 UTC
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. All: Go through issues and mark with "good first issue" for new MSc/PhD contributor projects.
 1. All: submit abstracts and register for Firedrake '25
+1. LC: Deprecate `.at()` ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2025-08-13))
 
 # Agenda
 

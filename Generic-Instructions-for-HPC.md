@@ -1,3 +1,5 @@
+**THE FOLLOWING INSTRUCTIONS ARE OUT-OF-DATE**
+
 ### [Spack](https://spack.readthedocs.io/en/latest/index.html):
 1. Follow [getting started](https://spack.readthedocs.io/en/latest/getting_started.html) guide
     - Ensure develop branch is installed

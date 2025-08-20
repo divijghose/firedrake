@@ -13,11 +13,20 @@ Date and time 2025-08-20 1600 UTC
 1. All: submit abstracts and register for Firedrake '25
 1. LC: Deprecate `.at()` ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2025-08-13))
 
-# Agenda
+# Minutes
 
-Present:
+Present: PB, KS, CW (minuter), DH, JHC, IM, LC
 
 Apologies:
+
+### DH: Ideas for Firedrake meeting
+
+* DH: We have fewer talks so need ideas to fill time.
+
+Suggested options:
+* Discussion groups by topic
+* "Ask me about..." for developers (e.g. JHC for solvers, CW for RSE bits)
+* Adjoint tutorial by DH
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

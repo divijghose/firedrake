@@ -14,21 +14,35 @@ Date and time 2025-08-27 1600 UTC
 
 # Agenda
 
-Present:
+Present: DH, KS, LC, RK, JHC, IM, PB, CC
 
 Apologies: CW
 
+NB - Failing tests on CI
+- Links - awaiting info from Leeds, links may need to be reactivated
+- UFL - FormArgument not resolving. Probably related to recent upstream changes in UFL
+- PETSc Line Search failure - upstream API change. Patch Firedrake main now - KS to fix.
+
 ## LC: Change missing_points_behaviour API https://github.com/firedrakeproject/firedrake/pull/4524
+
+PR approved. Merged despite tests due to above failures. to be announced to the community as it is an API change.
 
 ## LC: Cell location on bendy meshes: https://github.com/firedrakeproject/firedrake/pull/4517
 
+Approved, merged as above
+
 ## LC: Fix permutation matrix for Vector/Tensor valued function spaces: https://github.com/firedrakeproject/firedrake/pull/4510
 
+Approved, merged as above
+
 ## LC: PointEvaluator: https://github.com/firedrakeproject/firedrake/pull/4516
+
+Changes requested.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+Also reviewed https://github.com/firedrakeproject/firedrake/pull/4515 - API change breaks downstream packages so these will need to be updated
 ## Date of next meeting
 
 1600 UTC [2025-09-03](./Firedrake-meeting-2025-09-03)

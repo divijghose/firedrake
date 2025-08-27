@@ -18,6 +18,14 @@ Present:
 
 Apologies: CW
 
+## LC: Change missing_points_behaviour API https://github.com/firedrakeproject/firedrake/pull/4524
+
+## LC: Cell location on bendy meshes: https://github.com/firedrakeproject/firedrake/pull/4517
+
+## LC: Fix permutation matrix for Vector/Tensor valued function spaces: https://github.com/firedrakeproject/firedrake/pull/4510
+
+## LC: PointEvaluator: https://github.com/firedrakeproject/firedrake/pull/4516
+
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 

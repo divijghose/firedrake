@@ -33,6 +33,7 @@ https://github.com/firedrakeproject/firedrake/pull/4531
 ## JHC: `petsctools.AppContext` review
 
 The Firedrake PR isn't ready to go yet, so at this stage I'm mainly looking for feedback on the `AppContext` class.
+
 https://github.com/firedrakeproject/petsctools/pull/16
 
 ## Merge PRs 

@@ -14,7 +14,7 @@ Date and time 2025-09-03 1600 UTC
 
 # Agenda
 
-Present: 
+Present: AA, LC (minuter), DH, KS, CW, JHC
 
 Apologies: IM, PB
 
@@ -22,19 +22,36 @@ Apologies: IM, PB
 
 https://github.com/firedrakeproject/firedrake/pull/4512/
 
+nobody using it, remove it
+Merged.
+
 ## LC: `PointEvaluator`
 
 https://github.com/firedrakeproject/firedrake/pull/4516
 
+Add comment to `.evaluate` method stating that this returns a numpy array and is not compatible with firedrake-adjoint.
+
+Open issue pointing out issue with moving the parent mesh of a VOM. The fix in `Pointevaluator` is fine for now but ideally needs to be one level lower.
+
 ## LC: Remove `Interpolator.interpolate`
 
 https://github.com/firedrakeproject/firedrake/pull/4531
+
+Keep `._interpolate` for now. After next release we can rename it back to `.interpolate`.
+
+Keep `.interpolate` and make it return an error telling users to use symbolic `interpolate` function.
 
 ## JHC: `petsctools.AppContext` review
 
 The Firedrake PR isn't ready to go yet, so at this stage I'm mainly looking for feedback on the `AppContext` class.
 
 https://github.com/firedrakeproject/petsctools/pull/16
+
+`AppContext` class - like petsc options for arbitrary data
+
+Split docstring code-block into two. 
+
+petsctools needs actual documentation. 
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

@@ -16,7 +16,7 @@ Date and time 2025-09-03 1600 UTC
 
 Present: 
 
-Apologies: IM
+Apologies: IM, PB
 
 ## CW: Remove `firedrake-jupyter` Docker image
 

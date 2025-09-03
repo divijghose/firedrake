@@ -1,12 +1,12 @@
-### Should my change go into ``master`` or ``release``?
+### Should my change go into `main` or `release`?
 
-Since ``release`` is supposed to be stable w.r.t. API, only fixes and documentation changes should be merged into it. Any new features or API changes should be merged into ``master``.
+Since `release` is supposed to be stable w.r.t. API, only fixes and documentation changes should be merged into it. Any new features or API changes should be merged into `main`.
 
-If you want your code to be available in both `release` and `master` then you should merge your code first into `release` and then create a subsequent PR merging (a branch off of) `release` into `master`.
+If you want your code to be available in both `release` and `main` then you should merge your code first into `release` and then create a subsequent PR merging (a branch off of) `release` into `main`.
 
 ### When should a new major version be released?
 
-Major Firedrake releases are made roughly every 6 months. The releases are (ideally) timed to happen shortly after PETSc makes a minor release (e.g. ``3.22.5 -> 3.23.0``) such that any breaking API changes in the release may be fixed.
+Major Firedrake releases are made roughly every 6 months. The releases are (ideally) timed to happen shortly after PETSc makes a minor release (e.g. `3.22.5 -> 3.23.0`) such that any breaking API changes in the release may be fixed.
 
 ### When should a patch release be made?
 
@@ -23,6 +23,7 @@ To make a major version release the steps are:
     1. Update the `version` attribute in the `pyproject.toml`.
 1. Once this is merged create a GitHub release from the `release` branch with the new version number.
 1. Check that the release workflow runs without error.
+1. Merge the PR. **IMPORTANT: The commits must not be squashed.**
 
 ### How is a patch release made?
 

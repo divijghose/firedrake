@@ -16,7 +16,7 @@ Date and time 2025-09-10 1600 UTC
 
 Present: 
 
-Apologies:
+Apologies: CW
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

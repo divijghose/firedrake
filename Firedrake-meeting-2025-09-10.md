@@ -14,13 +14,19 @@ Date and time 2025-09-10 1600 UTC
 
 # Agenda
 
-Present: 
+Present: KS IM AG LC JHC PB
 
-Apologies: CW
+Apologies: CW DH
+
+## LC: `Function.at` deprecation
+Almost there. Just needs updating the streamlines plotting - VOM is much slower than `at` because of reimmersion.
+Possibly can try projecting to a vector function space and pass to matplotlib streamplot.
 
 ## `petsctools.Appctx`
 
-slight update:
+- update: now we use a global stack and a context manager to set the current active appctx and pass it through to python petsc objects. The tests now include a complete example passing an appctx through to a python PC.
+- PB: Firedrake currently does some processing of the appctx between MG levels. Check this is compatible with this kind of manipulation.
+
 
 
 https://github.com/firedrakeproject/petsctools/pull/16

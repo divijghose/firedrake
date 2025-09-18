@@ -2,6 +2,7 @@ For platforms where Apptainer/Singularity is installed it is possible to convert
 
 - [Isambard 3](./Isambard-3)
 - [Perlmutter (Nersc)](./Perlmutter-(NERSC))
+- [Setting up `module load firedrake` (courtesy of G-ADOPT)](https://github.com/dsroberts/firedrake-hpc-cd)
 
 ## Archive
 

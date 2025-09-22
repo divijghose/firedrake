@@ -18,6 +18,10 @@ Present:
 
 Apologies: 
 
+## CW: FYI
+
+Just passing this on so everyone knows: https://github.com/FEniCS/ufl/pull/385
+
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

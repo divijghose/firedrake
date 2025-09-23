@@ -22,6 +22,21 @@ Apologies:
 
 Just passing this on so everyone knows: https://github.com/FEniCS/ufl/pull/385
 
+## LC: deprecate .at 
+
+https://github.com/firedrakeproject/firedrake/pull/4543
+
+## LC: interpolate renumbering warning
+
+https://github.com/firedrakeproject/firedrake/pull/4572
+
+## LC: annotation insider PointEvaluator
+
+https://github.com/firedrakeproject/firedrake/pull/4567
+
+## LC: delete `_from_cell_list`
+
+https://github.com/firedrakeproject/firedrake/pull/4557
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*

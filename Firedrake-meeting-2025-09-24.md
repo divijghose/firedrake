@@ -30,7 +30,7 @@ https://github.com/firedrakeproject/firedrake/pull/4543
 
 https://github.com/firedrakeproject/firedrake/pull/4572
 
-## LC: annotation insider PointEvaluator
+## LC: annotation inside PointEvaluator
 
 https://github.com/firedrakeproject/firedrake/pull/4567
 

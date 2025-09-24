@@ -42,6 +42,7 @@ https://github.com/firedrakeproject/firedrake/pull/4557
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 * CW: https://github.com/dolfin-adjoint/pyadjoint/pull/226
+* CW: https://github.com/firedrakeproject/petsctools/pull/14 then https://github.com/firedrakeproject/fiat/pull/180 then https://github.com/firedrakeproject/firedrake/pull/4560
 
 ## Date of next meeting
 

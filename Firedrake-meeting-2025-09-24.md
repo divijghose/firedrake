@@ -22,6 +22,10 @@ Apologies:
 
 It will allow CW and JHC to attend in person.
 
+## CW: Style guide
+
+Following https://github.com/firedrakeproject/firedrake/pull/4489#discussion_r2282267243 I have [drafted a style guide](https://github.com/firedrakeproject/firedrake/wiki/Style-guide) for discussion.
+
 ## CW: FYI
 
 Just passing this on so everyone knows: https://github.com/FEniCS/ufl/pull/385

@@ -14,13 +14,17 @@ Date and time 2025-09-24 1600 UTC
 
 # Agenda
 
-Present: 
+Present: DH, AG, LC, CW, IM, JHC, PB, KS
 
 Apologies:
 
 ## CW+DH: Move Firedrake meetings to Tuesdays?
 
 It will allow CW and JHC to attend in person.
+
+Action CW: Ask RK.
+
+To be clarified.
 
 ## CW: Style guide
 
@@ -30,30 +34,63 @@ Following https://github.com/firedrakeproject/firedrake/pull/4489#discussion_r22
 
 Just passing this on so everyone knows: https://github.com/FEniCS/ufl/pull/385
 
+DH: requested so that this would happen after October release.
+
 ## LC: deprecate .at 
 
-https://github.com/firedrakeproject/firedrake/pull/4543
+~https://github.com/firedrakeproject/firedrake/pull/4543~ Merged.
 
 ## LC: interpolate renumbering warning
 
-https://github.com/firedrakeproject/firedrake/pull/4572
+~https://github.com/firedrakeproject/firedrake/pull/4572~ Merged.
 
 ## LC: annotation inside PointEvaluator
 
 https://github.com/firedrakeproject/firedrake/pull/4567
 
+CW: Shall we error or warn?
+
+DH: Users tend to ignore warnings, but once adjoint breaks they may see warnings.
+
+DH: Accessing dat is semi explicit.
+
+DH: If we are doing something definitely wrong, we should error.
+
+Merged.
+
 ## LC: delete `_from_cell_list`
 
 https://github.com/firedrakeproject/firedrake/pull/4557
+
+Merged.
 
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
 * CW: https://github.com/dolfin-adjoint/pyadjoint/pull/226
 * CW: https://github.com/firedrakeproject/petsctools/pull/14 then https://github.com/firedrakeproject/fiat/pull/180 then https://github.com/firedrakeproject/firedrake/pull/4560
+
+CW: Firedrake citation to petsctools.
+
+All approved.
+
 * CW: https://github.com/firedrakeproject/firedrake/pull/4539
+
+CW: Move docs build to separate job.
+
+Approved.
+
 * CW: https://github.com/firedrakeproject/firedrake/pull/4565
+
+CW: Make VTK a hard dependency again.
+
+Merged.
+
 * CW: https://github.com/firedrakeproject/firedrake/pull/4545
+
+CW: Use appropriate user in CI to avoid permissions errors on later runs
+
+Approved.
 
 ## Date of next meeting
 

@@ -43,6 +43,7 @@ https://github.com/firedrakeproject/firedrake/pull/4557
 
 * CW: https://github.com/dolfin-adjoint/pyadjoint/pull/226
 * CW: https://github.com/firedrakeproject/petsctools/pull/14 then https://github.com/firedrakeproject/fiat/pull/180 then https://github.com/firedrakeproject/firedrake/pull/4560
+* CW: https://github.com/firedrakeproject/firedrake/pull/4539
 
 ## Date of next meeting
 

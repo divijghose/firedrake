@@ -16,7 +16,11 @@ Date and time 2025-09-24 1600 UTC
 
 Present: 
 
-Apologies: 
+Apologies:
+
+## CW+DH: Move Firedrake meetings to Tuesdays?
+
+It will allow CW and JHC to attend in person.
 
 ## CW: FYI
 

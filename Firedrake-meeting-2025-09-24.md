@@ -41,6 +41,8 @@ https://github.com/firedrakeproject/firedrake/pull/4557
 ## Merge PRs 
 *Note that PRs put in this section should either be trivial or already have been reviewed. Discussion-worthy PRs should be separate agenda items.*
 
+* CW: https://github.com/dolfin-adjoint/pyadjoint/pull/226
+
 ## Date of next meeting
 
 1600 UTC [2025-10-01](./Firedrake-meeting-2025-10-01)

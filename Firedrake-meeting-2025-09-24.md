@@ -94,4 +94,6 @@ Approved.
 
 ## Date of next meeting
 
-1600 UTC [2025-10-01](./Firedrake-meeting-2025-10-01)
+**IMPORTANT: now on Tuesdays!**
+
+1600 UTC [2025-09-30](./Firedrake-meeting-2025-09-30)

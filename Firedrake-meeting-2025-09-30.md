@@ -18,7 +18,9 @@ Present:
 
 Apologies:
 
-## Item 1
+## CW: Should we release 2025.4.3?
+
+Hear me out. When we make new releases of UFL, pyadjoint, FIAT etc then 2025.4.2 will break because we do not constrain their versions ([eg](https://github.com/firedrakeproject/firedrake/blob/release/pyproject.toml#L22)). Users know that we will stop maintaining 2025.4.x when we release 2025.10.0, but this will soften the transition.
 
 ## Merge PRs
 

@@ -22,6 +22,14 @@ Apologies:
 
 Hear me out. When we make new releases of UFL, pyadjoint, FIAT etc then 2025.4.2 will break because we do not constrain their versions ([eg](https://github.com/firedrakeproject/firedrake/blob/release/pyproject.toml#L22)). Users know that we will stop maintaining 2025.4.x when we release 2025.10.0, but this will soften the transition.
 
+## PB: Code-generation for matfree adjoint Interpolation
+
+[Part 1: 0-form, 1-form adjoint](https://github.com/firedrakeproject/firedrake/pull/4552)
+
+[Part 2: 2-form adjoint](https://github.com/firedrakeproject/firedrake/pull/4576)
+
+[Part 3: Mixed, MatNest](https://github.com/firedrakeproject/firedrake/pull/4596)
+
 ## Merge PRs
 
 ## Date of next meeting

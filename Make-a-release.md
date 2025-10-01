@@ -9,21 +9,8 @@
 
 ### How to make a major release
 
-1. Make a final patch release for the current major version (e.g. release `2025.4.3` before releasing `2025.10.0`). This should pin dependencies that are known to having breaking changes between `release` and `main` branches (e.g. FIAT, UFL) ([example](https://github.com/firedrakeproject/firedrake/pull/4610)). This should be done to make sure that users are still able to install the older version for at least a little longer.
-1. Once this release is made, coordinate the releases of the upstream packages that we use branches for `main` (e.g. FIAT, UFL).
-1. ...
-
-To make a major version release the steps are:
-
-1. Prepare a PR into `release`:
-    1. Create a new branch off of `release`.
-    1. Merge `main` into this new branch.
-    1. Resolve and remove any `# TODO RELEASE` comments.
-    1. Update the `version` attribute in the `pyproject.toml`.
-1. Once this is merged create a GitHub release from the `release` branch with the new version number.
-1. Check that the release workflow runs without error.
-1. Merge the PR. **IMPORTANT: The commits must not be squashed.**
-
-### How is a patch release made?
-
-To make a patch release follow the same steps as above for a major release but do not merge `master`.
+1. Make a final patch release for the current major version (e.g. release `2025.4.3` before releasing `2025.10.0`). This should pin dependencies that are known to having breaking changes between `release` and `main` branches (e.g. FIAT, UFL) ([example](https://github.com/firedrakeproject/firedrake/pull/4610)). This should be done to make sure that users are still able to install the older version for at least a little longer. To do this follow the procedure for making patch releases described above.
+1. Create a branch off `release` and merge in `main`.
+1. Open a PR testing that this passes CI. This will demonstrate that we are ready to start the release process.
+1. Coordinate the releases of the upstream packages that use branches (e.g. FIAT, UFL).
+1. Follow the steps to make a patch release.

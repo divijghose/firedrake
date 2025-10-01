@@ -1,0 +1,5 @@
+Firedrake has two websites, found at https://www.firedrakeproject.org/ and https://www.firedrakeproject.org/firedrake. The former is the primary website and is built from the `release` branch. The latter is built from `main` and exists to provide up-to-date developer install information (e.g. the link to `firedrake-configure` is different).
+
+The `main` website is built whenever we [push to the `main` branch](https://github.com/firedrakeproject/firedrake/blob/main/.github/workflows/push.yml) as part of the regular workflow. The `release` website is handled in https://github.com/firedrakeproject/firedrakeproject.github.io and is built every day in a scheduled workflow.
+
+**IMPORTANT: The website repository will stop building the website after 60 days of inactivity. To fix this simply push an empty commit.**

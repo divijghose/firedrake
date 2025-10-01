@@ -9,6 +9,10 @@
 
 ### How to make a major release
 
+1. Make a final patch release for the current major version (e.g. release `2025.4.3` before releasing `2025.10.0`). This should pin dependencies that are known to having breaking changes between `release` and `main` branches (e.g. FIAT, UFL) ([example](https://github.com/firedrakeproject/firedrake/pull/4610)). This should be done to make sure that users are still able to install the older version for at least a little longer.
+1. Once this release is made, coordinate the releases of the upstream packages that we use branches for `main` (e.g. FIAT, UFL).
+1. ...
+
 To make a major version release the steps are:
 
 1. Prepare a PR into `release`:

@@ -14,3 +14,4 @@
 1. Create a branch off `release` and merge in `main` (here called `myusername/merge-main`). Make sure that any `main`-specific bits of information are not carried through. In particular make sure to check `pyproject.toml`.
 1. Merge (via a PR) `myusername/merge-main` into `release`.
 1. Follow the steps to make a patch release.
+1. Finally, bump the `version` attribute in the `pyproject.toml` on the `main` branch. For instance, if you have just released `2025.10.0` then the version number in the `pyproject.toml` should now be `2025.11.0.dev0` (just choose the next possible major version number, don't worry about the specific release date).

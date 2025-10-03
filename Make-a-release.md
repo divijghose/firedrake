@@ -12,6 +12,7 @@
 1. Make a final patch release for the current major version (e.g. release `2025.4.3` before releasing `2025.10.0`). This should pin dependencies that are known to having breaking changes between `release` and `main` branches (e.g. FIAT, UFL) ([example](https://github.com/firedrakeproject/firedrake/pull/4610)). This should be done to make sure that users are still able to install the older version for at least a little longer. To do this follow the procedure for making patch releases described above.
 1. Coordinate the releases of the upstream packages that use branches (e.g. FIAT, UFL).
 1. Create a branch off `release` and merge in `main` (here called `myusername/merge-main`). Make sure that any `main`-specific bits of information are not carried through. In particular make sure to check `pyproject.toml`.
+1. At the same time bump the versions of dependencies that have just been updated (e.g. FIAT, UFL, pyadjoint). Also bump the PETSc version.
 1. Merge (via a PR) `myusername/merge-main` into `release`.
 1. Follow the steps to make a patch release.
 1. Finally, bump the `version` attribute in the `pyproject.toml` on the `main` branch. For instance, if you have just released `2025.10.0` then the version number in the `pyproject.toml` should now be `2025.11.0.dev0` (just choose the next possible major version number, don't worry about the specific release date).

@@ -18,4 +18,5 @@ Note that the processes here apply to the majority of Firedrake packages, not ju
 1. At the same time bump the versions of dependencies that have just been updated (e.g. FIAT, UFL, pyadjoint). Also bump the PETSc version.
 1. Merge (via a PR) `myusername/merge-main` into `release`.
 1. Follow the steps to make a patch release.
-1. Finally, bump the `version` attribute in the `pyproject.toml` on the `main` branch. For instance, if you have just released `2025.10.0` then the version number in the `pyproject.toml` should now be `2025.11.0.dev0` (just choose the next possible major version number, don't worry about the specific release date).
+1. Bump the `version` attribute in the `pyproject.toml` on the `main` branch. For instance, if you have just released `2025.10.0` then the version number in the `pyproject.toml` should now be `2025.11.0.dev0` (just choose the next possible major version number, don't worry about the specific release date).
+1. Merge `release` into `main`. This is helpful to do immediately as care is needed to resolve the conflicts that took place during the release.

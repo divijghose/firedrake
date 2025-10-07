@@ -16,7 +16,7 @@ Date and time 2025-10-07 1600 UTC+1
 
 Present:
 
-Apologies:
+Apologies: LC
 
 ## Merge PRs
 

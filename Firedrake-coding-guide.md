@@ -8,6 +8,15 @@
 
 * [Type hinting](https://docs.python.org/3/library/typing.html) should be used throughout. It is not necessary in the test suite.
 
+#### Type hinting tips + tricks
+
+* To avoid issues with forward references (until Python 3.14) you should add the line `from __future__ import annotations` to the top of the file.
+* To avoid issues with circular imports you should do
+```py
+if typing.TYPE_CHECKING:
+    from firedrake import Function  # assuming that this is a circular dependency
+```
+
 ### Docstrings
 
 * [PEP 257](https://peps.python.org/pep-0257/) (docstrings) should be followed.

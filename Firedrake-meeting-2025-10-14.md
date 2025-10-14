@@ -16,7 +16,7 @@ Present:
 
 Apologies:
 
-## CW: Explaining the full `firedrake` container
+## CW: Understanding the full `firedrake` container
 
 Who uses it? What do we do when downstream packages have main and release branches?
 

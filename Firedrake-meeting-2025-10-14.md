@@ -30,6 +30,10 @@ https://github.com/CCMI-CDT/programming-projects/issues
 
 https://github.com/firedrakeproject/firedrake/pull/4582
 
+## JHC: Fix Hessian calculation for NonlinearVariationalSolver
+
+https://github.com/firedrakeproject/firedrake/pull/4641
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -26,6 +26,10 @@ Related: https://github.com/firedrakeproject/firedrake/pull/4640
 
 https://github.com/CCMI-CDT/programming-projects/issues
 
+## LC: simplify interpolate function
+
+https://github.com/firedrakeproject/firedrake/pull/4582
+
 ## Merge PRs
 
 ## Date of next meeting

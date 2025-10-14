@@ -1,4 +1,4 @@
-Date and time 2025-10-07 1600 UTC+1
+Date and time 2025-10-14 1600 UTC+1
 
 # Action Items
 1. **Pick Chair and Minuter** (CW to pick)
@@ -16,10 +16,10 @@ Date and time 2025-10-07 1600 UTC+1
 
 Present:
 
-Apologies: LC
+Apologies:
 
 ## Merge PRs
 
 ## Date of next meeting
 
-1600 UTC [2025-10-14](./Firedrake-meeting-2025-10-14)
+1600 UTC [2025-10-21](./Firedrake-meeting-2025-10-21)

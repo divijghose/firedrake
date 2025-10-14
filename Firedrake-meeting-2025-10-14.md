@@ -22,6 +22,10 @@ Who uses it? What do we do when downstream packages have main and release branch
 
 Related: https://github.com/firedrakeproject/firedrake/pull/4640
 
+## DH: Potential CCMI projects
+
+https://github.com/CCMI-CDT/programming-projects/issues
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -34,6 +34,10 @@ https://github.com/firedrakeproject/firedrake/pull/4582
 
 https://github.com/firedrakeproject/firedrake/pull/4641
 
+## JHC: Pyadjoint `ReducedFunctionalMat` PETSc Mat for TAO
+
+https://github.com/dolfin-adjoint/pyadjoint/pull/213
+
 ## Merge PRs
 
 ## Date of next meeting

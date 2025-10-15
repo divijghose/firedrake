@@ -12,7 +12,7 @@ Date and time 2025-10-14 1600 UTC+1
 
 # Agenda
 
-Present:
+Present: LC AC WS CW JC DH KS IM PB
 
 Apologies:
 
@@ -22,21 +22,38 @@ Who uses it? What do we do when downstream packages have main and release branch
 
 Related: https://github.com/firedrakeproject/firedrake/pull/4640
 
+Ado wants full-fat container on ARM, but icepack requires dependencies with no ARM builds
+Does anyone use the full-fat container? Make announcement / ask on slack.
+
+Get rid of them
+
 ## DH: Potential CCMI projects
 
 https://github.com/CCMI-CDT/programming-projects/issues
+
+Want suggestions for CCMI projects
+
+- Redo the firedrake plotting routines?
 
 ## LC: simplify interpolate function
 
 https://github.com/firedrakeproject/firedrake/pull/4582
 
+Only extract free arguments from the expression.
+
 ## JHC: Fix Hessian calculation for NonlinearVariationalSolver
 
 https://github.com/firedrakeproject/firedrake/pull/4641
 
+Each block now saves its own `adj_state`.
+
+`value` can't be none.
+
 ## JHC: Pyadjoint `ReducedFunctionalMat` PETSc Mat for TAO
 
 https://github.com/dolfin-adjoint/pyadjoint/pull/213
+
+For next week.
 
 ## Merge PRs
 

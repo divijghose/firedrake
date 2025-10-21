@@ -37,6 +37,14 @@ It is now just spam.
 
 DH: We could remove, but DH would need to figure out how to.
 
+## IPOPT
+
+[pyadjoint228](https://github.com/dolfin-adjoint/pyadjoint/issues/228)
+
+DH: It seems IPOPT returns some non-overloaded numpy array.
+
+CW: Why did it start failing in 2025.10?
+
 ## Merge PRs
 
 [SciPy Riesz map fix #230](https://github.com/dolfin-adjoint/pyadjoint/pull/230) -- Changes suggested.

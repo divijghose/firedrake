@@ -45,6 +45,16 @@ DH: It seems IPOPT returns some non-overloaded numpy array.
 
 CW: Why did it start failing in 2025.10?
 
+## CI
+
+We currently have only 2 states: pass and fail.
+
+Do we want a third state for some failure which we care less?
+
+## Meeting next week
+
+Wednesday
+
 ## Merge PRs
 
 [SciPy Riesz map fix #230](https://github.com/dolfin-adjoint/pyadjoint/pull/230) -- Changes suggested.

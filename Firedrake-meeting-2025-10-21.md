@@ -35,6 +35,8 @@ JHC: PCBase, too?
 
 It is now just spam.
 
+DH: We could remove, but DH would need to figure out how to.
+
 ## Merge PRs
 
 ## Date of next meeting

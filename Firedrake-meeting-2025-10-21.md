@@ -39,6 +39,8 @@ DH: We could remove, but DH would need to figure out how to.
 
 ## Merge PRs
 
+[SciPy Riesz map fix #230](https://github.com/dolfin-adjoint/pyadjoint/pull/230) -- Changes suggested.
+
 ## Date of next meeting
 
 1600 UTC [2025-10-28](./Firedrake-meeting-2025-10-28)

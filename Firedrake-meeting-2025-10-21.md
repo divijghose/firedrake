@@ -49,6 +49,8 @@ CW: Why did it start failing in 2025.10?
 
 [SciPy Riesz map fix #230](https://github.com/dolfin-adjoint/pyadjoint/pull/230) -- Changes suggested.
 
+[LinearEigensolver4634](https://github.com/firedrakeproject/firedrake/pull/4634) -- Merged.
+
 ## Date of next meeting
 
 1600 UTC [2025-10-28](./Firedrake-meeting-2025-10-28)

@@ -11,7 +11,7 @@ Date and time 2025-10-21 1600 UTC+1
 
 # Agenda
 
-Present: DH, JHC, LC, AC, IM, CJW, PB, KS
+Present: DH, JHC, LC, AC, IM, CJW, PB, CJC, KS
 
 Apologies:
 

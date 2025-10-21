@@ -11,13 +11,25 @@ Date and time 2025-10-21 1600 UTC+1
 
 # Agenda
 
-Present:
+Present: DH, JHC, LC, AC, IM, CJW, PB, KS
 
 Apologies:
 
 ## JHC: Pyadjoint `ReducedFunctionalMat` PETSc Mat for TAO
 
 https://github.com/dolfin-adjoint/pyadjoint/pull/213
+
+pyadjoint assumes that you are on finite dimensional Hilbert space.
+
+ReducedFunctional is not necessarily scalar as Firedrake is not necessarily the last thing in computation.
+
+Use RestrictedFunctionSpace?
+
+Our current BC approach is fine for gradient decent (not very fine for eigensolver).
+
+DH: ReducedFunctionalMatClass -> Should this (and other Mat classes) be a subclass of some abstract class that should be implemented in petsctools?
+
+JHC: PCBase, too?
 
 ## CW: Retire the mailing list?
 

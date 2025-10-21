@@ -15,7 +15,9 @@ Present:
 
 Apologies:
 
+## JHC: Pyadjoint `ReducedFunctionalMat` PETSc Mat for TAO
 
+https://github.com/dolfin-adjoint/pyadjoint/pull/213
 
 ## Merge PRs
 

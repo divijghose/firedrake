@@ -49,7 +49,7 @@ CW: Why did it start failing in 2025.10?
 
 We currently have only 2 states: pass and fail.
 
-Do we want a third state for some failure which we care less?
+Do we want a third state for failures that we care less?
 
 ## Meeting next week
 

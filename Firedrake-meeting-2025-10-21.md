@@ -19,6 +19,10 @@ Apologies:
 
 https://github.com/dolfin-adjoint/pyadjoint/pull/213
 
+## CW: Retire the mailing list?
+
+It is now just spam.
+
 ## Merge PRs
 
 ## Date of next meeting

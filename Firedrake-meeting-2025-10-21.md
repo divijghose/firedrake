@@ -63,4 +63,4 @@ Wednesday
 
 ## Date of next meeting
 
-1600 UTC [2025-10-28](./Firedrake-meeting-2025-10-28)
+1600 UTC [2025-10-29](./Firedrake-meeting-2025-10-29)

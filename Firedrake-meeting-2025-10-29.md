@@ -23,6 +23,8 @@ Apologies:
 
 ## Merge PRs
 
+- Python PETSc Mat for ReducedFunctional: [pyadjoint #213](https://github.com/dolfin-adjoint/pyadjoint/pull/213)
+
 ## Date of next meeting
 
 1600 UTC [2025-11-04](./Firedrake-meeting-2025-11-04)

@@ -15,7 +15,11 @@ Present:
 
 Apologies:
 
-## Item 1
+## Codim-1 submesh
+
+[ufl](https://github.com/FEniCS/ufl/pull/429)
+
+[firedrake](https://github.com/firedrakeproject/firedrake/pull/4430)
 
 ## Merge PRs
 

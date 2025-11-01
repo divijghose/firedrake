@@ -17,7 +17,7 @@ Apologies:
 
 ## CW/JHC: Code review process
 
-[FIAT #183](https://github.com/firedrakeproject/fiat/pull/183) (+46,-19), [Firedrake #4684](https://github.com/firedrakeproject/firedrake/pull/4684) (+96,-17), [Firedrake #4658](https://github.com/firedrakeproject/firedrake/pull/4658) (+15), [Firedrake #4430](https://github.com/firedrakeproject/firedrake/pull/4430) (+1102,-129), and [Firedrake #3478](https://github.com/firedrakeproject/firedrake/pull/3478) (+2241,-516) have all been merged in the past couple of weeks without an approving review.
+[FIAT #183](https://github.com/firedrakeproject/fiat/pull/183) (+46,-19), [Firedrake #4684](https://github.com/firedrakeproject/firedrake/pull/4684) (+96,-17), [Firedrake #4658](https://github.com/firedrakeproject/firedrake/pull/4658) (+15), [Firedrake #4430](https://github.com/firedrakeproject/firedrake/pull/4430) (+1102,-129), and [Firedrake #3478](https://github.com/firedrakeproject/firedrake/pull/3478) (+2241,-516) have all been merged in the past couple of weeks without an approving review. Further, some introduced breaking changes that were not announced.
 
 ## CW: Point evaluation API fixes
 

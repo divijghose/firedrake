@@ -23,6 +23,10 @@ Apologies:
 
 What needs to happen with https://github.com/firedrakeproject/firedrake/pull/4675? Shall we merge this ASAP and make a new patch release?
 
+## CW: Remove mailing list from website?
+
+https://github.com/firedrakeproject/firedrake/pull/4691
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -27,6 +27,10 @@ What needs to happen with https://github.com/firedrakeproject/firedrake/pull/467
 
 https://github.com/firedrakeproject/firedrake/pull/4691
 
+## CW: Should we avoid star imports inside Firedrake?
+
+See [thread](https://firedrakeproject.slack.com/archives/C1Q0Y6H8A/p1762170237704029). To be clear I am not suggesting we change everything now, just that we record it in our [coding guide](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-Coding-Guide) and try to enforce it for new code.
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -4,7 +4,11 @@ To make a new release, see the process detailed [here](./Make-a-release).
 
 Since `release` is supposed to be stable w.r.t. API, only fixes and documentation changes should be merged into it. Any new features or API changes should be merged into `main`.
 
-If you want your code to be available in both `release` and `main` then you should merge your code first into `release` and then create a subsequent PR merging (a branch off of) `release` into `main`.
+If you want your code to be available in both `release` and `main` then you should merge your code first into `release` and then:
+1. Create a branch off `main`.
+2. Merge `release` into your new branch.
+3. Resolve any conflicts.
+3. Create a PR to merge your new branch into `main`.
 
 ### When should a new major version be released?
 

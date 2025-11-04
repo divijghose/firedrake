@@ -38,7 +38,13 @@ https://github.com/firedrakeproject/firedrake/pull/4691
 
 See [thread](https://firedrakeproject.slack.com/archives/C1Q0Y6H8A/p1762170237704029). To be clear I am not suggesting we change everything now, just that we record it in our [coding guide](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-Coding-Guide) and try to enforce it for new code.
 
+## LC: simplify `interpolate` function
+
+https://github.com/firedrakeproject/firedrake/pull/4582
+
 ## Merge PRs
+
+LC: UFL interpolate argument numbering logic https://github.com/FEniCS/ufl/pull/425
 
 ## Date of next meeting
 

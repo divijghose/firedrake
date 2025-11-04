@@ -23,6 +23,13 @@ Apologies:
 
 What needs to happen with https://github.com/firedrakeproject/firedrake/pull/4675? Shall we merge this ASAP and make a new patch release?
 
+## JHC: `mesh_unique` breaking API change
+
+(Firedrake #3478)[https://github.com/firedrakeproject/firedrake/pull/3478] changed the return value of `MixedFunctionSpace.mesh()` from a `Mesh` to a `MeshSequence`. There wasn't an approval for this PR so this API change didn't get much (any?) discussion.
+Its a fairly major API change that will require changes in a lot of downstream code. Are we happy with this API change?
+
+Can we ease downstream code changes, e.g. a `FunctionSpace.unique_mesh` property that errors if there are multiple meshes?
+
 ## CW: Remove mailing list from website?
 
 https://github.com/firedrakeproject/firedrake/pull/4691

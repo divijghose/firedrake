@@ -7,7 +7,7 @@ Date and time 2025-11-04 1600 UTC+1
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
-1. LC: Add self to authors list
+1. ~LC: Add self to authors list~
 
 # Agenda
 

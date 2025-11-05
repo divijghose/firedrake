@@ -3,6 +3,7 @@
 * [PEP 8](https://peps.python.org/pep-0008/) should be followed.
 * f-strings should be preferred to the older style `%` and `.format()` string formatting methods. A possible exception to this is with large multi-line strings where `.format()` may be more readable.
 * Excessively long functions (50 lines+) should ideally be broken apart into more readable pieces.
+* `*` imports should be avoided inside the `__init__.py` files inside Firedrake. This is so that we have explicit control over what goes into the `firedrake` namespace.
 
 ### Type hinting
 

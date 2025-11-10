@@ -9,7 +9,7 @@ Date and time 2025-11-04 1600 UTC+1
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. ~LC: Add self to authors list~
 
-# Agenda
+# Minutes
 
 Present: CW AC LC DH JHC PB IM
 

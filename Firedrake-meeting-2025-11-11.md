@@ -22,6 +22,10 @@ https://github.com/firedrakeproject/firedrake/pull/4700 etc were closed last wee
 
 https://github.com/firedrakeproject/firedrake/pull/4575
 
+## LC: interpolation changes
+
+https://github.com/firedrakeproject/firedrake/pull/4595
+
 ## Merge PRs
 
 ## Date of next meeting

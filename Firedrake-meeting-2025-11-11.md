@@ -18,6 +18,10 @@ Apologies:
 
 https://github.com/firedrakeproject/firedrake/pull/4700 etc were closed last week because I assume that KS does not intend on doing anything more with them. It seems like a waste to close them immediately.
 
+## JHC (for JM): Mesh independent optimization trick
+
+https://github.com/firedrakeproject/firedrake/pull/4575
+
 ## Merge PRs
 
 ## Date of next meeting

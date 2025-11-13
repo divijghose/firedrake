@@ -10,7 +10,7 @@ Date and time 2025-11-11 1600 UTC+1
 
 # Agenda
 
-Present:
+Present: LC, AC, CW, PB, DH, IM, JHC, JM
 
 Apologies:
 
@@ -18,15 +18,32 @@ Apologies:
 
 https://github.com/firedrakeproject/firedrake/pull/4700 etc were closed last week because I assume that KS does not intend on doing anything more with them. It seems like a waste to close them immediately.
 
+- Reopen and let them sit
+
 ## JHC (for JM): Mesh independent optimization trick
 
 https://github.com/firedrakeproject/firedrake/pull/4575
+
+- Optimise over a DG superspace, and choose orthonormal basis so that the mass matrix is the identity.
+- Big limitation - can't apply constraints, more expensive (since more dofs in a DG space)
+- Riesz map cached on ReducedFunctional
+- DH: happy to approve in principle, but needs to be brought up to date with main and skip relevant complex tests
 
 ## LC: interpolation changes
 
 https://github.com/firedrakeproject/firedrake/pull/4595
 
+- PB: Does manual need updating?
+- Fix Dofnotdefined error type hinting
+- tensor.zero should happen only once - check adjoint interpolation on mixed spaces works
+
 ## Merge PRs
+
+Merged https://github.com/firedrakeproject/firedrake/pull/4720
+
+Merged https://github.com/firedrakeproject/firedrake/pull/4639
+
+https://github.com/firedrakeproject/firedrake/pull/4607: add section in manual about quadrature schemes
 
 ## Date of next meeting
 

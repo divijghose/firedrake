@@ -16,6 +16,12 @@ Apologies:
 
 Strike on Tuesday 25th Nov - next meeting when?
 
+## CW: pyadjoint release
+
+https://github.com/dolfin-adjoint/pyadjoint/issues/238
+
+any objections?
+
 ## Merge PRs
 
 ## Date of next meeting

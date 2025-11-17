@@ -20,6 +20,8 @@ Strike on Tuesday 25th Nov - next meeting when?
 
 https://github.com/dolfin-adjoint/pyadjoint/issues/238
 
+tested in https://github.com/firedrakeproject/firedrake/pull/4724
+
 any objections?
 
 ## Merge PRs

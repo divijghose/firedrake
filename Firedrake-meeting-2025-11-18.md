@@ -28,6 +28,10 @@ any objections?
 
 See also [jupytext](https://jupytext.readthedocs.io/en/latest/)
 
+## LC: star imports
+
+https://github.com/firedrakeproject/firedrake/pull/4722
+
 ## Merge PRs
 
 ## Date of next meeting

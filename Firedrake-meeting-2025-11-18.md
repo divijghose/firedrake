@@ -24,6 +24,10 @@ tested in https://github.com/firedrakeproject/firedrake/pull/4724
 
 any objections?
 
+## DRS: example codes
+
+See also [jupytext](https://jupytext.readthedocs.io/en/latest/)
+
 ## Merge PRs
 
 ## Date of next meeting

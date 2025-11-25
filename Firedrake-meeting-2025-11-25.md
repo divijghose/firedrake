@@ -12,7 +12,7 @@ Date and time 2025-11-25 1600 UTC+1
 
 Present:
 
-Apologies:
+Apologies: PB
 
 ## Merge PRs
 

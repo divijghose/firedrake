@@ -11,3 +11,18 @@ With these tokens set and with a JSON file (say `firedrake.json`) supplied by th
 
 - Run `firedrake-zenodo --input firedrake.json`.
 - Follow the instruction thereafter.
+
+## Common issues
+
+### Missing releases
+
+You may see errors like "A release of petsc is referenced but not corresponding release on GitHub can be found.". This means that you have to manually create the releases on the Firedrake fork. To do this (assuming `REPO` is `petsc`, `loopy`, etc):
+
+```
+$ git clone git@REPO_URL
+$ cd REPO
+$ git remote add firedrake git@github.com:firedrakeproject/REPO
+$ git fetch firedrake
+$ git push --tags firedrake
+```
+Then go to GitHub and create a release with the right name (note that some packages prepend a 'v' in their version name).

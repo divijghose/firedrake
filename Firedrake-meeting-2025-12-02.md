@@ -18,6 +18,10 @@ Apologies:
 
 https://github.com/firedrakeproject/firedrake/pull/4711
 
+
+## UZ: Discuss what to move from ngsPETSc to Firedrake :)
+
+
 ## Merge PRs
 
 * 

@@ -21,6 +21,10 @@ https://github.com/firedrakeproject/firedrake/pull/4711
 
 ## UZ: Discuss what to move from ngsPETSc to Firedrake :)
 
+## LC: interpolation matrix mat_type
+
+https://github.com/firedrakeproject/firedrake/pull/4749
+
 
 ## Merge PRs
 

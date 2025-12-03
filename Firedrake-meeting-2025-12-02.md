@@ -10,7 +10,7 @@ Date and time 2025-12-02 1600 UTC+1
 
 # Minutes
 
-Present:
+Present: LC, JHC, CW, DH, IM, PB, UZ, AC
 
 Apologies:
 
@@ -18,12 +18,25 @@ Apologies:
 
 https://github.com/firedrakeproject/firedrake/pull/4711
 
+- Matrix between ensemble function spaces.
+- DH: Raise informative error if user passes firedrake Matrix.
+- CW: rename Python context `EnsembleBlockDiagonalMat` to make it clearer what it is
+
 
 ## UZ: Discuss what to move from ngsPETSc to Firedrake :)
+
+- DH: Ideally ngsPETSc doesn't have a firedrake dependency
+- UZ: Firedrake code only used in one module, utils/firedrake/*
+- CW: I made a PR moving this stuff over already
+- DH: we'll then need to make sure we don't make ngspetsc a hard dependency
+- UZ: I'll merge the stuff asap, then CW can merge his PR
+- CW: changes into release branch
 
 ## LC: interpolation matrix mat_type
 
 https://github.com/firedrakeproject/firedrake/pull/4749
+
+- approved pending docstring fix
 
 
 ## Merge PRs

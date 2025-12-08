@@ -14,6 +14,11 @@ Present:
 
 Apologies:
 
+## JHC: Covariance operators and noise generation [#4716](https://github.com/firedrakeproject/firedrake/pull/4716)
+
+Autoregressive covariance operators for a) generating correlated noise and b) weighting norms in optimisation problems.
+
+Includes noise generation code from [#3799](https://github.com/firedrakeproject/firedrake/pull/3799)
 
 ## Merge PRs
 

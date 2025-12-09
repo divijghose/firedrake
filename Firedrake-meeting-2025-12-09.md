@@ -14,7 +14,7 @@ Present: DH, JHC, CW, LC, PB, IM, AC
 
 Apologies:
 
-## Data Assimilation hackathon at RAL (Spring 2026) https://www.cosec.ac.uk/what-is-cosec/cosec-fellowship-programme/cosec-2025-fellows/jemima-tabeart/
+## [Data Assimilation hackathon at RAL (Spring 2026)](https://www.cosec.ac.uk/what-is-cosec/cosec-fellowship-programme/cosec-2025-fellows/jemima-tabeart/)
 
 DH: organized by CoSeC fellow Jemima Tabeart (TU Eindhoven)
 

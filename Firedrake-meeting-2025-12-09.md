@@ -23,9 +23,9 @@ CW: we should add this to the Firedrake calendar
 
 ## JHC: Covariance operators and noise generation [#4716](https://github.com/firedrakeproject/firedrake/pull/4716)
 
-Autoregressive covariance operators for a) generating correlated noise and b) weighting norms in optimisation problems.
+Autoregressive covariance operators for a) generating correlated noise and b) weighting norms in optimisation problems. (Changes suggested)
 
-Includes noise generation code from [#3799](https://github.com/firedrakeproject/firedrake/pull/3799)
+Includes noise generation code from [#3799](https://github.com/firedrakeproject/firedrake/pull/3799) (Changes suggested)
 
 PB: we should automate `BrokenElement(VectorElement) -> VectorElement(BrokenElement)` in finat.ufl
 
@@ -38,11 +38,13 @@ JHC: add demos in the Spring hackathon.
 
 ## CW: Comm fixes (quite a big conceptual change)
 
-https://github.com/firedrakeproject/firedrake/pull/4766
+https://github.com/firedrakeproject/firedrake/pull/4766 (approved)
+
+DH: we should comment on pytest-order when we merge this
 
 ## LC: interpolate a two-form
 
-https://github.com/firedrakeproject/firedrake/pull/4770
+https://github.com/firedrakeproject/firedrake/pull/4770 (approved)
 
 ## Merge PRs
 

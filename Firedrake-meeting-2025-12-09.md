@@ -24,6 +24,10 @@ Includes noise generation code from [#3799](https://github.com/firedrakeproject/
 
 https://github.com/firedrakeproject/firedrake/pull/4766
 
+## LC: interpolate a two-form
+
+https://github.com/firedrakeproject/firedrake/pull/4770
+
 ## Merge PRs
 
 

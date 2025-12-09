@@ -20,6 +20,10 @@ Autoregressive covariance operators for a) generating correlated noise and b) we
 
 Includes noise generation code from [#3799](https://github.com/firedrakeproject/firedrake/pull/3799)
 
+## CW: Comm fixes (quite a big conceptual change)
+
+https://github.com/firedrakeproject/firedrake/pull/4766
+
 ## Merge PRs
 
 

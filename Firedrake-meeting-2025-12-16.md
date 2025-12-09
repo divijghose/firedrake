@@ -1,7 +1,7 @@
 Date and time 2025-12-16 1600 UTC+1
 
 # Action Items
-1. **Pick Chair and Minuter** (LC to pick -> PB)
+1. **Pick Chair and Minuter** (PB to pick)
 1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
 1. ALL: do things with SV's branches
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
@@ -10,7 +10,7 @@ Date and time 2025-12-16 1600 UTC+1
 
 # Minutes
 
-Present: DH, JHC, CW, LC, PB, IM, AC
+Present:
 
 Apologies:
 

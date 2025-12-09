@@ -48,7 +48,7 @@ https://github.com/firedrakeproject/firedrake/pull/4770 (approved)
 
 ## Merge PRs
 
-## In person meeting in Oxford (20 Jan 2026)
+## In-person meeting in Oxford (20 Jan 2026)
 
 
 ## Date of next meeting

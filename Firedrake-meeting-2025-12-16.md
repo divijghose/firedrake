@@ -10,19 +10,43 @@ Date and time 2025-12-16 1600 UTC+1
 
 # Minutes
 
-Present:
+Present: DH, CW, LC, IM, AC, PB
 
-Apologies:
+Apologies: 
 
 
 ## Merge PRs
 
 * CW: https://github.com/firedrakeproject/firedrake/pull/4762
+ - Explicitly link MPI in setup.py, remove need to set environment variables. Good! Approved + Merged.
 * CW: https://github.com/firedrakeproject/firedrake/pull/4754
+ - Bizarre behaviour in Cofunction init regarding val/function_space. Approved + Merged. 
+ - Cofunction init deserves a refactor if anyone has the time and energy. 
 * CW: https://github.com/firedrakeproject/firedrake/pull/4758
+ - Remove Loopy from Zenodo, Add rate limit that is necessary. Approved + Merged.
 * CW: https://github.com/firedrakeproject/firedrake/pull/4780
+ - Allow `MeshGeometry` to be None for extruded meshes. Approved + Pending Gusto.
 * LC: https://github.com/firedrakeproject/firedrake/pull/4779
+ - Apply simplifications for when we assemble combinations of Adjoint and Action. Approved + Merged.
+ - Need to fix the ability to take action of coefficient and form in UFL - not in this PR.
 * LC: https://github.com/firedrakeproject/firedrake/pull/4763
+ - Small changes requested. Generally approved, can be merged when done. 
+
+Reviewing further PRs:
+
+PB: Firedrake [#4777](https://github.com/firedrakeproject/firedrake/pull/4777)
+PB: FIAT [#202](https://github.com/firedrakeproject/fiat/pull/202)
+- Ensure Vector/Tensor/Mixed stays on the outside and the element inside is restricted.
+- Merged.
+
+LC: Firedrake [#4739](https://github.com/firedrakeproject/firedrake/pull/4739)
+- Symbolic Interpolation docs. Merged.
+
+PB: Firedrake [#4739](https://github.com/firedrakeproject/firedrake/pull/4764)
+ - Bug fix. Merged.
+
+
+
 
 
 ## Date of next meeting

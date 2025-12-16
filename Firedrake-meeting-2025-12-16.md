@@ -21,6 +21,7 @@ Apologies:
 * CW: https://github.com/firedrakeproject/firedrake/pull/4754
 * CW: https://github.com/firedrakeproject/firedrake/pull/4758
 * CW: https://github.com/firedrakeproject/firedrake/pull/4780
+* LC: https://github.com/firedrakeproject/firedrake/pull/4779
 
 
 ## Date of next meeting

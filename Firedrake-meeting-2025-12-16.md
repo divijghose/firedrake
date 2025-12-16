@@ -17,6 +17,11 @@ Apologies:
 
 ## Merge PRs
 
+* CW: https://github.com/firedrakeproject/firedrake/pull/4762
+* CW: https://github.com/firedrakeproject/firedrake/pull/4754
+* CW: https://github.com/firedrakeproject/firedrake/pull/4758
+* CW: https://github.com/firedrakeproject/firedrake/pull/4780
+
 
 ## Date of next meeting
 

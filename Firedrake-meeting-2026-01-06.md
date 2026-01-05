@@ -16,6 +16,13 @@ Apologies:
 
 ## Agenda items
 
+### CW: ngsPETSc Firedrake code migration
+
+* https://github.com/firedrakeproject/firedrake/pull/4782
+* https://github.com/NGSolve/ngsPETSc/pull/99
+
+How to give credit to original authors?
+
 ## Merge PRs
 
 

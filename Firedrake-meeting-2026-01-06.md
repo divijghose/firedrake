@@ -10,11 +10,18 @@ Date and time 2026-01-06 1600 UTC+1
 
 # Minutes
 
-Present: 
+Present: CW (minuter), IM, DH, RK, PB, AC
 
-Apologies: 
+Apologies:
 
 ## Agenda items
+
+### DH: time of meeting?
+
+* DH: Has intermittent teaching responsibilities at this time this term.
+* DH: Wednesday at 1600 is likely a good candidate for this term. He will create a poll. Only other option is realistically same time on Thursday.
+* IM: Can't do Wednesday. Thursday is fine.
+* DH: Nominally 1600 on Thursdays then.
 
 ### CW: ngsPETSc Firedrake code migration
 
@@ -23,11 +30,12 @@ Apologies:
 
 How to give credit to original authors?
 
+* DH: Add to the authors list for Firedrake, and also a notice in the relevant files.
+
 ## Merge PRs
 
-
-
+* Various PRs reviewed, some merged.
 
 ## Date of next meeting
 
-1600 UTC [2026-01-13](./Firedrake-meeting-2026-01-13)
+TBC, see above

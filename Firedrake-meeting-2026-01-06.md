@@ -38,4 +38,4 @@ How to give credit to original authors?
 
 ## Date of next meeting
 
-TBC, see above
+1600 UTC [2026-01-15](./Firedrake-meeting-2026-01-15)

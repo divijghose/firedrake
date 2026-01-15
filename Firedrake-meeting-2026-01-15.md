@@ -22,6 +22,8 @@ Eike:
 
 > I spoke to Tobias Weinzierl last week: would anyone be interested in putting together a session on Firedrake at the Durham HPC Days https://hpc-days.github.io/Durham-HPC-Days-2026/ this summer? This could be a series of talks and/or a tutorial. The conference takes place 15-19 Jun 2026, and the deadline for submitting a session proposal is 31 Jan 2026: https://hpc-days.github.io/Durham-HPC-Days-2026/call-for-sessions/
 
+### CW: Reminder: Oxford trip next Tuesday
+
 ## Merge PRs
 
 ## Date of next meeting

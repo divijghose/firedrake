@@ -55,7 +55,7 @@ If that variable is exceeded, don't sum factorise but do issue a warning. The wa
 
 ### Errors in multidomain assembly [PR](https://github.com/firedrakeproject/firedrake/pull/4763)
 
-KS commented that the error handling for assembling Forms multidomain should be handled during map copmosition.
+KS commented that the error handling for assembling Forms multidomain should be handled during map composition.
 
 DH: It does not make sense to use intersect_measures on meshes that are not topologically related.
 

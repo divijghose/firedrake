@@ -59,7 +59,7 @@ KS commented that the error handling for assembling multidomain Forms multidomai
 
 DH: It does not make sense to use `intersect_measures` on meshes that are not topologically related.
 
-We should raise a custom exception except of the NotImplementedError introduced [#4803](github.com/firedrakeproject/firedrake/pull/4803).
+We should raise a custom exception instead of the `NotImplementedError` introduced [#4803](github.com/firedrakeproject/firedrake/pull/4803).
 
 The tests in [#4763](https://github.com/firedrakeproject/firedrake/pull/4763) should be updated accordingly.
 

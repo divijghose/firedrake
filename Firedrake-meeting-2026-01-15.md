@@ -47,8 +47,25 @@ JHC: Timeout errors should not be ignored when merging commits
 JHC: These tests have been temporarily skipped. We are still debugging.
 
 
+### Too many indices for sum factorization [PR](https://github.com/firedrakeproject/fiat/pull/207) needs more work.
+
+Make the maximum sum factorisation index be a variable.
+If that variable is exceeded, don't sum factorise but do issue a warning. The warning should specify how to set the sum factorisation index.
+
+
+### Errors in multidomain assembly [PR](https://github.com/firedrakeproject/firedrake/pull/4763)
+
+KS commented that the error handling for assembling Forms multidomain should be handled during map copmosition.
+
+DH: It does not make sense to use intersect_measures on meshes that are not topologically related.
+
+We should raise a custom exception except of the NotImplementedError introduced [#4803](github.com/firedrakeproject/firedrake/pull/4803).
+
+The tests in [#4763](https://github.com/firedrakeproject/firedrake/pull/4763) should be updated accordingly.
+
+
 ## Merge PRs
-[Too many indices for sum factorization](https://github.com/firedrakeproject/fiat/pull/207)
+
 
 ## Date of next meeting
 

@@ -24,6 +24,8 @@ Eike:
 
 ### CW: Reminder: Oxford trip next Tuesday
 
+### JHC: PSA test time-outs on CI prevent the entire test suite being run!
+
 ## Merge PRs
 
 ## Date of next meeting

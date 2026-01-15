@@ -46,11 +46,9 @@ If an individual test timeouts, the entire pytest job is skipped.
 JHC: Timeout errors should not be ignored when merging commits
 JHC: These tests have been temporarily skipped. We are still debugging.
 
-### Too many indices for sum factorization
-
-[Fall back](https://github.com/firedrakeproject/fiat/pull/207)
 
 ## Merge PRs
+[Too many indices for sum factorization](https://github.com/firedrakeproject/fiat/pull/207)
 
 ## Date of next meeting
 

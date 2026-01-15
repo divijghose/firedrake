@@ -10,7 +10,7 @@ Date and time 2026-01-15 1600 UTC+1
 
 # Agenda
 
-Present:
+Present: DH, CW, JHC, PB, IM, AC, KN
 
 Apologies:
 
@@ -32,7 +32,7 @@ HPC applications (precondioners Eike, adjoints Josh)
 Is this the right audience? Are they going to actually use Firedrake?
 
 Success is not clear, at least for the Firedrake developer team.
-No one has expressed initiative, but if Eike wants to put something together.
+No one has expressed initiative, but if Eike wants to put something together he is free to go ahead.
 
 ### CW: Reminder: Oxford trip next Tuesday
 
@@ -57,7 +57,7 @@ If that variable is exceeded, don't sum factorise but do issue a warning. The wa
 
 KS commented that the error handling for assembling Forms multidomain should be handled during map composition.
 
-DH: It does not make sense to use intersect_measures on meshes that are not topologically related.
+DH: It does not make sense to use `intersect_measures` on meshes that are not topologically related.
 
 We should raise a custom exception except of the NotImplementedError introduced [#4803](github.com/firedrakeproject/firedrake/pull/4803).
 

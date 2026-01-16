@@ -40,11 +40,11 @@ We will meet for coffee at 11 am. The plan is to work in the same office and hav
 
 There'll be Part 2 at the Royal Oak.
 
-### JHC: PSA test time-outs on CI prevent the entire test suite being run!
+### JHC: PSA test time-outs on CI prevent the entire test suite being run! 
 
 If an individual test timeouts, the entire pytest job is skipped.
 JHC: Timeout errors should not be ignored when merging commits
-JHC: These tests have been temporarily skipped. We are still debugging.
+JHC: These tests have been temporarily skipped. We are still debugging [see issue](https://github.com/firedrakeproject/firedrake/issues/4819).
 
 
 ### Too many indices for sum factorization [PR](https://github.com/firedrakeproject/fiat/pull/207) needs more work.

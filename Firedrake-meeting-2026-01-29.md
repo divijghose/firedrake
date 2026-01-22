@@ -20,4 +20,4 @@ Apologies:
 
 ## Date of next meeting
 
-1600 UTC [2026-01-22](./Firedrake-meeting-2026-01-29)
+1600 UTC [2026-01-29](./Firedrake-meeting-2026-02-05)

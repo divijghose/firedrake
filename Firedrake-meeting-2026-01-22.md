@@ -16,6 +16,10 @@ Apologies:
 
 ## Agenda items
 
+### LC: https://github.com/firedrakeproject/firedrake/pull/4792
+
+g-adopt failing due to pandas 3.0.0
+
 
 ## Merge PRs
 

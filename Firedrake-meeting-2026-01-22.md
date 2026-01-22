@@ -31,7 +31,7 @@ Changing the limit is difficult because
 
 ## Merge PRs
 
-Reviewing some recent smaller PRs
+Reviewing some recent smaller PRs in Firedrake and fiat/finat
 
 ## Date of next meeting
 

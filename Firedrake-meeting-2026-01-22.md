@@ -10,19 +10,28 @@ Date and time 2026-01-22 1600 UTC+1
 
 # Agenda
 
-Present:
+Present: DH AS LC PB IM CW JHC
 
 Apologies:
 
 ## Agenda items
 
 ### LC: https://github.com/firedrakeproject/firedrake/pull/4792
+Looks correct, just needs manual section describing how the matrix structure is obtained from the interpolation expression.
 
-g-adopt failing due to pandas 3.0.0
+### g-adopt failing due to pandas 3.0.0
+Raise issue on g-adopt repo
 
+### Sum factorisation index limit
+Changing the limit is difficult because
+- Just increasing it blows up the compile time.
+- Letting it be variable means that the limit should be in the cache key, but it isn't straightforward to add in this case.
+- CW: make TSFC control the index contraction limit rather than finat, then it can add it to the cache key?
+- DH: looking at the debugger traces, sum factorisation is called far more than would be expected.
 
 ## Merge PRs
 
+Reviewing some recent smaller PRs
 
 ## Date of next meeting
 

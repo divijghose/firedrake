@@ -3,12 +3,12 @@ For platforms where Apptainer/Singularity is installed it is possible to convert
 - [Isambard 3](./Isambard-3)
 - [Perlmutter (Nersc)](./Perlmutter-(NERSC))
 - [Setting up `module load firedrake` (courtesy of G-ADOPT)](https://github.com/dsroberts/firedrake-hpc-cd)
+- [Archer2](https://github.com/firedrakeproject/firedrake/wiki/Archer2)
 
 ## Archive
 
 - [Generic](./Generic-Instructions-for-HPC)
 - [Archer](./Archer)
-- [Archer2](https://github.com/firedrakeproject/firedrake/wiki/Archer2)
 - [ARCHIVED: Archer2 spack](https://github.com/firedrakeproject/firedrake/wiki/ARCHIVED:-ARCHER2-Spack)
 - [ARCHIVED: Archer2 Singularity](https://github.com/firedrakeproject/firedrake/wiki/ARCHIVED:-Singularity-on-Archer2)
 - [Isambard](./isambard)

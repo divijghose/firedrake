@@ -1,3 +1,5 @@
+# **THIS PAGE IS ARCHIVED AND IS KEPT ONLY FOR FUTURE REFERENCE**
+
 This page assumes that you already have a singularity container with Firedrake called `firedrake.sif`, and you now want to run it on Archer2.
 See the [Singularity](https://github.com/firedrakeproject/firedrake/wiki/singularity) page for how to build a Firedrake container
 

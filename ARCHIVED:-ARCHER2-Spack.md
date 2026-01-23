@@ -1,3 +1,6 @@
+# **THIS PAGE IS ARCHIVED AND IS KEPT ONLY FOR FUTURE REFERENCE**
+
+
 Previously a script based installation has been used to install Firedrake on ARCHER2, this is no longer recommended and we now encourage you to use Spack. (The old repository is available [here](https://github.com/firedrakeproject/firedrake-archer2))
 
 # Spack install Firedrake on ARCHER2

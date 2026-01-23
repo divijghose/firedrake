@@ -218,7 +218,11 @@ git clone --depth 1 --branch ${FDVERSION} \
     https://github.com/firedrakeproject/firedrake.git \
     ${VIRTUAL_ENV}/src/firedrake
 
+# make sure we build a parallel h5py
 export HDF5_MPI=ON
+
+# Fortran flags for libsupermesh
+export FFLAGS='-O3 -march=native -mtune=native -fPIC -fallow-argument-mismatch'
 
 echo -e "\nInstall Firedrake\n"
 echo -e "Output will be written to build-firedrake.log\n"

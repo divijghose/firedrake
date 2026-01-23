@@ -112,7 +112,7 @@ make all
 Now we check the installation by running PETSc's `make-check` tests on the compute nodes.
 The following bash script can be submitted to slurm with `sbatch jobscript-petsc-make-check.sh`.
 The slurm output will be written to a file called `slurm-petsc-check-%j.out` where `%j` is the job ID.
-Again, `<project>` should be swapped for whatever your project ID is.
+Again, `<project>` and `<user>` should be swapped for whatever your project ID and username are.
 
 ```bash
 #!/bin/bash

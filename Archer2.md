@@ -143,7 +143,7 @@ set -e
 
 module load PrgEnv-gnu/8.4.0
 
-BUILD_DIR=/work/e781/e781/jth113-e781/fd
+BUILD_DIR=/work/<project>/<project>/<user>
 PETSC_DIR=${BUILD_DIR}/petsc
 PETSC_ARCH=arch-fd-default
 

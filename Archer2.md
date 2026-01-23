@@ -1,12 +1,14 @@
 This build process is valid as of January 2026 with firedrake `2025.10.2`
 
+Some general points to note about the following scripts.
+* You must install firedrake in the `/work/<project>/...` directory for it to be accessible from the compute nodes.
+* The scripts assume that you have already copied the `firedrake-configure` script to your account. It has been tested with the version from Firedrake `2025.10.2`.
+* In each script you will need to swap `<project>` and `<user>` for your project ID and username.
+
 # PETSc installation
 
 ## PETSc build
-The following script will build a firedrake compatible PETSc using package versions available from the system modules.
-
-* The script assumes that you have already copied the `firedrake-configure` script to your account. It has been tested with the version from Firedrake `2025.10.2`.
-* You will need to swap `<project>` and `<user>` for your project ID and username.
+The following script will build a Firedrake compatible PETSc using package versions available from the system modules.
 
 ```bash
 #!/usr/bin/env bash
@@ -112,7 +114,6 @@ make all
 Now we check the installation by running PETSc's `make-check` tests on the compute nodes.
 The following bash script can be submitted to slurm with `sbatch jobscript-petsc-make-check.sh`.
 The slurm output will be written to a file called `slurm-petsc-check-%j.out` where `%j` is the job ID.
-Again, `<project>` and `<user>` should be swapped for whatever your project ID and username are.
 
 ```bash
 #!/bin/bash
@@ -159,12 +160,77 @@ MPIEXEC_TAIL="--quiet --slurmd-debug=quiet" make check
 
 ## Firedrake build
 
+```bash
+#!/usr/bin/env bash
+
+set -e
+
+# setup:
+#  environment modules
+#  environment variables
+#  firedrake configure script
+BUILD_DIR=/work/<project>/<project>/<user>
+
+FDVERSION=2025.10.2
+FDVENV=fd-default
+
+export PETSC_DIR=${BUILD_DIR}/petsc
+export PETSC_ARCH=arch-${FDVENV}
+PETSC4PY_DIR=${PETSC_DIR}/src/binding/petsc4py
+
+FIREDRAKE_CONFIGURE=${BUILD_DIR}/firedrake-configure-${FDVERSION}
+
+module load PrgEnv-gnu/8.4.0
+module load cray-python/3.10.10
+module load cray-hdf5-parallel/1.12.2.7
+module load cmake/3.29.4
+module load cray-libsci/23.09.1.1
+module list
+
+# # Change to the build directory
+cd ${BUILD_DIR}
+
+# # Create the firedrake venv
+# We want to use system packages like mpi4py and numpy so that they
+# are linked to the vendor libraries (e.g. MPI and BLAS/LAPACK)
+python3 -m venv --system-site-packages ${FDVENV}
+
+# # Activate the firedrake venv
+. ${FDVENV}/bin/activate
+
+# # Clean up pip environment
+echo -e "\nClean up pip cache\n"
+pip cache purge
+
+# Need to add the petsc and mpich paths manually
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${PETSC_DIR}/${PETSC_ARCH}/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${CRAY_MPICH_DIR}/lib-abi-mpich
+
+export CC=mpicc CXX=mpicxx
+
+# Clone Firedrake
+echo -e "\nClone Firedrake\n"
+cd ${VIRTUAL_ENV}
+git clone --depth 1 --branch ${FDVERSION} \
+    https://github.com/firedrakeproject/firedrake.git \
+    ${VIRTUAL_ENV}/src/firedrake
+
+export HDF5_MPI=ON
+
+echo -e "\nInstall Firedrake\n"
+echo -e "Output will be written to build-firedrake.log\n"
+unbuffer pip install --verbose \
+    --no-binary h5py \
+    --editable \
+    "${VIRTUAL_ENV}/src/firedrake[check]" \
+    | tee build-firedrake.log
+```
+
 ## `firedrake-check`
 
 Now we check the installation by running Firedrake's `firedrake-check` tests on the compute nodes.
 The following bash script can be submitted to slurm with `sbatch jobscript-firedrake-check.sh`.
 The slurm output will be written to a file called `slurm-firedrake-check-%j.out` where `%j` is the job ID.
-Again, `<project>` and `<user>` should be swapped for whatever your project ID and username are.
 
 ```bash
 #!/bin/bash

@@ -10,6 +10,9 @@ Some general points to note about the following scripts.
 ## PETSc build
 The following script will build a Firedrake compatible PETSc using package versions available from the system modules.
 
+Custom PETSc configurations can be built by modifying the arguments to `${PETSC_DIR}/configure`, e.g. adding `--with-64-bit-indices`.
+For a complex Firedrake add `--with-scalar-type=complex`, and remove the `--with-hypre` arguments. As of January 2026 the `mumps/5.8.1` module doesn't link properly to a complex PETSc, so the `--with-mumps` arguments should also be removed in this case
+
 ```bash
 #!/usr/bin/env bash
 ## Script to build PETSc for Firedrake on Archer2

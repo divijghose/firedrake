@@ -221,6 +221,9 @@ git clone --depth 1 --branch ${FDVERSION} \
 # make sure we build a parallel h5py
 export HDF5_MPI=ON
 
+# build a recent enough mpi4py version
+pip install --verbose --no-binary mpi4py mpi4py==4.1.1
+
 # Fortran flags for libsupermesh
 export FFLAGS='-O3 -march=native -mtune=native -fPIC -fallow-argument-mismatch'
 

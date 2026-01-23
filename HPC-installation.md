@@ -8,8 +8,9 @@ For platforms where Apptainer/Singularity is installed it is possible to convert
 
 - [Generic](./Generic-Instructions-for-HPC)
 - [Archer](./Archer)
-- [Archer2 spack](./archer2)
-- [Archer2 Singularity](./Singularity-on-Archer2)
+- [Archer2](https://github.com/firedrakeproject/firedrake/wiki/Archer2)
+- [ARCHIVED: Archer2 spack](https://github.com/firedrakeproject/firedrake/wiki/ARCHIVED:-ARCHER2-Spack)
+- [ARCHIVED: Archer2 Singularity](https://github.com/firedrakeproject/firedrake/wiki/ARCHIVED:-Singularity-on-Archer2)
 - [Isambard](./isambard)
 - [Isambard AI](./Isambard-AI)
 - [CX1](./CX1)

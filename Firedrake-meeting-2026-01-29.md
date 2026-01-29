@@ -22,7 +22,7 @@ Enabling `prolong`/`restrict`/`inject` for non-Lagrange elements in a very simil
 
 Accidentally opens the door to extending supermesh projections to non-Lagrange elements.
 
-### Adaptive Multigrid [PR #4726](https://github.com/firedrakeproject/firedrake/pull/4726)
+### PB: Adaptive Multigrid [PR #4726](https://github.com/firedrakeproject/firedrake/pull/4726)
 
 Includes demo.
 

@@ -16,6 +16,10 @@ Apologies:
 
 ## Agenda items
 
+### PB: Multigrid for non-Lagrange [4839](https://github.com/firedrakeproject/firedrake/pull/4839)
+
+Enabling `prolong`/`restrict`/`inject` for non-Lagrange elements in a very similar spirit to LC's [PR](https://github.com/firedrakeproject/firedrake/pull/4804).
+
 ## Merge PRs
 
 ## Date of next meeting

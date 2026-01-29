@@ -26,6 +26,10 @@ Accidentally opens the door to extending supermesh projections to non-Lagrange e
 
 Includes demo.
 
+### LC: Mixed interpolation matrix cross-mesh https://github.com/firedrakeproject/firedrake/pull/4792
+
+### LC: Cross-mesh interpolate into Hdiv / Hcurl etc. https://github.com/firedrakeproject/firedrake/pull/4804
+
 ## Merge PRs
 
 ## Date of next meeting

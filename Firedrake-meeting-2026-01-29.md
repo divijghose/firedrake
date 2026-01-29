@@ -20,6 +20,8 @@ Apologies:
 
 Enabling `prolong`/`restrict`/`inject` for non-Lagrange elements in a very similar spirit to LC's [PR #4804](https://github.com/firedrakeproject/firedrake/pull/4804).
 
+Accidentally opens the door to extending supermesh projections to non-Lagrange elements.
+
 ## Merge PRs
 
 ## Date of next meeting

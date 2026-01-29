@@ -10,7 +10,7 @@ Date and time 2026-01-29 1600 UTC+1
 
 # Agenda
 
-Present: DH, LC, CW, PB, AC, JHC
+Present: DH, LC, CW, PB, AC, JHC, IM
 
 Apologies:
 

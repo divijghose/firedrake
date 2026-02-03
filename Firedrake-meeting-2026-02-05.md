@@ -16,6 +16,18 @@ Apologies:
 
 ## Agenda items
 
+### LC: Cross-mesh Hdiv / Hcurl
+
+https://github.com/firedrakeproject/firedrake/pull/4804
+
+### LC: mixed cross-mesh operator
+
+https://github.com/firedrakeproject/firedrake/pull/4792
+
+### LC: matfree interpolation operator
+
+https://github.com/firedrakeproject/firedrake/pull/4778
+
 ## Merge PRs
 
 ## Date of next meeting

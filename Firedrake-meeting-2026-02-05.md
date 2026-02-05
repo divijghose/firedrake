@@ -16,6 +16,10 @@ Apologies:
 
 ## Agenda items
 
+### PB: FIAT reference data repository 
+
+I would like to update the FIAT regression tests. The issue is that the reference data lives in a separate bitbucket repo that is owned by the fenics project. For the moment, I just need write access to this repo, but it'd be good if we can migrate this to our own organization. https://bitbucket.org/fenics-project/fiat-reference-data/src/master/
+
 ### LC: Cross-mesh Hdiv / Hcurl
 
 https://github.com/firedrakeproject/firedrake/pull/4804

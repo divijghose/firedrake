@@ -34,6 +34,8 @@ https://github.com/firedrakeproject/firedrake/pull/4778
 
 ## Merge PRs
 
+PB: [finat.ufl fixes](https://github.com/firedrakeproject/fiat/pull/122)
+
 ## Date of next meeting
 
 1600 UTC [2026-02-12](./Firedrake-meeting-2026-02-12)

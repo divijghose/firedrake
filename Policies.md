@@ -1,5 +1,6 @@
 - [Coding guide](./Firedrake-Coding-Guide)
 - [Releases](./Releases)
+- [Deprecating features](./Deprecating-features)
 - [Good testing practices](./Good-testing-practices)
 - [Closing Installation Issues](./Closing-Installation-Issues)
 - [Python version support](./Python-version-support)

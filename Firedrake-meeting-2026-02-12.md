@@ -1,4 +1,4 @@
-Date and time 2026-02-12 1600 UTC+1
+Date and time 2026-02-19 1600 UTC+1
 
 # Action Items
 1. **Pick Chair and Minuter** (CW to pick)
@@ -14,10 +14,12 @@ Present:
 
 Apologies:
 
-## Agenda items
+## CW: Quick policy question
+
+Sia (G-ADOPT) has opened a PR but needs approval to run the workflow. That's definitely silly.
 
 ## Merge PRs
 
 ## Date of next meeting
 
-1600 UTC [2026-02-17](./Firedrake-meeting-2026-02-17)
+1600 UTC [2026-02-26](./Firedrake-meeting-2026-02-26)

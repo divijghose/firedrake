@@ -18,6 +18,8 @@ Apologies:
 
 Sia (G-ADOPT) has opened a PR but needs approval to run the workflow. That's definitely silly.
 
+Similarly, what's our policy towards adding authors?
+
 ## CW/PB: AI generated code
 
 https://github.com/firedrakeproject/firedrake/pull/4878

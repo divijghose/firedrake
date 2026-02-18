@@ -18,6 +18,10 @@ Apologies:
 
 Sia (G-ADOPT) has opened a PR but needs approval to run the workflow. That's definitely silly.
 
+## CW/PB: AI generated code
+
+https://github.com/firedrakeproject/firedrake/pull/4878
+
 ## Merge PRs
 
 ## Date of next meeting

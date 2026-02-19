@@ -10,4 +10,4 @@ Firedrake will accept AI contributions subject to the following conditions:
 It is also worth stating some critical requirements for all PRs that would be easy to miss if using an AI tool:
 
 1. The code must have first been run locally to verify that it works.
-1. Submissions should be targeted and well designed with good abstractions. We will not accept PRs with diffs that are far larger than necessary for the contribution they provide
+1. Submissions should be targeted and well designed with good abstractions. We will not accept PRs with diffs that are far larger than necessary for the contribution they provide.

@@ -24,6 +24,8 @@ Similarly, what's our policy towards adding authors?
 
 https://github.com/firedrakeproject/firedrake/pull/4878
 
+And now also: https://github.com/firedrakeproject/firedrake/pull/4903
+
 ## Merge PRs
 
 ## Date of next meeting

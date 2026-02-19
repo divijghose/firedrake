@@ -5,5 +5,4 @@
 - [Closing Installation Issues](./Closing-Installation-Issues)
 - [Python version support](./Python-version-support)
 - [macOS version support](./macOS-version-support)
-- [Isolating optional dependencies](./Isolating-optional-dependencies)
 - [Understanding Firedrake websites](./Understanding-Firedrake-websites)

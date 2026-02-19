@@ -51,17 +51,25 @@ What's the right abstraction?
 - The new locally-saving-a-function functionality should be abstracted into its own thing rather than being inserted into the CheckpointFunction.
 - Making a new class is a good way to do it to make it really clear that it is not interchangeable with `CheckpointFile` (can't checkpoint a mesh, need identical partition at save/load etc).
 
-## LC: Build spatialindex correctly
+## LC: Build spatialindex with array operations rather than loops
 
 https://github.com/firedrakeproject/firedrake/pull/4865
+
+Merged.
+
+- For the future: LC has found a faster implementation than libspatialindex that we could move over to. This wouldn't remove libspatialindex as a dependency because of libsupermesh.
 
 ## LC: bounding box calculation optimisation
 
 https://github.com/firedrakeproject/firedrake/pull/4900
 
+Merged.
+
 ## LC: parent_mesh_embedding optimisation
 
 https://github.com/firedrakeproject/firedrake/pull/4906
+
+Looks fine but make sure CI passes before we merge.
 
 ## Merge PRs
 

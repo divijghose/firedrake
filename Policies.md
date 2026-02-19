@@ -6,6 +6,7 @@
 - [Good testing practices](./Good-testing-practices)
 - [Python version support](./Python-version-support)
 - [macOS version support](./macOS-version-support)
+- [AI contribution policy](./AI-contribution-policy)
 
 ## Community
 

@@ -28,6 +28,12 @@ And now also: https://github.com/firedrakeproject/firedrake/pull/4903
 
 Draft policy: https://github.com/firedrakeproject/firedrake/wiki/AI-contribution-policy
 
+## JHC/CW: checkpointing performance issue
+
+https://github.com/firedrakeproject/firedrake/pull/4891
+
+What's the right abstraction?
+
 ## Merge PRs
 
 ## Date of next meeting

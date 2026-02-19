@@ -26,6 +26,8 @@ https://github.com/firedrakeproject/firedrake/pull/4878
 
 And now also: https://github.com/firedrakeproject/firedrake/pull/4903
 
+Draft policy: https://github.com/firedrakeproject/firedrake/wiki/AI-contribution-policy
+
 ## Merge PRs
 
 ## Date of next meeting

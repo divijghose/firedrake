@@ -1,0 +1,3 @@
+If you have made a nontrivial addition to Firedrake then you are eligible to be listed as an [author](https://www.firedrakeproject.org/team.html). Your name will appear in rereleases of the manual and you will be cited!
+
+To add yourself please edit the [`team.ini` file](https://github.com/firedrakeproject/firedrake/blob/main/docs/source/team.ini) and add yourself to the `[contributing-individual]` section. Note that this change should be merged into the `release` branch of Firedrake.

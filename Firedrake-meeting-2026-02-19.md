@@ -34,6 +34,18 @@ https://github.com/firedrakeproject/firedrake/pull/4891
 
 What's the right abstraction?
 
+## LC: Build spatialindex correctly
+
+https://github.com/firedrakeproject/firedrake/pull/4865
+
+## LC: bounding box calculation optimisation
+
+https://github.com/firedrakeproject/firedrake/pull/4900
+
+## LC: parent_mesh_embedding optimisation
+
+https://github.com/firedrakeproject/firedrake/pull/4906
+
 ## Merge PRs
 
 ## Date of next meeting

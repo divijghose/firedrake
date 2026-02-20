@@ -1,5 +1,3 @@
-(draft)
-
 Firedrake will accept AI contributions subject to the following conditions:
 
 1. The use of AI, and which AI tool was used, must be declared.

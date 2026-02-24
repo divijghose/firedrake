@@ -16,7 +16,11 @@ Present:
 
 Apologies:
 
-## Item 1
+## CW: firedrake-zenodo
+
+On Monday I spent >2 hours trying to make a Zenodo release for someone. I don't understand the GitHub API tool and it is throwing incomprehensible 404 errors. I would dearly love to not have to do this.
+
+Can we drop firedrake-zenodo? We could replace it with a guide on our website about providing provenance for their software. Josh and I think that citing `pip freeze` and PETSc's `configure.log` might be  sufficient.
 
 ## Merge PRs
 

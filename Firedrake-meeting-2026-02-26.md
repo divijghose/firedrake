@@ -28,7 +28,7 @@ https://github.com/firedrakeproject/firedrake/pull/4913
 
 We need to disable it for CI, but do we want to more generally?
 
-## AC: Computing barycentric coordinates symbolically (with GEM)
+## AC: Compute barycentric coordinates symbolically (with GEM)
 
 Review draft PR: https://github.com/firedrakeproject/fiat/pull/230
 

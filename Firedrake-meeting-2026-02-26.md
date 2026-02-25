@@ -28,9 +28,9 @@ https://github.com/firedrakeproject/firedrake/pull/4913
 
 We need to disable it for CI, but do we want to more generally?
 
-## AC: Review changes made to FIAT to compute barycentric coordinates symbolically
+## AC: Computing barycentric coordinates symbolically (with GEM)
 
-https://github.com/firedrakeproject/fiat/pull/230
+Review draft PR: https://github.com/firedrakeproject/fiat/pull/230
 
 ## Merge PRs
 

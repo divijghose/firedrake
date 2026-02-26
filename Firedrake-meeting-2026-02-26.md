@@ -32,6 +32,8 @@ We need to disable it for CI, but do we want to more generally?
 
 Review draft PR: https://github.com/firedrakeproject/fiat/pull/230
 
+## LC: https://github.com/firedrakeproject/firedrake/pull/4926
+
 ## Merge PRs
 
 ## Date of next meeting

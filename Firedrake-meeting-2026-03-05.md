@@ -16,6 +16,10 @@ Present:
 
 Apologies: IM
 
+## CW: Breaking API suggestion in a very minor way
+
+https://github.com/firedrakeproject/firedrake/issues/4941
+
 ## Merge PRs
 
 ## Date of next meeting

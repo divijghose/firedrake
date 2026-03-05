@@ -8,11 +8,11 @@ Date and time 2026-03-05 1600 UTC+1
 1. DH: Talk to GregVernon about [PR#2116](https://github.com/firedrakeproject/firedrake/pull/2116).
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. DH: Trim github organisation teams member.
-1. CW: Draft policy for requirements for contributor/author recognition.
+1. ~CW: Draft policy for requirements for contributor/author recognition.~ Done
 
-# Agenda
+# Minutes
 
-Present:
+Present: CW (minuter), JHC, DH, CC, LC, PB
 
 Apologies: IM
 
@@ -20,7 +20,20 @@ Apologies: IM
 
 https://github.com/firedrakeproject/firedrake/issues/4941
 
+DH: This is sensible, approval for the change given.
+
+## PB: mesh centre of mass method, nice to have
+
+* DH: project coords into R and then subtract off coordinates
+* DH: let's not go there right now
+
+## DH: Making VoM scalable
+
+* JHC: MPI Alltoall might be the right answer
+
 ## Merge PRs
+
+Various reviewed and some merged.
 
 ## Date of next meeting
 

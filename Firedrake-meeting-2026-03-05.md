@@ -14,7 +14,7 @@ Date and time 2026-03-05 1600 UTC+1
 
 Present:
 
-Apologies:
+Apologies: IM
 
 ## Merge PRs
 

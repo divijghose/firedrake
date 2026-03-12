@@ -15,6 +15,10 @@ Present:
 
 Apologies:
 
+## JHC: [#4964](https://github.com/firedrakeproject/firedrake/pull/4964) `Ensemble.sequential`
+
+Context manager for running code on each `ensemble.comm` spatial comm in turn.
+
 ## Merge PRs
 
 ## Date of next meeting

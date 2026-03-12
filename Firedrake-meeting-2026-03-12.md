@@ -19,7 +19,19 @@ Apologies:
 
 Context manager for running code on each `ensemble.comm` spatial comm in turn.
 
+## CW: Deprecate `WithGeometry.create`
+
+Sane API cleanup: https://github.com/firedrakeproject/firedrake/pull/4957
+
+## CW: Refactor periodic meshes (pyop3 prerequisite)
+
+https://github.com/firedrakeproject/firedrake/pull/4836
+
+Still waiting on 4(!) PETSc MRs but good to get this on people's radar. Someone will have to review this...
+
 ## Merge PRs
+
+* CW: https://github.com/firedrakeproject/firedrake/pull/4958
 
 ## Date of next meeting
 

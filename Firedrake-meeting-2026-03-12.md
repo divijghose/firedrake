@@ -13,7 +13,7 @@ Date and time 2026-03-12 1600 UTC+1
 
 Present:
 
-Apologies:
+Apologies: LC
 
 ## JHC: [#4964](https://github.com/firedrakeproject/firedrake/pull/4964) `Ensemble.sequential`
 

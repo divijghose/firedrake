@@ -19,6 +19,10 @@ Apologies: LC
 
 Context manager for running code on each `ensemble.comm` spatial comm in turn.
 
+## JHC [#4965](https://github.com/firedrakeproject/firedrake/pull/4965) Refactor of `EnsembleReducedFunctional`
+
+Big refactor to allow using `EnsembleFunction` as a distributed control. Requires breaking up into separate Bcast/Transform/Reduce and composing them back together.
+
 ## CW: Deprecate `WithGeometry.create`
 
 Sane API cleanup: https://github.com/firedrakeproject/firedrake/pull/4957

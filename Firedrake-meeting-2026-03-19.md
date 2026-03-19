@@ -1,7 +1,7 @@
 Date and time 2026-03-19 1600 UTC+1
 
 # Action Items
-1. **Pick Chair and Minuter** (CW to pick)
+1. **Pick Chair and Minuter** (IM to pick)
 1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
 1. ALL: do things with SV's branches
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
@@ -13,10 +13,11 @@ Date and time 2026-03-19 1600 UTC+1
 
 Present: 
 
-Apologies: 
+Apologies: CW
 
 ## Merge PRs
 
+* CW: https://github.com/firedrakeproject/firedrake/pull/4974
 
 ## Date of next meeting
 Meeting times going forward: Tuesday 4pm unless David has a monthly meeting, in which case Tuesday 3pm. First Tuesday meeting 31st March.

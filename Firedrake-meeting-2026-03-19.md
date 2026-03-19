@@ -17,8 +17,6 @@ Apologies: CW
 
 ## Merge PRs
 
-* CW: https://github.com/firedrakeproject/firedrake/pull/4974
-
 ## Date of next meeting
 Meeting times going forward: Tuesday 4pm unless David has a monthly meeting, in which case Tuesday 3pm. First Tuesday meeting 31st March.
 

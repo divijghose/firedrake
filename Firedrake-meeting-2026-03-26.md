@@ -11,7 +11,7 @@ Date and time 2026-03-26 1600 UTC+1
 
 # Agenda
 
-Present: 
+Present: PB, DH, IM, CW, UZ, AC, LC, DD
 
 Apologies: JHC
 
@@ -21,11 +21,21 @@ The breaking change has already been merged in https://github.com/NGSolve/ngsPET
 We stopped supporing MeshHierarchy + Netgen CSG in favour of Netgen OCC to support creating netgen meshes from a refined DMPlex.
 Netgen CSG meshes cannot snap the plex points to the boundary. This means that linear refined meshes do not snap and trying to curve this mesh results in a segfault. 
 
+Resolution: Merge https://github.com/firedrakeproject/firedrake/pull/4930 and restore the old code MeshHierarchy + Netgen CSG 2D and raise a deprecation warning.
+
+
 ## CW: https://github.com/firedrakeproject/firedrake/pull/4993
+
+Removes codegen from PCPatch. Non-automated codegen is less opaque, but succeptible to human error.
 
 ## CW: https://github.com/firedrakeproject/firedrake/pull/4836
 
-Needs a full review from someone please.
+Needs a full review from someone please. PB volunteered to review.
+
+## Perfromance regression
+
+Covariance operator parallel[2] tests uses a lot of memory because we were not collecting garbage (only called on solve).
+We now manually call it for that test. 
 
 ## Merge PRs
 

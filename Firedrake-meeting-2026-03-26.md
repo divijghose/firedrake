@@ -17,6 +17,10 @@ Apologies: JHC
 
 ## PB/CW: ngsPETSc breaking change?
 
+The breaking change has already been merged in https://github.com/NGSolve/ngsPETSc/pull/93. 
+We stopped supporing MeshHierarchy + Netgen CSG in favour of Netgen OCC to support creating netgen meshes from a refined DMPlex.
+Netgen CSG meshes cannot snap the plex points to the boundary. This means that linear refined meshes do not snap and trying to curve this mesh results in a segfault. 
+
 ## CW: https://github.com/firedrakeproject/firedrake/pull/4993
 
 ## CW: https://github.com/firedrakeproject/firedrake/pull/4836

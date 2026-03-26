@@ -21,7 +21,7 @@ The breaking change has already been merged in https://github.com/NGSolve/ngsPET
 We stopped supporing MeshHierarchy + Netgen CSG in favour of Netgen OCC to support creating netgen meshes from a refined DMPlex.
 Netgen CSG meshes cannot snap the plex points to the boundary. This means that linear refined meshes do not snap and trying to curve this mesh results in a segfault. 
 
-Resolution: Merge https://github.com/firedrakeproject/firedrake/pull/4930 and restore the old code MeshHierarchy + Netgen CSG 2D and raise a deprecation warning.
+Resolution: Merge https://github.com/firedrakeproject/firedrake/pull/4930 and restore the old code MeshHierarchy + Netgen CSG 2D and raise a [deprecation warning](https://github.com/firedrakeproject/firedrake/wiki/Deprecating-features).
 
 
 ## CW: https://github.com/firedrakeproject/firedrake/pull/4993
@@ -40,6 +40,6 @@ We now manually call it for that test.
 ## Merge PRs
 
 ## Date of next meeting
-Meeting times going forward: Tuesday 4pm unless David has a monthly meeting, in which case Tuesday 3pm. First Tuesday meeting 31st March.
+Meeting times going forward: Tuesday 4pm unless David has a monthly meeting, in which case Tuesday 3pm. First Tuesday meeting 14th April.
 
 1600 UTC [2026-04-14](./Firedrake-meeting-2026-04-14)

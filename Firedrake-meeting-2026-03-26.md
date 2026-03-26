@@ -42,4 +42,4 @@ We now manually call it for that test.
 ## Date of next meeting
 Meeting times going forward: Tuesday 4pm unless David has a monthly meeting, in which case Tuesday 3pm. First Tuesday meeting 31st March.
 
-1600 UTC [2026-03-19](./Firedrake-meeting-2026-03-19)
+1600 UTC [2026-04-14](./Firedrake-meeting-2026-04-14)

@@ -15,6 +15,14 @@ Present:
 
 Apologies: JHC
 
+## PB/CW: ngsPETSc breaking change?
+
+## CW: https://github.com/firedrakeproject/firedrake/pull/4993
+
+## CW: https://github.com/firedrakeproject/firedrake/pull/4836
+
+Needs a full review from someone please.
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -15,7 +15,7 @@ Present:
 
 Apologies: JHC
 
-## PB/CW: ngsPETSc breaking change?
+## PB/CW/UZ: ngsPETSc breaking change?
 
 The breaking change has already been merged in https://github.com/NGSolve/ngsPETSc/pull/93. 
 We stopped supporing MeshHierarchy + Netgen CSG in favour of Netgen OCC to support creating netgen meshes from a refined DMPlex.

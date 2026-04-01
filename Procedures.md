@@ -1,3 +1,5 @@
 - [Make a release](./Make-a-release)
 - [Updating forked dependencies](./Updating-forked-dependencies)
 - [How to create Zenodo releases](./How-to-create-Zenodo-releases)
+
+- [Occasional developer tasks](./Occasional-developer-tasks)

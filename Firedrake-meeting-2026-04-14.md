@@ -11,11 +11,11 @@ Date and time 2026-04-14 1600 UTC+1
 
 # Agenda
 
-## Firedrake/PETSc meeting abstracts
-
 Present: 
 
 Apologies: 
+
+## Firedrake/PETSc meeting abstracts
 
 ## Merge PRs
 

@@ -9,7 +9,7 @@ Date and time 2026-04-14 1600 UTC+1
 1. CW: More testing configurations ([minutes](https://github.com/firedrakeproject/firedrake/wiki/Firedrake-meeting-2024-12-11))
 1. ALL: Change the `MultiFunction` in `ufl2unicode` with a `DAGTraverser`
 
-# Agenda
+# Minutes
 
 Present: CW AC DH PB JHC
 

@@ -19,6 +19,10 @@ Apologies:
 
 New recurring item: what sorts of things are people working on?
 
+## AC: Plotting methods for `VertexOnlyMesh`
+
+https://github.com/firedrakeproject/firedrake.wiki.git
+
 ## Merge PRs
 
 ## Date of next meeting

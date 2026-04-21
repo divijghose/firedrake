@@ -1,7 +1,7 @@
 Date and time 2026-04-21 1600 UTC+1
 
 # Action Items
-1. **Pick Chair and Minuter** (??? to pick)
+1. **Pick Chair and Minuter**
 1. ALL: (ongoing) **triage the open issues and confirm if they are indeed still open** (and perhaps provide labels)
 1. ALL: do things with SV's branches
 1. DH: Email to Andreas to have 2 (+ others!!!) loopy PRs merged **TODO: FIND OUT WHICH PRS THESE ARE**
@@ -11,7 +11,7 @@ Date and time 2026-04-21 1600 UTC+1
 
 # Agenda
 
-Present:
+Present: CW (minuter), JHC, AC, DH, IM, LC, DG, PB
 
 Apologies:
 
@@ -19,13 +19,28 @@ Apologies:
 
 New recurring item: what sorts of things are people working on?
 
+* Many things
+
+## DH: Firedrake meeting tutorials
+
+* On Wednesday: PETSc tutorials in the morning, Firedrake tutorials in the afternoon, poster session in the evening
+* Aiming for PETSc-adjacent tutorials, 2 90 min sessions approximately
+* PB: composable solvers/preconditioners, patches etc
+* JHC: fdvar - tutorialise fdvar demo
+
 ## AC: Plotting methods for `VertexOnlyMesh`
 
-https://github.com/firedrakeproject/firedrake.wiki.git
+* Bikeshedding but otherwise ready for merge
 
 ## LC: rtree https://github.com/firedrakeproject/firedrake/pull/4981
 
+* Merged. Wahay.
+
 ## LC: docs fixes https://github.com/firedrakeproject/firedrake/pull/4854
+
+## DH: UFL release policy
+
+To not clash with FEniCS we will follow different minor versions.
 
 ## Merge PRs
 

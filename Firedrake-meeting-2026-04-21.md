@@ -25,6 +25,8 @@ https://github.com/firedrakeproject/firedrake.wiki.git
 
 ## LC: rtree https://github.com/firedrakeproject/firedrake/pull/4981
 
+## LC: docs fixes https://github.com/firedrakeproject/firedrake/pull/4854
+
 ## Merge PRs
 
 ## Date of next meeting

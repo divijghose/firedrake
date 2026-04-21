@@ -23,6 +23,8 @@ New recurring item: what sorts of things are people working on?
 
 https://github.com/firedrakeproject/firedrake.wiki.git
 
+## LC: rtree https://github.com/firedrakeproject/firedrake/pull/4981
+
 ## Merge PRs
 
 ## Date of next meeting

@@ -17,6 +17,8 @@ Apologies:
 
 ## Team catch up
 
+## AC: Generalise FIAT's barycentric coordinates computation: https://github.com/firedrakeproject/fiat/pull/245
+
 ## Merge PRs
 
 ## Date of next meeting

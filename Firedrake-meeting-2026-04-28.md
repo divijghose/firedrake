@@ -19,6 +19,7 @@ Apologies:
 
 ## AC: Generalise FIAT's barycentric coordinates computation: https://github.com/firedrakeproject/fiat/pull/245
 
+## DG: Discuss the implementation of a `ParametrisedReducedFunctional` : https://github.com/dolfin-adjoint/pyadjoint/pull/241 and its extension to `ParametrisedEnsembleReducedFunctional` in Firedrake adjoint.
 ## Merge PRs
 
 ## Date of next meeting

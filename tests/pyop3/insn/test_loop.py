@@ -506,3 +506,13 @@ def test_changed_indirection_is_used_by_repeat_call(factory):
     loop()
 
     assert (dst.data_ro == [10, 0, 12, 0, 14, 0]).all()
+
+
+def test_repeat_call_with_compiler_parameters(factory):
+    loop, src, dst = _copy_loop(factory)
+    # Firedrake passes a new but equal dict on every call
+    parameter_sets = [{"optimize": True}, {"optimize": True}, {"optimize": False}, None]
+    for value, compiler_parameters in enumerate(parameter_sets):
+        src.data_wo[...] = value
+        loop(compiler_parameters=compiler_parameters)
+        assert (dst.data_ro == value).all()

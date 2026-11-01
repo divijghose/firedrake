@@ -6,7 +6,7 @@ import enum
 import textwrap
 import typing
 import weakref
-from collections.abc import Hashable, Iterable
+from collections.abc import Hashable, Iterable, Mapping
 from functools import cached_property
 from typing import Any
 
@@ -97,6 +97,20 @@ class UnprocessedExpressionException(Pyop3Exception):
     """Exception raised when pyop3 expected a preprocessed expression."""
 
 
+def _compiler_parameters_key(compiler_parameters) -> Hashable:
+    """Return a dictionary key for ``compiler_parameters``.
+
+    The order of the items is part of the key because the parameters are
+    applied in order.
+
+    """
+    if isinstance(compiler_parameters, Mapping):
+        return tuple(compiler_parameters.items())
+    else:
+        # None or ParsedCompilerParameters, which are hashable
+        return compiler_parameters
+
+
 class Instruction(Node, abc.ABC):
 
     @property
@@ -121,9 +135,31 @@ class Instruction(Node, abc.ABC):
     def named_terminals(self) -> tuple:
         return tuple(self.named_terminal_intents)
 
-    @with_self_heavy_cache
     def __call__(self, *, compiler_parameters=None, **kwargs) -> None:
-        self._get_execution_context(compiler_parameters)(**kwargs)
+        key = _compiler_parameters_key(compiler_parameters)
+        try:
+            context = self._execution_context_cache[key]
+        except KeyError:
+            context = self._compile_execution_context(compiler_parameters)
+            self._execution_context_cache[key] = context
+        context(**kwargs)
+
+    @cached_property
+    def _execution_context_cache(self) -> dict[Hashable, InstructionExecutionContext]:
+        """Compiled execution contexts, by compiler parameters.
+
+        A repeated call uses this dict, so it does not enter the heavy cache
+        and does not freeze the parameters.
+
+        """
+        return {}
+
+    @with_self_heavy_cache
+    def _compile_execution_context(self, compiler_parameters) -> InstructionExecutionContext:
+        """Build and compile the execution context for ``compiler_parameters``."""
+        context = self._get_execution_context(compiler_parameters)
+        context.compile()
+        return context
 
     @cached_method()
     def _get_execution_context(self, compiler_parameters) -> InstructionExecutionContext:
